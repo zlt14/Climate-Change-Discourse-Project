@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #reference" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XXVI. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="sub" xml:lang="de">83. Sitzung des Nationalrates der Republik Österreich, XXVI. Gesetzgebungsperiode, Donnerstag, 13. Juni 2019</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XXVI [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Sitting Number 83, Legislative period XXVI, Thursday, 13. June 2019</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="83">83. Sitzung</meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVI" n="26">XXVI. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="83">Sitting 83</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVI" n="26">Legislative period XXVI</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung, Korpuskodierung in TEI und automatische linguistische Annotation</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding and automatic linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="5" xml:lang="de">5 Äußerungen</measure>
+            <measure unit="speeches" quantity="5" xml:lang="en">5 speeches</measure>
+            <measure unit="words" quantity="1710" xml:lang="de">1,710 Wörter</measure>
+            <measure unit="words" quantity="1710" xml:lang="en">1,710 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Plenarsitzung des Nationalrates, Stenographisches Protokoll, 83. Sitzung des Nationalrates der Republik Österreich, Donnerstag, 13. Juni 2019</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <title type="sub" xml:lang="en">Shorthand record, Sitting Number 83, Legislative period XXVI, Thursday, 13. June 2019</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XXVI/NRSITZ/NRSITZ_00083/fnameorig_785904.html</idno>
+               <date when="2019-06-13">2019-06-13</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="4"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="2"/>
+               <tagUsage gi="note" occurs="14"/>
+               <tagUsage gi="pb" occurs="4"/>
+               <tagUsage gi="seg" occurs="38"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="6"/>
+               <tagUsage gi="u" occurs="5"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="2019-06-13">2019-06-13</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-13">
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e178" type="debateSection">
+            <gap reason="editorial" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083.gap1">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <note type="time" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083.note1">
+               <time when="2019-06-13T12:50:18+02:00">12:50:18</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083.note2">Beginn der Sitzung:<time when="2019-06-13T12:50:00+02:00">12:50</time>Uhr</note>
+            <note type="chairpersons" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083.note3">Zweite Präsidentin Doris Bures</note>
+            <note type="time" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083.note4">
+               <time when="2019-06-13T12:50:26+02:00">12:50:26</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083.note5">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d7e615" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e200">Meine sehr geehrten Damen und Herren Abgeordnete! Ich eröffne die 83. Sitzung des Nationalrates.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e202">Als verhindert gemeldet sind die Abgeordneten Mag. Thomas Drozda, MMag. DDr. Hubert Fuchsund Herbert Kickl.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e204">Einlauf und Zuweisungen</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083.note6">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d7e651" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e209">Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e211">Die schriftliche Mitteilung hat folgenden Wortlaut:</seg>
+               <gap reason="editorial" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083.gap2">
+                  <desc xml:lang="en">Quoted printed matter omited</desc>
+                  <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+               </gap>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083.note7">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d7e824" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e221">Der Antrag 912/A der Abgeordneten Dr. Zinggl, Kolleginnen und Kollegen betreffend Mietrechtsgesetz wird entgegen der schriftlichen Mitteilung dem Ausschuss für Bauten und Wohnen und nicht dem Justizausschuss zugewiesen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e223">Weiters weise ich</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e225">den Antrag 922/A(E) der Abgeordneten Holzleitner, Dr. Hammerschmid, Kolleginnen und Kollegen betreffend „Kleine Direktwahl der Landes- und BundesschülerInnenvertretung“ dem Unterrichtsausschuss,</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e227">den Antrag 923/A der Abgeordneten Krainer, Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz geändert wird, dem Finanzausschuss,</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e229">den Antrag 924/A der Abgeordneten Dr. Griss, Kolleginnen und Kollegen betreffend Änderung des IPR-Gesetzes dem Justizausschuss,</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e231">den Antrag 925/A(E) der Abgeordneten Mario Lindner, Kolleginnen und Kollegen betreffend „Sicherstellung Finanzierung qualitätsvoller sexueller Bildung an Schulen“ dem Unterrichtsausschuss zu.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e233">Fristsetzungsanträge</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083.note8">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d7e871" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e239">Vor Eingang in die Tagesordnung teile ich noch mit, dass die Abgeordneten Wöginger und Hofer beantragt haben, dem Justizausschuss zur Berichterstattung über die Regierungsvorlage betreffend ein Bundesgesetz, mit dem</seg>
+               <pb n="6"/>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e242">die Rechtsanwaltsordnung und weitere Gesetze geändert werden, 633 der Beilagen, eine Frist bis 1. Juli 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e244">Weiters teile ich mit, dass Frau Abgeordnete Holzinger-Vogtenhuber beantragt hat, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über den Antrag 855/A(E) der Abgeordneten Holzinger-Vogtenhuber, Kolleginnen und Kollegen betreffend die Evaluierung des Arbeitszeitgesetzes, des Arbeitsruhegesetzes und des allgemeinen Sozialversicherungsgesetzes eine Frist bis 1. Juli 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e246">Außerdem teile ich mit, dass Frau Abgeordnete Holzinger-Vogtenhuber beantragt hat, dem Ausschuss für Familie und Jugend zur Berichterstattung über die Anträge</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e248">453/A(E) der Abgeordneten Holzinger-Vogtenhuber, Kolleginnen und Kollegen betreffend „Nationaler Aktionsplan zur Bekämpfung von Kinderarmut in Österreich“ sowie</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e250">857/A der Abgeordneten Holzinger-Vogtenhuber, Kolleginnen und Kollegen betreffend Familienlastenausgleichsgesetz 1967</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e252">jeweils eine Frist bis 1. Juli 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e254">Weiters hat Frau Abgeordnete Holzinger-Vogtenhuber beantragt, dem Verfassungsausschuss zur Berichterstattung über den Antrag 183/A der Abgeordneten Holzinger-Vogtenhuber, Kolleginnen und Kollegen betreffend „ein Bundesverfassungsgesetz, mit dem das Bundesverfassungsgesetz über die Nachhaltigkeit, den Tierschutz, den umfassenden Umweltschutz, die Sicherstellung der Wasser- und Lebensmittelversorgung und die Forschung geändert wird“, eine Frist bis 1. Juli 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e256">Ich teile weiters mit, dass Herr Abgeordneter Dr. Noll beantragt hat, dem Verfassungsausschuss zur Berichterstattung über die Anträge</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e258">851/A der Abgeordneten Dr. Noll, Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Bundes-Verfassungsgesetz geändert wird,</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e261">632/A der Abgeordneten Dr. Noll, Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Bundes-Verfassungsgesetz geändert wird, sowie</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e263">631/A der Abgeordneten Dr. Noll, Kolleginnen und Kollegen betreffend Informationsfreiheitsgesetz</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e265">jeweils eine Frist bis 1. Juli 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e267">Ich teile weiters mit, dass Frau Abgeordnete Cox beantragt hat, dem Finanzausschuss zur Berichterstattung über den Antrag 445/A der Abgeordneten Cox, Kolleginnen und Kollegen betreffend Umsatzsteuergesetz 1994 eine Frist bis 1. Juli 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e269">Ich teile weiters mit, dass Herr Abgeordneter Mag. Rossmann beantragt hat, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 913/A(E) der Abgeordneten Mag. Rossmann, Kolleginnen und Kollegen betreffend „Nachbesserung des Nationalen Energie- und Klimaplans [...] entsprechend den Erkenntnissen der wissenschaftlichen Forschung zur Erreichung der Pariser Klimaziele“ eine Frist bis 1. Juli 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e271">Ich teile mit, dass Herr Abgeordneter Mag. Loacker beantragt hat, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über die Anträge</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e273">919/A der Abgeordneten Mag. Loacker, Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Mutterschutzgesetz, das Väter-Karenzgesetz sowie das Landarbeitsgesetz geändert wird, sowie</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e275">900/A der Abgeordneten Mag. Loacker, Kolleginnen und Kollegen betreffend Angestelltengesetz</seg>
+               <pb n="7"/>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e278">jeweils eine Frist bis 1. Juli 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e280">Vor Eingang in die Tagesordnung teile ich noch mit, dass Frau Abgeordnete Dr. Griss beantragt hat, dem Justizausschuss zur Berichterstattung über den Antrag der Abgeordneten Dr. Griss, Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz vom 15. Juni 1978 über das IPR-Gesetz geändert wird, 924/A, eine Frist bis 1. Juli zu setzen. – Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung zur Abstimmung gebracht werden.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e283">Weiters teile ich mit, dass die Abgeordneten Wöginger und Hofer beantragt haben, dem Finanzausschuss zur Berichterstattung über die Regierungsvorlage betreffend ein „Bundesgesetz, mit dem das Börsegesetz 2018 geändert wird“, 624 der Beilagen, eine Frist bis 2. Juli 2019 zu setzen. – Auch dieser Antrag wird am Ende der Sitzung zur Abstimmung gelangen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e285">Vor Eingang in die Tagesordnung teile ich noch mit, dass die Abgeordneten Wöginger und Hofer beantragt haben, dem Finanzausschuss zur Berichterstattung über die Regierungsvorlage 626 der Beilagen betreffend ein „Bundesgesetz, mit dem das Transparenzdatenbankgesetz 2012 geändert wird“, eine Frist bis 2. Juli 2019 zu setzen. – Dieser Antrag kommt dann ebenfalls zur Abstimmung.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e287">Schließlich teile ich mit, dass Herr Abgeordneter Mag. Rossmann beantragt hat, dem Verfassungsausschuss zur Berichterstattung über den Antrag 318/A der Abgeordneten Rossmann, Kolleginnen und Kollegen eine Frist bis 1. Juli 2019 zu setzen. – Auch das wird dann zur Abstimmung gelangen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e289">Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung zur Abstimmung gebracht – das ist sogleich.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083.note9">
+                  <time when="2019-06-13T12:58:15+02:00">12:58:15</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e294">Abstimmung über Fristsetzungsanträge</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083.note10">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d7e969" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d2e299">Somit kommen wir zu den Abstimmungen. Wir kommen zur Abstimmung über den Antrag der Abgeordneten Wöginger und Hofer, dem Justizausschuss zur Berichterstattung über die Regierungsvorlage betreffend ein Bundesgesetz, mit dem die Rechtsanwaltsordnung und weitere Gesetze geändert werden, 633 der Beilagen, eine Frist bis 1. Juli 2019 zu setzen. Wer sich für diese Fristsetzung ausspricht, den bitte ich um ein Zeichen. – Es sieht so aus, als wäre das einstimmig angenommen. Nun gelangen wir zur Abstimmung über den Antrag der Abgeordneten Holzinger-Vogtenhuber, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über ihren Antrag betreffend Evaluierung des Arbeitszeitgesetzes, des Arbeitsruhegesetzes und des allgemeinen Sozialversicherungsgesetzes eine Frist bis 1. Juli 2019 zu setzen. Wer sich für diese Fristsetzung ausspricht, den bitte ich um ein Zeichen. – Das ist die Minderheit, abgelehnt. Abstimmung über die Anträge der Abgeordneten Holzinger-Vogtenhuber, dem Ausschuss für Familie und Jugend jeweils eine Frist bis 1. Juli 2019 zur Berichterstattung über folgende Anträge zu setzen: Antrag 453/A(E) der Abgeordneten Holzinger-Vogtenhuber, Kolleginnen und Kollegen betreffend „Nationaler Aktionsplan zur Bekämpfung von Kinderarmut in Österreich“. Ich bitte um ein Zeichen der Zustimmung zu dieser Fristsetzung. – Das ist die Minderheit, abgelehnt. <pb n="8"/>
+            Antrag der Abgeordneten Holzinger Vogtenhuber, Kolleginnen und Kollegen betreffend Familienlastenausgleichsgesetz 1967. Wer für diese Fristsetzung ist, den bitte ich um ein Zeichen. – Das ist die Minderheit, abgelehnt. Wir gelangen zur Abstimmung über den Antrag der Abgeordneten Holzinger-Vogtenhuber, dem Verfassungsausschuss zur Berichterstattung über den Antrag 183/A der Abgeordneten Holzinger-Vogtenhuber, Kolleginnen und Kollegen betreffend „ein Bundesverfassungsgesetz, mit dem das Bundesverfassungsgesetz über die Nachhaltigkeit, den Tierschutz, den umfassenden Umweltschutz, die Sicherstellung der Wasser- und Lebensmittelversorgung und die Forschung geändert wird“, eine Frist bis 1. Juli zu setzen. Wer sich für diese Fristsetzung ausspricht, den bitte ich um ein Zeichen. – Das ist die Minderheit, abgelehnt. Abstimmung über die Anträge des Abgeordneten Dr. Noll, dem Verfassungsausschuss jeweils eine Frist bis 1. Juli 2019 zur Berichterstattung über folgende Anträge zu setzen: Antrag 851/A, Dr. Noll, Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Bundes-Verfassungsgesetz geändert wird. Wer ist für diese Fristsetzung? – Das ist die Minderheit, abgelehnt. Antrag 632/A, Dr. Noll, Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Bundes-Verfassungsgesetz geändert wird. Wer ist für diese Fristsetzung? – Das ist die Minderheit, abgelehnt. Antrag 631/A, auch Abgeordneter Noll, betreffend Informationsfreiheitsgesetz. Wer dieser Fristsetzung zustimmt, den bitte ich um ein Zeichen. – Das ist die Minderheit. Der Antrag ist somit abgelehnt. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d7e1007">Abg. Noll: Das versteh’ ich, dass ihr da nicht aufsteht!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083_d7e1020">Abg. Jarolim: Der Herr Kurz hat das versprochen!</note> Jetzt kommen wir zur Abstimmung über den Antrag der Abgeordneten Cox, dem Finanzausschuss zur Berichterstattung über den Antrag 445/A der Abgeordneten Cox, Kolleginnen und Kollegen betreffend Umsatzsteuergesetz 1994 eine Frist bis 1. Juli zu setzen. Wer sich für diese Fristsetzung ausspricht, den bitte ich um ein Zeichen. – Das ist die Minderheit, abgelehnt. Wir kommen zur Abstimmung über den Antrag des Abgeordneten Mag. Rossmann, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 913/A(E) der Abgeordneten Mag. Rossmann, Kolleginnen und Kollegen betreffend „Nachbesserung des Nationalen Energie- und Klimaplans [...] entsprechend den Erkenntnissen der wissenschaftlichen Forschung zur Erreichung der Pariser Klimaziele“ auch eine Frist bis 1. Juli 2019 zu setzen. Wer ist für diese Fristsetzung? – Das ist die Minderheit, abgelehnt. Abstimmung über die Anträge des Abgeordneten Mag. Loacker, dem Ausschuss für Arbeit und Soziales jeweils eine Frist bis 1. Juli 2019 zur Berichterstattung über folgende Anträge zu setzen: Antrag 919/A der Abgeordneten Mag. Loacker, Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Mutterschutzgesetz, das Väter-Karenzgesetz sowie das Landarbeitsgesetz geändert werden. <pb n="9"/>
+            Wer sich für diese Fristsetzung ausspricht, den bitte ich um ein Zeichen. – Das ist mit Mehrheit so angenommen. Antrag 900/A der Abgeordneten Mag. Loacker, Kolleginnen und Kollegen betreffend Angestelltengesetz. Wer für diese Fristsetzung ist, den bitte ich um ein Zeichen. – Das ist die Minderheit, abgelehnt. Wir kommen nun zur Abstimmung über den Antrag der Abgeordneten Dr.in Griss, dem Justizausschuss zur Berichterstattung über den Antrag 924/A der Abgeordneten Dr.in Griss, Kolleginnen und Kollegen betreffend IPR-Gesetz eine Frist bis 1.7.2019 zu setzen. Wer sich für diese Fristsetzung ausspricht, den bitte ich um ein Zeichen. – Das ist mit Mehrheit so angenommen. Abstimmung über den Antrag der Abgeordneten Wöginger und Hofer, dem Finanzausschuss zur Berichterstattung über die Regierungsvorlage 624 der Beilagen betreffend Börsegesetz eine Frist bis 2. Juli 2019 zu setzen. Wir sich dafür ausspricht, den bitte ich um ein Zeichen. – Das ist mit Mehrheit so angenommen. Wir kommen zur Abstimmung über den Antrag der Abgeordneten Wöginger und Hofer, dem Finanzausschuss zur Berichterstattung über die Regierungsvorlage 626 der Beilagen betreffend Transparenzdatenbankgesetz eine Frist bis 2. Juli zu setzen. Wer für diese Fristsetzung ist, den bitte ich um ein Zeichen. – Das ist mit Mehrheit so angenommen. Abstimmung über den Antrag des Abgeordneten Mag. Rossmann, dem Verfassungsausschuss zur Berichterstattung über den Antrag 318/A der Abgeordneten Rossmann, Kolleginnen und Kollegen eine Frist bis 1. Juli 2019 zu setzen. Wer sich für diese Fristsetzung ausspricht, den bitte ich um ein Zeichen. – Das ist die Minderheit, abgelehnt. Meine sehr geehrten Damen und Herren, damit ist der Abstimmungsvorgang abgeschlossen. Die nächste Sitzung des Nationalrates, die für Dienstag, den 2. Juli 2019, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden. Die Tagesordnung ist erschöpft. Ich wünsche Ihnen noch einen schönen Tag. Die Sitzung ist geschlossen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083.note13">
+               <time when="2019-06-13T13:05:11+02:00">13:05:11</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2019-06-13-026-XXVI-NRSITZ-00083.note14">Schluss der Sitzung:<time when="2019-06-13T13:05:00+02:00">13:05</time>Uhr</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #covid" xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XXVII. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="sub" xml:lang="de">66. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Freitag, 20. November 2020</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XXVII [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Sitting Number 66, Legislative period XXVII, Friday, 20. November 2020</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="66">66. Sitzung</meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">XXVII. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="66">Sitting 66</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">Legislative period XXVII</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung, Korpuskodierung in TEI und automatische linguistische Annotation</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding and automatic linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="2" xml:lang="de">2 Äußerungen</measure>
+            <measure unit="speeches" quantity="2" xml:lang="en">2 speeches</measure>
+            <measure unit="words" quantity="110" xml:lang="de">110 Wörter</measure>
+            <measure unit="words" quantity="110" xml:lang="en">110 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Plenarsitzung des Nationalrates, Stenographisches Protokoll, 66. Sitzung des Nationalrates der Republik Österreich, Freitag, 20. November 2020</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <title type="sub" xml:lang="en">Shorthand record, Sitting Number 66, Legislative period XXVII, Friday, 20. November 2020</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XXVII/NRSITZ/NRSITZ_00066/fnameorig_885544.html</idno>
+               <date when="2020-11-20">2020-11-20</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="3"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="1"/>
+               <tagUsage gi="note" occurs="8"/>
+               <tagUsage gi="seg" occurs="7"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="5"/>
+               <tagUsage gi="u" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="2020-11-20">2020-11-20</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-13">
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066_d2e178" type="debateSection">
+            <gap reason="editorial" xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066.gap1">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066.note1">
+               <time when="2020-11-20T21:01:29+01:00">21:01:29</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066.note2">Beginn der Sitzung:<time when="2020-11-20T21:01:00+01:00">21:01</time>Uhr</note>
+            <note type="chairpersons" xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066.note3">Präsident Mag. Wolfgang Sobotka</note>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066.note4">
+               <time when="2020-11-20T21:01:30+01:00">21:01:30</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066.note5">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066_d7e341" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066_d2e200">Ich eröffne die 66. Sitzung des Nationalrates.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066_d2e202">Als verhindert gemeldet sind die Abgeordneten Franz Leonhard Eßl, Mag. Michael Hammer, Klaus Köchl, Bedrana Ribo, MAund Süleyman Zorba.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066_d2e204">Zuweisung</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066.note6">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066_d7e384" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066_d2e209">Ich weise die Regierungsvorlage (484 der Beilagen) betreffend Bundesfinanzrahmengesetz 2021 bis 2024 dem Budgetausschuss zu.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066_d2e211">Die nächste Sitzung des Nationalrates, die für Donnerstag, 26.11.2020, 8.30 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066_d2e213">Ich danke nach einer sehr intensiven und ausgedehnten Sitzungswoche allen MitarbeiterInnen der Parlamentsdirektion, vor allem jenen hier am Nationalratspräsidium, die wirklich hervorragende Arbeit geleistet haben, und auch jenen des Sicherheitsdienstes, sehr herzlich, diese haben sich das wahrlich verdient, und wünsche Ihnen ein gutes Nachhausekommen.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066.kinesic1">
+                  <desc>Allgemeiner Beifall.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066_d2e218">Die Sitzung ist geschlossen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066.note7">
+               <time when="2020-11-20T21:02:16+01:00">21:02:16</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-20-027-XXVII-NRSITZ-00066.note8">Schluss der Sitzung:<time when="2020-11-20T21:02:00+01:00">21:02</time>Uhr</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

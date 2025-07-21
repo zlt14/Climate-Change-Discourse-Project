@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #reference" xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XX. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="sub" xml:lang="de">68. Sitzung des Nationalrates der Republik Österreich, XX. Gesetzgebungsperiode, Donnerstag, 20. März 1997</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XX [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Sitting Number 68, Legislative period XX, Thursday, 20. March 1997</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="68">68. Sitzung</meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XX" n="20">XX. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="68">Sitting 68</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XX" n="20">Legislative period XX</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung, Korpuskodierung in TEI und automatische linguistische Annotation</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding and automatic linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="2" xml:lang="de">2 Äußerungen</measure>
+            <measure unit="speeches" quantity="2" xml:lang="en">2 speeches</measure>
+            <measure unit="words" quantity="211" xml:lang="de">211 Wörter</measure>
+            <measure unit="words" quantity="211" xml:lang="en">211 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Stenographisches Protokoll, 68. Sitzung des Nationalrates der Republik Österreich, XX. Gesetzgebungsperiode, Donnerstag, 20. März 1997</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <title type="sub" xml:lang="en">Shorthand record, Sitting Number 68, Legislative period XX, Thursday, 20. March 1997</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XX/NRSITZ/NRSITZ_00068/fnameorig_114125.html</idno>
+               <date when="1997-03-20">1997-03-20</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="4"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="2"/>
+               <tagUsage gi="note" occurs="5"/>
+               <tagUsage gi="pb" occurs="1"/>
+               <tagUsage gi="seg" occurs="11"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="2"/>
+               <tagUsage gi="u" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="1997-03-20">1997-03-20</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-13">
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068_d2e178" type="debateSection">
+            <gap reason="editorial" xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068.gap1">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <pb n="2"/>
+            <note type="time" xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068.note1">Beginn der Sitzung:<time when="1997-03-20T22:44:00+01:00">22:44</time>Uhr</note>
+            <note type="chairpersons" xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068.note2">Präsident Dr. Heinz Fischer</note>
+            <note type="speaker" xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068.note3">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068_d7e407" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068_d2e195">Die 68. Sitzung ist eröffnet.</seg>
+               <seg xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068_d2e197">Als verhindert gemeldet sind die Abgeordneten Dr. Preisinger, Dipl.-Ing. Prinzhorn, Dr. Ofner, Hans Helmut Moser, Elmecker, Mag. Haupt, Ing. Nußbaumer und Fink.</seg>
+               <seg xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068_d2e199">Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.</seg>
+               <seg xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068_d2e201">Die schriftliche Mitteilung hat folgenden Wortlaut:</seg>
+               <gap reason="editorial" xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068.gap2">
+                  <desc xml:lang="en">Quoted printed matter omited</desc>
+                  <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+               </gap>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068.note4">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068_d7e578" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068_d2e211">Weiters habe ich noch folgende Zuweisungen vorzunehmen, weil Anträge erst jetzt, im allerletzten Augenblick, eingelangt sind.</seg>
+               <seg xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068_d2e213">Dem Verfassungsausschuß weise ich zu den Selbständigen Entschließungsantrag der Abgeordneten Heide Schmidt und Partnerinnen betreffend Änderung des Textes der Bundeshymne. Ich gebe ihm die Nummer 426/A (E).</seg>
+               <seg xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068_d2e215">Weiters weise ich den Antrag der Abgeordneten Dr. Schmidt betreffend ein Bundesverfassungsgesetz, mit dem das Bundes-Verfassungsgesetz in der Fassung von 1929 geändert wurde, ebenfalls dem Verfassungsausschuß zu. Ich gebe diesem Antrag die Nummer 427/A.</seg>
+               <seg xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068_d2e217">Schließlich weise ich den Entschließungsantrag der Abgeordneten Mag. Peter, Dr. Schmidt zur Schaffung von Rahmenbedingungen, die die Gründung von Unternehmen erleichtern, dem Wirtschaftsausschuß zu – wobei ich dankbar wäre, wenn solche Anträge ein kleines bißchen früher eingebracht werden könnten – und gebe ihm die Nummer 428/A (E).</seg>
+               <seg xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068_d2e219">Damit haben wir auch diese Zuweisungen erledigt.</seg>
+               <seg xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068_d2e221">Die nächste Sitzung des Nationalrates, die für Mittwoch, den 16. April, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.</seg>
+               <seg xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068_d2e223">Die Sitzung ist geschlossen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1997-03-20-020-XX-NRSITZ-00068.note5">Schluß der Sitzung:<time when="1997-03-20T22:46:00+01:00">22:46</time>Uhr</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #reference" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XX. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="sub" xml:lang="de">151. Sitzung des Nationalrates der Republik Österreich, XX. Gesetzgebungsperiode, Freitag, 27. November 1998</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XX [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Sitting Number 151, Legislative period XX, Friday, 27. November 1998</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="151">151. Sitzung</meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XX" n="20">XX. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="151">Sitting 151</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XX" n="20">Legislative period XX</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung, Korpuskodierung in TEI und automatische linguistische Annotation</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding and automatic linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="46" xml:lang="de">46 Äußerungen</measure>
+            <measure unit="speeches" quantity="46" xml:lang="en">46 speeches</measure>
+            <measure unit="words" quantity="5138" xml:lang="de">5,138 Wörter</measure>
+            <measure unit="words" quantity="5138" xml:lang="en">5,138 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Stenographisches Protokoll, 151. Sitzung des Nationalrates der Republik Österreich, XX. Gesetzgebungsperiode, Freitag, 27., und Samstag, 28. November 1998</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <title type="sub" xml:lang="en">Shorthand record, Sitting Number 151, Legislative period XX, Friday, 27. November 1998</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XX/NRSITZ/NRSITZ_00151/fnameorig_114291.html</idno>
+               <date when="1998-11-27">1998-11-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="29"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="14"/>
+               <tagUsage gi="note" occurs="117"/>
+               <tagUsage gi="seg" occurs="135"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="26"/>
+               <tagUsage gi="u" occurs="46"/>
+               <tagUsage gi="vocal" occurs="11"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="1998-11-27">1998-11-27</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-13">
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e178" type="debateSection">
+            <gap reason="editorial" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.gap1">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note1">Beginn der Sitzung:<time when="1998-11-27T19:18:00+01:00">19:18</time>Uhr</note>
+            <note type="chairpersons" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note2">Präsident Dr. Heinz Fischer Dritter Präsident MMag. Dr. Willi Brauneder</note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note3">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e547" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e194">Ich eröffne die 151. Sitzung des Nationalrates am Freitag, dem 27. November 1998, um 19.18 Uhr.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e196">Das Amtliche Protokoll der 149. Sitzung vom 26. November 1998 ist in der Parlamentsdirektion aufgelegen und unbeanstandet geblieben.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e198">Als verhindert gemeldet sind die Abgeordneten Mag. Firlinger, Haidlmayr, Dr. Heindl, Koppler, Dr. Kräuter, Ing. Langthaler, Dr. Schwimmer und Mag. Stoisits.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e200">Einlauf und Zuweisungen</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note4">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e581" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e205">Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisung verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte schriftliche Mitteilung.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e207">Die schriftliche Mitteilung hat folgenden Wortlaut:</seg>
+               <gap reason="editorial" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.gap2">
+                  <desc xml:lang="en">Quoted printed matter omited</desc>
+                  <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+               </gap>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note5">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e701" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e217">Darüber hinaus weise ich in Ergänzung zu der im Saal verteilten schriftlichen Mitteilung den Antrag 972/A der Abgeordneten Dr. Kostelka, Dr. Feurstein und Genossen betreffend eine Änderung des Bundes-Verfassungsgesetzes dem Verfassungsausschuß zu.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e219">Weiters weise ich den Antrag 973/A (E) der Abgeordneten Dr. Kostelka, Dr. Khol, Dr. Kier, Smolle und Dr. Petrovic ebenfalls dem Verfassungsausschuß zu.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e221">Sodann gebe ich bekannt, daß der 13. Bericht des Unvereinbarkeitsausschusses an alle Mitglieder des Nationalrates verteilt wurde.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e223">Fristsetzungsantrag</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note6">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e740" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e228">Ich teile weiters mit, daß Herr Abgeordneter Mag. Schweitzer beantragt hat, dem Verfassungsausschuß zur Berichterstattung über den Entschließungsantrag 728/A (E) betreffend Alternativen zum Semmering-Basistunnel eine Frist bis zum 15. Dezember 1998 zu setzen. Hiezu liegt das von fünf Abgeordneten gemäß § 43 Abs. 3 der Geschäftsordnung gestellte Verlangen vor, eine kurze Debatte über diesen Fristsetzungsantrag durchzuführen. Diese kurze Debatte wird nach Erledigung der Tagesordnung stattfinden. Im Sinne der Beratungen der heutigen Präsidialkonferenz unterbreche ich nun die Sitzung bis 28. November, 0 Uhr. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e752">Abg. Mag. Stadler: Zur Geschäftsbehandlung!</note>Zur Geschäftsbehandlung hat sich Herr Abgeordneter Mag. Stadler gemeldet. – Bitte, Herr Abgeordneter.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e762">Rufe bei der SPÖ:Die Sitzung ist ja schon unterbrochen!</note>
+            <vocal type="interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.vocal1">
+               <desc>Lebhafte Zwischenrufe.</desc>
+            </vocal>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note9">
+               <time when="1998-11-27T19:21:00+01:00">19:21</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note10">Abgeordneter Mag. Johann Ewald Stadler(Freiheitliche)</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note11">zur Geschäftsbehandlung</note>
+            <u who="#PAD_02849" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e789" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e247">Herr Präsident! Ich habe mich, bevor die Sitzung unterbrochen wurde, zu Wort gemeldet.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note12">
+               <time when="1998-11-27T19:21:00+01:00">19:21</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note13">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e814" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e255">Herr Abgeordneter Stadler! Ich habe es nicht gesehen. Sie haben sich vor der Unterbrechung zu Wort gemeldet?</seg>
+               <vocal type="interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.vocal2">
+                  <desc>Heftiger Widerspruch und Nein-Rufe bei SPÖ und ÖVP.</desc>
+               </vocal>
+               <kinesic type="signal" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.kinesic1">
+                  <desc>Präsident Dr. Brauneder gibt das Glockenzeichen.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e263">Hohes Haus! Ich habe, wie Sie gesehen haben, das Croquis referiert. Ich kann ja nicht in das Croquis sehen und gleichzeitig beobachten, wer sich zu Wort gemeldet hat. Ich frage daher erst einmal meine Beamten, welche Wahrnehmungen sie gemacht haben.</seg>
+               <note type="side_talk" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note14">Präsident Dr. Brauneder spricht mit einem Konzeptsbeamten.</note>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e267">Im Zweifel lasse ich diese Meldung zur Geschäftsbehandlung zu. – Bitte, Herr Abgeordneter.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note15">
+               <time when="1998-11-27T19:22:00+01:00">19:22</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note16">Abgeordneter Mag. Johann Ewald Stadler(Freiheitliche)</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note17">zur Geschäftsbehandlung</note>
+            <u who="#PAD_02849" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e859" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e278">Herr Präsident! Abgesehen davon, daß die Vorgangsweise, wie sie soeben von Ihnen als Ergebnis der Präsidialsitzung vorgetragen wurde, einen Bruch der Vereinbarung der letzten Präsidialkonferenz darstellt, die ja auch vom Ersten Präsidenten abgesegnet wurde, stelle ich namens meiner Fraktion den Antrag, den Verkehrsminister, dem der Mißtrauensantrag gilt, gemäß § 18 Abs. 3 der Geschäftsordnung zur Debatte über den Mißtrauensantrag beizuschaffen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note18">
+               <time when="1998-11-27T19:22:00+01:00">19:22</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note19">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e883" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e286">Darf ich rückfragen? <note type="side_talk" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note20">Präsident Dr. Brauneder spricht neuerlich mit einem Konzeptsbeamten.</note> Herr Abgeordneter Stadler! Nur zur Klarstellung: Heißt das, ab jetzt? Oder ... <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e898">Abg. Mag. Stadler: Zur Debatte!</note>Zur Debatte. Das heißt: um 0 Uhr. Zur Geschäftsbehandlung zuerst Herr Klubobmann Khol, dann Herr Klubobmann Kostelka. – Bitte, Herr Abgeordneter Dr. Khol.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note22">
+               <time when="1998-11-27T19:22:00+01:00">19:22</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note23">Abgeordneter Dr. Andreas Khol(ÖVP)</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note24">zur Geschäftsbehandlung</note>
+            <u who="#PAD_00799" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e919" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e302">Herr Präsident! Können Sie mich bitte belehren: Es gibt ja keine Debatte mehr über das Mißtrauensvotum, denn die Debatte ist am Donnerstag abend geschlossen worden, und es ist lediglich die Abstimmung vertagt worden. Die Abstimmung ist für 0 Uhr angesetzt worden in der unterbrochenen Sitzung. Daher verstehe ich nicht, was hier noch an Debatte zulässig wäre.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note25">
+               <time when="1998-11-27T19:23:00+01:00">19:23</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note26">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e943" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e311">Herr Klubobmann Kostelka, bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note27">
+               <time when="1998-11-27T19:23:00+01:00">19:23</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note28">Abgeordneter Dr. Peter Kostelka(SPÖ)</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note29">zur Geschäftsbehandlung</note>
+            <u who="#PAD_00930" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e965" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e321">Ich wollte auf genau dasselbe eingehen, Herr Präsident, denn eine Zuweisungssitzung ist ex definitione eine Sitzung ohne Tagesordnung. Die Abstimmung, die vor uns liegt, ist auch kein Tagesordnungspunkt. Daher wäre eine solche Debatte sofort durchzuführen, und ich kann Ihre Entscheidung daher nicht verstehen. Ich bitte Sie, das dem Haus und auch mir zu erklären.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note30">
+               <time when="1998-11-27T19:23:00+01:00">19:23</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note31">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e989" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e329">Herr Klubobmann Kostelka! Ich habe noch keine Entscheidung getroffen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e331">Zu Wort gelangt Herr Klubobmann Stadler.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note32">
+               <time when="1998-11-27T19:24:00+01:00">19:24</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note33">Abgeordneter Mag. Johann Ewald Stadler(Freiheitliche)</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note34">zur Geschäftsbehandlung</note>
+            <u who="#PAD_02849" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1013" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e342">Herr Präsident! Abgesehen davon, daß wir, wie schon in der Präsidialkonferenz dargestellt, eine andere Auffassung dazu haben, erweitere ich nunmehr meinen Antrag und ersuche, zu der von uns verlangten und von Ihnen bereits enunzierten – das scheint dem Herrn Kollegen Kostelka entgangen zu sein – Debatte über den Fristsetzungsantrag ebenfalls die Anwesenheit des Herrn Verkehrsministers zu verlangen.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1025">Abg. Schieder: Was heißt "ebenfalls"? Sie können seine Anwesenheit verlangen, aber nicht "ebenfalls"!</note>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note36">
+               <time when="1998-11-27T19:24:00+01:00">19:24</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note37">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1046" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e352">Zur Vergewisserung, Herr Klubobmann: Sie haben jetzt das Wort "ebenfalls" verwendet, und zwar zur Fristsetzung ... <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1054">Abg. Mag. Stadler: Zur Abstimmung und allfälligen Debatte über den Fristsetzungsantrag!</note>– Zur Kurzdebatte. Das heißt, da Sie das Wort "ebenfalls" verwendet haben, meinen Sie, daß Herr Minister Einem auch hiezu ... <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1068">Abg. Mag. Stadler: ... anwesend zu sein hat!</note>– Gut. Ich glaube, da lag jetzt ein Irrtum vor. Ich kann nicht entscheiden, wer sich zuerst zu Wort gemeldet hat. – Herr Abgeordneter Kostelka, bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note40">
+               <time when="1998-11-27T19:25:00+01:00">19:25</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note41">Abgeordneter Dr. Peter Kostelka(SPÖ)</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note42">zur Geschäftsbehandlung</note>
+            <u who="#PAD_00930" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1089" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e368">Herr Präsident! Der Klarheit halber: Selbstverständlich ist es das Recht jedes Abgeordneten, einen Antrag zu stellen, daß ein Mitglied der Bundesregierung an einer Debatte oder an einem Vorgang teilnimmt. Klar ist aber auch, daß darüber die Mehrheit des Hauses entscheidet; das ist selbstverständlich. Weder ein Mißtrauensantrag noch eine Fristsetzungsdebatte sind Debattengegenstände, sind Diskussionen in diesem Haus, an denen Mitglieder der Bundesregierung teilgenommen haben und auch in Zukunft teilnehmen werden, weil es nicht sinnvoll zu sein scheint. Das ist eine Praxis, bei der wir bleiben sollten. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1100">Abg. Mag. Stadler: Oh! Das ist ganz etwas Neues!</note>Wenn Sie den Antrag haben, dann stimmen Sie ihn ab. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1113">Abg. Mag. Stadler: Herr Präsident! Können Sie die Vorsitzführung allein durchführen? Der Präsident braucht keine Belehrung!</note>In weiterer Folge würde ich aufgrund dieser Interpretation, die vorher schon vorgenommen wurde, ersuchen, in die Debatte zur Fristsetzung einzugehen, und dann, wie in der Präsidiale vereinbart, die Sitzung zu unterbrechen, um in weiterer Folge um 24 Uhr die Debatte wiederaufzunehmen.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1127">Abg. Mag. Stadler: Stellen Sie einen Antrag zur Geschäftsbehandlung!</note>
+            <vocal type="interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.vocal3">
+               <desc>Weitere Zwischenrufe bei SPÖ und ÖVP.</desc>
+            </vocal>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note46">
+               <time when="1998-11-27T19:25:00+01:00">19:25</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note47">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1154" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e388">Ich darf um Ruhe bitten! Es ist sehr schwer, hier am Podium zu hören, was da unten gesprochen wird, besonders bei einer solchen Lärmkulisse. – Bitte.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1162">Abg. Dr. Fekter: Was heißt "da unten"?</note>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note49">
+               <time when="1998-11-27T19:25:00+01:00">19:25</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note50">Abgeordneter Dr. Andreas Khol(ÖVP)</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note51">zur Geschäftsbehandlung</note>
+            <u who="#PAD_00799" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1184" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e400">Herr Präsident! Ich gehe davon aus, daß Sie die Sitzung unterbrochen haben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note52">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1202" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e405">Ich habe Herrn Klubobmann Stadler im Zweifel, ob er sich davor gemeldet hat oder nicht, das Wort zur Geschäftsbehandlung gegeben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note53">Abgeordneter Dr. Andreas Khol</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note54">fortsetzend</note>
+            <u who="#PAD_00799" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1217" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e413">Also ist die Sitzung noch nicht unterbrochen?</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1226">Rufe bei den Freiheitlichen:Nein!</note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note56">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1244" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e420">Noch nicht unterbrochen!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note57">Abgeordneter Dr. Andreas Khol</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note58">fortsetzend</note>
+            <u who="#PAD_00799" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1259" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e427">Dann beantrage ich, daß die Debatte über den Fristsetzungsantrag vor der Unterbrechung stattfindet, das heißt jetzt und sofort.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1277">Abg. Dr. Haider: Das muß er eh tun! Du brauchst gar nichts beantragen! – Zuerst wollt ihr sie nicht haben, jetzt wollt ihr sie gleich haben!</note>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note60">
+               <time when="1998-11-27T19:26:00+01:00">19:26</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note61">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1298" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e438">Um diese Frage jetzt nicht hier zu diskutieren, unterbreche ich kurz diese Sitzung. Ich bitte die Damen und Herren Klubobleute zu mir, um diese Frage zu besprechen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e440">Die Sitzung ist unterbrochen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e442">(Die Sitzung wird um 19.26 Uhr unterbrochen und um 19.39 Uhr wiederaufgenommen.)</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note62">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1325" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e447">Meine Damen und Herren! Ich nehme die unterbrochene Sitzung wieder auf, und ich bitte, die Plätze einzunehmen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e449">Nach einer von Ihnen beobachteten längeren Diskussion <vocal type="laughter" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.vocal4">
+                     <desc>Heiterkeit</desc>
+                  </vocal>
+            , die natürlich sehr ausführlich und tiefschürfend war <vocal type="laughter" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.vocal5">
+                     <desc>neuerliche Heiterkeit</desc>
+                  </vocal>
+            , was ich ernst meine, besteht gewisses Einvernehmen darüber, daß die Anträge zur Geschäftsbehandlung jetzt zur Abstimmung kommen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e459">Es sind dies drei Anträge. Es sind erstens die zwei Zitationsanträge des Klubobmannes Mag. Stadler. Ich darf in Erinnerung rufen: Der erste Antrag betraf Herrn Bundesminister Einem.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e461">Ich bringe diesen Antrag zur Abstimmung.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e463">Es wird gewünscht, daß Herr Bundesminister Einem hier vor dem Plenum des Nationalrates erscheint. – Dieser Antrag findet nicht die Mehrheit, er ist damit abgelehnt.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e465">Ich bringe den zweiten Zitationsantrag zur Abstimmung; er betrifft abermals Herrn Bundesminister Einem. – Auch dieser Antrag findet nicht die Mehrheit, er ist damit abgelehnt.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e467">Drittens bringe ich zur Abstimmung den Antrag des Herrn Abgeordneten Khol zur Geschäftsbehandlung, die Debatte jetzt durchzuführen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e469">Ich frage, ob dieser Antrag die Mehrheit findet. – Er findet die Mehrheit. Die Debatte ist daher jetzt durchzuführen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e471">Kurze Debatte über Fristsetzungsantrag</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note63">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1399" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e476">Zu Wort gemeldet ist Herr Abgeordneter Mag. Schweitzer. Ihnen steht eine maximale Redezeit von 10 Minuten zu. – Bitte, Herr Abgeordneter.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note64">
+               <time when="1998-11-27T19:40:00+01:00">19:40</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note65">Abgeordneter Mag. Karl Schweitzer(Freiheitliche)</note>
+            <u who="#PAD_01803" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1420" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e484">Herr Präsident! Meine sehr geehrten Damen und Herren! Die Fristsetzungsdebatte, um die wir ersucht haben, haben wir deshalb beantragt, weil wir der Ansicht sind, daß der Antrag der Freiheitlichen, der die sofortige Inangriffnahme der Planung des Nordabschnittes der Süd-Ost-Spange zum einen und einen Baustopp für das Semmering-Basistunnel-Projekt zum anderen zum Inhalt hat, mehr denn je seine Berechtigung hat. <vocal type="interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.vocal6">
+                     <desc>Zwischenruf des Abg. Gradwohl.</desc>
+                  </vocal>
+            Meine Damen und Herren! Dieser Antrag ist die Fortsetzung einer konsequenten freiheitlichen Politik in dieser Frage. Seit das Projekt Semmering-Basistunnel in den Gehirnen sozialistischer Verkehrspolitiker entstanden ist, sehen wir, daß dieses Projekt nur der Geldverschwendung dient und keinen wirklichen Effekt für die Verbesserung der Situation des Verkehrs in Österreich bringen wird. <kinesic type="applause" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.kinesic2">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Meine sehr geehrten Damen und Herren! Zehn Jahre lang diskutieren wir bereits über die Inangriffnahme des Baus der Süd-Ost-Spange, und zehn Jahre lang diskutieren wir bereits über die Sinnhaftigkeit des Semmering-Basistunnels. Zehn Jahre lang hat sich mit wenigen Ausnahmen nichts getan. Inzwischen hat sich das Verkehrsaufkommen insbesondere im Osten massiv entwickelt, eine Ausweichmöglichkeit von der Straße auf die Schiene, die von Ihnen immer wieder gefordert wird, besteht jedoch bis heute nicht! Meine sehr geehrten Damen und Herren! Ich erinnere Sie an die Entwicklung des Verkehrsaufkommens auf der A 2 Südautobahn: Aus dem ostösterreichischen Raum pendeln viele Zehntausende Menschen täglich in die Bundeshauptstadt, allein 70 000 aus dem südburgenländisch-oststeirischen Raum! Von Tag zu Tag müssen sie länger im Stau stehen. Meine Damen und Herren! Ich erinnere Sie: Das einzige, wozu Sie mit Ihrer Verkehrspolitik in diesem Zusammenhang beigetragen haben, ist die Erweiterung des größten "Parkplatzes", den wir in Ostösterreich haben, nämlich der Süd Autobahn. Zuletzt hat es Staus bis Wiener Neustadt gegeben, und das sollte Ihnen zu denken geben! Bis Wiener Neustadt stehen die Autos mit Menschen, die zur täglichen Arbeit fahren müssen! Das bedeutet, daß diese Menschen von Woche zu Woche früher aufstehen müssen, wenn sie die Absicht haben, rechtzeitig zur Arbeit zu kommen; trotzdem schaffen sie es nicht. Das bedeutet, daß viele Betriebe auf die Tätigkeit ihrer Mitarbeiter in der Früh verzichten müssen, weil diese im Stau stehen. Das bedeutet, daß sehr viel Abgase im Stau produziert werden, insgesamt wird damit ein volkswirtschaftlicher Schaden verursacht, dessen Höhe sich nicht mehr beziffern läßt. – Aber das läßt Sie kalt! Ihre Verkehrspolitik nimmt darauf überhaupt keine Rücksicht! <kinesic type="applause" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.kinesic3">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Anstatt dessen haben Sie bis jetzt sage und schreibe 3 Milliarden Schilling in ein Projekt gesteckt, welchem jetzt auch mehrfach amtlich bestätigt wurde, daß es völlig unzureichend vorbereitet wurde und noch dazu von niemandem gebraucht wird, weil die Kapazitäten auf dieser Strecke bei weitem nicht erschöpft sind und es sich nicht lohnt, für eine Fahrzeitverkürzung von 20 Minuten, die man mit anderen Einrichtungen ebenso erreichen könnte – ich verweise zum Beispiel auf Pendolino oder Talgo –, viele, viele Milliarden Schilling zu investieren. Meine sehr geehrten Damen und Herren! Seit dieser Woche liegt der Bericht des Rechnungshofes vor, und dieser Bericht bestätigt noch einmal, daß es sich hier um ein Projekt handelt, das nicht weiter gebaut werden darf! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1446">Abg. Zweytick: Schlecht gelesen!</note>Genau so steht es im Rechnungshofbericht! Der einzige, der es nicht so gelesen hat, ist der Verkehrsminister, und jetzt gibt es offensichtlich noch einen zweiten, nämlich Kollegen Zweytick! – Fragen wir einmal Kollegen Kukacka: Der hat das schon ganz anders gelesen! Übrigens: Die Kollegen von der ÖVP-Niederösterreich lesen das schon seit Jahren ganz anders. Ihr müßt euch wirklich einmal einig werden, wohin die Reise gehen soll! <kinesic type="applause" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.kinesic4">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Aber offensichtlich kann man den Niederösterreichern in diesem Zusammenhang mehr Sachverstand zuordnen als den steirischen Kollegen von der ÖVP. Meine sehr geehrten Damen und Herren! Aus diesem Grund ersuche ich Sie, diesem Antrag zuzustimmen, der endlich zu dem Ziel führen sollte, daß der Bau der Süd-Ost-Spange in Angriff genommen wird, die für 500 000 Menschen im Burgenland und in der Steiermark bewirken würde, daß es eine vernünftige Anbindung an die Bundeshauptstadt gibt! – Herr Kollege Wabl! Sie schütteln den Kopf! 30 000 Familienväter aus dem Südburgenland müssen Woche für Woche nach Wien pendeln und die ganze Woche hier verbringen! 30 000 Familienväter gehen die ganze Woche über ihrer Familie ab! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1466">Abg. Öllinger: Auch Frauen!</note> Das ist für Sie kein Problem! 30 000 Familienväter müssen am Sonntag oder Montag früh ihre Schnitzel einpacken, damit sie einigermaßen billig hier überleben können. 30 000 Familienväter müssen eine gewaltige Summe Geldes investieren, um hier leben zu können. Dieses Geld wäre weitaus besser in einer strukturschwachen Region wie dem Südburgenland oder der Oststeiermark investiert. Erst vor kurzem wurde wieder bestätigt – obwohl wir dank sozialistischer Regierung schon seit Jahrzehnten auf der "Überholspur" sind –, daß wir bei 71 Prozent des EU-Durchschnitts liegen, was die Wirtschaftsleistung betrifft. Wir liegen hinter Spanien und Portugal! Das ist das Ergebnis sozialistischer Wirtschaftspolitik und sozialistischer Verkehrspolitik, meine Damen und Herren! Wir sollten wirklich einmal darüber diskutieren, wie man das verbessern kann! Durch eine vernünftige Verkehrsanbindung für die Südburgenländer, die Oststeirer und die Unterkärntner würde nicht nur die Verkehrssituation für die 500 000 davon Betroffenen weitaus besser gestaltet werden, sondern es käme auch zu wirtschaftlichen Impulsen in diesen Regionen. Deshalb erachten wir es als besonders dringend, daß dieser Antrag endlich auch einmal zur Verhandlung kommt.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.kinesic5">
+               <desc>Beifall bei den Freiheitlichen.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note68">
+               <time when="1998-11-27T19:47:00+01:00">19:47</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note69">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1493" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e519">Weiters zu Wort gemeldet ist Herr Abgeordneter Parnigoni. Es ist bekannt, daß geschäftsordnungsgemäß ab nun jedem Redner maximal 5 Minuten Redezeit zur Verfügung stehen. – Bitte, Herr Abgeordneter.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note70">
+               <time when="1998-11-27T19:47:00+01:00">19:47</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note71">Abgeordneter Rudolf Parnigoni(SPÖ)</note>
+            <u who="#PAD_01155" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1511" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e527">Meine Damen und Herren! Hohes Haus! Vorerst möchte ich festhalten: Natürlich wollen wir für die Pendler etwas tun, daher verhandeln wir seit einiger Zeit ganz massiv mit den Ländern ein Nahverkehrsgesetz. Daß das keine sehr einfache Angelegenheit ist, ist ganz klar, weil es dabei um sehr viel Geld geht. Aber wir haben eine Gesetzesvorlage, wir werden uns mit den Ländern einigen, und wir werden daher für die Pendler eine entsprechende Lösung finden. Von der Expertenkommission und im Rechnungshofbericht wurde festgehalten, daß die Süd-Ost-Spange keine Alternative darstellt. Das ist eindeutig und steht auch so im Bericht. <vocal type="interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.vocal7">
+                     <desc>Zwischenruf des Abg. Ing. Meischberger.</desc>
+                  </vocal>
+            Meine Damen und Herren! Ich wollte inhaltlich gar nicht auf den Semmering-Basistunnel eingehen, aber einen Aspekt muß ich wirklich erwähnen: Wenn man den Basistunnel schafft und Neigetechnikzüge einsetzt, wird sich die Fahrzeit zwischen Wien und Graz um eine Stunde und zwischen Wien und Villach um eine Stunde und 40 Minuten verkürzen. Man kann endlich Ganzzüge mit 1 200 Tonnen transportieren, was einfach notwendig ist. Man kann im Vergleich zur Bergstrecke Betriebskosten per anno von 270 Millionen Schilling ersparen Es wäre endlich möglich, auch Großcontainer auf dieser Strecke zu transportieren, was für die Wirtschaft von enormer Bedeutung ist und womit Kärnten und die Steiermark Anschluß an die entsprechenden Wirtschaftsräume finden könnten. Es ist klar: Wenn es den Basistunnel nicht gibt, dann wird der Schiene ein Transportsubstrat von Gütern in Höhe von 400 000 bis 500 000 Tonnen verlorengehen. Meine Damen und Herren! Ich erinnere mich an ein Kärntner Memorandum. In diesem steht: "Ausbau der bestehenden Südbahn. Um die unzumutbaren Fahrzeiten zwischen Kärnten und der Bundeshauptstadt sowie den Bundesländern Niederösterreich und Steiermark erheblich kürzen zu können ..." <vocal type="interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.vocal8">
+                     <desc>Zwischenruf des Abg. Ing. Meischberger.</desc>
+                  </vocal>
+            Dazu zählt auch der Bau des Semmering-Basistunnels! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1532">Abg. Gradwohl: Wer hat denn das unterschrieben?</note>Das ist unterschrieben von Alt-Landeshauptmann Haider! Also, was soll das?! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1545">Abg. Dr. Haider: Freu dich nicht zu früh!</note>Am 29. April dieses Jahres hat der Bundesrat ganz eindeutig die Unverzichtbarkeit des Baus des Semmering-Basistunnels festgehalten, und freiheitliche Bundesräte haben mitgestimmt. Die Landtage Kärntens und der Steiermark haben unter Beistimmung der freiheitlichen Abgeordneten den Semmering-Basistunnel verlangt! Mit welcher Glaubwürdigkeit agieren Sie denn da eigentlich, meine Damen und Herren? In Wirklichkeit bin ich über diese Debatte und über das Bemühen des Abgeordneten Schweitzer, der überhaupt nicht im Verkehrsausschuß war, der gar nicht weiß, was sich dort abgespielt hat, überrascht. Denn abgespielt hat sich, daß am 2. November zu diesem Antrag seitens der F überhaupt nicht das Wort ergriffen wurde. Ich kann mich daher, ehrlich gesagt, nicht des Eindruckes erwehren, daß die Liebe der freiheitlichen Abgeordneten zu Rosenstingl – dem FPÖ-Abgeordneten, wie Sie wissen – ganz einfach nicht erkaltet. Es ist ihnen einfach ein Bedürfnis, daß Abgeordneter Rosenstingl von der FPÖ in Erinnerung bleibt. Darum wird seinem Antrag ganz besondere Bedeutung beigemessen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1558">Abg. Haigermoser: Ist er nicht lieb, der Parnigoni?</note>Meine Damen und Herren! Sie wollen nichts anderes, als hier das übliche Theater zu inszenieren. Es geht Ihnen nicht sehr gut, das ist Ihr Problem! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1571">Abg. Haigermoser: Schauen Sie auf die Uhr!</note>Und außerdem – ich habe noch eine Redezeit von zwei Minuten Kollege Haigermoser, machen Sie sich keine Sorgen! – ist der Antrag überholt, denn in dem Antrag des FPÖ-Abgeordneten Rosenstingl aus Fortaleza steht, daß eine Alternativenprüfung erfolgen soll. – Meine Damen und Herren! Tatsache ist, daß die Expertenkommission diese Alternativenprüfung bereits vorgenommen und festgehalten hat, daß der Semmering-Basistunnel die beste Option ist. Meine Damen und Herren! Lassen wir die parteipolemische Diskussion beiseite und wenden wir uns den wirklichen verkehrspolitischen Notwendigkeiten zu! Tatsache ist, daß es ganz einfach keine Alternative zu einem vernünftigen Ausbau dieser Nord-Süd-Achse gibt. Wir wollen nicht, daß Österreich umfahren wird, wir wollen, daß der Güterverkehr massiv auf die Schiene verlegt wird, und dabei geht es nicht darum, daß man jetzt jedem LKW sozusagen das Geschäft wegnimmt, sondern es geht einfach darum ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note76">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1590" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e553">Den Schlußsatz bitte, Herr Abgeordneter!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note77">Abgeordneter Rudolf Parnigoni</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note78">fortsetzend</note>
+            <u who="#PAD_01155" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1605" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e560">Es geht darum, daß man den Zuwachs im Güterverkehr, der ganz einfach gegeben ist und den jede Studie nachweist, auf die Schiene bringt. Wir werden daher Ihrem Antrag keine Zustimmung geben!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.kinesic6">
+               <desc>Beifall bei der SPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note79">
+               <time when="1998-11-27T19:53:00+01:00">19:53</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note80">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1635" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e572">Weiters zu Wort gemeldet ist Herr Abgeordneter Mag. Kukacka. – Bitte, Herr Abgeordneter.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note81">
+               <time when="1998-11-27T19:53:00+01:00">19:53</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note82">Abgeordneter Mag. Helmut Kukacka(ÖVP)</note>
+            <u who="#PAD_00998" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1657" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e580">Herr Präsident! Hohes Haus! Meine Damen und Herren! Meine Herren von der Freiheitlichen Partei! Sie wissen, daß wir dem Semmering-Basistunnel kritisch gegenüberstehen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1665">Abg. Aumayr: Wer ist "wir"?</note> – Wir, die Österreichische Volkspartei. <vocal type="interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.vocal9">
+                     <desc>Zwischenrufe bei den Freiheitlichen.</desc>
+                  </vocal>
+            Lassen Sie mich doch ausreden! Wir stehen grundsätzlich zu den Beschlüssen, die der Nationalrat, aber auch die Bundesregierung diesbezüglich gefaßt haben. Aber wir sind auch der Meinung, daß es bei der Umsetzung dieser Beschlüsse Fehler und Versäumnisse gegeben hat. Und über diese Fehler und Versäumnisse, die auch im Rechnungshofbericht dokumentiert sind, muß umfassend und offen diskutiert werden. <kinesic type="applause" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.kinesic7">
+                     <desc>Beifall bei der ÖVP.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1690">Abg. Mag. Stadler: In der Präsidiale hat Ihr Klubobmann jede Debatte abgelehnt! Erkundigen Sie sich!</note> Wir werden darüber diskutieren, und wir werden uns vor allem auch mit dem politischen Aspekt beschäftigen, daß dabei gewisse Entschließungen des Nationalrates negiert und nicht befolgt wurden. Auch das sehen wir sehr kritisch. Meine Damen und Herren! Kritik muß allerdings zuerst dort erfolgen, wo es die Geschäftsordnung des Nationalrates vorsieht, nämlich zum Beispiel im Rechnungshofausschuß. Dort muß dieser Rechnungshofbericht umfassend und kritisch diskutiert werden. Meine Damen und Herren! Wenn Sie heute einen Antrag einbringen und sagen, daß wir darüber eine Fristsetzung beschließen sollten, dann möchte ich festhalten, daß dieser Antrag völlig überholt und zum Teil unsinnig ist. Denn in diesem Antrag heißt es: Der Verkehrsminister wird aufgefordert, dafür zu sorgen, daß das Projekt Semmering-Basistunnel zumindest bis zum Vorliegen des Sonderberichtes des Rechnungshofes nicht weiterverfolgt wird. – Dieser Sonderbericht liegt doch schon längst vor! <vocal type="interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.vocal10">
+                     <desc>Zwischenruf des Abg. Dr. Haider.</desc>
+                  </vocal>
+            Deshalb können wir diesen Antrag doch nicht beschließen, das ist doch unsinnig! – Meine Damen und Herren! Sie benützen das nur als Vehikel, um hier wieder ein politisches Spektakel abzuziehen und dagegen sind wir! <kinesic type="applause" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.kinesic8">
+                     <desc>Beifall bei ÖVP und SPÖ.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1715">Abg. Mag. Stadler: Herr Kukacka! Das war intellektuell sehr flach!</note>Herr Kollege! Im zweiten Teil Ihres Antrages heißt es: Der Verkehrsminister wird aufgefordert, dafür zu sorgen, daß die Planung des Nordabschnittes der Süd-Ost-Spange unverzüglich in Auftrag gegeben wird. – Meine Damen und Herren! Sie berufen sich immer auf diesen Rechnungshof-Sonderbericht. Haben Sie ihn denn nicht gelesen? Sie wissen doch genau, daß in diesem Bericht steht, daß zuerst einmal eine vertiefende Wirtschaftlichkeitsprüfung im Hinblick auf diese Süd-Ost-Spange gemacht werden muß und daß die Expertengruppe Semmering die Untersuchungen, die sie angekündigt hat, durchführen muß. Das hat der Herr Verkehrsminister auch angeordnet. Ich möchte Ihnen auch noch sagen, was der Präsident des Rechnungshofes zum Thema Süd-Ost-Spange gesagt hat. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1729">Abg. Mag. Stadler: Der Fiedler sagt: Baustopp!</note> – Hören Sie zu! Er hat gesagt: Eine nicht ernstzunehmende Alternative ist für den Rechnungshofpräsidenten die Süd-Ost-Spange mit Kosten von mehr als 60 Milliarden Schilling. – Jetzt wollen Sie, daß für diese nicht ernstzunehmende Alternative sofort mit der Planung begonnen wird! Und das sollen wir heute beschließen. Meine Damen und Herren! Bei einer solch unseriösen Verkehrspolitik machen wir nicht mit!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.kinesic9">
+               <desc>Beifall bei der ÖVP.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note87">
+               <time when="1998-11-27T19:58:00+01:00">19:58</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note88">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1756" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e618">Weiters zu Wort gemeldet ist Herr Klubobmann Dr. Haider. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note89">
+               <time when="1998-11-27T19:58:00+01:00">19:58</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note90">Abgeordneter Dr. Jörg Haider(Freiheitliche)</note>
+            <u who="#PAD_00490" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1778" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e627">Hohes Haus! Meine Damen und Herren! Ich bin froh, daß Kollege Kukacka uns zugestanden hat, daß die Opposition, wenn ein Rechnungshofbericht vorliegt, zumindest das Recht hat, eine Debatte über diesen Rechnungshofbericht durchzuführen. Wenn Sie unseren Antrag, auf den wir Bezug genommen haben, kritisieren, dann haben Sie, so glaube ich, nicht verstanden, was im Rechnungshofbericht steht. Denn in unserem Antrag haben wir einen Baustopp bis zur Vorlage des Rechnungshofberichtes, den wir beantragt haben, gefordert, weil wir gewußt haben, daß dieses Projekt, so wie es angegangen wird, nur danebengehen kann: Und der Rechnungshof empfiehlt jetzt auch, bis die Dinge geklärt sind, einen Baustopp. Was hindert Sie also jetzt daran, bei unserem Antrag auf Fristsetzung mitzumachen und für den Baustopp dieses abenteuerlichen Unternehmens, das uns schon 3 Milliarden Schilling an Steuergeldern gekostet hat, einzutreten? <kinesic type="applause" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.kinesic10">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Das ist doch das Entscheidende, worum es hier geht! Was hindert Sie daran, Herr Kollege Kukacka, anzuerkennen, daß in den Empfehlungen des Rechnungshofes steht, daß endlich die vertiefte Wirtschaftlichkeitsberechnung für die Süd-Ost-Spange in Angriff genommen werden muß, die schon Verkehrsminister Streicher im Jahre 1991 beauftragt hat? Das heißt: Seit sieben Jahren sollte diese vertiefte Prüfung stattfinden, aber die Minister Klima und Einem haben gesagt beziehungsweise sagen: Wir haben unser Lieblingsprojekt Semmering-Basistunnel, bei welchem wir die bankeneigenen, rotorientierten Baufirmen mit Aufträgen versorgen. Wir haben zwar kein Geld für die Bauwirtschaft und für Arbeitsplätze, aber das ziehen wird durch. Daher darf es keine Alternative geben. <kinesic type="applause" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.kinesic11">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Wir wollen aufzeigen, daß es hier über Alternativen keine Debatte geben darf! 3 Milliarden Schilling wurden bisher in den Sand gesetzt. Sie haben eine Sondersitzung und eine Erklärung der Minister zum Fall Rosenstingl gemacht. Dabei ist es um 120 Millionen Schilling gegangen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1798">Abg. Mag. Stadler: Die wir zurückzahlen!</note>Bei 3 Milliarden Schilling blocken Sie jedoch ab und sagen: Das ist alles nicht wahr, das ist gar nicht so wichtig! Meine Damen und Herren! Kosten von 3 Milliarden Schilling bedeuten, daß Sie den Tunnel in den nächsten drei Jahren nicht bekommen, sondern er frühestens nach zehn Jahren fertig sein wird. Daher müssen Sie in der Zwischenzeit auch die alte Strecke sanieren und umbauen, damit sie für mehr Verkehrsaufkommen geeignet ist. Das heißt: Wir werden doppelt ausbauen müssen. Das ist ein Grab für die Milliarden der Steuerzahler, das Klima und all seine Nachfolger geschaufelt haben. Und darüber wollen wir heute diskutieren. <kinesic type="applause" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.kinesic12">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Die SPÖ hat sich immer gegen solche Debatten gewehrt – egal, ob das die "Lucona" oder die DDSG betraf. Bis Sie der schlechten Handlung oder Behandlung der Steuergelder und des schlechten Umganges mit Steuergeldern überführt waren, haben Sie Kritik nie anerkannt. Im Fall DDSG hat Vranitzky erst dann, als nichts anderes mehr übriggeblieben ist, gesagt: Ich übernehme die politische Verantwortung, daß eine halbe Milliarde die Donau hinuntergegangen ist. – Da hat der Österreicher etwas davon! Wir wollen verhindern, daß noch weitere Milliarden sozusagen in dieses Loch hineininvestiert werden, und daher haben wir diesen Antrag entsprechend gestellt. Darin geht es auch um die Alternativen. Was hindert Sie wirklich, Alternativen zu überlegen? Sie sagen nur, die Süd-Ost-Spange sei nicht in Ordnung. Sie sagen immer, daß die Kärntner Landesregierung in einem Memorandum den Semmering-Basistunnel gefordert hat. – Das stimmt ja alles überhaupt nicht! Ich lese Ihnen den aktuellen Beschluß der Kärntner Landesregierung vom 21. März 1995 vor: Der zuständige Verkehrsreferent der Landesregierung, Grasser, berichtet, daß er den Eindruck gewonnen habe, "daß Verkehrsminister Klima über eine erhöhte Bundesfinanzierung beim Bahnlärmschutz in Kärnten mit sich reden ließe, wenn er von Kärnten volle Unterstützung für die Errichtung des Semmering-Basistunnels bekommen würde." Daraufhin sagte ÖVP-Landesrat Lutschounig, er spreche sich angesichts der schlechten Finanzlage Kärntens gegen jede Mitfinanzierung des Semmering-Basistunnels aus. – Das ist die ÖVP-Meinung. Daraufhin sagt der sozialistische Landeshauptmannstellvertreter Ausserwinkler, daß "die Präsentation der Strecke in den Medien bei der Bevölkerung in den betroffenen Gebieten Aufregung verursacht" habe. Er würde zu einer behutsameren Vorgangsweise raten. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1820">Abg. Mag. Stadler: Da schau her!</note>– Also selbst ein Sozialist ist der Meinung, daß die ganze Semmering-Basistunnel-Geschichte ein bißchen übers Knie gebrochen ist! Die Kärntner Landesregierung weist weiters darauf hin, daß der Semmering-Basistunnel nur in Verbindung mit dem Abschnitt Klagenfurt-Koralmtunnel-Graz der Süd-Ost-Spange verwirklichbar sein wird. Es ist also klar: Die Kärntner wollen den Koralmtunnel, die Anbindung an Graz und die Süd-Ost-Spange haben, weil das für uns auch die ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note93">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1838" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e650">Den Schlußsatz, bitte!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note94">Abgeordneter Dr. Jörg Haider</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note95">fortsetzend</note>
+            <u who="#PAD_00490" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1854" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e657">... günstige Verbindung sein wird, und man beschließt in der Kärntner Landesregierung, daß die Kärntner Landesregierung jedenfalls erwartet, daß der Bund vor dem Bau eines Semmering-Basistunnels die Bestandstrecken in Kärnten ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note96">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1875" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e662">Bitte den Schlußsatz zu Ende bringen!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note97">Abgeordneter Dr. Jörg Haider</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note98">fortsetzend</note>
+            <u who="#PAD_00490" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1890" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e669">Das werde ich wohl noch fertiglesen dürfen. <vocal type="laughter" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.vocal11">
+                     <desc>Heiterkeit.</desc>
+                  </vocal>
+            So schlecht behandelt wird ein Abgeordneter nur vom jeweiligen eigenen Präsidenten!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note99">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1915" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e679">Bitte um den Schlußsatz!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note100">Abgeordneter Dr. Jörg Haider</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note101">fortsetzend</note>
+            <u who="#PAD_00490" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1930" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e686">Die Kärntner Landesregierung erwartet jedenfalls, daß der Bund vor dem Bau eines Semmering-Basistunnels die Bestandstrecken im Kärntner Zentralraum, die ja Zulaufstrecken zum Semmering-Tunnel sein werden, lärmtechnisch saniert.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e688">Also: Vorher sanieren, nachher über den Bau reden! Das ist die Beschlußlage, und das wird der Herr Bürgermeister von Arriach auch einmal verstehen müssen!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.kinesic13">
+               <desc>Beifall bei den Freiheitlichen.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note102">
+               <time when="1998-11-27T20:04:00+01:00">20:04</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note103">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1966" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e699">Weiters zu Wort gemeldet ist Frau Abgeordnete Dr. Moser. – Bitte, Frau Abgeordnete.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note104">
+               <time when="1998-11-27T20:04:00+01:00">20:04</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note105">Abgeordnete Dr. Gabriela Moser(Grüne)</note>
+            <u who="#PAD_02853" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e1988" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e708">Sehr geehrter Herr Präsident! Sehr geehrte Damen und Herren! Längst fällig, aber nicht hier und jetzt, sondern unter seriösen Umständen, ist eine tiefgreifende, umfassende, substantielle Verkehrsdebatte in diesem Parlament. Wir wollen nichts übers Knie brechen à la: Semmering: ja, oder nein, husch-pfusch in einer Nacht- und Nebelaktion.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e710">Vielmehr ist eine umfassende, seriöse Verkehrsdebatte dringend notwendig. Diese steht schon lange aus, diese sind wir schon lange der Bevölkerung schuldig, jenen Menschen, die teilweise täglich im Stau stehen, die teilweise täglich sardinenartig in den öffentlichen Verkehrsmitteln stecken, die teilweise auch darunter leiden, daß Verkehrslärm ihre Lebensqualität massiv beeinträchtigt. Längst fällig ist in diesem Haus auch eine umfassende Debatte über Kostenwahrheit im Verkehrsbereich, in welcher einmal die wirklichen Zahlen auf den Tisch gelegt werden müssen und in welcher deutlich gemacht werden wird, welche Milliardenschäden uns der LKW-Verkehr wirklich verursacht. Das wäre notwendig!</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e712">Jetzt wird natürlich über den Semmering-Basistunnel diskutiert. Der Rechnungshofbericht darüber liegt vor, und dieser attestiert eindeutig die Fehler, die reihenweise in der Planung, in der Prognose, in den Taten, in der Vorgangsweise, in der Art der rechtlichen Verfahren, in der Art der Ausschreibung, in der Art der Erweiterung der Prognosen et cetera et cetera begangen wurden. Es ist dies eine ganze Litanei von Verfehlungen, es ist dies ein Katalog von allen nur möglichen Verfehlungen, die es geben kann, wenn man ein großes Projekt durchzieht.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e714">Der Semmering-Basistunnel ist zum Symbol für eine verfehlte Verkehrspolitik geworden, und mich schmerzt es, daß dieses Symbol ein Schienenprojekt ist. Denn ich würde viel lieber über die Semmering-Schnellstraße diskutieren und darüber, was durch diesen Bau an verfehlten verkehrspolitischen Signalen gesetzt wird.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e716">Der Semmering-Basistunnel ist anscheinend das, woran sich die Geister in Österreich scheiden. Ich persönlich halte den Semmering-Bahntunnel nicht für das Gelbe vom Ei. Auch wir halten eine flächendeckende Erschließung durch eine Eisenbahninfrastruktur für vorrangig vor einem Beschleunigungsprojekt. Der Semmering-Basistunnel als solcher ist aber ein Zeichen dafür, wie politische Mißwirtschaft dazu führen kann, daß Verkehrspolitik zum Debakel wird. Heute und jetzt ist eigentlich die Stunde gekommen, in der man endlich damit aufräumen sollte. Sie haben durchaus recht, wenn Sie sagen, daß der Rechnungshofbericht eine Reihe von Fehlern und Versäumnissen attestiert. Sie haben auch recht, wenn Sie sagen, daß das, was hier betrieben wurde, ein Pfusch ersten Ranges ist. Auch ich sehe die Herangehensweise an dieses Projekt als Totalflop an. Aber ich plädiere dafür, daß wir endlich umfassend diskutieren und daß wir vor allem auch viele Straßenbauprojekte sehr, sehr kritisch hinterfragen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e718">Natürlich braucht das Semmering-Basistunnel-Projekt jetzt eine Nachdenkpause. Ich schließe mich der Empfehlung des Herrn Rechnungshofpräsidenten Fiedler vollinhaltlich an. Wir brauchen zuerst endlich einmal eine seriöse Abwägung aller Alternativen. Erst dann kann entschieden werden. Wir brauchen frühestens dann eine Semmering-Debatte in diesem Haus, wenn der Verfassungsgerichtshof sein Urteil gesprochen hat. Das wird am 18. Dezember wahrscheinlich der Fall sein. Dann ist Zeit, das wirklich umfassend anzugehen. Jetzt findet nur ein reines Schaumschlagen in der Öffentlichkeit statt, daher ist jetzt der falsche Zeitpunkt.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e720">Ich bin zwar aus prinzipiellen, oppositionellen Gründen dafür, daß die Fristsetzung gewährt wird, halte aber eine substantielle Verkehrsdebatte generell für längst überfällig. Dafür müßte es eine Fristsetzung geben!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.kinesic14">
+               <desc>Beifall bei den Grünen.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note106">
+               <time when="1998-11-27T20:08:00+01:00">20:08</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note107">Präsident MMag. Dr. Willi Brauneder</note>
+            <u who="#PAD_02833" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e2034" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e731">Zu Wort ist dazu niemand mehr gemeldet. Damit ist die Debatte geschlossen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e733">Wir kommen nun zur Abstimmung, und ich bitte daher, die Plätze einzunehmen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e735">Wir stimmen nun über den Antrag ab, daß dem Verkehrsausschuß zur Berichterstattung über den Entschließungsantrag der Abgeordneten Mag. Schweitzer und Kollegen eine Frist gesetzt werden möge, nämlich bis zum 15. Dezember 1998.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e737">Wer diesem Antrag beitreten möchte, möge ein entsprechendes Zeichen geben. – Dies ist die Minderheit. Der Antrag ist damit abgelehnt.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e739">Ich darf noch die Mitteilung machen, daß, von jetzt an gerechnet, in etwa 30 Minuten die Präsidialkonferenz stattfinden soll. Das wäre also um 20.40 Uhr.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e741">Nun unterbreche ich die Sitzung im Sinne des Beschlusses der Präsidialkonferenz von heute spätnachmittag bis zum 28. November, 0 Uhr.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e743">Die Sitzung ist unterbrochen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e745">(Die Sitzung wird um 20.09 Uhr unterbrochen und am 28. November 1998 um 0 Uhr wiederaufgenommen.)</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note108">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e2086" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e750">Meine sehr geehrten Damen und Herren! Ich darf Sie bitten, die Plätze einzunehmen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e752">Ich nehme nun, am 28. November 1998 um 0.00 Uhr, zu dem vom zuletzt vorsitzführenden Präsidenten bekanntgegebenen Zeitpunkt die unterbrochene Sitzung wieder auf.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e754">Aufgrund eines in der 149. Sitzung des Nationalrates gemäß § 67 Abs. 1 Z 1 der Geschäftsordnung eingebrachten Verlangens gelangen wir nun zur Abstimmung über den Entschließungsantrag der Abgeordneten Mag. Schweitzer und Genossen betreffend Versagen des Vertrauens gegenüber dem Herrn Bundesminister für Wissenschaft und Verkehr gemäß Artikel 74 Abs. 1 B-VG.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e756">Da zu einem solchen Beschluß des Nationalrates gemäß Abs. 2 der zitierten Verfassungsbestimmung die Anwesenheit der Hälfte der Abgeordneten erforderlich ist, stelle ich dieses erforderliche Quorum ausdrücklich fest.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e758">Es ist hiefür eine namentliche Abstimmung verlangt worden. Da dieses Verlangen von 20 Abgeordneten unterstützt worden ist, ist die namentliche Abstimmung durchzuführen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e760">Ich gehe daher im Sinne dieses Verlangens vor und gebe bekannt, daß für diese Abstimmung jene Stimmzettel zu benützen sind, die sich in den Laden der Abgeordnetenpulte befinden. Sie tragen jeweils den Namen des Abgeordneten sowie die Bezeichnung "Ja" auf den grauen Stimmzetteln beziehungsweise "Nein" auf den rosafarbenen Stimmzetteln. Für die Abstimmung dürfen ausschließlich diese amtlichen Stimmzettel verwendet werden.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e762">Gemäß der Geschäftsordnung werde ich die Abgeordneten namentlich dazu aufrufen lassen, den jeweiligen Stimmzettel in die bereitgestellte Urne zu werfen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e764">Ich ersuche jene Abgeordneten, die für den Mißtrauensantrag der Abgeordneten Mag. Schweitzer und Genossen stimmen, "Ja"-Stimmzettel, und diejenigen, die dagegen stimmen, "Nein"-Stimmzettel in die Urne zu werfen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e766">Ich bitte nun die Schriftführerin, Frau Abgeordnete Reitsamer, mit dem Namensaufruf zu beginnen; sie wird dann durch Frau Abgeordnete Apfelbeck abgelöst werden. – Bitte.</seg>
+            </u>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note109">Über Namensaufruf durch die Schriftführerinnen Reitsamer und Apfelbeck werfen die Abgeordneten die Stimmzettel in die Urne.</note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note110">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e2154" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e773">Danke, Frau Schriftführerin.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e775">Haben alle Aufgerufenen den Stimmzettel abgegeben? – Dies ist offenbar der Fall.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e777">Die Stimmabgabe ist beendet.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e779">Die damit beauftragten Bediensteten des Hauses werden jetzt unter Aufsicht der Schriftführerinnen die Stimmenzählung vornehmen.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e781">Zu diesem Zweck unterbreche ich die Sitzung für einige Minuten.</seg>
+            </u>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note111">Die zuständigen Beamten nehmen die Stimmenzählung vor.</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note112">Die Sitzung wird um 0.09 Uhr unterbrochen und um 0.14 Uhr wiederaufgenommen.</note>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note113">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e2194" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e791">Ich nehme die unterbrochene Sitzung wieder auf und gebe das Abstimmungsergebnis bekannt.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e793">Es wurden 146 Stimmen abgegeben; davon "Ja"-Stimmen: 41, "Nein"-Stimmen: 105.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e795">Der Mißtrauensantrag ist somit abgelehnt.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e797">Gemäß § 66 Abs. 8 der Geschäftsordnung werden die Namen der Abgeordneten unter Angabe ihres Abstimmungsverhaltens im Stenographischen Protokoll verzeichnet.</seg>
+               <note type="comment" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note114">Abweichend von der Bekanntgabe des Stimmverhaltens durch Präsidenten Dr. Fischer lautet das tatsächliche Abstimmungsergebnis wie folgt: abgegebene Stimmen: 145; davon "Ja"-Stimmen 41, "Nein"-Stimmen 104.</note>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e801">Mit "Ja " stimmten die Abgeordneten:</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e803">Apfelbeck, Aumayr;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e805">Bauer Holger, Blünegger, Böhacker, Brauneder;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e807">Dolinschek;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e809">Firlinger, Fischl;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e811">Gaugg, Graf, Grollitsch;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e814">Haider, Haigermoser, Haller, Haupt, Hofmann;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e816">Jung;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e818">Klein, Koller, Krüger, Kurzmann;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e820">Lafer;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e822">Madl, Marolt, Meischberger, Meisinger, Mentil;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e824">Nußbaumer;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e826">Ofner;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e828">Partik-Pablé, Povysil, Preisinger, Pumberger;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e830">Rieß;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e832">Salzl, Scheibner, Schöggl, Schweitzer, Stadler;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e834">Trattner.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e837">Mit "Nein " stimmten die Abgeordneten:</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e839">Ablinger, Achs, Amon, Antoni, Auer;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e841">Bauer Sophie, Binder, Brinek, Brix, Buder, Bures;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e843">Cap;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e845">Dietachmayr, Donabauer;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e847">Eder, Edler, Ellmauer;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e849">Fekter, Feurstein, Fischer, Freund, Frieser, Fuchs;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e851">Gaál, Gartlehner, Gaßner, Grabner, Gradwohl, Gredler, Großruck, Guggenberger;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e853">Hagenhofer, Heinzl, Hlavac, Horngacher, Huber, Hums;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e855">Jäger, Jarolim;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e857">Kaipel, Karlsson, Kaufmann, Keppelmüller, Khol, Kier, Kiermaier, Kiss, Konrad, Kopf, Kostelka, Krammer, Kukacka, Kummerer;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e860">Leikam, Löschnak;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e862">Maderthaner, Maier, Marizzi, Mertel, Morak, Moser Gabriela, Moser Hans Helmut, Moser-Starrach, Motter, Mühlbachler, Müller, Murauer;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e864">Niederwieser, Nowotny, Nürnberger;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e866">Oberhaidinger;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e868">Parfuss, Parnigoni, Pendl, Pittermann, Posch;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e870">Rada, Rasinger, Rauch-Kallat, Reitsamer, Riepl;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e872">Schieder, Schuster, Schwarzenberger, Schwemlein, Seidinger, Sigl, Silhavy, Smolle, Stampler, Steibl, Steindl, Stippel, Stummvoll;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e874">Tegischer, Tichy-Schreder, Trinkl, Tychtl;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e876">Verzetnitsch;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e878">Wabl, Wallner, Wimmer, Wurm;</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e880">Zweytick.</seg>
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e883">Einlauf</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note115">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e2374" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d2e888">Ich gebe noch bekannt, daß in der heutigen Sitzung die Anfrage 5302/J eingelangt ist. Die nächste Sitzung des Nationalrates ist für Freitag, den 4. Dezember 1998, 10 Uhr, in Aussicht genommen. Sie wird auf schriftlichem Wege einberufen werden. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151_d7e2388">Abg. Mag. Stadler: 9 Uhr, Herr Präsident!</note>Ich korrigiere: Wir haben heute in der Präsidiale die ursprüngliche Absicht geändert, und es ist einvernehmlich festgelegt worden, daß die Sitzung am 4. Dezember 1998 nicht um 10 Uhr, sondern um 9 Uhr beginnen wird. Diese Sitzung ist geschlossen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1998-11-27-020-XX-NRSITZ-00151.note117">Schluß der Sitzung:<time when="1998-11-28T00:16:00+01:00">0:16</time>Uhr</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

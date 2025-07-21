@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #covid" xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XXVII. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="sub" xml:lang="de">18. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Donnerstag, 19. März 2020</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XXVII [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Sitting Number 18, Legislative period XXVII, Thursday, 19. March 2020</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="18">18. Sitzung</meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">XXVII. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="18">Sitting 18</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">Legislative period XXVII</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung, Korpuskodierung in TEI und automatische linguistische Annotation</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding and automatic linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="1" xml:lang="de">1 Äußerungen</measure>
+            <measure unit="speeches" quantity="1" xml:lang="en">1 speeches</measure>
+            <measure unit="words" quantity="91" xml:lang="de">91 Wörter</measure>
+            <measure unit="words" quantity="91" xml:lang="en">91 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Plenarsitzung des Nationalrates, Stenographisches Protokoll, 18. Sitzung des Nationalrates der Republik Österreich, Donnerstag, 19. März 2020</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <title type="sub" xml:lang="en">Shorthand record, Sitting Number 18, Legislative period XXVII, Thursday, 19. March 2020</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XXVII/NRSITZ/NRSITZ_00018/fnameorig_798890.html</idno>
+               <date when="2020-03-19">2020-03-19</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="2"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="1"/>
+               <tagUsage gi="note" occurs="8"/>
+               <tagUsage gi="pb" occurs="2"/>
+               <tagUsage gi="seg" occurs="7"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="4"/>
+               <tagUsage gi="u" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="2020-03-19">2020-03-19</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-13">
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018_d2e178" type="debateSection">
+            <gap xmlns:tei="http://www.tei-c.org/ns/1.0" reason="editorial" xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018.gap1">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <pb xmlns:tei="http://www.tei-c.org/ns/1.0" n="2"/>
+            <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="time" xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018.note1">
+               <time when="2020-03-19T18:05:07+01:00">18:05:07</time>
+            </note>
+            <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="time" xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018.note2">Beginn der Sitzung:<time when="2020-03-19T18:05:00+01:00">18:05</time>Uhr</note>
+            <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="chairpersons" xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018.note3">Präsident Mag. Wolfgang Sobotka</note>
+            <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="p" xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018.note4">Präsident Mag. Wolfgang Sobotka Ich darf die 18. Sitzung des Nationalrates eröffnen. Als verhindert gemeldet sind die Abgeordneten Dipl.-Ing. Nikolaus Berlakovich, Hermann Gahr, Kira Grünberg, Ing. Josef Hechenberger, Franz Hörl, Rebecca Kirchbaumer, Andreas Minnich, Dr. Josef Moser, Dipl.-Kffr. (FH) Elisabeth Pfurtscheller, Gabriela Schwarz, Ing. Mag. (FH) Alexandra Tanda, Mag. Karin Greiner, Ing. Markus Vogl, Mag. Hannes Amesbauer, BA, Erwin Angerer, Dr. Reinhard Eugen Bösch, Hermann Brückl, MA, Dipl.-Ing. Gerhard Deimek, Rosa Ecker, MBA, Dr. Susanne Fürst, Mag. Gerald Hauser, Alois Kainz, MMMag. Dr. Axel Kassegger, Herbert Kickl, Walter Rauch, Peter Wurm, Wolfgang Zanger, Mag. Nina Tomaselli, Dr. Helmut Brandstätter, Dipl.-Ing. Karin Doppelbauer, Mag. Felix Eypeltauer, Fiona Fiedler, BEd, Dr. Stephanie Krisper, Mag. Martina Künsberg Sarre, Mag. Gerald Loacker, Dr. Johannes Margreiter, Mag. Beate Meinl-Reisinger, MES, Josef Schellhorn, Yannick Shetty. Zuweisungen Präsident Mag. Wolfgang Sobotka Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung. Die schriftliche Mitteilung hat folgenden Wortlaut: Zuweisungen in dieser Sitzung: zur Vorberatung: Budgetausschuss: Bundesgesetz über die Bewilligung des Bundesvoranschlages für das Jahr 2020 (Bundesfinanzgesetz 2020 – BFG 2020) samt Anlagen (55 d.B.) Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2020 bis 2023 erlassen wird – BFRG 2020-2023 (56 und Zu 56 d.B.) Budgetbegleitgesetz 2020 (71 d.B.) Bundesgesetz, mit dem das Versicherungsaufsichtsgesetz 2016 geändert wird (108 d.B.) 2. Finanz-Organisationsreformgesetz – 2. FORG (110 d.B.) Ausschuss für Wirtschaft, Industrie und Energie: Geldwäschenovelle 2020 (106 d.B.) Bundesgesetz, mit dem das Wirtschaftstreuhandberufsgesetz 2017 geändert wird (107 d.B.)</note>
+            <pb xmlns:tei="http://www.tei-c.org/ns/1.0" n="3"/>
+            <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="p" xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018.note5">Bundesgesetz, mit dem das Bilanzbuchhaltungsgesetz 2014 geändert wird (109 d.B.)</note>
+            <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="speaker" xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018.note6">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018_d7e548" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018_d2e203">Ich weise den Antrag 397/A betreffend das 2. COVID-19-Gesetz dem Budgetausschuss zu.</seg>
+               <seg xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018_d2e205">Ich weise die Anträge 398/A und 399/A der Abgeordneten Leichtfried, Kolleginnen und Kollegen dem Budgetausschuss zu.</seg>
+               <seg xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018_d2e207">Die nächste Sitzung des Nationalrates darf ich für Freitag, den 20. März 2020, 12 Uhr, einberufen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018_d2e209">Die Tagesordnung ergeht auf schriftlichem Wege.</seg>
+               <seg xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018_d2e211">Ich darf weiters bekannt geben, dass hier im Sitzungssaal nach Schluss dieser Sitzung eine Stehpräsidiale, um 19 Uhr eine Sitzung des Immunitätsausschusses sowie im Anschluss daran eine Sitzung des Budgetausschusses stattfinden werden.</seg>
+               <seg xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018_d2e213">Ich danke für Ihre Teilnahme.</seg>
+               <seg xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018_d2e215">Die Sitzung ist geschlossen.</seg>
+            </u>
+            <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="time" xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018.note7">
+               <time when="2020-03-19T18:06:23+01:00">18:06:23</time>
+            </note>
+            <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="time" xml:id="ParlaMint-AT_2020-03-19-027-XXVII-NRSITZ-00018.note8">Schluss der Sitzung:<time when="2020-03-19T18:06:00+01:00">18:06</time>Uhr</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

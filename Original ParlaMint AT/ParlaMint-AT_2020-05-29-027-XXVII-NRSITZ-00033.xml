@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #covid" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XXVII. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="sub" xml:lang="de">33. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Freitag, 29. Mai 2020</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XXVII [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Sitting Number 33, Legislative period XXVII, Friday, 29. May 2020</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="33">33. Sitzung</meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">XXVII. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="33">Sitting 33</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">Legislative period XXVII</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung, Korpuskodierung in TEI und automatische linguistische Annotation</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding and automatic linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="31" xml:lang="de">31 Äußerungen</measure>
+            <measure unit="speeches" quantity="31" xml:lang="en">31 speeches</measure>
+            <measure unit="words" quantity="5613" xml:lang="de">5,613 Wörter</measure>
+            <measure unit="words" quantity="5613" xml:lang="en">5,613 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Plenarsitzung des Nationalrates, Stenographisches Protokoll, 33. Sitzung des Nationalrates der Republik Österreich, Freitag, 29. Mai 2020</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <title type="sub" xml:lang="en">Shorthand record, Sitting Number 33, Legislative period XXVII, Friday, 29. May 2020</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XXVII/NRSITZ/NRSITZ_00033/fnameorig_813382.html</idno>
+               <date when="2020-05-29">2020-05-29</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="67"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="33"/>
+               <tagUsage gi="note" occurs="100"/>
+               <tagUsage gi="pb" occurs="13"/>
+               <tagUsage gi="seg" occurs="70"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="31"/>
+               <tagUsage gi="u" occurs="31"/>
+               <tagUsage gi="vocal" occurs="30"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="2020-05-29">2020-05-29</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-13">
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e178" type="debateSection">
+            <gap reason="editorial" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.gap1">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note1">
+               <time when="2020-05-29T09:17:44+02:00">09:17:44</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note2">Beginn der Sitzung:<time when="2020-05-29T09:17:00+02:00">9:17</time>Uhr</note>
+            <note type="chairpersons" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note3">Präsident Mag. Wolfgang Sobotka</note>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note4">
+               <time when="2020-05-29T09:17:48+02:00">09:17:48</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note5">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e768" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e200">Ich darf die 33. Sitzung des Nationalrates für eröffnet erklären. – Ich freue mich, Sie wieder begrüßen zu dürfen.</seg>
+               <vocal type="laughter" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal1">
+                  <desc>Allgemeine Heiterkeit.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e205">Als verhindert gemeldet sind die Abgeordneten Kira Grünbergund Mag. Christian Ragger.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e207">Einlauf und Zuweisungen</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note6">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e807" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e212">Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen darf ich darauf verweisen, dass gemäß § 23 Abs. 4 der Geschäftsordnung die Mitteilung im Sitzungssaal verteilt wurde.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e214">Die schriftliche Mitteilung hat folgenden Wortlaut:</seg>
+               <gap reason="editorial" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.gap2">
+                  <desc xml:lang="en">Quoted printed matter omited</desc>
+                  <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+               </gap>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e221">Redezeitbeschränkung</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note7">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1418" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e226">Zwischen den Mitgliedern der Präsidialkonferenz wurde Konsens über die Dauer der Debatte erzielt. Gemäß § 57 Abs. 3 Z 2 der Geschäftsordnung wurde folgende Vereinbarung getroffen:</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e228">Jeder Fraktion kommt eine Gesamtredezeit von 10 Minuten zu. Gemäß § 57 Abs. 7 der Geschäftsordnung ist die Redezeit von jenen Abgeordneten, die keinem Klub angehören, auf 5 Minuten beschränkt.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e230">Wir kommen sogleich zur Abstimmung über die dargestellten Redezeiten.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e232">Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. – Das scheint jetzt einstimmig angenommen zu sein.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note8">
+                  <time when="2020-05-29T09:18:54+02:00">09:18:54</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e237">Bericht des Geschäftsordnungsausschusses gemäß § 33 Abs. 6 GOG-NR über den Antrag der Abgeordneten Herbert Kickl, Kolleginnen und Kollegen auf Einsetzung eines Untersuchungsausschusses gemäß § 33 Abs. 1 GOG-NR zur</seg>
+               <pb n="10"/>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e240">Untersuchung der politischen Verantwortung in Zusammenhang mit angstschürender Desinformationspolitik und Machtmissbrauch der schwarz-grünen Bundesregierung zu Covid-19 (COVID19-Untersuchungsausschuss) (2/US / 192 d.B.)</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note9">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1468" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e246">Wir gehen in die Tagesordnung ein.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e248">Auf die mündliche Berichterstattung wurde verzichtet.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e250">Zu Wort gemeldet ist Abgeordneter Einwallner. Bei ihm steht das Wort. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note10">
+               <time when="2020-05-29T09:19:33+02:00">9:19:33</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note11">Abgeordneter Ing. Reinhold Einwallner (SPÖ)</note>
+            <u who="#PAD_24257" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1495" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e258">Herr Präsident! Meine sehr geschätzten Damen und Herren! Wir haben in den letzten Tagen wohl unzählige Male gehört, wie einzigartig diese aktuelle Situation ist und wie einzigartig diese Krise unser Land verändert hat. Zugegeben, es ist schon eine sehr herausfordernde Situation gewesen und eine Situation, in der man wahrscheinlich nicht alles richtig machen kann; das ist uns schon bewusst.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e260">Gleichzeitig gibt es eine Reihe von Fragen, Sachverhalten, die einer Untersuchung wert sind, die man sich schon genauer anschauen sollte. Es gibt einiges, das für einen Untersuchungsausschuss spricht, und wir unterstützen diesen Antrag auf Einsetzung eines Untersuchungsausschusses auch.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e262">Die Haltung der ÖVP gegenüber Untersuchungsausschüssen ist eindeutig: Die ÖVP scheut wie immer Kontrolle wie der Teufel das Weihwasser, aber dass jetzt die – man muss sagen – ehemalige Kontrollpartei, die Grünen, einen ähnlichen Weg gehen und sich verwehren, wenn es um Aufklärung geht, wenn es darum geht, sich genau anzuschauen, was in den letzten Wochen und Monaten passiert ist, das ist schon sehr, sehr bemerkenswert. Es ist bemerkenswert, dass Sie es in den wenigen Monaten, in denen Sie wieder im Parlament sind, schaffen, gleich zwei Mal unter Beweis zu stellen, dass Sie nicht mehr die Kontrollpartei in diesem Haus sind.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic1">
+                  <desc>Beifall bei der SPÖ.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e267">Es ist Ihnen gelungen: Sie haben es unter Beweis gestellt, als Sie versucht haben, den Ibiza-Untersuchungsausschuss möglichst klein zu halten, und jetzt, wenn es darum geht, aufzuklären, was in diesen letzten Wochen und Monaten passiert ist, verweigern Sie sich wieder.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e269">Es gibt schon einige Fragen, die man sich stellen muss. Heute ist er schon einmal genannt worden: der sehr umstrittene und dann eh schnell wieder außer Kraft getretene Ostererlass. Wie es zu so einem Erlass kommen konnte, ist ein Thema, das wir uns gerne genauer anschauen würden. Das ist interessant, wenn man weiß und wenn teilweise öffentlich geworden ist <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal2">
+                     <desc>Zwischenruf der Abg. Steinacker</desc>
+                  </vocal>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal3">
+                     <desc>Gegenruf des Abg. Kickl</desc>
+                  </vocal>
+            , was in den Protokollen dieses Krisenstabs vermittelt wurde, welche Expertinnen und Experten beraten haben – teilweise gab es wohl sehr fragwürdige Kommunikationsvorgangsweisen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e278">Eine Frage ist auch, wie man in Tirol gehandelt hat. In Tirol hat sich sehr, sehr massiv gezeigt, dass das Krisenmanagement alles andere als funktioniert hat. Über die Landesgrenzen hinaus haben wir da wieder Bekanntheit erlangt. Da muss man sich die Frage stellen: Welche Netzwerke stecken da dahinter? Welche Rolle haben die Netzwerke der sehr oft diskutierten Tiroler Adlerrunde in diesem Zusammenhang gespielt? – All diese Fragen, meine Damen und Herren, wären zu klären, aufzuklären und anzuschauen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e280">Meine Damen und Herren, auch die Geschichte mit Herrn Hörl ist ein Teil des Untersuchungsausschussantrages der FPÖ. Ich sage: Das ist aber nicht die wichtigste, glaube ich, da gibt es andere Verstrickungen, denn das Ungeschick des Herrn Hörl ist ja schon fast „Tagespresse“-tauglich: Einmal will er einen Berggipfel in die Luft spren-</seg>
+               <pb n="11"/>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e283">gen und dann schafft er es mit sehr, sehr – wie soll ich sagen? – bemerkenswerten Whatsapp-Nachrichten, dass er österreich- und fast weltweit in den Medien ist.</seg>
+               <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal4">
+                  <desc>Zwischenruf des Abg. Hörl.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e289">Meine Damen und Herren, Kontrolle ist eine der zentralen Aufgaben dieses Hauses, und es wäre gut, wenn wir uns auch in diesem Fall Aufklärung verschaffen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e291">Wie es ausschaut, wird der Antrag heute keine Mehrheit finden. Ich kann Ihnen aber garantieren, dass wir in dieser Frage nicht nachgeben werden. Ich glaube, früher oder später ist es wichtig und notwendig, dass wir uns die entscheidenden Fragen der letzten Wochen und Monate genauer anschauen. – Danke schön.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic2">
+               <desc>Beifall bei der SPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note12">
+               <time when="2020-05-29T09:24:00+02:00">9:24</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note13">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1574" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e302">Zu Wort gemeldet ist Abgeordneter Ottenschläger. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note14">
+               <time when="2020-05-29T09:24:13+02:00">9:24:13</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note15">Abgeordneter Andreas Ottenschläger (ÖVP)</note>
+            <u who="#PAD_83150" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1596" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e311">Herr Präsident! Geschätzte Kolleginnen und Kollegen! Werte Zuseherinnen und Zuseher! Worum geht es? – Es geht um die mögliche Einsetzung eines Untersuchungsausschusses. Was will man hier untersuchen? – Der Herr Kollege hat versucht, es zu skizzieren. Ich möchte gleich ganz konkret auf eine Frage eingehen. Man verlangt „Aufklärung darüber [...], ob der von ihr“ – gemeint ist die Bundesregierung – „betriebene ,Shutdown‘ alternativlos war oder ob mit gelinderen Mitteln insbesondere ökonomische Kollateralschäden minimiert hätten werden können“. Der Antragsteller, Herr Kollege Kickl, hat ja bekanntlich – man muss es an dieser Stelle wiederholen – Mitte März selber harte Maßnahmen und einen Lockdown gefordert <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1604">Abg. Kickl: Da habt ihr noch gelacht!</note> , und jetzt hinterfragt er das. Ich gebe Ihnen die Antwort darauf, warum diese Entscheidung richtig war und warum man eine wesentliche Frage aus diesem Antrag gleich hier und jetzt beantworten kann. Gestern hat ein Simulationsexperte der TU Wien ganz eindeutig dargestellt, dass sich die Zahl der Infizierten vervierfacht hätte, wenn der Lockdown eine Woche später stattgefunden hätte. Am 16. März hat in Österreich der Lockdown zur Eindämmung der Coronaviruspandemie begonnen. Hätte man sieben Tage später reagiert, wäre es in etwa zu einer Vervierfachung der positiv getesteten Fälle gekommen. Darüber hinaus wären knapp über 1 000 Intensivbetten belegt gewesen, erläuterte der Simulationsexperte Niki Popper von der Technischen Universität. <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic3">
+                     <desc>Beifall bei der ÖVP und bei Abgeordneten der Grünen.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1623">Abg. Kickl: Ah, der schon wieder!</note>Auch auf die Frage der Verhältnismäßigkeit, die Sie immer hinterfragen, gibt es eine Antwort – er hat die Situation rückblickend simuliert –: Wären Geschäfte, Schulen und andere Einrichtungen wesentlich früher geöffnet worden, wie Sie es dann immer im Nachhinein verlangt haben, wäre zum damaligen Zeitpunkt die Kurve rasant in die Höhe gegangen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1636">Abg. Belakowitsch: So wie in Dänemark!</note> Des Weiteren, meine Damen und Herren, soll den Zuseherinnen und Zusehern dargestellt werden, was bereits an begleitender Kontrolle vorhanden ist: zum einen ein umfangreiches Berichtswesen der Regierung an den Nationalrat, das etabliert wurde, und zum anderen ein ganz wesentliches Element und Kontrollinstrument von uns im österreichischen Parlament, nämlich der Rechnungshof, der angekündigt hat, umfangreiche Prüfungen einzuleiten. Der Rechnungshof ist eine unabhängige Kontrolleinrichtung. Die Präsidentin ist auf zwölf Jahre gewählt, kann nicht mehr wiedergewählt werden, ist also einzig und allein <pb n="12"/>
+            der Aufklärung verpflichtet. Diese Einrichtung und diese Berichte sollten wir uns anschauen, bevor wir eine politische Bewertung vornehmen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1649">Ruf bei der FPÖ:... in vier Jahren!</note> Deswegen, meine Damen und Herren, ist es uns nur recht, zu sagen: Wir brauchen so einen Untersuchungsausschuss zu diesem Zeitpunkt nicht, und deshalb werden wir ihn ablehnen.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic4">
+               <desc>Beifall bei der ÖVP und bei Abgeordneten der Grünen.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note20">
+               <time when="2020-05-29T09:27:00+02:00">9:27</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note21">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1675" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e339">Zu Wort gemeldet ist Abgeordnete Fürst. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note22">
+               <time when="2020-05-29T09:27:44+02:00">9:27:44</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note23">Abgeordnete Dr. Susanne Fürst (FPÖ)</note>
+            <u who="#PAD_01567" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1696" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e347">Sehr geehrter Herr Präsident! Sehr geehrte Damen und Herren! Ja, die Freiheitliche Partei hat sich dazu entschlossen, einen Antrag auf Einsetzung eines Untersuchungsausschusses zur „Untersuchung der politischen Verantwortung in Zusammenhang mit angstschürender Desinformationspolitik und Machtmissbrauch der schwarz-grünen Bundesregierung zu Covid-19“ einzubringen. – Dazu haben wir uns entschlossen. Man muss einmal den Titel vorlesen, damit man weiß, worum es geht, denn auch der Vorredner hat jetzt schon bewiesen: Man hört mit dieser ständigen Angst- und Panikmache nicht auf. Man braucht ja nur zu schauen, dass auch im Saal noch die Masken getragen werden, vor allem auf der Regierungsbank – das ist so lächerlich, dass man dafür einfach keine Worte mehr finden kann. <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic5">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Es geht in diesem Untersuchungsausschuss darum, die verheerenden Folgen der Coronamaßnahmen der Bundesregierung aufzuklären – für die Familien, für die Gesellschaft, für die Wirtschaft, für den Rechtsstaat. Es ist längst überfällig, sich mit dem Prozess der Entscheidungsfindung der Bundesregierung näher zu befassen, denn wir alle erinnern uns an das unheilvolle Quartett aus Bundeskanzler, Vizekanzler, Gesundheitsminister und Innenminister, das Tag für Tag in seinen Pressekonferenzen aufgetreten ist und im täglichen Crescendo das totale Coronainferno angekündigt hat. Stellvertretend dafür zitiere ich nur eine der apokalyptischen und angsteinflößenden Äußerungen von Bundeskanzler Kurz: „Wir werden auch in Österreich bald die Situation haben, dass jeder irgendjemanden kennt, der an Corona verstorben ist. Und je weniger restriktiv wir agieren, desto schlimmer wird es, aber vor allem auch, desto länger dauert es.“ – Und dann ist die Rede von 100 000 Toten gewesen. Die Bevölkerung hat zu diesem Zeitpunkt ja noch nicht gewusst, wie wenig zuverlässig die Zahlen der Bundesregierung sind, dass man dem überhaupt keinen Glauben schenken darf. Mit Aussagen wie diesen – zu Hunderten getätigt – wurde der Boden aufbereitet, wurde die Bevölkerung weichgekocht und in Angst und Panik versetzt, und so die Akzeptanz des Shutdowns herbeigeführt. Man hatte durch die Steigerung der Anzahl der Tests das Ansteigen der Infiziertenkurve ganz gut im Griff, so konnte man sich die Bestätigung für die Maßnahmen holen. Nach der Phase eins, der Verhängung dieser Maßnahmen, ist man ja in Phase zwei übergetreten, in die stetige Eigenlobphase, begleitet natürlich auch von den gleichgeschalteten Medien: Alle Studien würden belegen, dass die Maßnahmen richtig sind, dass sie absolut richtig sind, dass sonst der Kollaps kommt. Bitte, der Kollaps ist jetzt eh da, der wirtschaftliche Kollaps und der gesellschaftliche und rechtsstaatliche Kollaps sind eh da. <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic6">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal5">
+                     <desc>Zwischenruf des Abg. Schallmeiner.</desc>
+                  </vocal>
+            Und über alle Studien, die das bestätigen würden, zu reden, genau dazu dient der Untersuchungsausschuss. Her mit diesen Studien, her mit den Grundlagen! Was ge- <pb n="13"/>
+            nau waren die Grundlagen für den Shutdown und für die Maßnahmen? Was ist mit der angeblichen Alternativlosigkeit? Was ist mit der Verhältnismäßigkeit? Haben Sie jeden Tag überprüft, ob die Maßnahmen verhältnismäßig sind? Das muss man nämlich bei derartig tiefen Grundrechtseingriffen, die solche Folgen anrichten, tagtäglich machen und nicht alle zwei Wochen, wie die Bundesregierung immer gesagt hat. <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic7">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Was Mitte März vielleicht noch verhältnismäßig war für zwei Wochen, maximal bis Anfang April, war eben dann schon nicht mehr verhältnismäßig. Man hat aber offensichtlich nicht Tag für Tag evaluiert, man hat sich nur Tag für Tag an dem Machtgewinn berauscht. Doch: „Bedenke stets, dass alles vergänglich ist“, das ist ein Zitat von Sokrates. Sie haben gestern nach dem Zitat von Klubobmann Kickl bewiesen, dass Sie von Sokrates nicht viel verstehen. Philosophie und Mathematik hängen ja auch sehr eng zusammen, wie dann der Sokrates-Schüler Platon bewiesen hat. Bedenkt bitte, es ist alles vergänglich! Es ist Ihr Machtgewinn, die Verordnungsermächtigung, Corona – alles ist vergänglich, und es ist eigentlich schon vorbei. Sie müssen jetzt wieder loslassen. Der Gesundheitsminister schiebt jeden Tag Meldungen raus, begleitend zum Plenum: Das Virus ist noch unter uns, es ist noch nicht vorbei! – Ja, es ist noch unter uns, es sind viele, viele Krankheiten unter uns, ansteckende, nicht ansteckende. Das Leben ist manchmal lebensgefährlich, wir haben alle keine Garantie auf ein gesundes Leben bis ins hohe Alter. <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic8">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Man darf aber nicht ältere Menschen und Kinder insbesondere – das sind vulnerable Gruppen – in Angst und Panik versetzen, die Älteren wegsperren, isolieren und die Kinder tagtäglich jetzt in den Schulen Torturen aussetzen. Das ist eine Gemeinheit! <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic9">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Und man sieht auch, Sie reagieren stets nur auf großen Druck; dabei sollten Sie eigentlich froh sein, wenn tagtäglich schon Lockerungen vorgenommen werden können. Aber ohne Druck geht gar nichts, und das lässt wiederum Rückschlüsse auf Ihre Motive zu. Da gehört vieles untersucht. Ich darf Ihnen nur mitteilen, dass es auch in Ihrem Vorbildland Italien schon intensive Diskussionen gibt, wie es dort zu dem Lockdown kam. Diesen müssen Sie sich auch stellen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1744">Abg. Ottenschläger: Österreich ist ein Vorbild!</note> Ich gehe davon aus, dass der Antrag heute noch abgelehnt wird, aber der Tag der Abrechnung kommt. Wenn man sich von den Motiven der Bundesregierung überzeugen möchte und davon, dass es hier eigentlich nur noch um Schikanen geht und nicht mehr um sinnvolle Maßnahmen, dann lese man sich bitte die Regelungen für die Hochzeiten durch – ein kleiner Tipp.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic10">
+               <desc>Beifall bei der FPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note25">
+               <time when="2020-05-29T09:33:00+02:00">9:33</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note26">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1770" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e388">Zu einer tatsächlichen Berichtigung hat sich Abgeordneter Ralph Schallmeinerzu Wort gemeldet. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note27">
+               <time when="2020-05-29T09:33:55+02:00">9:33:55</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note28">Abgeordneter Ralph Schallmeiner (Grüne)</note>
+            <u who="#PAD_05676" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1797" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e396">Zur tatsächlichen Berichtigung: Meine Vorrednerin, Kollegin Fürst, hat gesagt, dass hier in Österreich gleichgeschaltete Medien sozusagen das Ganze begleitet haben. Ich möchte tatsächlich berichtigen: Die Medienlandschaft in Österreich ist nicht gleichgeschaltet, und zitiere dazu Wikipedia <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal6">
+                     <desc>Zwischenrufe bei der FPÖ</desc>
+                  </vocal>
+                  <kinesic type="signal" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic11">
+                     <desc>Präsident Sobotka gibt das Glockenzeichen</desc>
+                  </kinesic>
+                  <pb n="14"/>
+            „Gleichschaltung bezeichnet im politisch-kulturellen Zusammenhang eine Strategie, die besonders in der Zeit des Nationalsozialismus zentrale Bedeutung erlangte.“ <vocal type="laughter" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal7">
+                     <desc>Heiterkeit bei der FPÖ.</desc>
+                  </vocal>
+            „Ab den 1930er Jahren bezeichnete das Wort den Prozess der Vereinheitlichung des gesamten gesellschaftlichen und politischen Lebens in der Machteroberungsphase im NS-Staat.“ <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1826">Abg. Hauser: Das ist peinlich!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1839">Abg. Belakowitsch: Das ist keine tatsächliche Berichtigung!</note> „Ziel war es, bis 1934 den als Zerrissenheit verstandenen Pluralismus in Staat und Gesellschaft aufzuheben und eine Diktatur mit nur einem Machtzentrum zu errichten.“ Entschuldigung, liebe Kolleginnen und Kollegen von der FPÖ, aber gleichgeschaltet ist die österreichische Medienlandschaft bei Weitem nicht! – Danke schön.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic12">
+               <desc>Beifall bei den Grünen und bei Abgeordneten der ÖVP.</desc>
+            </kinesic>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1858">Abg. Kickl: Zur Geschäftsordnung!</note>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note32">
+               <time when="2020-05-29T09:34:00+02:00">9:34</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note33">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1879" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e426">Zu Wort gelangt Abgeordnete Blimlinger. – Bitte.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1887">Abg. Kickl: Zur Geschäftsordnung! – Sie machen da oben, was Sie wollen! Wir sind nicht in St. Pölten!</note>
+            <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal8">
+               <desc>Weitere Zwischenrufe bei der FPÖ.</desc>
+            </vocal>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note35">
+               <time when="2020-05-29T09:35:00+02:00">9:35:00</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note36">Abgeordnete Mag. Eva Blimlinger (Grüne)</note>
+            <u who="#PAD_05649" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1916" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e440">Sehr geehrter Herr Präsident! Sehr geehrte Kolleginnen und Kollegen! Sehr geehrte Zuschauer und Zuschauerinnen! Noch ein Wort zur Gleichschaltung: Das traf ja eher auf Ihre Parteiobmann-Vorgänger zu, indem man einfach alles kauft und dann gleichschaltet – womit wir gleich bei der Frage der Ausschüsse sind, denn der aktuelle Ausschuss, der Ibiza-Ausschuss, befasst sich genau mit solchen Fragen. Es nimmt schon etwas wunder, wenn Abgeordneter Kickl in seiner Rede gestern mehrfach von Klarheit, Wahrheit und Transparenz gesprochen hat. Wenn das einmal in Ihrer Partei, der FPÖ, zum Durchbruch käme, wären wir da, glaube ich, schon ganz glücklich. Aber wenn man sich das anschaut: Alle Untersuchungsausschüsse in den letzten 15 Jahren – und ich zähle sie jetzt auf: Eurofighter, Korruption, Hypo, noch einmal Eurofighter, Verfassungsschutz und Terrorismusbekämpfung und jetzt Ibiza – sind eigentlich immer in einem sehr engen Zusammenhang mit der FPÖ gestanden. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1921">Ruf bei der FPÖ:Deshalb wird es Zeit, dass wir die Grünen einmal untersuchen!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1935">Abg. Deimek: Erzählen Sie etwas von Glawischnig und Novomatic!</note>Ich finde es schon sehr interessant, die Einsetzung eines Untersuchungsausschusses für etwas zu verlangen, das auf eine Medienberichterstattung zurückgeht. Sie trauen ja sonst den Medien auch nicht, warum hier? <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1945">Ruf bei der FPÖ:Warum traut ihr euch nicht?</note>Es gibt angeblich ein Protokoll oder kein Protokoll, wie die Medien das behaupten. Sie wissen sehr genau, dass der Antrag eigentlich schon in formeller Hinsicht verfehlt ist, weil nach der Verfassung ein Untersuchungsausschuss erst nach dem Abschluss einer Sache einzurichten ist. Es ist kein Enddatum des Untersuchungszeitraumes angeführt, und Sie wissen, Corona ist nicht vorbei. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1958">Abg. Kickl: Das ist die letzte Bazille!</note>Wenn die Abgeordnete Fürst von Schikanen spricht, dann verstehe ich das nicht: Was hätte die Bundesregierung, was hätten wir davon, Schikanen zu machen, damit die Leute nicht ins Bad gehen können? Das können sie ab heute. Das Wetter ist nicht danach. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1971">Abg. Amesbauer: ..., das ist keine Schikane?</note> Der Bundesregierung und uns geht es um die Gesundheit der Menschen. <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic13">
+                     <desc>Beifall bei den Grünen und bei Abgeordneten der ÖVP.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e1991">Abg. Amesbauer: Blödsinn!</note>
+                  <note type="comment" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note43">Abg. Wurm macht mehrmals die sogenannte Scheibenwischerbewegung.</note> Da wir alle nicht gewusst haben, wie es geht, war es besser, vorsichtig zu sein, als wie in New York Massengräber zu haben. Wir haben die Zahl der Intensivbetten Gott sei Dank nicht <pb n="15"/>
+            ausschöpfen müssen, und genau das ist der Punkt. Deswegen werden wir auch keinem Untersuchungsausschuss zustimmen.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic14">
+               <desc>Beifall bei den Grünen und bei Abgeordneten der ÖVP.</desc>
+            </kinesic>
+            <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal9">
+               <desc>Zwischenrufe bei der FPÖ.</desc>
+            </vocal>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note44">
+               <time when="2020-05-29T09:37:00+02:00">9:37</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note45">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2031" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e479">Herr Abgeordneter Klubobmann Kickl hat sich zur Geschäftsordnung zu Wort gemeldet. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note46">
+               <time when="2020-05-29T09:37:52+02:00">9:37:52</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note47">Abgeordneter Herbert Kickl (FPÖ)</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note48">zur Geschäftsbehandlung</note>
+            <u who="#PAD_35520" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2058" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e490">Herr Präsident! Danke, dass ich wenigstens jetzt das Wort bekomme. Ich hätte es schon vorhin bekommen sollen, wenn Sie nach der Geschäftsordnung vorgehen würden.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e492">Ich möchte die Gelegenheit aufgrund des Redebeitrags des Kollegen von den Grünen nützen, Sie darauf aufmerksam zu machen, dass Sie deshalb Präsident dieses Hohen Hauses sind, weil Sie dafür zu sorgen haben, dass die Geschäftsordnung in diesem Nationalrat eingehalten wird. Und dazu gehört es auch, dass sich jemand, der an das Rednerpult hinausgeht, um eine tatsächliche Berichtigung zu machen, dann an die Regeln der tatsächlichen Berichtigung hält und nicht eine Vorlesung aus Wikipedia abhalten kann, ohne dass Sie ihm das Wort entziehen.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic15">
+                  <desc>Beifall bei der FPÖ.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e497">Ich weiß nicht, wofür wir Sie dort oben sitzen haben, Herr Präsident! Das muss einmal in dieser Klarheit auch gesagt sein.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e499">Im Übrigen bedanke ich mich bei dem Kollegen, denn es war sehr erhellend zu hören, was Gleichschaltung bedeutet. Und gerade das sollte Sie sehr, sehr - -</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note49">
+               <time when="2020-05-29T09:38:00+02:00">9:38</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note50">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2091" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e507">Was haben Sie zur Geschäftsordnung zu sagen, Herr Klubobmann? Was ist die Geschäftsordnungsdebatte? <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic16">
+                     <desc>Beifall bei Abgeordneten von ÖVP und Grünen.</desc>
+                  </kinesic>
+            Wenn man im Glashaus sitzt, soll man nicht mit Steinen werfen, Herr Klubobmann! <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal10">
+                     <desc>Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+                  <kinesic type="signal" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic17">
+                     <desc>Der Präsident gibt das Glockenzeichen.</desc>
+                  </kinesic>
+            Zur Aufklärung: Die Worterteilung an die Frau Abgeordnete war bereits getätigt, und nach Beendigung ihrer Rede habe ich Sie sofort zur Geschäftsbehandlung zu Wort kommen lassen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2117">Abg. Deimek: Sie sind nicht mehr im Innenministerium!</note> Zu Wort gemeldet ist Frau Abgeordnete Yildirim. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note52">
+               <time when="2020-05-29T09:39:20+02:00">9:39:20</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note53">Abgeordnete Mag. Selma Yildirim (SPÖ)</note>
+            <u who="#PAD_02339" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2143" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e529">Schauen wir einmal, ob das hält, sonst halte ich es. <note type="speaker_action" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note54">Die Rednerin stellt ein Foto auf das Rednerpult, auf dem Bundeskanzler Kurz und Bundesministerin Schramböck mit Mitgliedern der sogenannten Tiroler Adlerrunde zu sehen sind.</note> Sehr geehrter Herr Präsident! Hohes Haus! Sehr geehrte Zuseherinnen und Zuseher! Als Tiroler Abgeordnete war ich ganz besonders betroffen – betroffen vom Umgang der Bundesregierung mit der Coronakrise. <pb n="16"/>
+            Es gab sehr viel Verwirrung, Verunsicherung, Angst, Wut und Spott, den wir unmittelbar zu spüren bekommen haben. Es sind Fehlentscheidungen getroffen worden, Fehlentscheidungen, die Menschenleben gekostet haben, die die Gesundheit vieler Menschen gekostet haben, eine Sozial- und Wirtschaftskrise verursacht haben und Österreich und ganz besonders Tirol sehr viel Spott, Kritik und einen Imageschaden gebracht haben. Das kann uns nicht gleichgültig sein, daher ist es wichtig, diesen Untersuchungsgegenstand weit zu halten. Für mich persönlich ist es auch wichtig, die ersten Stunden der Entscheidung und die Entscheidungsgründe genau anzusehen. Wer waren denn die Expertinnen und Experten der ersten Stunde? Waren das einflussreiche Seilbahner, Touristiker? Ich frage mich, wie es zu derart fatalen Fehlentscheidungen kommen konnte. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2159">Abg. Hörl: Die Frau Rendi-Wagner ...!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2169">Ruf bei der SPÖ:Was ist mit ...?</note> Ich halte hier ein Plakat in die Kamera <note type="comment" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note57">auf das vorhin beschriebene Foto zeigend</note> , auf dem Herr Bundeskanzler Kurz und Wirtschaftsministerin Schramböck mit Mitgliedern der Tiroler Adlerrunde abgebildet sind. Für die, die nicht wissen, was Tiroler Adlerrunde bedeutet: Das sind die einflussreichsten Industriellen, Unternehmerinnen und Unternehmer, die ganz gerne Forderungen an die Politik stellen, dafür aber sehr großzügig sind. Mitglieder dieser Tiroler Adlerrunde haben der ÖVP über 1 Million Euro gespendet. Ich möchte wissen: Waren das Einflüsterer, waren Seilbahner und Touristiker bei der Entscheidungsfindung Einflüsterer? <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic18">
+                     <desc>Beifall bei der SPÖ sowie des Abg. Brandstätter.</desc>
+                  </kinesic>
+            Waren jene Experten der ersten Stunde, die die Regierung beraten haben, Unfallchirurgen, die Skiurlauber behandeln, oder waren es Virologen und Virologinnen? – Spannende Fragen, die wichtig sind. In diesem Hohen Haus wurden heute interessante Aussagen getätigt, die ich teilweise zur Gänze unterstreichen kann. Es wurde davon geredet, dass der Eindruck in der Bevölkerung der ist, dass Leute nicht nach Expertise, nach Können und Wissen angestellt oder befördert werden, sondern nach Parteinähe und Parteizugehörigkeit – und das, sehr geehrte Damen und Herren, wollen wir nicht, das muss aufhören. <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic19">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+            Der Umgang mit Gästen, der Umgang mit den Mitarbeiterinnen und Mitarbeitern, der Umgang mit der österreichischen Bevölkerung kann so nicht hingenommen werden. Mir geht es jetzt gar nicht mehr in erster Linie um die Fehler, die passiert sind, denn Fehler passieren, vor allem bei so einer unerwarteten Krise. Mich stört der Umgang mit der Krise, und ich will diese Fehlerquellen genauestens anschauen und analysieren können, um sie in Zukunft zu vermeiden, denn wir wissen, uns kann eine nächste Krise bevorstehen. Das, was derzeit passiert, darf in dieser Form nicht wieder vorkommen. Haben wir wirklich alles richtig gemacht? Kann man das wirklich so bezeichnen? Sollte man tatsächlich Gras über die Sache wachsen lassen? War die Art und Weise, wie man – ich zitiere da Herrn Abgeordneten Hörl – Tirol „geleert“ hat, tatsächlich richtig? Ist es fair, jetzt die ganze Verantwortung auf die Polizeibeamtinnen, Polizeibeamten abzuwälzen, auf die Behörden abzuwälzen? Wo hat die verantwortliche Politik Fehler gemacht? Wo hat sie die falschen Expertisen hergenommen? – Dieser Umgang muss angeschaut werden, damit wir das für die Zukunft verbessern, und dafür stehen wir als SPÖ, sehr geehrte Damen und Herren! <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic20">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+            Daher werden wir diesen Antrag auf Einsetzung eines Untersuchungsausschusses unterstützen. Uns ist es wichtig, die Vorfälle rund um das Krisenmanagement auf Bundesebene genau anzuschauen, ohne Wenn und Aber. Die politische Verantwortung muss geklärt und die notwendigen Konsequenzen müssen daraus gezogen werden.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic21">
+               <desc>Beifall und Bravorufe bei der SPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note58">
+               <time when="2020-05-29T09:44:00+02:00">9:44</time>
+            </note>
+            <pb n="17"/>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note59">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2221" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e568">Zu Wort gemeldet ist Abgeordneter Hoyos-Trauttmansdorff. – Bitte.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2230">Abg. Leichtfried: Dass der Kollege Hörl ..., ist mir neu!</note>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note61">
+               <time when="2020-05-29T09:44:23+02:00">9:44:23</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note62">Abgeordneter Douglas Hoyos-Trauttmansdorff (NEOS)</note>
+            <u who="#PAD_02343" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2253" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e578">Herr Präsident! Hohes Haus! Natürlich ist es so, dass in dieser Krise sehr viele Entscheidungen zu fällen waren, und natürlich ist es auch so – und das ist, glaube ich, jedem hier klar –, dass in dieser Situation Fehler passieren können und dass manche Entscheidungen vielleicht nicht so gut abgewägt sind. Da bin ich gleich bei diesem Antrag der FPÖ, der ja genau auf diese Entscheidungsgrundlagen eingehen will, und es gibt da sehr viele Dinge, die wir uns anschauen müssen. Der Ostererlass wird erwähnt, und es wird auch die Entscheidungsgrundlage rund um diese Aussage des Bundeskanzlers erwähnt: Na ja, wir wollen, dass die Leute Angst haben, wenn sie mit ihren Großeltern Kontakt haben. – Wenn man sich diese Protokolle anschaut, dann sieht man, dass sich noch viele, viele andere Fragen stellen, insbesondere bei den Protokollen aus dem Gesundheitsministerium. Es war ja das vierte Treffen, in dem diese Aussage gefallen ist, die medial auch sehr groß geworden ist, interessant, insbesondere nämlich, wenn man sich die vorigen Protokolle auch anschaut, die der ersten, der zweiten und der dritten Sitzung, in denen die Stimmung noch ganz, ganz anders war, bei denen man gemerkt hat, dass die Experten wirklich auf Expertenebene diskutieren und dass es ihnen wirklich um den Inhalt und die inhaltliche Grundlage geht, um die wissenschaftlichen Grundlagen, die die Basis bilden. Dann kommt als Erster in der dritten Sitzung Herr Radjaby dazu und dann in der vierten Sitzung auch der Herr Bundeskanzler, und plötzlich dreht sich alles. Dann haben wir die Situation, dass der Herr Bundesminister für Gesundheit angekündigt hat – vor Wochen! –, dass er diese Protokolle alle offenlegen wird, dass er offenlegen wird, was im Gesundheitsministerium passiert. Bis heute ist keines dieser Protokolle offengelegt und keines dieser Protokolle einsehbar. <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic22">
+                     <desc>Beifall bei den NEOS und bei Abgeordneten der FPÖ.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2267">Abg. Wurm: Typisch Grüne!</note>Die Grünen haben sich immer als die Transparenzpartei bezeichnet. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2281">Abg. Wurm: ... vertuschen!</note> Wir haben es gestern erst gehört, die Grünen haben auf Plakaten groß stehen gehabt: Der Anstand würde die Grünen wählen. – Der Anstand würde jetzt diese Protokolle veröffentlichen und nicht immer nur Dinge ankündigen und dann wochenlang nichts tun. <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic23">
+                     <desc>Beifall bei den NEOS und bei Abgeordneten der FPÖ.</desc>
+                  </kinesic>
+            Dasselbe gilt natürlich auch für die Protokolle aus dem Innenministerium. Gerade die Protokolle des Innenministeriums belegen, dass es großteils nicht darum gegangen ist, sich in der Krise anzuschauen: Was passiert da jetzt eigentlich genau, wie können wir die Gesundheit der Österreicherinnen und Österreicher schützen?, sondern dass es im Gegenteil darum ging: Wie können wir die Minister, wie können wir den Innenminister, wie können wir die Regierung gut dastehen lassen? – Auch das gehört untersucht. Da bin ich jetzt genau bei diesem Antrag. Das sind die Punkte, die auch in diesem Antrag der FPÖ abgebildet sind, aber wir erleben täglich neue Dinge, die darin leider nicht abgebildet sind. Wir haben gestern ein höchst unprofessionelles Verhalten der Bundesregierung beim Budget erlebt, und dieses Budget ist in der ganzen Coronakrise ein maßgeblicher Teil – dementsprechend sind solche Dinge mit zu untersuchen. Wir haben hier das Thema Cofag nicht drinnen: Wie schaut der Unterausschuss aus? Welche Maßnahmen müssen wir hier in einem Untersuchungsausschuss darüber hinaus untersuchen? Wir wissen nicht, wie es mit dem Härtefallfonds ausschaut. Was sind da <pb n="18"/>
+            genau die Grundlagen? – All das ist in diesem Antrag auf Einsetzung eines Untersuchungsausschusses nicht drinnen. Wir haben den Härtefallfonds und rund um die Abwicklung des Härtefallfonds MMM nicht drinnen – in den letzten Tagen bekannt geworden, eine Gesellschaft eines ÖVP-nahen Wirtschaftsbündlers, der alle Daten der Abwicklung bekommt. – All das sind Dinge, die leider in diesem Antrag nicht erwähnt sind. Ich bin mir auch sicher, dass in den nächsten Wochen und Monaten bei diesem unprofessionellen Krisenmanagement der Regierung noch ganz, ganz viele weitere Dinge aufkommen werden, und die müssen wir alle in einen Untersuchungsausschuss einmal reinpacken, damit wir wirklich für Aufklärung sorgen können, damit wir wirklich dafür sorgen können, dass Transparenz herrscht und dass wir in den nächsten Krisen – das muss ja das Ziel jedes Untersuchungsausschusses sein – besser aufgestellt sind, besser gewappnet sind, um auch in Zukunft solche Krisen besser überstehen können.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic24">
+               <desc>Beifall bei den NEOS und bei Abgeordneten der FPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note65">
+               <time when="2020-05-29T09:48:00+02:00">9:48</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note66">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2315" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e604">Zu Wort gemeldet ist Frau Abgeordnete Belakowitsch. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note67">
+               <time when="2020-05-29T09:48:39+02:00">9:48:39</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note68">Abgeordnete Dr. Dagmar Belakowitsch (FPÖ)</note>
+            <u who="#PAD_35468" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2336" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e613">Herr Präsident! Zum Herrn Kollegen Schallmeiner, der sich hier als Berufsantifaschist aufgeführt hat: Ich möchte schon darauf hinweisen, dass Sie immer dann rausgehen, wenn es Ihnen passt. Wenn es bei Ihrem Koalitionspartner einen Abgeordneten wie Abgeordneten Gerstl gibt, der sich hierherstellt und Henry Ford zitiert – es haben übrigens schon CDU-Abgeordnete aufgrund eines solchen Handelns zurücktreten müssen –, dann sind die Berufsantifaschisten plötzlich ganz leise und ganz ruhig versteckt in der letzten Reihe, meine Damen und Herren. Daher ist das, was Sie hier heute abgegeben haben, einfach ein Schauspiel gewesen, das unehrlich war. Es geht nur darum, dass Sie von den Grünen keine Kontrolle wollen, weil Sie in diesen ganzen Skandalen genauso mit drinhängen!</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic25">
+                  <desc>Beifall bei der FPÖ.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e618">Es ist der grüne Gesundheitsminister mit dem Verordnungs- und Erlasschaos – so etwas hat es in dieser Zweiten Republik überhaupt noch nie gegeben! –, der sich vor die Kameras hinstellt und der Bevölkerung in seinen gefühlten 300 Pressekonferenzen überhaupt etwas anderes sagt, als er in seinen Verordnungen stehen hat. – Das ist das erste Chaos, und Sie wollen nicht, dass wir das aufdecken.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e620">Sie wollen wahrscheinlich aber auch nicht in Tirol aufdecken, denn auch in Tirol sind die Grünen ganz dick drinnen, gemeinsam mit dem Herrn Landeshauptmann, mit dem Gesundheitslandesrat, meine Damen und Herren. Und genau das gehört aufgedeckt! Es gehört auch aufgedeckt, wo der Bund da mit dem Land Tirol in gemeinsamer Agenda unterwegs gewesen ist. Was hat denn der Bund gemacht? Wo hat denn der Herr Gesundheitsminister in Tirol nicht hingeschaut? Wo hat der Herr Innenminister in Tirol eigentlich nicht hingeschaut? Wenn wir uns zurückerinnern: Der allererste Fall von Corona in Österreich war auch in Tirol, in Innsbruck. Damals wurde gehandelt, weil dort der Bezirkshauptmann gehandelt hat. Da ist sofort die Polizei vor einem Hotel gestanden, es durfte, laut Aussage des Innenministers, niemand mehr raus. Wir wissen alle aus dem ORF, es hat nicht ganz geklappt, aber es wurde versucht.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e622">In Ischgl ist nichts passiert. Am 5. März erfährt Österreich aus Island, dass 14 Gäste aus fünf verschiedenen Hotels in Ischgl infiziert sind. Wo war der Innenminister? Wo ist auch nur ein einziges Hotel gesichert worden? Wo war denn Ihr Gesundheitsminister? Wo hat denn der Gesundheitsminister seine eigenen Verordnungen kontrolliert? Wo</seg>
+               <pb n="19"/>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e625">war denn die Tiroler Landeshauptmann-Stellvertreterin von den Grünen? – Niemand hat gehandelt, denn da ging es um ganz etwas anderes. Das war in dem Moment egal, denn es war nur wichtig, dass die Lifte weiterlaufen, dass das Geschäft in Tirol weitergeht, da man zu dem Zeitpunkt ja schon geahnt hat, dass das Ostergeschäft wahrscheinlich eher ausfallen wird. Das wollen Sie jetzt schützen. Sie wollen hier einen Skandal schützen, und vor allem Sie von der ÖVP haben es dringend notwendig, denn Sie hängen ja noch viel, viel tiefer drinnen als die Grünen, die ja in Wahrheit nur als Anhängsel dazugerutscht sind.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic26">
+                  <desc>Beifall bei der FPÖ.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e630">Herr Schallmeiner glaubt jetzt aber, er muss Ihnen die Mauer machen, meine Damen und Herren. Wenn Herr Ottenschläger hier herauskommt und sagt, wir brauchen keinen Untersuchungsausschuss, das soll sich zuerst der Rechnungshof anschauen: Also da muss ich Ihnen schon sagen, Herr Kollege, wenn der Rechnungshof das kontrolliert, dann haben wir in fünf Jahren die Protokolle daliegen – und dann sollen wir einen Untersuchungsausschuss machen? Das ist ein klassisches Auf-die-lange-Bank-Schieben, das ist klassisches Kübeln. Sie wollen es also nicht, Sie wollen keine Aufklärung darüber haben, weil Sie ganz genau wissen, da ist alles schiefgelaufen, was hätte schieflaufen können.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e632">Während Sie und Ihre Bundesregierung, Ihr Bundeskanzler, Ihr Innenminister, die Österreicherinnen und Österreich tagtäglich mit erhobenem Zeigefinger gemahnt haben, hat es offensichtlich in dieser Republik einige gegeben, die es sich richten konnten – und das waren die in Ischgl. Auf der anderen Seite hat man sich überlegt: Wie können wir denn die Österreicher überhaupt dazu bringen, dass Sie all dem folgen, was wir wollen? Es ist auch noch wichtig, diese Rolle in dem Untersuchungsausschuss zu untersuchen. Da geht es nämlich um die Angstparole, das Angstschüren dieses Bundeskanzlers von der ersten Minute an. Das ist das, was der Bundeskanzler gemacht hat.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic27">
+                  <desc>Beifall bei der FPÖ sowie des Abg. Vogl.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e638">Ich habe ihm schon vor Wochen gesagt, noch lange bevor die Protokolle überhaupt geleakt wurden, dass er nur mit Angst arbeitet. Und es geht ja schon weiter: Kollege Ottenschläger stellt sich hierher und erzählt irgendetwas von irgendwelchen Kurven, die dann anders geendet hätten. Sie erzählen eine Geschichte. Zu dieser Geschichte haben Sie aber keinen einzigen Beleg. <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal11">
+                     <desc>Zwischenruf des Abg. Ottenschläger.</desc>
+                  </vocal>
+            – Ja, hören Sie mit diesen Kurven auf, hören Sie doch endlich auf, den Leuten Angst zu machen! <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic28">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Das ist im Kopf des Bundeskanzlers geboren. Der Bundeskanzler braucht eine Kurve, damit er den Leuten sagen kann, ihr werdet alle sterben, eure Omas werden sterben, Hunderttausende werden sterben, jeder kennt jemanden. <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal12">
+                     <desc>Zwischenrufe der Abgeordneten Gabriela Schwarz und Deimek.</desc>
+                  </vocal>
+            Das ist im Kopf des Bundeskanzlers geboren und sonst nirgends. Das ist eine Auftragsarbeit auf Basis völlig falscher Zahlen. <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal13">
+                     <desc>Zwischenruf der Abg. Steinacker.</desc>
+                  </vocal>
+            – Ich weiß nicht, warum Sie sich so aufregen. Stimmen Sie dem Untersuchungsausschuss zu, wenn eh alles gut ist!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note69">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2418" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e659">Den Schlusssatz bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note70">Abgeordnete Dr. Dagmar Belakowitsch</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note71">fortsetzend</note>
+            <u who="#PAD_35468" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2433" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e666">Wenn eh alles in Ordnung ist, liebe ÖVP, wie Sie das jetzt darlegen, dann ist es ja kein Problem: Machen wir einen Untersuchungsausschuss, dann haben Sie sofort das Alibi für den Bundeskanzler, dass er alles richtig gemacht hat.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic29">
+               <desc>Beifall bei der FPÖ und bei Abgeordneten der SPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note72">
+               <time when="2020-05-29T09:54:00+02:00">9:54</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note73">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2460" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e677">Zu Wort gemeldet ist Abgeordneter Loacker. – Bitte.</seg>
+            </u>
+            <pb n="20"/>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note74">
+               <time when="2020-05-29T09:54:07+02:00">09:54:07</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note75">Abgeordneter Mag. Gerald Loacker (NEOS)</note>
+            <u who="#PAD_83121" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2487" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e687">Herr Präsident! Hohes Haus! Ja, ich glaube, was in Wikipedia nicht ausführlich genug erklärt ist, ist die mittelbare Bundesverwaltung, denn das Epidemiegesetz liegt in der Verantwortung des Gesundheitsministers, und der tut so, als ob ihn das gar nichts anginge, was die Tiroler Behörden gemacht haben, die in mittelbarer Bundesverwaltung sein Gesetz umsetzen. Wenn die dort schnarchen, dann muss er ihnen etwas anweisen, was sie zu tun haben. Im Zuschauen liegt aber seine Kraft: Zuschauen, weiterschauen, wegschauen, das hat Anschober gemacht, das sollte man sich einmal in einem Untersuchungsausschuss, wenn der dann kommt, mit anschauen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e689">Anschober ist auch als Landesrat in schwarz-grüner Zusammenarbeit geübt, er ist gewöhnt, sich dort anzuhängen, wo die ÖVP ihn haben will. So hat er zum Beispiel Beschaffungsvorgänge an das Rote Kreuz delegiert. Dort kann man sie nicht kontrollieren, dort kann sie der Rechnungshof nicht kontrollieren, dort kann sie das Parlament nicht kontrollieren: Wir wissen nicht, wie dort die Geldflüsse waren, wer da vielleicht mit einem Lieferanten, einem Anbieter netter als mit einem anderen war. Mir sind Unternehmer bekannt, die angeboten haben und nicht einmal eine Antwort vom Roten Kreuz bekommen haben, obwohl sie selbst in China produzieren. Da ist also einiges schiefgelaufen, und die Verantwortung liegt da natürlich ganz klar auf Bundesebene. Wenn wir einmal aufgearbeitet haben, was es alles zu untersuchen gibt, dann kann man diesen Untersuchungsausschuss einsetzen.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic30">
+               <desc>Beifall bei den NEOS sowie bei Abgeordneten von SPÖ und FPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note76">
+               <time when="2020-05-29T09:55:00+02:00">9:55</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note77">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2517" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e700">Zu Wort gemeldet ist Abgeordneter Ottenschläger. – Bitte.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2525">Abg. Leichtfried: Wieso kommt jetzt nicht der Kollege Hörl?!</note>
+            <vocal type="laughter" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal14">
+               <desc>Heiterkeit bei Abgeordneten von SPÖ und FPÖ.</desc>
+            </vocal>
+            <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal15">
+               <desc>Zwischenrufe bei ÖVP und FPÖ.</desc>
+            </vocal>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note79">
+               <time when="2020-05-29T09:56:02+02:00">09:56:02</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note80">Abgeordneter Andreas Ottenschläger (ÖVP)</note>
+            <u who="#PAD_83150" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2561" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e717">Hohes Haus! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2569">Abg. Leichtfried: Der Ottenschläger war doch schon!</note>– Ja, darf ich noch einmal? <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2582">Abg. Leichtfried: Bitte, gerne!</note> – Danke schön, sehr, sehr lieb. <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal16">
+                     <desc>Zwischenruf des Abg. Deimek.</desc>
+                  </vocal>
+            Vielleicht nur noch ein paar Punkte zur Aufklärung der Argumentation: Zum Ersten, vor allem an die Zuseherinnen und Zuseher gerichtet: Untersuchungsausschüsse sind zur Untersuchung bestimmter abgeschlossener Vorgänge im Bereich der Vollziehung des Bundes vorgesehen. <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal17">
+                     <desc>Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+            Sie wissen, dass wir noch mittendrin sind und gewisse Maßnahmen nach wie vor notwendig sind <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal18">
+                     <desc>Zwischenruf des Abg. Scherak</desc>
+                  </vocal>
+            , auch wenn Sie es nicht hören wollen, aber das ist Tatsache. <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic31">
+                     <desc>Beifall bei der ÖVP.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal19">
+                     <desc>Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+            Zum Zweiten: Weil ich vorhin argumentiert habe, dass sich ein wesentliches Kontrollinstrument dieses Hauses dieser Sache annimmt, darf ich vielleicht Kollegen Hoyos von den NEOS, einen Oppositionsabgeordneten, zitieren: „Ich bin froh, dass sich der Rechnungshof als Kontrollorgan des Parlaments der Sache annimmt“. Weiters: „Gerade in Krisenzeiten, in denen jeder Euro gebraucht wird, sind Transparenz und sorgfältiger Umgang mit Steuergeld wichtiger denn je.“ <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal20">
+                     <desc>Zwischenrufe der Abgeordneten Deimek und Belakowitsch.</desc>
+                  </vocal>
+            Meine Damen und Herren, vielleicht nur ein Satz zur gestrigen Diskussion und deshalb, weil Sie sich über Bürokratie beschweren: Genau deswegen braucht es auch eine entsprechende Dokumentation, die Sie immer so kritisieren, genau deswegen braucht es auch diese mühsamen Formulare. <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal21">
+                     <desc>Zwischenruf des Abg. Deimek.</desc>
+                  </vocal>
+            Und jetzt komme ich noch einmal zur Kritik betreffend Tirol, die Sie jetzt eingebracht haben: Tirol hat bereits eine unabhängige Kommission eingesetzt <pb n="21"/>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal22">
+                     <desc>Zwischenruf der Abg. Belakowitsch</desc>
+                  </vocal>
+            ,die untersuchen wird, welche Vorgänge unter welchen Umständen vonstattengegangen sind und ob es dort und da auch Fehler gegeben hat. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2646">Abg. Belakowitsch: Dort und da, da und dort!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal23">
+                     <desc>Weitere Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+            Zur angekündigten Prüfung durch den Rechnungshof darf ich hier die Frau Präsidentin zitieren: Sie möchte „den Härtefallfonds“ prüfen, „aber eben auch andere Themen wie die Bedeutung der Verfügbarkeit und der Nutzung von Gesundheitsdaten, das Zusammenwirken zwischen Behörden von Bund und Ländern und eben insbesondere die Krisenfestigkeit von Pflegeeinrichtungen. Viele weitere Prüfungen werden folgen [...]. Ziel der Prüfungen ist es, Verbesserungen für die Zukunft zu erreichen.“ <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal24">
+                     <desc>Zwischenruf der Abg. Belakowitsch.</desc>
+                  </vocal>
+            – Und das sollte doch unser aller gemeinsames Ziel sein: dass wir aus dieser Krise lernen und dass wir es in Zukunft im Sinne der Gesundheit der Österreicherinnen und Österreicher noch besser machen können.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic32">
+               <desc>Beifall bei der ÖVP und bei Abgeordneten der Grünen.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note84">
+               <time when="2020-05-29T09:58:00+02:00">9:58</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note85">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2685" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e778">Abgeordneter Hörl ist zu einer tatsächlichen Berichtigung zu Wort gemeldet. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2696">Abg. Leichtfried: Na also!</note>Abgeordneter Hörl weiß, was eine tatsächliche Berichtigung ist. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note87">
+               <time when="2020-05-29T09:59:20+02:00">09:59:20</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note88">Abgeordneter Franz Hörl (ÖVP)</note>
+            <u who="#PAD_35489" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2720" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e789">Sehr geehrter Präsident! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2728">Abg. Leichtfried: Jetzt hören wir das Flüstern des Hörl!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal25">
+                     <desc>Weitere Zwischenrufe bei der SPÖ.</desc>
+                  </vocal>
+            Abgeordnete Belakowitsch hat gemeint, in Tirol hätte niemand gehandelt – ganz genau war das nicht zu verstehen <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal26">
+                     <desc>Zwischenrufe bei der FPÖ</desc>
+                  </vocal>
+            – und es wäre nur um Geld und Gier gegangen, so in die Richtung haben Sie das gesagt. <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal27">
+                     <desc>Zwischenruf des Abg. Scherak.</desc>
+                  </vocal>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2759">Abg. Belakowitsch: Was wollen Sie ...!</note> Ich berichtige tatsächlich: Am Samstag, dem 7., haben wir den ersten Fall in Ischgl gehabt. <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal28">
+                     <desc>Neuerlicher Zwischenruf der Abg. Belakowitsch.</desc>
+                  </vocal>
+            Am Montag wurde gehandelt, am Montag wurden die Après-Ski-Lokale in Ischgl für die restliche Saison gesperrt. Am Mittwoch um 17 Uhr gab der Landeshauptmann bekannt, dass das Skigebiet Ischgl für 14 Tage gesperrt ist. <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal29">
+                     <desc>Zwischenruf der Abg. Belakowitsch.</desc>
+                  </vocal>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2784">Abg. Kickl: Diese Vorsitzführung ist ein Witz!</note>Am Donnerstag und Freitag haben wir die Wintersaison beendet, und dies obwohl in keinem anderen Skigebiet außer in Ischgl und St. Anton, weder im Zillertal noch im Achental noch im Pitztal, in keinem der Skigebiete, ein einziger Coronafall bekannt war. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2798">Abg. Loacker: Also wie kann man nur ...?!</note>Wir haben durch diese mutige Entscheidung des Herrn Landeshauptmannes 150 000 Gäste <vocal type="interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.vocal30">
+                     <desc>neuerliche Zwischenrufe der Abgeordneten Belakowitsch und Kickl</desc>
+                  </vocal>
+            , deren Anreise für Samstag und Sonntag geplant war, daran gehindert, anzureisen und weitere 100 000 Gäste, die im Land waren, hinausbegleitet. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2817">Abg. Loacker: Herr Präsident ...!</note> Nehmen Sie das zur Kenntnis!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.kinesic33">
+               <desc>Beifall bei der ÖVP.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note94">
+               <time when="2020-05-29T10:00:00+02:00">10:00</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note95">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2843" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e838">Zu Wort ist niemand mehr gemeldet. Die Debatte ist geschlossen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e840">Wünscht der Berichterstatter ein Schlusswort? – Das ist nicht der Fall.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e842">Bevor wir in den Abstimmungsvorgang eingehen, darf ich die Klubs fragen, ob sie eine kurze Sitzungsunterbrechung wünschen. – Ja.</seg>
+               <pb n="22"/>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e845">Ich unterbreche die Sitzung für wenige Minuten.</seg>
+            </u>
+            <note type="procedural" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note96">Die Sitzung wird um 10.01 Uhr unterbrochen und um 10.04 Uhr wieder aufgenommen.</note>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note97">
+               <time when="2020-05-29T10:04:22+02:00">10:04:22</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note98">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d7e2887" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e855">Ich nehme die unterbrochene Sitzung wieder auf.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e857">Wir gelangen nun zur Abstimmung über den Antrag des Geschäftsordnungsausschusses, seinen Bericht 192 der Beilagen zur Kenntnis zu nehmen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e859">Ich bitte jene Damen und Herren, die hiezu ihre Zustimmung geben, um ein entsprechendes Zeichen. – Das ist die Mehrheit, angenommen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e861">Die Tagesordnung ist erschöpft.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e863">Die nächste Sitzung des Nationalrates berufe ich für 10.05 Uhr ein, das ist gleich im Anschluss an diese Sitzung. Die Tagesordnung ergeht auf schriftlichem Wege.</seg>
+               <seg xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033_d2e865">Diese Sitzung ist geschlossen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note99">
+               <time when="2020-05-29T10:05:05+02:00">10:05:05</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-05-29-027-XXVII-NRSITZ-00033.note100">Schluss der Sitzung:<time when="2020-05-29T10:05:00+02:00">10:05</time>Uhr</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

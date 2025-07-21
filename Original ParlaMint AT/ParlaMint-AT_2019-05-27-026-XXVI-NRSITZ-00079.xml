@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #reference" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XXVI. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="sub" xml:lang="de">79. Sitzung des Nationalrates der Republik Österreich, XXVI. Gesetzgebungsperiode, Montag, 27. Mai 2019</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XXVI [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Sitting Number 79, Legislative period XXVI, Monday, 27. May 2019</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="79">79. Sitzung</meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVI" n="26">XXVI. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="79">Sitting 79</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVI" n="26">Legislative period XXVI</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung, Korpuskodierung in TEI und automatische linguistische Annotation</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding and automatic linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="21" xml:lang="de">21 Äußerungen</measure>
+            <measure unit="speeches" quantity="21" xml:lang="en">21 speeches</measure>
+            <measure unit="words" quantity="4133" xml:lang="de">4,133 Wörter</measure>
+            <measure unit="words" quantity="4133" xml:lang="en">4,133 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Plenarsitzung des Nationalrates, Stenographisches Protokoll, 79. Sitzung des Nationalrates der Republik Österreich, Montag, 27. Mai 2019</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <title type="sub" xml:lang="en">Shorthand record, Sitting Number 79, Legislative period XXVI, Monday, 27. May 2019</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XXVI/NRSITZ/NRSITZ_00079/fnameorig_782436.html</idno>
+               <date when="2019-05-27">2019-05-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="19"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="11"/>
+               <tagUsage gi="note" occurs="61"/>
+               <tagUsage gi="pb" occurs="9"/>
+               <tagUsage gi="seg" occurs="47"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="21"/>
+               <tagUsage gi="u" occurs="21"/>
+               <tagUsage gi="vocal" occurs="4"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="2019-05-27">2019-05-27</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-13">
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e178" type="debateSection">
+            <gap reason="editorial" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.gap1">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note1">
+               <time when="2019-05-27T16:18:09+02:00">16:18:09</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note2">Beginn der Sitzung:<time when="2019-05-27T16:18:00+02:00">16:18</time>Uhr</note>
+            <note type="chairpersons" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note3">Zweite Präsidentin Doris Bures</note>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note4">
+               <time when="2019-05-27T16:18:11+02:00">16:18:11</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note5">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e687" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e200">Meine sehr geehrten Damen und Herren, ich eröffne nun die 79. Sitzung des Nationalrates.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e202">Einlauf und Zuweisungen</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note6">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e708" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e207">Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e209">Die schriftliche Mitteilung hat folgenden Wortlaut:</seg>
+               <gap reason="editorial" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.gap2">
+                  <desc xml:lang="en">Quoted printed matter omited</desc>
+                  <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+               </gap>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note7">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e958" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e219">Weiters weise ich die Anträge 850/A bis 852/A jeweils dem Verfassungsausschuss, die Anträge 853/A und 854/A jeweils dem Gesundheitsausschuss, den Antrag 855/A dem Ausschuss für Arbeit und Soziales, den Antrag 856/A dem Budgetausschuss und den Antrag 857/A dem Ausschuss für Familie und Jugend zu.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e221">Fristsetzungsanträge</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note8">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e983" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e227">Vor Eingang in die Tagesordnung teile ich noch mit, dass die Abgeordneten Mag.a Meinl-Reisinger, Kolleginnen und Kollegen beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 56/A der Abgeordneten Dr.in Griss, Kolleginnen und Kollegen betreffend „ein Bundesgesetz, mit dem das Parteiengesetz 2012 und das Geschäftsordnungsgesetz 1975 geändert wird“, eine Frist bis 1. Juli 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e229">Ferner liegt das von fünf Abgeordneten gemäß § 43 Abs. 3 der Geschäftsordnung gestellte Verlangen vor, eine kurze Debatte über diesen Fristsetzungsantrag durchzuführen. Diese kurze Debatte wird sogleich stattfinden. Die Abstimmung über diesen Fristsetzungsantrag wird nach Schluss dieser Debatte erfolgen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e231">Weiters teile ich mit, dass Frau Abgeordnete Mag.a Meinl-Reisinger beantragt hat, dem Verfassungsausschuss zur Berichterstattung über die Anträge 832/A, 828/A, 833/A, 834/A und 835/A jeweils eine Frist bis 1. Juli 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e233">Außerdem teile ich mit, dass Herr Abgeordneter Dr. Zinggl beantragt hat, dem Verfassungsausschuss zur Berichterstattung über die Anträge 848/A und 849/A jeweils eine Frist bis 1. Juli 2019 zu setzen.</seg>
+               <pb n="7"/>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e236">Diese Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung zur Abstimmung gebracht werden.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note9">
+                  <time when="2019-05-27T16:20:55+02:00">16:20:55</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e241">Kurze Debatte über einen Fristsetzungsantrag</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note10">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1024" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e246">Damit gehen wir in die Debatte ein.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e248">Das Wort erhält Frau Klubvorsitzende Mag.a Meinl-Reisinger. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note11">
+               <time when="2019-05-27T16:21:06+02:00">16:21:06</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note12">Abgeordnete Mag. Beate Meinl-Reisinger, MES (NEOS)</note>
+            <u who="#PAD_83122" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1051" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e256">Frau Präsidentin! Sehr geehrte Kolleginnen und Kollegen! Werte Zuschauerinnen und Zuschauer! Ich habe es heute schon gesagt: Das ist jetzt ein Test für uns alle, wie ernst wir es mit einer neuen politischen Kultur meinen. Wenn Sie es mir erlauben, Frau Präsidentin, möchte ich eingangs schon kurz sagen, dass das ein Moment ist, bei dem mir sehr bewusst ist, dass er einzigartig ist und dass so etwas erstmalig in der Geschichte der Zweiten Republik vorkommt. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1059">Abg. Steinacker: Hoffentlich einmalig!</note>Ich bemerke auch die Unruhe. Ich kann mir vorstellen, dass diese Unruhe jetzt nicht nur hier im Haus, sondern auch draußen herrscht. Wir haben nicht mitgestimmt, wir haben die Gründe dafür dargelegt. Ich glaube nicht, dass dies der Zeitpunkt ist, um für noch mehr Verunsicherung und vielleicht Chaos zu sorgen, aber ich möchte etwas auch klar sagen, weil ich das ja auch gefragt wurde: Unsere Verfassung sieht natürlich für solche Fälle klare Regeln vor, was zu geschehen hat. Ich glaube aber, es besteht ein großer Unterschied zwischen einer Theorie, was gemäß unserer Verfassung zu geschehen hat, und der tatsächlichen Praxis. Das ist etwas, das sich viele Menschen außerhalb dieses Hauses, die in den vergangenen Tagen Zurufe getätigt haben, mitunter vielleicht nicht ganz vorstellen können, nämlich dass zwischen Theorie und Praxis ein großer Unterschied liegt. Ich habe aber großes Vertrauen in die Umsicht, in die Besonnenheit unseres Bundespräsidenten, jetzt die nötigen Schritte zu setzen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1073">Abg. Steinacker: Er hat’s nicht einmal geschafft, die SPÖ umzustimmen!</note> Vielleicht ist heute eine Tür zugegangen, zugefallen, zugeschmissen worden, eine Tür zu einer Politik, die unsauber war, die auch antipatriotisch war, die jedenfalls populistisch war, die sehr stark den Applaus für populäre Maßnahmen gesucht hat, anstatt das Richtige zu tun. Vielleicht ist heute eine Tür zu einer Politik, die schon viel zu lange die eigene Macht und das eigene Parteikalkül über das Wohl des Landes stellt, zugeschmissen worden, eine Tür zu einer Politik, die gerne hinter verschlossenen Türen Entscheidungen trifft und im Verborgenen agiert, wenn es beispielsweise darum geht, Parteifinanzen nicht offenzulegen. Vielleicht ist auch eine Tür zu einer Politik zugeschmissen worden, die danach getrachtet hat, aus jeder Machtposition den bestmöglichen Vorteil für die eigene Partei und die eigenen Leute herauszuholen. In dieser Krise steckt eine Chance. Wir können eine neue Tür aufmachen, eine neue Tür zu einer verantwortungsvollen Politik, zu einer transparenten Politik, einer Politik, die den Menschen da draußen ein klares Signal sendet und sagt: Wir haben verstanden! Wir müssen uns selbst kontrollieren, wir müssen es uns zumuten, dass wir transparent sind! Wir müssen zulassen, dass wir kontrolliert werden! Ich glaube fest daran, dass es jetzt endlich Zeit für diese neue Art der Politik ist, für ein neues Österreich, das im Übrigen auch weltoffen bleibt, das proeuropäisch bleibt, das nicht Menschen gegeneinander ausspielt, das die Menschenwürde, die Würde eines jeden Einzelnen und einer jeden Einzelnen in den Mittelpunkt stellt, das auch klar sagt, dass wir in die Zukunft schauen müssen, um nötige Reformen für die nächste Gene- <pb n="8"/>
+            ration auf den Weg zu bringen, ohne aber einzelne Bevölkerungsgruppen gegeneinander auszuspielen. <note type="inquietude" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note15">Anhaltende Unruhe im Saal.</note> Ich verstehe, ich kann empathisch nachvollziehen, dass Sie jetzt gerade sehr unruhig sind. <vocal type="interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.vocal1">
+                     <desc>Zwischenruf der Abg. Krisper.</desc>
+                  </vocal>
+            Ich bedaure sehr, dass genau das passiert ist, vor dem ich gewarnt habe, dass es jetzt Unsicherheit gibt, dass es um viele Fragen, vielleicht sogar um Personalspekulationen geht, aber nicht um die Inhalte, die nötig sind, um unser Land - -</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note16">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1105" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e276">Entschuldigen Sie, Frau Klubvorsitzende! – Meine sehr geehrten Damen und Herren Abgeordneten, ich würde Sie wirklich ersuchen, den Lärmpegel ein wenig zu senken und der Rednerin Aufmerksamkeit zu schenken. – Bitte, Frau Abgeordnete.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note17">Abgeordnete Mag. Beate Meinl-Reisinger, MES</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note18">fortsetzend</note>
+            <u who="#PAD_83122" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1121" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e284">Danke, Frau Präsidentin! Es geht nicht um die Aufmerksamkeit für mich, es geht um die Aufmerksamkeit für diese Themen, die es für ein wirklich neues Österreich braucht. Allem voran braucht es für den Rechnungshof die Möglichkeit, wirklich Einschau zu halten, wirklich zu kontrollieren, wie die Parteifinanzen ausschauen. Ich möchte das ganz kurz erklären, weil ich glaube, dass draußen niemand weiß, wie das denn so ist. Wir als Parteien sind verpflichtet, dem Rechnungshof unsere Parteifinanzen in einem Rechenschaftsbericht offenzulegen. De facto können wir dort aber Fantasiezahlen hinschreiben, und alles, was der Rechnungshof tun kann, ist, mehr oder weniger zu sagen, dass das, was vorgelegt wurde, numerisch richtig, nachvollziehbar ist. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1132">Abg. Rosenkranz: Na ja, ganz so ist es nicht!</note> Der Rechnungshof kann nicht in unsere Bücher hineinschauen und sagen, dass diese Zahlen, die gemeldet wurden, die wir veröffentlichen, tatsächlich stimmen. Das ist doch hanebüchen, meine sehr geehrten Damen und Herren! Das ist doch zahnlos, das ist doch kraftlos, das ist doch eine feige Politik, die sich vor Kontrolle fürchtet! <kinesic type="applause" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.kinesic1">
+                     <desc>Beifall bei den NEOS.</desc>
+                  </kinesic>
+            Deshalb stellen wir diesen Antrag, damit der Rechnungshof wirklich umfassende Prüfkompetenzen erhält. Wir haben aber noch andere Fristsetzungsanträge eingebracht, um den Test durchzuführen, um zu zeigen: Wir Politikerinnen und Politiker sind nicht so! Es geht um ein Antragspaket für saubere Politik, allem voran: keine Regierungsinserate bis zur Nationalratswahl. Es soll eben nicht möglich sein, dass man das Amt parteipolitisch für den eigenen Vorteil missbraucht. Auch das wollen wir beschließen, und zwar ehestmöglich. Zweiter Punkt: Straftatbestand illegale Parteienfinanzierung. Meine sehr geehrten Damen und Herren, wenn die Strafen so lasch sind, dass offensichtlich niemand ein Problem damit hat – niemand vielleicht nicht, aber einige haben kein Problem damit –, sich über dubiose Kanäle vorbei am Gesetz zu finanzieren, dann brauchen wir einen Straftatbestand illegale Parteienfinanzierung. Vielleicht ist das die einzige Sprache, die die Herrschaften verstehen. Weiterer Punkt: Wir brauchen natürlich ein Parteiengesetz, das es auch ermöglicht, die Bünde, die Vereine, die Vorfeldorganisationen miteinzubeziehen. Um auch das noch einmal zu erklären: Die Finanzen einer Partei sind das eine, aber insbesondere bei den etablierten Parteien ist es seit Jahrzehnten so, dass es Vorfeldorganisationen gibt, dass es Teilorganisationen gibt, dass es regionale Organisationen gibt, dass es nahestehende Vereine gibt, und natürlich funktioniert über diese Organisationen die Finanzierung. Das ist mehr als nur ein Körberlgeld, die übernehmen ja dann unter Umständen auch Kosten für Veranstaltungen, für Wahlwerbeveranstaltungen, für Plakate – wer weiß? Das alles ist nicht Teil der Parteifinanzen und wird nicht offengelegt. Da bleibt ein großer Teil im Dunklen, und auch damit muss Schluss sein. Last, but not least möchte ich Folgendes sagen: Wenn man die gesetzliche Wahlkampfkostenobergrenze um fast das Doppelte überschreitet und dann eine Strafe zu <pb n="9"/>
+            zahlen hat, die man sozusagen aus der Portokasse begleicht, dann ist das ganz offensichtlich keine Sanktion, die wehtut. Ich sehe nicht ein, wieso jeder Unternehmer, jede Kleingewerbetreibende alles transparent machen, offenlegen muss, den ganzen Rechnungsabschluss offenlegen muss, sich von der Finanz kontrollieren lassen muss und dann, wenn er oder sie auch nur eine Kleinigkeit falsch macht, beinhart bestraft wird – dann kommt sofort eine Strafe von mehreren Tausend Euro, die ihm wehtut, er wird sozusagen niedergeknüppelt. Aber die Parteien hier im Haus, die sich nicht an die Gesetze halten, haben keine Sanktionen zu befürchten oder solche, die sie nicht schmerzen. Daher – noch einmal –: Die Tür zur alten Politik, die teilweise auch menschenverachtend war, ist zugeschlagen. Machen wir eine neue Tür auf für ein neues Österreich, das transparent ist, das weltoffen ist, das proeuropäisch ist und das in die Zukunft denkt! – Vielen herzlichen Dank.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.kinesic2">
+               <desc>Beifall bei den NEOS.</desc>
+            </kinesic>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1162">Abg. Jarolim: Das war aber schon sehr schnippisch jetzt!</note>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note21">
+               <time when="2019-05-27T16:30:00+02:00">16:30</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note22">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1182" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e306">Als Nächster zu Wort gemeldet: Herr Abgeordneter Mag. Wolfgang Gerstl. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note23">
+               <time when="2019-05-27T16:30:38+02:00">16:30:38</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note24">Abgeordneter Mag. Wolfgang Gerstl (ÖVP)</note>
+            <u who="#PAD_67199" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1207" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e314">Sehr geehrte Frau Präsidentin! Hohes Haus! Ja, meine Vorrednerin hat über die vorherige Debatte gesprochen – da könnte man natürlich sagen, das ist ein Missbrauch, aber ich glaube, die Situation ist so einmalig, dass es wirklich notwendig ist, noch einmal darüber zu reden. Daher sage ich: Frau Meinl-Reisinger, es war richtig, dass Sie jetzt auch Worte zu dem vorhergegangenen Vorgang gefunden haben. Ja, es ist eine Situation, die in der Zweiten Republik einmalig ist, und Sie haben es richtig gesagt: Die Verfassung sieht alle Möglichkeiten dazu vor, doch die Praxis wird nicht so einfach. Der Herr Bundespräsident hat jetzt eine Person zu finden, die er mit der Regierungsbildung beauftragt, und diese Person hat danach eine neue Regierung zu bilden. Ich kann mir nicht vorstellen, dass das innerhalb weniger Stunden funktioniert, aber es wird Eile geboten sein, und es ist sehr, sehr dringend, dass wir hier Kontinuität und Stabilität sicherstellen. Lassen Sie mich ein Wort des Herrn Bundespräsidenten noch ansprechen: Er hat von Vertrauen gesprochen. Es geht um das Vertrauen in die Personen, die gewählt wurden, es geht um das Vertrauen, das die Menschen den Personen entgegengebracht haben, die nun in diesem Nationalrat sitzen. Und ich glaube nicht, dass es der Wunsch all der Menschen, die die Abgeordneten gewählt haben, die heute dem hier zugestimmt haben, war, dass wir ihnen Unsicherheit geben. <kinesic type="applause" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.kinesic3">
+                     <desc>Beifall bei der ÖVP.</desc>
+                  </kinesic>
+            Ihr Mandat ist nämlich ein persönliches Mandat, es ist nicht einer einzelnen Partei geschuldet, es ist Ihrer Verantwortung gegenüber der Wählerin und dem Wähler, die oder der Sie gewählt hat, geschuldet. Und in diesem Sinne gilt es, glaube ich, die Politik jetzt hier fortzuführen. Damit darf ich zu den Anträgen kommen, hinsichtlich derer Sie heute eine Fristsetzung beschließen wollen, Frau Kollegin Meinl-Reisinger, nämlich zu den Anträgen zur Parteienförderung: Ja, es ist gut, richtig und wichtig in einer parlamentarischen Demokratie, dass die Parteien Gelder von der öffentlichen Hand bekommen, dass die Kontrolle dieser Gelder aber auch entsprechend transparent ist. Daher haben Sie auch meine volle Unterstützung, dass wir über die Reform der Parteienförderung weiter diskutieren müssen, weiter reden müssen und dass es keinen Zweifel geben kann <vocal type="interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.vocal2">
+                     <desc>Zwischenruf des Abg. Jarolim</desc>
+                  </vocal>
+            ,dass an dieser Reform transparent und offen gearbeitet wird. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1227">Abg. Meinl-Reisinger: Nicht reden! Handeln! Tun!</note>
+                  <pb n="10"/>
+            Die Österreichische Volkspartei war immer eine sehr transparente Partei. Die neue Volkspartei hat im Wahlkampf alle Zahlen und alle Spenden offengelegt, Sie alle konnten sie auf der Homepage nachlesen. Für uns ist das eine Selbstverständlichkeit, und ausgehend von dieser Selbstverständlichkeit wollen wir auch gerne die Gespräche mit Ihnen aufnehmen. Das ist gut so, denn es dürfen solche Dinge, wie es sie in der Vergangenheit gegeben hat, nicht mehr vorkommen, etwa dass ein Team A aus der SPÖ, das ein Personenkomitee für den damaligen Spitzenkandidaten Christian Kern gebildet hat, dass dieser Verein gesagt hat, er legt nicht offen, von wem er Gelder bekommen hat. Es darf auch nicht sein, dass es so einen Verein gibt, „Weil’s um was geht“, der sagt, er ist vollkommen unabhängig, der aber von der Frau des – damaligen – Bundeskanzlers unterstützt wird. Darüber müssen wir reden. Frau Kollegin Meinl-Reisinger, nur so nebenbei, weil Ihr Kollege Schellhorn in der vorhergegangenen Diskussion von sauberen Händen gesprochen hat: Ja, da wäre es auch gut, wenn man ein bisschen über die Silberstein-Aktivitäten, die dieser für Sie im Wiener Gemeinderatswahlkampf gemacht hat, reden würde. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1242">Abg. Meinl-Reisinger: Was unterstellen Sie jetzt? Was unterstellen Sie hier? Das ist eine Ungeheuerlichkeit! Der Auftraggeber entscheidet, was gemacht wird!</note> Daher ist es wichtig, dass wir über Parteienförderung reden. – Vielen Dank.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.kinesic4">
+               <desc>Beifall bei der ÖVP.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note27">
+               <time when="2019-05-27T16:34:00+02:00">16:34</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note28">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1269" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e341">Nächster Redner: Herr Abgeordneter Mag. Thomas Drozda. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note29">
+               <time when="2019-05-27T16:35:04+02:00">16:35:04</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note30">Abgeordneter Mag. Thomas Drozda (SPÖ)</note>
+            <u who="#PAD_88629" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1293" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e349">Kollege Gerstl, ich kenne diese Rede <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1303">Abg. Meinl-Reisinger: (in Richtung Abg. Gerstl) Schäbig! Schäbig!</note>Wir müssen schauen, wir müssen reden, wir müssen verhandeln, wir müssen diskutieren. – Wir haben einen Antrag eingebracht und über den wird im Verfassungsausschuss geredet werden. Da geht es um ganz einfache Dinge, die man aus Ibiza lernt, aber die man auch aus der Sache lernt, wie der ÖVP-Wahlkampf des Jahres 2017 gelaufen ist. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1319">Abg. Schwarz: Da redet einer!</note>Das ist relativ kurz zusammengefasst: Es gibt ein Gesetz, dieses Gesetz sieht eine Wahlkampfkostenobergrenze von 7 Millionen Euro vor. Und die ÖVP hat 13 Millionen Euro ausgegeben. Das ist Fakt. Also wir wissen um die Ausgaben der ÖVP, wir wissen nicht um die Einnahmen der ÖVP, auch das wird aufzuklären sein. Und du könntest der Erste sein oder auch Karl Nehammer, der sich hierherstellt und sagt, was Sache ist. <kinesic type="applause" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.kinesic5">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+            Dass man jetzt die NEOS mit Silberstein verbindet und dass man sagt, man muss alles noch einmal anschauen – es wird eigentlich so unterirdisch. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1339">Abg. Meinl-Reisinger: Man kann sich eh alles anschauen!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.vocal3">
+                     <desc>Zwischenruf bei der ÖVP.</desc>
+                  </vocal>
+            – Du, ich habe eine lange Liste mit Vereinen, wo Gernot Blümel unterstützt wird beziehungsweise Obmann ist. Es gibt die Vereine im Zusammenhang mit eurem EU-Spitzenkandidaten. Ich schlage euch vor: Wir lassen diese ganze Geschichte sein, konzentrieren uns darauf, Spenden zu begrenzen, und zwar mit 10 000 Euro pro Spende, pro Wahlkampf mit 200 000 Euro, machen wirklich drastische Strafen bei Überschreitungen, 200 Prozent, wenn die Überschreitung größer als 15 Prozent ist. Wir nehmen uns das für diesen Wahlkampf vor, beschließen das in der nächsten Sitzung des Verfassungsausschusses und haben einen Wahlkampf, bei dem alle die gleichen und faire Chancen haben und niemand von Großspendern abhängig ist, so wie das bei euch der Fall ist.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.kinesic6">
+               <desc>Beifall bei der SPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note34">
+               <time when="2019-05-27T16:36:00+02:00">16:36</time>
+            </note>
+            <pb n="11"/>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note35">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1375" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e377">Als Nächster zu Wort gelangt Herr Abgeordneter Mag. Harald Stefan. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note36">
+               <time when="2019-05-27T16:36:56+02:00">16:36:56</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note37">Abgeordneter Mag. Harald Stefan (FPÖ)</note>
+            <u who="#PAD_51571" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1399" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e386">Sehr geehrte Frau Präsidentin! Sehr geehrte Damen und Herren! Ja, es ist immer interessant: Wenn man hier über Parteienfinanzierung spricht, dann wird gegenseitig vorgeworfen. Die NEOS sind natürlich erhaben, völlig erhaben über allem, denn die haben ja keinerlei Spenden und keinerlei Zuwendungen <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1408">Abg. Meinl-Reisinger: Doch, aber es ist transparent! Der Unterschied ist, es ist transparent!</note>und sind völlig transparent. Also zum Beispiel das Video von Haselsteiner scheint bei Ihnen wahrscheinlich als Wahlkampffinanzierung der NEOS auf <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1421">Abg. Meinl-Reisinger: Welches Video?</note>, oder scheint das nicht auf? „Kommt Hofer, kommt Öxit!“, das Video gegen Hofer. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1434">Abg. Meinl-Reisinger: Sind wir zur Wahl gestanden?</note>– Sind Sie zur Wahl gestanden? Ist das indirekt eine Parteienfinanzierung, ist das auf Ihrer Linie gewesen, gegen Hofer zu sein, oder nicht? Wir können darüber diskutieren, ich sage ja nur: Alle reden groß, Sie sind völlig sakrosankt, aber wenn wir über Finanzierungen reden <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1447">Abg. Meinl-Reisinger: Das ist verworren, was Sie da reden!</note>, reden wir auch über solche Dinge! Auf der einen Seite haben wir Inserate, die finanziert werden – die Inseratengeschichten kennen wir schon. Wir kennen das, dass die Arbeiterkammer und die Wirtschaftskammer letztendlich auch indirekt natürlich Parteien unterstützen, weil sie dieselben Themen präsentieren und daher auch Geld verwenden, das letztlich den Parteien zugutekommt. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1461">Abg. Loacker: Die 23 Millionen jährliche Förderung!</note>– Ja, riesige Summen! Ich bin sehr froh, dass wir hier ein bisschen losgelöst über diese Dinge auch diskutieren können <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1474">Abg. Schellhorn: Hättet ihr das sonst jetzt ...?</note> ; auch über die Themen Vereine. Ja, völlig richtig, auch diese Vereine im Umfeld sollen genau angeschaut werden. Auch die FPÖ hat jetzt hier sofort die Initiative ergriffen, um auch demonstrativ zu zeigen, was es hier für Vereine gibt. Es gibt überall Vereine, es gibt Personenkomitees, die interessanterweise Einschaltungen finanzieren, die Veranstaltungen finanzieren, die Sonstiges finanzieren. Ich bin absolut der Meinung, wir sollten uns das genau anschauen, denn das System, das wir haben, die Parteienförderung an sich, ist das transparenteste überhaupt. Das wird geprüft, das wird letztendlich auch vom Rechnungshof geprüft, und ich finde es auch richtig, dass wir die Spenden begrenzen, denn große Spenden sind natürlich unter Umständen ein Problem, was Einflussnahme betrifft. Unser Ansatz ist daher: keine Spenden über 3 500 Euro pro Person pro Jahr. Das ist unser Ansatz. Aber, Herr Kollege Drozda, weil Sie gesagt haben, Sie hören schon immer, dass wir darüber reden und darüber reden: Ja, wir müssen jetzt tatsächlich all diese Vorschläge, die es hier gibt, zusammenführen, sie sind weitgehend vernünftig. Wir müssen schauen, wie wir sie umsetzen, und ich bin guter Dinge, dass wir hier weiterkommen, um eben auch wieder Vertrauen zu gewinnen und zu zeigen, wie Parteien finanziert werden. Und wenn das wirklich letztendlich klarer und transparenter ist, haben wir sehr viel davon, weil wir als FPÖ eben genau diese Parteienförderung, wie sie jetzt besteht, immer unterstützt haben, immer gesagt haben: Das ist der richtige Weg, da sieht in Wirklichkeit der Staatsbürger, wohin sein Geld kommt, und er sieht in gewisser Weise auch – aber es muss ein gewisser Teil bleiben, von dem die Parteien natürlich selbst entscheiden, wie sie ihr Geld ausgeben – Einnahmen und Ausgaben. Und: keine Großspenden. Das ist das Transparenteste.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.kinesic7">
+               <desc>Beifall bei der FPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note44">
+               <time when="2019-05-27T16:39:00+02:00">16:39</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note45">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1500" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e416">Als Nächste zu Wort gemeldet ist Frau Abgeordnete Dr.in Irmgard Griss. – Bitte.</seg>
+            </u>
+            <pb n="12"/>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note46">
+               <time when="2019-05-27T16:40:07+02:00">16:40:07</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note47">Abgeordnete Dr. Irmgard Griss (NEOS)</note>
+            <u who="#PAD_02342" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1527" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e425">Frau Präsidentin! Meine Damen und Herren! Nur eine Bemerkung zu Herrn Abgeordnetem Gerstl: Was schon mit einer gewissen Regelmäßigkeit wiederkehrt, ist: Wenn die Argumente ausgehen, kommt Silberstein. Ob es dazu passt oder nicht dazu passt: Es wird Silberstein genannt.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.kinesic8">
+                  <desc>Beifall bei den NEOS und bei Abgeordneten der SPÖ.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e430">Ich verstehe nicht, was der Wiener Wahlkampf mit der heutigen Debatte zu tun hat. <vocal type="interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.vocal4">
+                     <desc>Zwischenruf des Abg. Gerstl.</desc>
+                  </vocal>
+            Ich verstehe nicht, welcher Vorwurf hier unterschwellig erhoben werden soll.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e436">Gegen das, was NEOS hier verlangt – und auch andere Parteien haben solche Anträge eingebracht –, dass es Transparenz bei der Parteienfinanzierung gibt, kann man doch kein vernünftiges Argument vorbringen. Es muss ja völlig klar sein, dass offengelegt werden muss – und zwar die tatsächlichen Verhältnisse! –, wie sich Parteien finanzieren, auf welchem Weg sie zu ihrem Geld kommen, wer ihre Aktivitäten finanziert, welche Zuwendungen sie erhalten. Es kann doch niemand sagen: Nein, für Parteien soll das nicht gelten!</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e438">Das Zweite, was ja ganz selbstverständlich sein muss: Wenn es eine Pflicht gibt, die das Gesetz festlegt, dann muss es für den Fall der Nichterfüllung der Pflicht eine Sanktion geben. Wenn es keine Sanktion gibt, dann wird regelmäßig die Pflicht nicht erfüllt. Jedenfalls kommt das vor – dass es vorkommt, haben wir ja schon gesehen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e440">Drittens: Wenn es eine Rechenschaftspflicht gibt, dann muss es nicht nur eine Sanktion bei Nichterfüllung geben – die fehlt ja jetzt; wenn eine Partei sagt, sie legt überhaupt keinen Rechenschaftsbericht vor, dann passiert gar nichts, dann ist sie ganz auf der sicheren Seite –, sondern wenn dem Rechnungshof vorgelegt werden muss, was eine Partei gemacht hat, wenn Parteien einen Rechenschaftsbericht erstellen müssen und den vorlegen müssen, dann muss der Rechnungshof natürlich auch die Möglichkeit haben, das inhaltlich zu prüfen. Der Rechnungshof muss in die Bücher schauen können.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e442">Es ist doch absurd, was jetzt geschieht: dass der Rechnungshof nachschauen muss, ob richtig gerechnet wurde, ob das in den richtigen Rubriken aufscheint, aber nicht nachschauen kann, ob das auch so in den Büchern verbucht ist. Also ich finde, das ist ein Theater, das man gar nicht ernst nehmen kann! Das bindet Ressourcen beim Rechnungshof und bringt rein gar nichts.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.kinesic9">
+                  <desc>Beifall bei den NEOS.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e447">Das Nächste, was wichtig ist: Es muss natürlich einen Straftatbestand der illegalen Parteienfinanzierung geben. Warum? – Weil illegale Parteienfinanzierung ja nichts anderes als ein Betrug an den Wählerinnen und Wählern ist. Nur wenn das gerichtlich strafbar ist, hat die Staatsanwaltschaft auch die Möglichkeit, Konten zu öffnen. Ist es ein bloßes Verwaltungsstrafdelikt, dann gibt es diese Möglichkeit nicht und dann kann das nicht überprüft werden.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e449">Das heißt: Nützen wir die Chance, die sich jetzt ergeben hat, denn niemand kann bestreiten, dass hier ein Problem besteht, dass die Parteien im nicht ganz unbegründeten Verdacht stehen, sich möglicherweise über Wege zu finanzieren, die nicht gesetzeskonform sind!</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e451">Es gibt Anträge, und ich lade Sie ein, diesen Anträgen zuzustimmen. – Danke.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.kinesic10">
+               <desc>Beifall bei den NEOS.</desc>
+            </kinesic>
+            <pb n="13"/>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note48">
+               <time when="2019-05-27T16:44:00+02:00">16:44</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note49">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1596" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e464">Nächster Redner: Herr Klubobmann Dr. Wolfgang Zinggl. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note50">
+               <time when="2019-05-27T16:44:16+02:00">16:44:16</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note51">Abgeordneter Mag. Dr. Wolfgang Zinggl (JETZT)</note>
+            <u who="#PAD_22573" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1617" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e472">Frau Präsidentin! Es herrscht ja Einigkeit, dass auf diesem Sektor viel zu tun ist, aber man kann jetzt schon erkennen, in welche Richtung das jeweils geht. Auch von uns liegt ein entsprechender Antrag vor. Er ist sehr ähnlich dem, was Rechnungshofpräsidentin Kraker gefordert hat und was auch die NEOS unterstützen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e474">Wir sind nicht grundsätzlich gegen Zuwendungen an Parteien, insbesondere kleine Parteien brauchen ja Geld von außen, damit sie überhaupt Tritt fassen können, und wir sind überhaupt nicht grundsätzlich gegen Parteispenden. Aber es kann nicht sein, dass Geld Österreich determiniert und bestimmt, und es kann nicht sein, dass sich Spekulanten, große Unternehmen Gesetze wünschen, dann ein bissel was zahlen, ein paar Hunderttausend, und dann werden diese Gesetze tatsächlich Wirklichkeit.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e476">Weil erwähnt wurde, dass es ja schon eine Obergrenze gibt: Ja, diese Obergrenze ist Gesetz, aber wenn sie nicht eingehalten wird, dann brauchen wir dieses Gesetz nicht, oder wir müssen es verschärfen. Ein Gesetz, das keine Sanktionen, und zwar keine merkbaren Sanktionen, nach sich zieht, ist zahnlos und daher unbrauchbar. Also wenn jemand, der schweren Diebstahl begeht, mit einer Strafe von ein paar Hundert Euro rechnen kann, wird er wahrscheinlich weiterhin diesen schweren Diebstahl begehen, und im schlimmsten Fall wird er halt dann die Strafe zahlen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e478">Wenn Kollege Stefan sagt, es wird immer Möglichkeiten geben, über Vereine und nahe Organisationen das Gesetz irgendwie zu umgehen, dann kann ich dazu nur sagen: Wir wissen doch aus Erfahrung, dass fast alle Gesetze irgendwie doch noch umgangen werden können, wenn man sich bemüht, aber es ist immer eine Frage der asymptotischen Annäherung. Das heißt, je schärfer die Gesetze sind, umso weniger leicht gelingt es, umso deutlicher dann auch der Gesetzesverstoß. Und wenn die Rechnungshofpräsidentin Einsicht in alle Belege originärer Natur verlangt, dann schließen wir uns dem zu 100 Prozent an. Das ist eine Möglichkeit, wie man mit dem umgehen kann. Auch strafrechtliche Bestimmungen für den Fall einer illegalen Parteienfinanzierung sind für uns eine Notwendigkeit, weil die Staatsanwaltschaft dann die Konten aufmachen kann und einiges in der Richtung passiert.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e480">Ich erinnere nur an Klubobmann Wöginger, der jetzt gerade nicht im Raum ist, der am Rande einer Präsidiale zu uns gesagt hat: Wir lassen uns sicher nicht in unsere Parteibücher reinschauen! – Na ja, da beginnt es. Also wenn wir das jetzt anlässlich eines Anlassfalles hinbekommen, dass wir uns in die Richtung bewegen, dann schauen wir, wer am weitesten gehen kann. – Danke.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.kinesic11">
+               <desc>Beifall bei JETZT.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note52">
+               <time when="2019-05-27T16:47:00+02:00">16:47</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note53">
+               <time when="2019-05-27T16:47:15+02:00">16:47:15</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note54">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1658" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e495">Zu Wort ist nun niemand mehr gemeldet. Die Debatte ist geschlossen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e497">Wir kommen nunmehr zur Abstimmung über den Antrag der Abgeordneten Mag.a Meinl-Reisinger, Kolleginnen und Kollegen, dem Verfassungsausschuss zur Berichterstattung über den Antrag 56/A betreffend Parteiengesetz 2012 und Geschäftsordnungsgesetz 1975 eine Frist bis 1. Juli 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e499">Ich ersuche jene Damen und Herren, die dieser Fristsetzung zustimmen, um ein Zeichen. – Das ist die Minderheit. Abgelehnt.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note55">
+                  <time when="2019-05-27T16:48:13+02:00">16:48:13</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e504">Abstimmung über Fristsetzungsanträge</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note56">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1694" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e509">Wir kommen jetzt zu einer Reihe von weiteren Abstimmungen. <pb n="14"/>
+            Wir kommen zur Abstimmung über den Antrag der Abgeordneten Mag. a Beate Meinl-Reisinger, Kolleginnen und Kollegen, dem Verfassungsausschuss zur Berichterstattung über den Antrag 832/A der Abgeordneten Mag.a Meinl-Reisinger betreffend Medienkooperations- und -förderungs-Transparenzgesetz eine Frist bis 1. Juli 2019 zu setzen. Ich bitte jene Damen und Herren, die sich für diese Fristsetzung aussprechen, um ein Zeichen. – Das ist die Minderheit. Abgelehnt. Wir kommen nunmehr zur Abstimmung über den Antrag der Abgeordneten Mag. a Meinl-Reisinger, dem Verfassungsausschuss zur Berichterstattung über den Antrag 828/A der Abgeordneten Mag. a Meinl-Reisinger, Kolleginnen und Kollegen betreffend Parteiengesetz 2012 eine Frist bis 1. Juli 2019 zu setzen. Wer ist für diese Fristsetzung? – Das ist die Minderheit. Abgelehnt. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1722">Abg. Meinl-Reisinger: (in Richtung ÖVP und FPÖ) Das hätte jetzt eine Sternstunde des Parlaments werden können!</note>Wir kommen zur Abstimmung über den Antrag der Abgeordneten Mag.a Meinl-Reisinger, dem Verfassungsausschuss zur Berichterstattung über den Antrag 833/A der Abgeordneten Mag.a Meinl-Reisinger, Kolleginnen und Kollegen betreffend Parteiengesetz 2012 eine Frist bis 1. Juli 2019 zu setzen. Wer spricht sich für diesen Fristsetzungsantrag aus? – Das ist die Minderheit. Abgelehnt. Abstimmung über den Antrag der Abgeordneten Mag.a Meinl-Reisinger, dem Verfassungsausschuss zur Berichterstattung über den Antrag 834/A der Abgeordneten Mag.a Meinl-Reisinger, Kolleginnen und Kollegen betreffend Parteiengesetz 2012 eine Frist bis 1. Juli 2019 zu setzen. Bitte um Zustimmung! – Das ist die Minderheit. Abgelehnt. Abstimmung über den Antrag der Abgeordneten Mag. Meinl-Reisinger, dem Verfassungsausschuss zur Berichterstattung über den Antrag 835/A der Abgeordneten Mag.a Meinl-Reisinger, Kolleginnen und Kollegen betreffend Parteiengesetz 2012 eine Frist bis 1. Juli 2019 zu setzen. Wer stimmt dem zu? – Das ist die Minderheit. Abgelehnt. Wir kommen nunmehr zur Abstimmung über den Antrag des Abgeordneten Dr. Zinggl, dem Verfassungsausschuss zur Berichterstattung über den Antrag 848/A der Abgeordneten Dr. Zinggl, Kolleginnen und Kollegen betreffend das Parteiengesetz 2012 sowie das Parteien-Förderungsgesetz 2012 auch eine Frist bis 1. Juli 2019 zu setzen. Wer ist für diesen Fristsetzungsantrag? – Das ist die Minderheit. Abgelehnt. Wir kommen zur Abstimmung über den Antrag des Abgeordneten Dr. Zinggl, dem Verfassungsausschuss zur Berichterstattung über den Antrag 849/A der Abgeordneten Dr. Zinggl, Kolleginnen und Kollegen betreffend Parteiengesetz 2012 ebenfalls eine Frist bis 1. Juli 2019 zu setzen. – Das ist mit zu wenig Zustimmung abgelehnt. <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note58">
+                     <time when="2019-05-27T16:51:30+02:00">16:51:30</time>
+                  </note>Einlauf und Zuweisung</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note59">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d7e1775" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e523">Ergänzend gebe ich bekannt, dass in der 78. Sitzung des Nationalrates der Antrag 858/A der Abgeordneten Ing. Hofer, Kolleginnen und Kollegen eingelangt ist, und ich weise ihn hiermit dem Verfassungsausschuss zu.</seg>
+               <pb n="15"/>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e526">Die nächste Sitzung des Nationalrates, die für Mittwoch, den 12. Juni 2019, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.</seg>
+               <seg xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079_d2e528">Die Sitzung ist geschlossen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note60">
+               <time when="2019-05-27T16:51:38+02:00">16:51:38</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2019-05-27-026-XXVI-NRSITZ-00079.note61">Schluss der Sitzung:<time when="2019-05-27T16:51:00+02:00">16:51</time>Uhr</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

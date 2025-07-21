@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #reference" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XXVI. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="sub" xml:lang="de">87. Sitzung des Nationalrates der Republik Österreich, XXVI. Gesetzgebungsperiode, Mittwoch, 3. Juli 2019</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XXVI [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Sitting Number 87, Legislative period XXVI, Wednesday, 3. July 2019</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="87">87. Sitzung</meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVI" n="26">XXVI. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="87">Sitting 87</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVI" n="26">Legislative period XXVI</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung, Korpuskodierung in TEI und automatische linguistische Annotation</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding and automatic linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="7" xml:lang="de">7 Äußerungen</measure>
+            <measure unit="speeches" quantity="7" xml:lang="en">7 speeches</measure>
+            <measure unit="words" quantity="2128" xml:lang="de">2,128 Wörter</measure>
+            <measure unit="words" quantity="2128" xml:lang="en">2,128 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Plenarsitzung des Nationalrates, Stenographisches Protokoll, 87. Sitzung des Nationalrates der Republik Österreich, Mittwoch, 3. Juli 2019</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <title type="sub" xml:lang="en">Shorthand record, Sitting Number 87, Legislative period XXVI, Wednesday, 3. July 2019</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XXVI/NRSITZ/NRSITZ_00087/fnameorig_794929.html</idno>
+               <date when="2019-07-03">2019-07-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="5"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="1"/>
+               <tagUsage gi="note" occurs="17"/>
+               <tagUsage gi="pb" occurs="5"/>
+               <tagUsage gi="seg" occurs="58"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="8"/>
+               <tagUsage gi="u" occurs="7"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="2019-07-03">2019-07-03</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-13">
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e178" type="debateSection">
+            <gap reason="editorial" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.gap1">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <note type="time" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note1">
+               <time when="2019-07-03T21:51:48+02:00">21:51:48</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note2">Beginn der Sitzung:<time when="2019-07-03T21:51:00+02:00">21:51</time>Uhr</note>
+            <note type="chairpersons" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note3">Präsident Mag. Wolfgang Sobotka</note>
+            <note type="time" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note4">
+               <time when="2019-07-03T21:51:50+02:00">21:51:50</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note5">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d7e1106" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e200">Ich darf die 87. Sitzung des Nationalrates eröffnen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e202">Als verhindert gemeldet sind die Abgeordneten Mag. Johanna Jachs, Herbert Kickl, Werner Neubauer, BAund Elisabeth Feichtinger, BEd BEd.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e204">Einlauf und Zuweisungen</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note6">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d7e1145" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e209">Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Saal verteilte Mitteilung.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e211">Die schriftliche Mitteilung hat folgenden Wortlaut:</seg>
+               <gap reason="editorial" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.gap2">
+                  <desc xml:lang="en">Quoted printed matter omited</desc>
+                  <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+               </gap>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note7">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d7e1387" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e221">Zusätzlich darf ich bekannt geben, dass ich den Antrag 989/A(E) der Abgeordneten Steinacker, Stefan, Kolleginnen und Kollegen dem Justizausschuss zuweise</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e223">und den Antrag 990/A der Abgeordneten Becher, Kolleginnen und Kollegen dem Bautenausschuss zuweise.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e225">Fristsetzungsanträge</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note8">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d7e1415" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e231">Außerdem teile ich mit, dass die Abgeordneten Bösch und Hammer beantragt haben, dem Landesverteidigungsausschuss zur Berichterstattung über die Regierungsvorlage 509 der Beilagen betreffend Wehrrechtsänderungsgesetz 2019 eine Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e233">Abgeordneter Vogl hat beantragt, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über den Antrag 629/A eine Frist bis 24. September zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e235">Ich erlaube mir, das jetzt zu verkürzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e237">Die Abgeordneten Wöginger und Hofer haben beantragt, dem Justizausschuss betreffend den Antrag 970/A der Abgeordneten Steinacker, Stefan, Kolleginnen und Kollegen eine Frist bis 24.9.2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e239">Abgeordnete Sandler hat beantragt, dem Ausschuss für Arbeit und Soziales betreffend den Antrag 670/A(E) eine Frist bis 24.9.2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e241">Herr Abgeordneter Noll hat beantragt, dem Justizausschuss zur Berichterstattung über den Antrag 971/A eine Frist bis 12.9.2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e243">Abgeordneter Noll hat beantragt, dem Justizausschuss zur Berichterstattung über den Antrag 972/A eine Frist bis 12. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e245">Abgeordneter Wurm beantragt, dem Ausschuss für Konsumentenschutz betreffend den Antrag 973/A(E) eine Frist bis 1. August 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e247">Die Abgeordneten Belakowitsch und Muchitsch haben beantragt, dem Ausschuss für Arbeit und Soziales betreffend den Antrag 974/A(E) eine Frist bis 1. August 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e249">Die Abgeordneten Belakowitsch und Muchitsch haben ebenfalls beantragt, dem Ausschuss für Arbeit und Soziales betreffend den Antrag 975/A(E) eine Frist bis 1. August 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e251">Ebenso hat Abgeordneter Muchitsch beantragt, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über den Antrag 789/A(E) eine Frist bis 24. September 2019 zu setzen.</seg>
+               <pb n="12"/>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e255">Abgeordneter Hoyos-Trauttmansdorff hat beantragt, dem Unterrichtsausschuss zur Berichterstattung über den Antrag 71/A(E) eine Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e257">Abgeordneter Hoyos-Trauttmansdorff hat beantragt, dem Unterrichtsausschuss zur Berichterstattung über den Antrag 156/A(E) eine Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e259">Ebenfalls hat Abgeordneter Hoyos-Trauttmansdorff beantragt, dem gleichen Ausschuss betreffend den Antrag 899/A(E) eine Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e261">Gleichfalls hat Abgeordneter Hoyos-Trauttmansdorff beantragt, dem gleichen Ausschuss betreffend den Antrag 903/A eine Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e263">Frau Abgeordnete Krisper beantragt, dem Verfassungsausschuss zur Berichterstattung über den Antrag 977/A(E) eine Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e265">Abgeordnete Krisper beantragt, dem Ausschuss für innere Angelegenheiten zur Berichterstattung über den Antrag 978/A(E) eine Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e267">Abgeordnete Krisper beantragt, dem Justizausschuss zur Berichterstattung über den Antrag 979/A(E) die gleiche Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e269">Abgeordnete Krisper beantragt, dem Justizausschuss zur Berichterstattung über den Antrag 980/A(E) ebenfalls eine Frist bis 24. September dieses Jahres zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e271">Abgeordnete Krisper beantragt gleichfalls, dem Ausschuss für innere Angelegenheiten zur Berichterstattung über den Antrag 976/A(E) eine Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e273">Weiters hat Abgeordnete Krisper beantragt, dem Verfassungsausschuss zur Berichterstattung über den Antrag 981/A(E) eine Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e276">Die Abgeordneten Kucher, Schwarz und Kaniak haben beantragt, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 936/A eine Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e278">Die Abgeordneten Lettenbichler und Kassegger haben beantragt, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 965/A eine Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e280">Die Abgeordneten Lettenbichler und Kassegger haben beantragt, dem Ausschuss für Wirtschaft, Industrie und Energie betreffend den Antrag 966/A eine Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e282">Ferner haben die Abgeordneten Haubner und Fuchs beantragt, dem Budgetausschuss zur Berichterstattung über den Antrag 984/A eine Frist bis 1. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e284">Dieselben Abgeordneten haben beantragt, dem Budgetausschuss betreffend den Antrag 983/A eine Frist bis 1. September zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e286">Dieselben Abgeordneten haben beantragt, dem Budgetausschuss betreffend den Antrag 985/A eine Frist bis 1. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e288">Abgeordnete Krisper beantragt, dem Ausschuss für innere Angelegenheiten zur Berichterstattung über den Antrag 987/A(E) eine Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e290">Abgeordneter Androsch hat beantragt, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 986/A(E) eine Frist bis 4. Juli 2019 zu setzen.</seg>
+               <pb n="13"/>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e293">Abgeordneter Stefan hat beantragt, dem Verfassungsausschuss zur Berichterstattung über den Antrag 870/A eine Frist bis 5. Juli 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e295">Derselbe Abgeordnete hat beantragt, dem Verfassungsausschuss betreffend den Antrag 868/A eine Frist bis 5. Juli 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e298">Abgeordnete Schimanek beantragt, dem Gleichbehandlungsausschuss zur Berichterstattung über den Antrag 988/A(E) eine Frist bis 5. Juli 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e300">Die Abgeordneten Bogner-Strauß und Stefan haben beantragt, dem Justizausschuss zur Berichterstattung über den Antrag 989/A(E) eine Frist bis 24. September 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e302">Die gegenständlichen Anträge werden gemäß Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung und daher sogleich zur Abstimmung gebracht.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note9">
+                  <time when="2019-07-03T21:58:46+02:00">21:58:46</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e307">Abstimmung über Fristsetzungsanträge</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note10">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d7e1545" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e312">Zunächst kommen wir zur Abstimmung über den Antrag der Abgeordneten Bösch und Hammer, dem Landesverteidigungsausschuss zur Berichterstattung über die Regierungsvorlage 509 der Beilagen betreffend Wehrrechtsänderungsgesetz 2019 eine Frist bis 24. September 2019 zu setzen. – Das ist angenommen. Weiters kommen wir zur Abstimmung über den Antrag des Abgeordneten Ing. Vogl, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über den Antrag 629/A der Abgeordneten Vogl, Kolleginnen und Kollegen eine Frist 24. September 2019 zu setzen. – Das ist die Minderheit, abgelehnt. Wir kommen zum Antrag der Abgeordneten Wöginger und Hofer, dem Justizausschuss zur Berichterstattung über den Antrag 970/A der Abgeordneten Steinacker und Stefan eine Frist bis 24. September 2019 zu setzen. – Das ist die Mehrheit, angenommen. Abstimmung über den Antrag der Abgeordneten Sandler, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über den Antrag 670/A(E) der Abgeordneten Sandler eine Frist bis 24. September 2019 zu setzen. – Das ist die Minderheit, abgelehnt. Abstimmung über den Antrag des Abgeordneten Noll, dem Justizausschuss zur Berichterstattung über den Antrag 971/A eine Frist bis 12. September 2019 zu setzen. – Das ist die Minderheit, abgelehnt. Wir kommen zur Abstimmung über den Antrag des Abgeordneten Noll, dem Justizausschuss zur Berichterstattung über den Antrag 972 eine Frist bis 12. September 2019 zu setzen. – Das ist die Minderheit, abgelehnt. Wir gelangen zur Abstimmung über den Antrag der Abgeordneten Wurm, Kolleginnen und Kollegen, dem Ausschuss für Konsumentenschutz betreffend den Antrag 973/A(E) eine Frist bis 1. August 2019 zu setzen. – Das ist die Mehrheit, angenommen. Wir gelangen zur Abstimmung über den Antrag der Abgeordneten Belakowitsch und Muchitsch, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über den Antrag 974/A(E) der Abgeordneten Belakowitsch, Muchitsch, Kolleginnen und Kollegen eine Frist bis 1. August 2019 zu setzen. – Das ist die Einstimmigkeit, angenommen. Antrag der Abgeordneten Belakowitsch und Muchitsch, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über den Antrag 975/A(E) eine Frist bis 1. August 2019 zu setzen. Wer ist dafür? – Das ist die Mehrheit, angenommen. <pb n="14"/>
+            Wir kommen zur Abstimmung über den Antrag des Abgeordneten Muchitsch, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über den Antrag 789/A(E) eine Frist bis 24. September 2019 zu setzen. – Das ist die Minderheit, abgelehnt. Abstimmung über den Antrag des Abgeordneten Hoyos-Trauttmansdorff, dem Unterrichtsausschuss zur Berichterstattung über den Antrag 71/A(E) der Abgeordneten Strolz, Kolleginnen und Kollegen eine Frist bis 24. September 2019 zu setzen. – Das ist die Minderheit, abgelehnt. Antrag des Abgeordneten Hoyos-Trauttmansdorff, dem Unterrichtsausschuss zur Berichterstattung über den Antrag 156/A(E) eine Frist bis 24. September 2019 zu setzen. – Das ist in der Minderheit geblieben; abgelehnt. Antrag des Abgeordneten Hoyos-Trauttmansdorff, dem Unterrichtsausschuss zur Berichterstattung über den Antrag 899/A(E) eine Frist bis 24. September 2019 zu setzen. Wer dafür ist, den bitte ich, ein Zeichen zu geben. – Das ist die Minderheit, abgelehnt. Abstimmung über den Antrag des Abgeordneten Hoyos-Trauttmansdorff, dem Unterrichtsausschuss zur Berichterstattung über den Antrag 903/A eine Frist bis 24. August 2019 zu setzen. – Das bleibt in der Minderheit. Abstimmung über den Antrag der Abgeordneten Krisper, dem Verfassungsausschuss zur Berichterstattung über den Antrag 977/A(E) der Abgeordneten Krisper, Kolleginnen und Kollegen eine Frist bis 24. September 2019 zu setzen. – Dieser bleibt in der Minderheit, abgelehnt. Abstimmung über den Antrag der Abgeordneten Dr. Krisper, dem Ausschuss für innere Angelegenheiten zur Berichterstattung über den Antrag 978/A(E) eine Frist bis 24. September 2019 zu setzen. – Dieser bleibt in der Minderheit, abgelehnt. Abstimmung über den Antrag der Abgeordneten Krisper, dem Justizausschuss zur Berichterstattung über den Antrag 979/A(E) eine Frist bis 24. September 2019 zu setzen. – Dieser bleibt ebenfalls in der Minderheit, abgelehnt. Abstimmung über den Antrag der Abgeordneten Krisper, dem Justizausschuss zur Berichterstattung über den Antrag 980/A(E) eine Frist bis 24. September 2019 zu setzen. – Einstimmig angenommen. Abstimmung über den Antrag der Abgeordneten Krisper, dem Ausschuss für innere Angelegenheiten zur Berichterstattung über den Antrag 976/A(E) eine Frist bis 24. September 2019 zu setzen. – Bleibt in der Minderheit. Abstimmung über den Antrag der Abgeordneten Krisper, dem Verfassungsausschuss zur Berichterstattung über den Antrag 981/A(E) eine Frist bis 24. September 2019 zu setzen. – Bleibt auch in der Minderheit, abgelehnt. Abstimmung über den Antrag der Abgeordneten Kucher, Schwarz und Kaniak, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 936/A der Abgeordneten Kucher, Schwarz und Kaniak eine Frist bis 24. September 2019 zu setzen. – Das ist Einstimmigkeit, angenommen. Abstimmung über den Antrag der Abgeordneten Lettenbichler und Kassegger, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 965/A eine Frist bis 24. September 2019 zu setzen. – Das ist Einstimmigkeit, angenommen. Abstimmung über den Antrag der Abgeordneten Lettenbichler und Kassegger, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den An- <pb n="15"/>
+            trag 966/A eine Frist bis 24. September 2019 zu setzen. – Das ist ebenfalls einstimmig, angenommen. Abstimmung über den Antrag der Abgeordneten Haubner und Fuchs, dem Budgetausschuss zur Berichterstattung über den Antrag 984/A eine Frist bis 1. September 2019 zu setzen. – Das ist mit Mehrheit angenommen. Gleicher Wortlaut, nur: betreffend den Antrag 983/A ebenfalls eine Frist bis 1. September 2019 zu setzen. – Angenommen. Gleicher Wortlaut, nur: betreffend den Antrag 985/A ebenfalls eine Frist bis 1. September 2019 zu setzen. – Mit Mehrheit angenommen. Abstimmung über den Antrag der Abgeordneten Krisper, dem Ausschuss für innere Angelegenheiten zur Berichterstattung über den Antrag 987/A(E) eine Frist bis 24. September 2019 zu setzen. – Das ist die Minderheit, abgelehnt. Abstimmung über den Antrag des Abgeordneten Androsch, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 986/A(E) der Abgeordneten Androsch, Kolleginnen und Kollegen eine Frist bis 4. Juli 2019 zu setzen. – Das ist die Mehrheit, angenommen. Abstimmung über den Antrag des Abgeordneten Stefan, dem Verfassungsausschuss zur Berichterstattung über den Antrag 870/A eine Frist bis 5. Juli 2019 zu setzen. – Das ist die Minderheit. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d7e1649">Ruf bei der ÖVP:Nein!</note>– Das ist die Minderheit, abgelehnt. Abstimmung über den Antrag des Abgeordneten Stefan, dem Verfassungsausschuss zur Berichterstattung über den Antrag 868/A der Abgeordneten Hofer, Kolleginnen und Kollegen eine Frist bis 5. Juli 2019 zu setzen. – Das ist ebenfalls die Minderheit, abgelehnt. Abstimmung über den Antrag der Abgeordneten Schimanek, dem Gleichbehandlungsausschuss zur Berichterstattung über den Antrag 988/A(E) der Abgeordneten Schimanek, Bogner-Strauß, Kolleginnen und Kollegen eine Frist bis 5. Juli 2019 zu setzen. – Das ist einstimmig, angenommen. Abstimmung über den Antrag der Abgeordneten Bogner-Strauß und Stefan, dem Justizausschuss zur Berichterstattung über den Antrag 989/A(E) der Abgeordneten Steinacker, Stefan eine Frist bis 24. September 2019 zu setzen. – Das ist die Mehrheit, angenommen. <note type="time" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note12">
+                     <time when="2019-07-03T22:06:36+02:00">22:06:36</time>
+                  </note>Beschluss auf Beendigung der ordentlichen Tagung 2018/2019</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note13">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d7e1683" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e328">Es liegt noch folgender Antrag der Abgeordneten Wöginger, Leichtfried, Hofer, Meinl-Reisinger, Zinggl, Kolleginnen und Kollegen vor:</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e330">„Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2018/2019 der XXVI. Gesetzgebungsperiode des Nationalrates mit Ablauf des 9. Juli 2019 für beendet zu erklären.“</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e332">Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. – Das ist die Einstimmigkeit.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note14">
+                  <time when="2019-07-03T22:06:59+02:00">22:06:59</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e337">Verlesung eines Teiles des Amtlichen Protokolls</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note15">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d7e1713" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e342">Es liegt mir das schriftliche Verlangen von 20 Abgeordneten vor, die vorgesehene Fassung des Amtlichen Protokolls hinsichtlich des Beschlusses auf Beendigung der ordentlichen Tagung 2018/2019 der XXVI. Ge-</seg>
+               <pb n="16"/>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e345">setzgebungsperiode zu verlesen, damit dieser Teil mit Schluss der Sitzung als genehmigt gilt.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e347">„Auf Antrag der Abgeordneten Wöginger, Mag. Leichtfried, Ing. Hofer, Mag. Meinl-Reisinger, MES, Mag. Dr. Zinggl, Kolleginnen und Kollegen [...] fasst der Nationalrat einstimmig nachstehenden Beschluss:</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e349">,Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2018/2019 der XXVI. Gesetzgebungsperiode des Nationalrates mit Ablauf des 9. Juli 2019 für beendet zu erklären.‘“</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e351">Erheben sich Einwendungen gegen diese Fassung oder den Inhalt dieses Teiles des Amtlichen Protokolls? – Das ist nicht der Fall.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e353">Dann gilt dieser Teil des Amtlichen Protokolls gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss dieser Sitzung als genehmigt.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e355">Im Übrigen bin ich für eine Reform der Geschäftsordnung.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.kinesic1">
+                  <desc>Beifall bei ÖVP und FPÖ sowie des Abg. Loacker.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e360">Die nächste Sitzung des Nationalrates, die für Mittwoch, den 25. September 2019, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e362">Ich danke für die Aufmerksamkeit.</seg>
+               <seg xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087_d2e365">Die Sitzung ist geschlossen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note16">
+               <time when="2019-07-03T22:08:24+02:00">22:08:24</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2019-07-03-026-XXVI-NRSITZ-00087.note17">Schluss der Sitzung:<time when="2019-07-03T22:08:00+02:00">22:08</time>Uhr</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

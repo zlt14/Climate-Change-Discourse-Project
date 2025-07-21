@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #covid" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XXVII. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="sub" xml:lang="de">25. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Mittwoch, 22. April 2020</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XXVII [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Sitting Number 25, Legislative period XXVII, Wednesday, 22. April 2020</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="25">25. Sitzung</meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">XXVII. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="25">Sitting 25</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">Legislative period XXVII</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung, Korpuskodierung in TEI und automatische linguistische Annotation</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding and automatic linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="17" xml:lang="de">17 Äußerungen</measure>
+            <measure unit="speeches" quantity="17" xml:lang="en">17 speeches</measure>
+            <measure unit="words" quantity="3390" xml:lang="de">3,390 Wörter</measure>
+            <measure unit="words" quantity="3390" xml:lang="en">3,390 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Plenarsitzung des Nationalrates, Stenographisches Protokoll, 25. Sitzung des Nationalrates der Republik Österreich, Mittwoch, 22. April 2020</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <title type="sub" xml:lang="en">Shorthand record, Sitting Number 25, Legislative period XXVII, Wednesday, 22. April 2020</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XXVII/NRSITZ/NRSITZ_00025/fnameorig_806822.html</idno>
+               <date when="2020-04-22">2020-04-22</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="36"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="14"/>
+               <tagUsage gi="note" occurs="51"/>
+               <tagUsage gi="pb" occurs="7"/>
+               <tagUsage gi="seg" occurs="50"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="18"/>
+               <tagUsage gi="u" occurs="17"/>
+               <tagUsage gi="vocal" occurs="18"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="2020-04-22">2020-04-22</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-13">
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e178" type="debateSection">
+            <gap reason="editorial" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.gap1">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note1">
+               <time when="2020-04-22T21:15:23+02:00">21:15:23</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note2">Beginn der Sitzung:<time when="2020-04-22T21:15:00+02:00">21:15</time>Uhr</note>
+            <note type="chairpersons" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note3">Dritter Präsident Ing. Norbert Hofer</note>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note4">
+               <time when="2020-04-22T21:15:24+02:00">21:15:24</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note5">Präsident Ing. Norbert Hofer</note>
+            <u who="#PAD_35521" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e459" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e200">Ich eröffne die 25. Sitzung des Nationalrates.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e202">Als verhindert gemeldet sind die Abgeordneten Kira Grünberg, Nurten Yılmaz, Dr. Reinhard Eugen Bösch, Mag. Gerald Hauser, Mag. Philipp Schranglund Mag. Faika El-Nagashi.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e204">Zuweisungen</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note6">Präsident Ing. Norbert Hofer</note>
+            <u who="#PAD_35521" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e505" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e209">Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e211">Die schriftliche Mitteilung hat folgenden Wortlaut:</seg>
+               <gap reason="editorial" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.gap2">
+                  <desc xml:lang="en">Quoted printed matter omited</desc>
+                  <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+               </gap>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note7">Präsident Ing. Norbert Hofer</note>
+            <u who="#PAD_35521" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1097" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e221">Weiters weise ich den Entschließungsantrag 488/A(E) dem Justizausschuss und die Anträge 489/A und 490/A dem Ausschuss für Arbeit und Soziales zu.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e223">Redezeitbeschränkung</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note8">Präsident Ing. Norbert Hofer</note>
+            <u who="#PAD_35521" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1122" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e229">Zwischen den Mitgliedern der Präsidialkonferenz wurde Konsens über die Gestaltung der Debatte erzielt. Es wurde folgende Redeordnung vereinbart:</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e231">Bei dieser ersten Lesung soll ein Redner pro Fraktion 5 Minuten nach den geltenden Regeln der Geschäftsordnung des Nationalrates zu Wort kommen. Gemäß § 57 Abs. 7 der Geschäftsordnung beträgt die Redezeit für jene Mandatare, die keinem Klub angehören, 5 Minuten.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e233">Wir kommen sogleich zur Abstimmung über die Gestaltung und die eben dargestellten Redezeiten.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e235">Ich bitte jene Damen und Herren, die diesem Vorschlag zustimmen, um ein Zeichen der Zustimmung. – Das ist einstimmig angenommen.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note9">
+                  <time when="2020-04-22T21:16:34+02:00">21:16:34</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e240">1. Punkt</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e242">Erste Lesung: Antrag der Abgeordneten Dr. Pamela Rendi-Wagner, MSc, Herbert Kickl, Mag. Beate Meinl-Reisinger, MES, Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundes-Verfassungsgesetz (B-VG) und das Bundesgesetz über die Geschäftsordnung des Nationalrates (Geschäftsordnungsgesetz 1975) geändert werden (421/A)</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note10">Präsident Ing. Norbert Hofer</note>
+            <u who="#PAD_35521" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1174" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e247">Wir gelangen zum einzigen Punkt der Tagesordnung.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e249">Wir gehen in die Debatte ein.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e251">Als Erster zu Wort gelangt Kollege Kai Jan Krainer. – Bitte, Herr Abgeordneter.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note11">
+               <time when="2020-04-22T21:17:08+02:00">21:17:08</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note12">Abgeordneter Kai Jan Krainer (SPÖ)</note>
+            <u who="#PAD_14842" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1204" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e259">Das Parlament hat in den letzten Wochen sehr ungewöhnliche Maßnahmen beschlossen. Covid-19, diese Pandemie, hat Österreich</seg>
+               <pb n="9"/>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e262">erfasst, und es war gut und richtig, dass das Parlament sehr, sehr viele Maßnahmen gesetzt hat, den Großteil davon übrigens einstimmig.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e264">Wir reden davon, dass es die Möglichkeit gibt, dass zum Beispiel Firmen ihre Steuern nicht jetzt, sondern erst später zahlen müssen, also eine Steuerstundung bekommen. Dasselbe gilt für die Sozialversicherungsbeiträge. Wir haben einen Härtefallfonds für kleine Betriebe, für EPUs, der bei der WKO eingerichtet ist. Wir haben einen Härtefallfonds für landwirtschaftliche Betriebe, der über die AMA läuft. Wir haben einen Härtefallfonds für die Künstler, wir haben einen Härtefallfonds für Familien. Wir haben über das AMS die Covid-19-Kurzarbeit als neues, noch nie dagewesenes Programm. Wir haben die Cofag, ein Instrument, das Firmen in einer ersten Phase hilft, Kredite zu sehr günstigen Bedingungen aufzunehmen, und dessen Volumen allein 15 Milliarden Euro beträgt.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e266">All diese verschiedenen Pakete, und ich habe nicht einmal alle aufgezählt, haben ein Volumen von 38 Milliarden Euro. Das ist mehr als die Hälfte der Steuereinnahmen, die dem Bund bleiben. Von 100 Euro Steuern, die in Österreich bezahlt werden, bleiben ja nur circa 60, 65 Euro beim Bund, der Rest geht an Länder und Gemeinden und die Europäische Union. Das ist mehr als die Hälfte des gesamten Steuergeldes, das wir an und für sich in einem Jahr haben.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e268">Es ist gut, diese Maßnahmen zu setzen, aber es ist natürlich auch notwendig, da es um außergewöhnliche Maßnahmen und vor allem um einen außergewöhnlichen finanziellen Einsatz geht, dass dabei auch die Kontrolle – neben der Gesetzgebung eine der Kernaufgaben des Parlaments – durchgeführt wird und es außergewöhnliche Kontrollmaßnahmen für diese außergewöhnlichen Maßnahmen gibt.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e270">Deswegen schlagen nicht nur wir Sozialdemokraten, sondern mit uns auch die Freiheitlichen und die NEOS vor, dass wir einen Covid-19-Ausschuss im Parlament gründen, der alle diese Maßnahmen kontrolliert. Wieso ein Ausschuss, der alle Maßnahmen kontrolliert? – Weil es dabei ja nicht nur um die Sicht geht, ob eine einzelne Maßnahme funktioniert, sondern wir in der Praxis ja auch wissen, dass zum Beispiel einzelne Firmen vier Maßnahmen in Anspruch nehmen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e272">Die AUA zum Beispiel hat – ich gehe einmal davon aus, ohne es zu wissen – Steuerstundungen beantragt, womöglich Sozialversicherungsbeitragsstundungen beantragt, jedenfalls aber Kurzarbeit und jedenfalls Hilfe aus der Cofag. Das heißt, sie hat quasi aus vier verschiedenen Töpfen Hilfen beantragt.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e274">Es geht auch darum, dass das Parlament sieht und kontrolliert, ob die Hilfe dort ankommt, wo sie gebraucht wird, und deswegen braucht es diesen Ausschuss, der die Gesamtsicht auf diese Cofag-Maßnahmen hat. Deswegen schlagen wir als Oppositionsparteien diesen Covid-19-Ausschuss vor. In diesem Ausschuss müssen alle Berichte, die in den Gesetzen teilweise bereits normiert sind, zusammenlaufen. Dort müssen alle Entscheidungsträger – nicht nur die Minister, sondern alle Entscheidungsträger; wir haben ja gehört und wissen, dass viele dieser Maßnahmen ausgegliedert sind, also bei der WKO, bei der AMA, beim Arbeitsmarktservice, bei der ÖHT, bei der OeKB angesiedelt sind, also in viele verschiedene Bereiche ausgegliedert sind – hinkommen und den Abgeordneten über die Maßnahmen, die sie setzen, Rede und Antwort stehen – ob sie funktionieren, welche internen Kontrollen es gibt et cetera. <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal1">
+                     <desc>Zwischenruf bei der ÖVP.</desc>
+                  </vocal>
+            Das heißt, alle Entscheidungsträger müssen in den Ausschuss kommen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e280">Das Nächste ist, dass der Ausschuss natürlich auch alle Unterlagen von diesen Institutionen anfordern können muss. Wenn der Ausschuss sagt, diese Unterlagen muss er sich ansehen, die hätte er gerne, dann sollen die auch verpflichtet sein, diese vorzulegen.</seg>
+               <pb n="10"/>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e284">Das Dritte ist: Dieser Ausschuss soll unter Wahrung des Datenschutzes medienöffentlich sein. Das ist eh klar, dass der Datenschutz immer gewahrt sein muss, aber die Öffentlichkeit hat natürlich ein Recht, zu erfahren, was mit diesen 38 Milliarden Euro passiert; deswegen ist der dritte Punkt, dass das medienöffentlich sein muss.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e286">Wir sind gerne bereit, über Minderheitsrechte zu reden, also dass nicht nur eine Mehrheit entscheidet, wer in den Ausschuss kommen soll, sondern auch eine Minderheit dazu berechtigt ist. Wir sind da also durchaus gesprächsbereit, darüber zu reden.</seg>
+               <vocal type="laughter" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal2">
+                  <desc>Heiterkeit bei der ÖVP.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e291">Wesentlich ist aber natürlich eines, nämlich dass dieser Ausschuss sehr zügig eingesetzt wird, weil wir als Parlament sehr schnell einen Überblick über die Maßnahmen gewinnen müssen, die es da gibt. Ich freue mich auf die konstruktiven Gespräche, die ja bereits angekündigt worden sind, und darauf, dass wir diesen Covid-19-Ausschuss sehr schnell einsetzen können und dass er seine Arbeit beginnen kann. – Vielen Dank.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.kinesic1">
+               <desc>Beifall bei der SPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note13">
+               <time when="2020-04-22T21:22:00+02:00">21:22</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note14">Präsident Ing. Norbert Hofer</note>
+            <u who="#PAD_35521" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1280" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e302">Herr Klubobmann August Wögingergelangt nun zu Wort. – Bitte, Herr Klubobmann.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note15">
+               <time when="2020-04-22T21:22:46+02:00">21:22:46</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note16">Abgeordneter August Wöginger (ÖVP)</note>
+            <u who="#PAD_14795" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1304" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e311">Herr Präsident! Meine sehr geehrten Damen und Herren! Herr Kollege Krainer, es ist ja sehr nett, dass Sie gesprächsbereit betreffend Minderheitsrechte sind, bei einem Antrag, der eine Änderung des Bundes-Verfassungsgesetzes vorsieht. – Also das ist schon auch ein eigenartiger Zugang zu diesem Thema.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e313">Wir haben gesagt, wir sind gesprächsbereit, was die Einsetzung eines Ausschusses anbelangt, in dem alle Covid-Maßnahmen zusammenlaufen. Ich wiederhole aber das, was ich auch in der Präsidiale gesagt habe, und ich möchte noch einmal und auch mit Nachdruck die Oppositionsparteien bitten und auffordern: Machen Sie auch von Ihrem Recht Gebrauch, Mitglieder in den Cofag-Beirat zu entsenden! Eines verstehen wir nämlich nicht: dass es sozusagen im Nachhinein eine Kontrolle im Parlament geben muss – darüber können wir reden –, dass man aber nicht bereit ist, in ein Gremium zu gehen, in dem es um Garantien, Zuschüsse, Haftungen für die Unternehmungen geht und in dem man sozusagen auch direkt in die Entscheidungen mit eingebunden ist. <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal3">
+                     <desc>Zwischenruf des Abg. Vogl.</desc>
+                  </vocal>
+            Das ist etwas, was wir nicht verstehen, und daher nochmals unsere Aufforderung und die Bitte, dass die Opposition auch Mitglieder in den Cofag-Beirat entsendet.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.kinesic2">
+                  <desc>Beifall bei ÖVP und Grünen.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e322">Zum Zweiten wurde da jetzt gesagt: Natürlich müssen das Bankgeheimnis und der Datenschutz gewahrt bleiben. Da wird generell ein öffentlicher Ausschuss vorgeschlagen, aber man kann ohnedies bei jedem Ausschuss mit Mehrheit beschließen, ihn öffentlich abzuhalten; es muss also nicht von Haus aus ein generell öffentlicher Ausschuss sein.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e324">Zum Dritten: Ich meine, es ist ja schon ein bisschen ein Verhandlungsangebot, wenn man hier jetzt sagt, man kann über Rechte der Minderheit reden, denn laut dem vorliegenden Antrag soll ein einzelner Abgeordneter das Recht haben, Akten anzufordern! Also was wir sicherlich nicht wollen, ist ein Untersuchungsausschuss light oder eine zweite Schiene für einen Untersuchungsausschuss. Wir haben damals über ein Jahr lang über das Minderheitsrecht im Untersuchungsausschuss verhandelt. Da kann man also nicht hergehen und sagen: Holladrio, wir ändern das Bundes-Verfassungsgesetz ab, sodass die Rechte der Mandatare weit über das hinausgehen, was wir in einem</seg>
+               <pb n="11"/>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e327">Jahr als Minderheitsrecht beim Untersuchungsausschuss verhandelt haben. – Dazu kommt von uns also eine ganz klare Absage.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e329">Wir sind gesprächsbereit, wir können auch die Gespräche aufnehmen. Wenn hoffentlich auch in den Cofag-Beirat entsandt wird, dann steht dem letzten Endes nichts entgegen, dass wir hier auch einen Ausschuss einrichten, in dem alle Covid-Maßnahmen abgearbeitet werden, und zwar auch über alle Ressorts hinweg.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e331">Eines möchte ich auch noch erwähnen: Wir haben bereits in vielen Gesetzen die Berichtspflicht an den Budgetausschuss verankert, bei all den Maßnahmen – da ist auch der Härtefallfonds zu nennen –, die wir hier gesetzt haben. Das heißt, es gibt über die weitgehenden Maßnahmen auch eine Berichtspflicht an den Budgetausschuss, aber wenn es so sein soll, dann können wir darüber reden, das alles in einem Ausschuss zusammenzufassen und dort auch die diesbezüglichen Diskussionen zu führen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e333">Wir sind am Beginn dieser Debatte, aber ich fordere Sie noch einmal auf und ich bitte Sie und ersuche Sie: Besetzen Sie auch den Cofag-Beirat, dann sind Sie auch direkt in die Entscheidungen mit eingebunden!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.kinesic3">
+               <desc>Beifall bei ÖVP und Grünen.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note17">
+               <time when="2020-04-22T21:26:00+02:00">21:26</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note18">Präsident Ing. Norbert Hofer</note>
+            <u who="#PAD_35521" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1364" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e344">Zu Wort gemeldet ist MMag. DDr. Hubert Fuchs. – Bitte schön, Herr Abgeordneter.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note19">
+               <time when="2020-04-22T21:26:25+02:00">21:26:25</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note20">Abgeordneter MMag. DDr. Hubert Fuchs (FPÖ)</note>
+            <u who="#PAD_83127" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1389" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e352">Sehr geehrter Herr Präsident! In schwierigen Zeiten braucht es einen nationalen Schulterschluss. Das haben wir schon oft gehört. Wir haben aber in den letzten Sitzungen mit den Regierungsparteien realisieren müssen, dass dieser nationale Schulterschluss einseitig ist. Keiner versteht, warum die Regierungsparteien mit dem ersten Covid-19-Sammelgesetz die Entschädigungsbestimmungen des Epidemiegesetzes außer Kraft gesetzt haben. Keiner versteht, warum die Regierungsparteien mit den Covid-19-Maßnahmenpaketen so eine unfassbare Antragsbürokratie geschaffen haben. Keiner versteht, warum der Härtefallfonds von der Wirtschaftskammer beziehungsweise von der Agrarmarkt Austria abgewickelt werden muss, und die Konstruktion der Cofag mit dem zahnlosen Beirat als Feigenblatt versteht auch keiner. <kinesic type="applause" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.kinesic4">
+                     <desc>Beifall bei der FPÖ sowie des Abg. Margreiter.</desc>
+                  </kinesic>
+            Diese Cofag verwaltet Garantien von unfassbaren 15 Milliarden Euro. Die Geschäftsführer – einer schwarz, einer grün – können bis zu 10 Millionen Euro vergeben, ohne den Aufsichtsrat damit zu befassen, bis 25 Millionen Euro muss der Aufsichtsrat damit befasst werden und erst über 25 Millionen Euro wird der Beirat damit befasst. Zu dieser Summe von 15 Milliarden Euro: Man kann sich darunter ja überhaupt nichts vorstellen. Das Landesverteidigungsbudget beträgt ein Sechstel dieser Summe – nur damit Sie einmal eine Vorstellung haben, welch immense Summe da in einer ausgelagerten Einheit konzentriert ist, deren Entscheidungen mehr oder weniger ein schwarzer und ein grüner Geschäftsführer treffen. Sollte der Beirat gegen eine finanzielle Maßnahme Bedenken haben, dann kann er, wenn es dort überhaupt eine einfache Mehrheit gibt, was bei drei Oppositionsparteien im Beirat wahrscheinlich nicht der Fall sein wird, lediglich ein suspensives Veto einlegen, und zwar kann er Entscheidungen um 48 Stunden verzögern. <vocal type="laughter" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal4">
+                     <desc>Heiterkeit der Abg. Belakowitsch.</desc>
+                  </vocal>
+            Es macht daher ja überhaupt keinen Sinn, Klubobmann Wöginger, dass wir in den Beirat gehen. Erstens haben wir dort sowieso nie die Mehrheit, und selbst wenn wir die Mehrheit zusammenbekommen, dann werden wir vom Aufsichtsrat überstimmt. <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal5">
+                     <desc>Zwischenruf des Abg. Kopf.</desc>
+                  </vocal>
+            Das heißt: Was soll das <pb n="12"/>
+            bringen, wenn wir in den Beirat gehen? <kinesic type="applause" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.kinesic5">
+                     <desc>Beifall bei FPÖ und SPÖ sowie der Abgeordneten Doppelbauer und Margreiter.</desc>
+                  </kinesic>
+            Darum braucht es da echte Kontrolle. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1423">Abg. Eßl: Warum geht ihr überhaupt ins Plenum? Da habt ihr auch keine Mehrheit!</note>Daher fordern wir mit den anderen Oppositionsparteien auch einen entsprechenden parlamentarischen Untersuchungs- - <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1433">Ruf bei der ÖVP:Jetzt weiß man eh, was daraus wird!</note> , Unterausschuss zum Budgetausschuss, den Covid-19-Unterausschuss, der auch mit entsprechenden Kontrollrechten ausgestattet ist und grundsätzlich – Kollege Krainer hat es schon erläutert – medienöffentlich tagen soll. Ich möchte auch betonen, dass durch diesen Covid-19-Unterausschuss alle budgetrelevanten Maßnahmen und nicht nur die Maßnahmen der Cofag einer echten parlamentarischen Kontrolle unterliegen. Es geht um das Steuergeld der Österreicher, und da haben Transparenz und Kontrolle noch nie geschadet. – Vielen Dank.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.kinesic6">
+               <desc>Beifall bei der FPÖ sowie bei Abgeordneten von SPÖ und NEOS.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note23">
+               <time when="2020-04-22T21:30:00+02:00">21:30</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note24">Präsident Ing. Norbert Hofer</note>
+            <u who="#PAD_35521" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1462" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e389">Zu Wort gemeldet ist nun Frau Mag. Nina Tomaselli. – Bitte schön, Frau Abgeordnete.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1474">Abg. Wurm: Es wurde alles gesagt!</note>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1489">Abg. Tomaselli: (auf dem Weg zum Rednerpult) Nein, noch nicht von allen!</note>
+            <vocal type="laughter" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal6">
+               <desc>Heiterkeit des Abg. Wurm.</desc>
+            </vocal>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note27">
+               <time when="2020-04-22T21:31:13+02:00">21:31:13</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note28">Abgeordnete Mag. Nina Tomaselli (Grüne)</note>
+            <u who="#PAD_05678" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1521" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e404">Herr Präsident! Liebe Kolleginnen und Kollegen! Herr Kollege Krainer, liebe Kolleginnen und Kollegen auch von SPÖ und NEOS und FPÖ, Sie haben ja vollkommen recht. Ich meine, wenn 38 Milliarden Euro an Steuergeldern, Geld der Steuerzahlerinnen und Steuerzahler, ausbezahlt werden müssen, dann brauchen wir vollkommene Transparenz, und wir brauchen auch volle Kontrolle, das steht außer Frage. Das ist nur gut und recht und das steht im Übrigen allen zu, die Vertreterinnen und Vertreter der Steuerzahlerinnen und Steuerzahler sind, und das sind wir alle hier in diesem Haus. <kinesic type="applause" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.kinesic7">
+                     <desc>Beifall bei den Grünen und bei Abgeordneten der ÖVP.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal7">
+                     <desc>Zwischenruf des Abg. Loacker.</desc>
+                  </vocal>
+            Ja, wenn es nach uns Grünen geht, sollen Sie bitte einen Ausschuss bekommen, wir würden uns auch sehr gerne in solch einem Ausschuss engagieren. <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal8">
+                     <desc>Zwischenruf des Abg. Leichtfried.</desc>
+                  </vocal>
+            Die derzeitige Geschäftsordnung bietet auch schon sehr, sehr viele Möglichkeiten – es ist nicht so, dass ein Ausschuss in der derzeitigen Form im Nationalrat nichts hergeben würde –: Der Ausschuss kann öffentlich sein, es gibt Fragestunden, es sind Berichte von der Regierung möglich, und zu diesen Berichten kann man auch als Minderheitsfraktion Anträge stellen. Das ist alles möglich. Ich habe Ihnen jetzt wirklich lange und aufmerksam zugehört, und das verstehe ich alles. Was ich aber nicht verstehe, ist, dass Sie niemanden in den Cofag-Beirat schicken. Gestern war die konstituierende Sitzung des Cofag-Beirats, und leider haben alle Vertreter von NEOS, SPÖ und FPÖ gefehlt. Und tatsächlich - - <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal9">
+                     <desc>Zwischenruf des Abg. Leichtfried.</desc>
+                  </vocal>
+            – Nein, der Cofag-Beirat kann parlamentarische Kontrolle nicht ersetzen – das behauptet auch niemand von uns –, ganz und gar nicht, aber es ist ein Informationsangebot für die parlamentarischen Fraktionen. <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal10">
+                     <desc>Zwischenrufe der Abgeordneten Matznetter und Meinl-Reisinger.</desc>
+                  </vocal>
+            Ich verstehe nicht, wieso Sie auf der einen Seite Transparenz und Information fordern und auf der anderen Seite diese Möglichkeit, umfassende Daten – nicht irgendetwas, sondern umfassende Daten – aus dem Notfallfonds zu erhalten – eine Information, die sehr, sehr wertvoll sein kann, auch für Ihre Arbeit –, ausschlagen. <kinesic type="applause" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.kinesic8">
+                     <desc>Beifall bei Grünen und ÖVP.</desc>
+                  </kinesic>
+                  <pb n="13"/>
+            Ich möchte noch einmal betonen: Der Cofag-Beirat kann eine parlamentarische Kontrolle nicht ersetzen, aber er ist eben ein Instrument, um eine möglichst schnelle Abwicklung auf der einen Seite und eine möglichst breite Einbindung der Fraktionen und der Interessenvertretungen auf der anderen Seite unter einen Hut zu bringen. <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal11">
+                     <desc>Zwischenruf des Abg. Deimek.</desc>
+                  </vocal>
+            Noch einmal: Ich finde es schade, dass Sie sich nicht beteiligen. Ich hoffe, Sie ändern Ihre Meinung noch, denn: Was bekommen Sie als Beiratsmitglied alles? – Sie bekommen jede Woche eine komplette Aufstellung aller Förderungen, die ausgezahlt werden – aller Förderungen, bis auf den letzten Cent! Wenn Sie wollen, können Sie die Unterlagen anfordern – komplett, Sie bekommen alles: den Antrag und die Anlagen der Unternehmen bis hin zu den Steuerunterlagen. Und nein, es ist nicht richtig, Sie bekommen die Unterlagen nicht erst ab einer Summe von 25 Millionen Euro! Sie müssen einfach einen Antrag stellen, dann bekommen Sie sie auch für Förderungen über 20 000 Euro. Und das alles funktioniert bei einfachster digitaler Handhabung. Also man versucht, es den Cofag-Beiratsmitgliedern möglichst einfach zu machen. Wenn Sie sich das alles so anhören – wissen Sie, was mich schreckt? – Ich bin auch im Cofag-Beirat und mich schreckt eher zu viel Information als zu wenig. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1584">Abg. Matznetter: Zu viel ...!</note> Das kann man vor allem mit transparenter Veröffentlichung lösen, aber eben nicht mit der Weigerung, in den Cofag-Beirat zu gehen. <kinesic type="applause" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.kinesic9">
+                     <desc>Beifall bei Grünen und ÖVP.</desc>
+                  </kinesic>
+            Der Cofag-Beirat kann – noch einmal – die Kontrolle durch Parlamentsfraktionen nicht ersetzen, wird er auch nicht, soll er auch nicht, und deshalb kommt von uns Grünen ein sehr, sehr großes Ja zu einem parlamentarischen Coronaausschuss. Ihrem Wunsch nach mehr Information und Mitarbeit könnten Sie aber so richtig viel Ausdruck verleihen, wenn Sie sich auch am Cofag-Beirat beteiligten. – Danke schön.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.kinesic10">
+               <desc>Beifall bei Grünen und ÖVP.</desc>
+            </kinesic>
+            <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal12">
+               <desc>Zwischenruf des Abg. Wurm.</desc>
+            </vocal>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note30">
+               <time when="2020-04-22T21:35:00+02:00">21:35</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note31">Präsident Ing. Norbert Hofer</note>
+            <u who="#PAD_35521" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1622" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e455">Dipl.-Ing.in Karin Doppelbauerist nun zu Wort gemeldet. – Bitte schön, Frau Abgeordnete.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note32">
+               <time when="2020-04-22T21:35:28+02:00">21:35:28</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note33">Abgeordnete Dipl.-Ing. Karin Doppelbauer (NEOS)</note>
+            <u who="#PAD_91141" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1646" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e463">Herr Präsident! Schön, dass ich jetzt noch die Gelegenheit habe, ein paar Dinge ein bisschen klarzustellen. Wir NEOS haben ja heute auch schon die Aktuelle Stunde ganz bewusst unter das Motto: Wer nichts weiß, muss alles glauben!, gestellt, und ich glaube, darum geht es heute hier auch ein bisschen. Es geht um die Verteilung von fast 40 Milliarden Euro an Steuergeldern, meine Damen und Herren, und da wollen wir NEOS als verantwortungsbewusste Oppositionspartei ganz sicher nicht auf das Glaubenmüssen angewiesen sein, sondern wir wollen wissen, was los ist. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1655">Rufe bei der ÖVP:Beirat!</note> Dieses Wissen bedeutet in diesem Fall aber ganz konkret Transparenz und vollkommene Kontrolle, parlamentarische Kontrolle. Das ist Wissen, und zwar auf Punkt und Beistrich. <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal13">
+                     <desc>Zwischenrufe der Abgeordneten Himmelbauer und Pfurtscheller.</desc>
+                  </vocal>
+            Es geht um das Geld der österreichischen Steuerzahler, und da können Sie sich nicht hinstellen und sagen: Sie gehen in den Beirat!, denn dort haben Sie einen Überblick über genau 15 Milliarden Euro des ganzen Budgets, aber nicht über alle 38 Milliarden Euro. <kinesic type="applause" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.kinesic11">
+                     <desc>Beifall bei den NEOS und bei Abgeordneten der SPÖ.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1677">Ruf bei der ÖVP:Stimmt ja nicht!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal14">
+                     <desc>Zwischenruf des Abg. Haubner.</desc>
+                  </vocal>
+            Wir haben ein Recht darauf – wir haben ein Recht darauf! –, ganz genau zu wissen, wer wann und mit welchen Begründungen wie viele Mittel aus den Coronahilfstöpfen <pb n="14"/>
+            bekommt, und zwar nicht nur wir, sondern jeder Steuerzahler und jede Steuerzahlerin in diesem Land. Wir als Parlament haben dem Finanzminister jetzt ein wirklich großes Pouvoir gegeben. Wir haben ihm viel Vertrauensvorschuss eingeräumt, und das war auch ganz wichtig und richtig. Nur, von der immer wieder zugesicherten Transparenz in Sachen Geldverteilung sind wir schon ein Stück weit weg. Davon haben wir bis jetzt wirklich noch nicht viel gesehen, und uns als Opposition macht das natürlich Sorge. Wir hören, es gibt Verhandlungsbereitschaft zur Einsetzung eines Unterausschusses, aber das Einzige, was wir bis jetzt wirklich konkret gehört haben, war am Ende des Tages, dass es einen eigenen Abschnitt über die Coronamaßnahmen im monatlichen Budgetbericht an das Parlament geben wird. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1698">Abg. Maurer: Nein, falsch!</note> – Das ist natürlich ganz toll und das ist wirklich super löblich <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal15">
+                     <desc>neuerlicher Zwischenruf der Abg. Maurer</desc>
+                  </vocal>
+            , aber ganz im Ernst, meine Damen und Herren: Das ist Standard, und wir wollen jetzt bitte nicht darüber diskutieren, ob wir das bekommen. <kinesic type="applause" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.kinesic12">
+                     <desc>Beifall bei den NEOS und bei Abgeordneten der SPÖ.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1726">Abg. Gabriela Schwarz: Das stimmt ja nicht!</note>Das ist als Kontrolle für diesen großen Krisentopf von 38 Milliarden Euro jedenfalls nicht geeignet. Meine Damen und Herren! Ich glaube, was man da wirklich auch noch einmal festlegen muss, was man wissen muss, ist: Oppositionsparteien tragen bei der Ausübung der parlamentarischen Kontrolle der Regierung eine besondere Verantwortung. Genau deswegen wollen wir diesen Ausschuss: weil es uns wirklich darum geht, dass wir eine Struktur schaffen, in der saubere, demokratische Kontrolle möglich ist, und das wäre eben mit diesem Covid-19-Unterausschuss des Budgetausschusses möglich. Es reicht eben nicht aus, meine Damen und Herren, dass wir als Vertreter in diesen ominösen Beirat eingeladen werden <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1737">Rufe bei der ÖVP:Der ist nicht ominös!</note>, wo es dann darum geht, dass dort 15 Milliarden Euro und nicht die 38 Milliarden Euro abgewickelt werden. Wir als Parlament müssen natürlich das gesamte Budget kontrollieren, demokratisch kontrollieren. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1750">Abg. Ottenschläger: Das ist unsachlich!</note> Der von uns vorgeschlagene Ausschuss wäre die beste Basis für ein laufendes und für ein umfassendes Monitoring, denn es wird ja auch die Zeit nach Corona kommen. Und ganz im Ernst: Dann werden wir eine Rechnung zu bezahlen haben – und wir werden eine gewaltige Rechnung zu bezahlen haben! –, und da kann es nicht sein, meine sehr geehrten Damen und Herren, da darf nicht einmal der Verdacht aufkommen, dass hier gemauschelt wird, es darf nicht der Verdacht aufkommen, dass hinter verschlossenen Türen irgendeine Entscheidung gefallen ist. Deswegen fordern wir Nachvollziehbarkeit und Offenheit von A bis Z. Deshalb wollen wir die Verhandlungen auch medienöffentlich machen. Das ist uns in diesem Zusammenhang ganz wichtig, damit wir auch wirklich transparent agieren können. Und natürlich – wir haben es schon gesagt –: Schutzwürdige Interessen von Betroffenen müssen natürlich akzeptiert und eingehalten werden, das ist ganz klar. Aber lassen Sie mich zum Schluss auch noch aus meiner Sicht etwas zu diesem völlig unnötigen Konstrukt Cofag samt ihrem absolut zahnlosen Beirat sagen. Wer nur ein bisschen politische Erfahrung hat, der kann wirklich sehr, sehr leicht erkennen, was die Cofag ist. Die Cofag ist nichts anderes als eine Umgehungskonstruktion. Sie ist eine Umgehungskonstruktion, damit man 15 Milliarden Euro an der parlamentarischen Kontrolle vorbeischlawinert. Das ist es. <kinesic type="applause" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.kinesic13">
+                     <desc>Beifall bei NEOS und SPÖ sowie bei Abgeordneten der FPÖ.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1772">Abg. Steinacker: Erklären Sie den Unternehmern ...!</note> Dann kommt dazu, dass außer den Vertretern der fünf Parlamentsparteien auch Vertreter der Sozialpartner, der IV, ein Professor und ein Richter drinnen sitzen. Meine Damen und Herren, das ist kein demokratisch legitimiertes Gremium, so etwas schaut anders aus! <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal16">
+                     <desc>Zwischenruf der Abg. Maurer.</desc>
+                  </vocal>
+                  <pb n="15"/>
+            Verstehen Sie mich nicht falsch: Der Finanzminister kann den ganzen lieben Tag lang Beiräte schaffen, wenn er Lust darauf hat <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal17">
+                     <desc>neuerlicher Zwischenruf der Abg. Maurer</desc>
+                  </vocal>
+            – das ist vollkommen in Ordnung! –, aber das hat nichts mit einer parlamentarischen Kontrolle zu tun, und das kann man auch nicht in den gleichen Topf werfen. Frau Tomaselli hat es jetzt ein bisschen aufgearbeitet, aber in der Vergangenheit haben wir das nicht gehört. Das ist eine Farce und das ist vor allem demokratiepolitisch wirklich gefährlich.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note41">Präsident Ing. Norbert Hofer</note>
+            <u who="#PAD_35521" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1805" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e522">Schlusswort bitte!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note42">Abgeordnete Dipl.-Ing. Karin Doppelbauer</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note43">fortsetzend</note>
+            <u who="#PAD_91141" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1820" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e529">Noch einmal – der letzte Satz vielleicht dazu, weil es auch wichtig ist, das zu verstehen –: Die Beiratsmitglieder sind zur Verschwiegenheit verpflichtet. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1831">Abg. Steinacker: Es reicht!</note> Das heißt, sie dürfen hier nichts sagen, und das ist für uns nicht das, was wir unter Transparenz verstehen. <vocal type="interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.vocal18">
+                     <desc>Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            Die können nicht nach draußen gehen und hier berichten, und das ist genau das, was wir nicht wollen, weil es hier um Steuergelder geht, die transparent vergeben werden müssen. Da sind wir dann bei dem – lassen Sie mich damit schließen –, was genau der Punkt ist: glauben versus wissen. – Herzlichen Dank.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.kinesic14">
+               <desc>Beifall bei den NEOS sowie bei Abgeordneten von SPÖ und FPÖ.</desc>
+            </kinesic>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1856">Abg. Steinacker: Sie können mitgestalten, das wäre es!</note>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note46">
+               <time when="2020-04-22T21:41:00+02:00">21:41</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note47">
+               <time when="2020-04-22T21:41:07+02:00">21:41:07</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note48">Präsident Ing. Norbert Hofer</note>
+            <u who="#PAD_35521" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d7e1879" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e553">Zu Wort ist niemand mehr gemeldet. Die Debatte ist geschlossen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e555">Ich weise den Antrag 421/A dem Geschäftsordnungsausschuss zu.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e557">Die Tagesordnung ist erschöpft.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note49">
+                  <time when="2020-04-22T21:41:20+02:00">21:41:20</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e562">Die nächste Sitzung des Nationalrates, die geschäftsordnungsmäßige Mitteilungen und Zuweisungen betreffen wird, berufe ich für 21.42 Uhr – das ist gleich im Anschluss an diese Sitzung – ein.</seg>
+               <seg xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025_d2e564">Diese Sitzung ist geschlossen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note50">
+               <time when="2020-04-22T21:41:35+02:00">21:41:35</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-04-22-027-XXVII-NRSITZ-00025.note51">Schluss der Sitzung:<time when="2020-04-22T21:40:00+02:00">21:40</time>Uhr</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

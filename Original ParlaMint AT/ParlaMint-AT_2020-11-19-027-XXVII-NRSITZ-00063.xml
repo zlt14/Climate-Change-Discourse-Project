@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #covid" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XXVII. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="sub" xml:lang="de">63. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Donnerstag, 19. November 2020</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XXVII [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Sitting Number 63, Legislative period XXVII, Thursday, 19. November 2020</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="63">63. Sitzung</meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">XXVII. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="63">Sitting 63</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">Legislative period XXVII</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung, Korpuskodierung in TEI und automatische linguistische Annotation</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding and automatic linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="58" xml:lang="de">58 Äußerungen</measure>
+            <measure unit="speeches" quantity="58" xml:lang="en">58 speeches</measure>
+            <measure unit="words" quantity="10883" xml:lang="de">10,883 Wörter</measure>
+            <measure unit="words" quantity="10883" xml:lang="en">10,883 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Plenarsitzung des Nationalrates, Stenographisches Protokoll, 63. Sitzung des Nationalrates der Republik Österreich, Donnerstag, 19. November 2020</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <title type="sub" xml:lang="en">Shorthand record, Sitting Number 63, Legislative period XXVII, Thursday, 19. November 2020</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XXVII/NRSITZ/NRSITZ_00063/fnameorig_884845.html</idno>
+               <date when="2020-11-19">2020-11-19</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="194"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="96"/>
+               <tagUsage gi="note" occurs="222"/>
+               <tagUsage gi="pb" occurs="24"/>
+               <tagUsage gi="seg" occurs="111"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="50"/>
+               <tagUsage gi="u" occurs="58"/>
+               <tagUsage gi="vocal" occurs="94"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="2020-11-19">2020-11-19</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-13">
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e178" type="debateSection">
+            <gap reason="editorial" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.gap1">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note1">
+               <time when="2020-11-19T17:51:27+01:00">17:51:27</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note2">Beginn der Sitzung:<time when="2020-11-19T17:51:00+01:00">17:51</time>Uhr</note>
+            <note type="chairpersons" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note3">Präsident Mag. WolfgangSobotka</note>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note4">
+               <time when="2020-11-19T17:51:28+01:00">17:51:28</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note5">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e831" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e200">Ich darf die 63. Sitzung des Nationalrates eröffnen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e202">Als verhindert gemeldet sind die Abgeordneten Franz Leonhard Eßl, Kira Grünberg, Mag. Michael Hammer, Klaus Köchl, Bedrana Ribo, MAund Süleyman Zorba.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e204">Zur Geschäftsbehandlung darf ich Herrn Abgeordnetem Leichtfried das Wort erteilen. – Bitte, Herr Abgeordneter.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note6">
+               <time when="2020-11-19T17:51:50+01:00">17:51:50</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note7">Abgeordneter Mag. Jörg Leichtfried (SPÖ)</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note8">zur Geschäftsbehandlung</note>
+            <u who="#PAD_22694" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e888" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e214">Herr Präsident! Geschätzte Kolleginnen und Kollegen! Auf der Tagesordnung für morgen steht der Antrag 958/A der Abgeordneten August Wöginger, Mag. Markus Koza, Kolleginnen und Kollegen betreffend ASVG, GSVG, BSVG und andere, 455 der Beilagen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e899">Ruf bei der FPÖ:... vergessen!</note>Diese Vorlage dient als Grundlage für den Abänderungsantrag der Regierungsparteien, mit der die abschlagsfreie Pension mit 45 Arbeitsjahren überfallsartig abgeschafft und stattdessen ein völlig unzureichender Frühstarterbonus geschaffen werden soll. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal1">
+                     <desc>Zwischenruf des Abg. Stögmüller.</desc>
+                  </vocal>
+            Dieser Abänderungsantrag wurde den Oppositionsfraktionen erst vor wenigen Minuten zur Verfügung gestellt, und die Regeln sollten erst in mehr als einem Jahr in Kraft treten. Eine derart überhastete Beschlussfassung ist daher überhaupt nicht notwendig, im Gegenteil. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e915">Ruf bei der ÖVP:... mit beschlossen!</note> Eine so umfangreiche Änderung, ein Raub von Pensionen an Menschen, die ihr Leben lang gearbeitet haben <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal2">
+                     <desc>Zwischenrufe bei der ÖVP</desc>
+                  </vocal>
+            , sollte nicht in einer Nacht-und-Nebel-Aktion innerhalb eines Tages im Nationalrat durchgepeitscht werden, geschätzte Damen und Herren! So geht man mit diesen Menschen nicht um! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic1">
+                     <desc>Beifall bei der SPÖ und bei Abgeordneten der FPÖ.</desc>
+                  </kinesic>
+            Es ist genügend Zeit, dass wir hier Für und Wider abwägen. Es ist genügend Zeit, dass der Sozialausschuss mit seinen Profis dieses Thema debattiert. Es ist genügend Zeit, dass dieser Vorschlag einer Begutachtung unterzogen wird. Geschätzte Damen und Herren, deshalb erhebe ich Einwendungen gegen die Tagesordnung der 64. Nationalratssitzung und verlange, TOP 30, den Bericht des Ausschusses für Arbeit und Soziales, 455 der Beilagen, von der Tagesordnung abzusetzen. Das ist das einzig Sinnvolle, was man mit so einem Antrag tun kann, geschätzte Damen und Herren. – Danke schön.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic2">
+               <desc>Beifall bei der SPÖ und bei Abgeordneten der FPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note11">
+               <time when="2020-11-19T17:54:00+01:00">17:54</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note12">
+               <time when="2020-11-19T17:54:05+01:00">17:54:05</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note13">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e957" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e247">Gibt es noch Wortmeldungen zur Geschäftsbehandlung? – Das ist nicht der Fall.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e249">Sie haben die Einwendungen gehört, sie liegen mir auch schriftlich vor. Ich trete diesen Einwendungen nicht bei, weshalb der Nationalrat zu entscheiden hat.</seg>
+               <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal3">
+                  <desc>Zwischenruf des Abg. Leichtfried.</desc>
+               </vocal>
+               <pb n="6"/>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e255">In der gemäß § 50 der Geschäftsordnung stattzufindenden Debatte beschränke ich die Redezeit auf 5 Minuten und die Zahl der Redner pro Klub auf drei.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e257">Ich werde die Einwendungsdebatte sogleich durchführen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e259">Zunächst nehme ich noch einige geschäftsordnungsmäßige Mitteilungen vor. Außerdem darf ich die Ordner der Klubs ersuchen, die Rednerinnen und Redner für die Einwendungsdebatte dem Präsidium bekannt zu geben.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e261">Einlauf und Zuweisungen</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note14">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e999" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e266">Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e268">Die schriftliche Mitteilung hat folgenden Wortlaut:</seg>
+               <gap reason="editorial" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.gap2">
+                  <desc xml:lang="en">Quoted printed matter omited</desc>
+                  <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+               </gap>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note15">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e1760" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e278">Des Weiteren weise ich den Antrag 1060/A(E) der Abgeordneten Brückl, Kolleginnen und Kollegen dem Unterrichtsausschuss, den</seg>
+               <pb n="12"/>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e281">Antrag 1061/A(E) der Abgeordneten Ecker, Kolleginnen und Kollegen dem Ausschuss für Arbeit und Soziales sowie den Antrag 1062/A(E) der Abgeordneten Yildirim, Kolleginnen und Kollegen dem Justizausschuss zu.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e283">Fristsetzungsantrag</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note16">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e1790" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e288">Vor Eingang in die Tagesordnung darf ich mitteilen, dass die Abgeordneten Brückl, Kolleginnen und Kollegen beantragt haben, dem Unterrichtsausschuss zur Berichterstattung über den Antrag 1060/A(E) eine Frist bis zum 21. November 2020 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e290">Ferner liegt mir das von fünf Abgeordneten gemäß § 43 Abs. 3 der Geschäftsordnung gestellte Verlangen vor, eine kurze Debatte über diesen Fristsetzungsantrag durchzuführen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e292">Diese kurze Debatte wird im Anschluss an die Einwendungsdebatte stattfinden.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e294">Die Abstimmung über den Fristsetzungsantrag wird nach Schluss dieser Debatte stattfinden.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note17">
+                  <time when="2020-11-19T17:55:59+01:00">17:55:59</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e299">Einwendungen gegen die Tagesordnung gemäß § 50 GOG</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note18">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e1820" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e305">Wir kommen nun zur Einwendungsdebatte.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e307">Zu Wort gelangt Abgeordneter Leichtfried. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note19">
+               <time when="2020-11-19T17:56:20+01:00">17:56:20</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note20">Abgeordneter Mag. Jörg Leichtfried (SPÖ)</note>
+            <u who="#PAD_22694" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e1844" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e315">Herr Präsident! Geschätzte Damen und Herren auf der Regierungsbank! Kolleginnen und Kollegen! Sehr geehrte Damen und Herren! Ich bin in den letzten Tagen oft gefragt worden: Wie werden wir diese Verschuldung, die momentan durchaus notwendig ist, bezahlen? Wer wird sie bezahlen? Wenn man den Mitgliedern der Regierung zuhört, hat man den Eindruck, die wissen es nicht so recht, sie wollen es nicht sagen – aber man braucht nur darauf zu schauen, was getan wird. Wir haben soeben erlebt, dass schon die ersten Zahler nominiert wurden. Die ersten Zahler sind die, die ihr Leben lang gearbeitet haben, die mehr als 45 Jahre gearbeitet haben. Das Einzige, was sie getan haben, war, viel zu arbeiten und viel einzuzahlen – und das sind die Ersten, die jetzt für diese Krise zahlen, geschätzte Damen und Herren <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic3">
+                     <desc>Beifall bei der SPÖ</desc>
+                  </kinesic>
+            , indem ihre Pension verringert wird, indem ihre Pension gekürzt wird, indem Menschen, die nichts verbrochen haben, außer dass sie fleißig gearbeitet haben, plötzlich bis zu 300 Euro weniger Pension bekommen sollen. – Ja ist das gerecht? Das ist es aber, was die Regierung für diese Krise in Zukunft möchte: dass immer die, die hart arbeiten, zahlen werden. Das ist das erste Mal, dass das passiert – und da werden Sie uns noch kennenlernen. Wir werden Widerstand leisten bis zum Schluss, geschätzte Damen und Herren! So geht es nicht! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic4">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+            Ich weiß, dass Sebastian Kurz das unbedingt abschaffen wollte. Es war ihm immer schon ein Dorn im Auge. Sebastian Kurz hat mit den Fingern geschnipst, Sie <note type="comment" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note21">in Richtung ÖVP</note> sind sowieso gesprungen, die Grünen haben kurz Widerstand geleistet, und nun ist es passiert. Diese Pension wird einen Namen haben: Das ist die Pension, die Sebastian Kurz den Menschen, die hart arbeiten, kürzt – und das wird als sein größter Fehler in die Geschichte eingehen, geschätzte Damen und Herren! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic5">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+            Es spricht ja für einige von Ihnen, dass Sie anscheinend ein schlechtes Gewissen dabei gehabt haben und so tun wollten, dass es möglichst nicht auffällt. <pb n="13"/>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e1883">Ruf bei der ÖVP:Pharisäer!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal4">
+                     <desc>Weitere Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            Das war der Grund, warum es jetzt so plötzlich gekommen ist – in der Lockdownzeit, in der sie gehofft haben, dass es niemandem auffällt. Genau das ist aber der Fehler. Wenn so ein schwerer Eingriff passiert, gehört er in den Sozialausschuss, er gehört begutachtet, er gehört ordentlich debattiert. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal5">
+                     <desc>Zwischenrufe der Abgeordneten Gahr und Steinacker.</desc>
+                  </vocal>
+            Das wollen Sie nicht – und das wollen Sie deshalb nicht, weil Ihnen das schlechte Gewissen bei den Augen herausschaut. Das ist der Grund, geschätzte Damen und Herren! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic6">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+            Sie haben ja keine Ahnung, wie es den Menschen geht, die 45 Jahre gearbeitet haben. Die sitzen in der Regel nicht im Büro, die arbeiten am Backofen, die arbeiten als Dachdecker am Dach, die arbeiten als Tischler und die werden Ihnen noch sagen, was sie davon halten – das werden sie bei der nächsten Wahlentscheidung tun, und das geschieht Ihnen recht, geschätzte Damen und Herren! – Danke schön.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic7">
+               <desc>Beifall bei der SPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note23">
+               <time when="2020-11-19T17:59:00+01:00">17:59</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note24">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e1927" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e357">Zu Wort gemeldet ist Abgeordneter Klubobmann Wöginger. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note25">
+               <time when="2020-11-19T17:59:28+01:00">17:59:28</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note26">Abgeordneter August Wöginger (ÖVP)</note>
+            <u who="#PAD_14795" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e1948" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e366">Herr Präsident! Geschätzte Mitglieder der Bundesregierung! Meine sehr geehrten Damen und Herren! Herr Kollege Leichtfried! Was eine Nacht-und-Nebel-Aktion war, das war der 19. September 2019, denn da haben wir am Vormittag einen Abänderungsantrag bekommen, der am gleichen Abend beschlossen wurde, weder begutachtet noch sonst irgendetwas. Das war der 19. September 2019. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic8">
+                     <desc>Beifall bei der ÖVP und bei Abgeordneten der Grünen.</desc>
+                  </kinesic>
+            Erklärt also nicht uns, wie die Usancen des Hauses sind! Wenn es für euch und in eurem Sinne ist, ist es immer wurscht, nur die anderen Fraktionen in diesem Haus dürfen das nicht tun. Es ist nur der hochgelobten Sozialdemokratie vorbehalten, im Hohen Haus so zu agieren – meine Damen und Herren, mit uns nicht! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic9">
+                     <desc>Beifall bei ÖVP und Grünen.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal6">
+                     <desc>Zwischenruf des Abg. Scherak.</desc>
+                  </vocal>
+            Es versteht bis heute niemand, warum eine Regelung, die unter Rudi Hundstorfer eingeführt wurde - - <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e1975">Abg. Kollross: Lasst ihn in Ruh’!</note> 2010 haben wir das gemeinsam verhandelt, um etwas mehr Nachhaltigkeit in das Pensionssystem zu bringen. Wir haben ein gutes System bei den Pensionen, das möchte ich betonen. Wir haben uns damals in der rot-schwarzen Koalition darauf verständigt, dass wir bei der Langzeitversichertenregelung – so heißt sie nämlich – dieses Bonus-Malus-System einführen. Viele von den Hacklern fallen gar nicht in diese Regelung: Die Bauarbeiter zum Beispiel bekommen mit 57 Jahren Übergangsgeld und gehen dann in die Schwerarbeitspension – nur damit man das auch einmal gesagt hat. Ja, es ist eine Langzeitversichertenregelung, bei der wir uns auf ein Bonus-Malus-System geeinigt haben – mit Sozialminister Rudolf Hundstorfer, mit dem damaligen Bundeskanzler Werner Faymann –, das dann vier Jahre später in Kraft getreten ist. In einer Nacht-und-Nebel-Aktion habt ihr erstens einen Antrag eingebracht, der ein völliger Pfusch war – weil ihr auf alle möglichen Zeiten vergessen habt, weil ihr vergessen habt, dass schon ein paar Jahrgänge diese Pensionsart in Anspruch genommen haben –, und jetzt wird immer mehr draufgepackt, weil man nicht mehr weiß, wie man es den Leuten erklären soll. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal7">
+                     <desc>Zwischenruf des Abg. Stefan.</desc>
+                  </vocal>
+            Meine Damen und Herren, das ist keine Politik, das ist eine Pfuschaktion – sonst nichts! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic10">
+                     <desc>Beifall und Bravoruf bei der ÖVP sowie Beifall bei den Grünen.</desc>
+                  </kinesic>
+                  <pb n="14"/>
+            Wir schaffen diese Regelung nicht ab, sondern führen das Bonus-Malus-System wieder ein, das wir damals gemeinsam mit der SPÖ beschlossen haben. Zusätzlich schaffen wir einen Frühstarterbonus, der seinesgleichen sucht – das möchte ich betonen – und wirklich eine tolle Maßnahme ist. Warum? – Weil er all jenen hilft, die zwischen dem 15. und dem 20. Lebensjahr gearbeitet haben. Das sind alle Lehrlinge, das ist die Verkäuferin, das ist die Bürokauffrau, das ist die Handelsangestellte <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2002">Abg. Belakowitsch: Das stimmt ja gar nicht! Das ist ja gar nicht drinnen! Das ist ja nicht wahr!</note> ,das ist die Friseurin: Genau ihnen geben wir jetzt pro Erwerbsmonat zusätzlich einen Euro dazu. Das ist eine Unterstützung für Zigtausende Frauen, die bis jetzt von dieser Regelung nicht profitiert haben. Ich spreche niemandem, der lange gearbeitet hat, ab, dass er eine ordentliche Pension kriegen soll, nur liegt die Durchschnittspension jener, die die Hacklerregelung in Anspruch genommen haben, derzeit bei 2 900 Euro, und die durchschnittliche Frauenpension liegt bei gut 1 000 Euro. Das ist doch nicht gerecht, meine Damen und Herren! Deshalb führen wir diesen Frühstarterbonus ein. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic11">
+                     <desc>Beifall bei ÖVP und Grünen.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal8">
+                     <desc>Zwischenruf der Abg. Belakowitsch.</desc>
+                  </vocal>
+            Es ist gelebte Demokratie, meine Damen und Herren, dass man dagegen ist, wenn ein System wiedereingeführt wird, das es so schon einmal gegeben hat, aber unsere Aufgabe – die nehmen wir in dieser Bundesregierung wahr – ist, dass wir mehr Nachhaltigkeit und mehr Gerechtigkeit in das Pensionssystem bringen, und das machen wir damit.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic12">
+               <desc>Beifall bei ÖVP und Grünen.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note29">
+               <time when="2020-11-19T18:03:00+01:00">18:03</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note30">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2040" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e411">Zu Wort gemeldet ist Klubobmann Herbert Kickl. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note31">
+               <time when="2020-11-19T18:03:30+01:00">18:03:30</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note32">Abgeordneter Herbert Kickl (FPÖ)</note>
+            <u who="#PAD_35520" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2065" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e419">Herr Präsident! Meine sehr geehrten Damen und Herren! Ja, da ist sie wieder, am Ende der Budgetdebatte: die Rollkommandopolitik der Österreichischen Volkspartei, nicht nur in Sachen Corona - -</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note33">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2080" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e424">Nehmen Sie das Wort „Rollkommando“ zurück! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic13">
+                     <desc>Beifall bei den Grünen und bei Abgeordneten der ÖVP.</desc>
+                  </kinesic>
+            Nehmen Sie den nationalsozialistischen Ausdruck „Rollkommando“ zurück – das würde ich Sie bitten!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note34">Abgeordneter Herbert Kickl</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note35">fortsetzend</note>
+            <u who="#PAD_35520" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2101" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e436">Ich nehme dieses Wort nicht zurück, Herr Präsident!</seg>
+            </u>
+            <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal9">
+               <desc>Zwischenruf des Abg. Stögmüller.</desc>
+            </vocal>
+            <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal10">
+               <desc>Zwischenrufe bei ÖVP und SPÖ.</desc>
+            </vocal>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note36">
+               <time when="2020-11-19T18:04:02+01:00">18:04:02</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note37">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2137" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e450">Dann erteile ich Ihnen einen Ordnungsruf.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2148">Abg. Stögmüller: Schämen Sie sich!</note>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note39">
+               <time when="2020-11-19T18:04:08+01:00">18:04:08</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note40">Abgeordneter Herbert Kickl</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note41">fortsetzend</note>
+            <u who="#PAD_35520" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2175" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e463">Wir haben ja schon in den letzten Tagen einen verhaltensauffälligen Nationalratspräsidenten aus den Reihen der Volkspartei erlebt: Das war derjenige, der einer Oppositionspolitikerin eine auflegen wollte. Jetzt haben wir den Beweis, dass es weitere Verhaltensauffälligkeiten im Reich der Nationalratspräsidenten der ÖVP gibt.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic14">
+               <desc>Beifall bei der FPÖ.</desc>
+            </kinesic>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2190">Abg. Stögmüller: Schämen Sie sich!</note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note43">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2212" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e473">Ich würde Sie bitten, sich im Ton zu mäßigen und die persönlichen Beleidigungen hintanzuhalten. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic15">
+                     <desc>Beifall bei ÖVP und Grünen.</desc>
+                  </kinesic>
+            Erweisen Sie sich einmal – wenigstens in dieser Debatte – der Angemessenheit des Hohen Hauses als würdig! So schwer kann das doch nicht sein.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note44">Abgeordneter Herbert Kickl</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note45">fortsetzend</note>
+            <u who="#PAD_35520" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2233" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e484">Herr Präsident, Ihre Moralpredigten sollten Sie innerparteilich führen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2245">Abg. Stögmüller: Raus mit dem Rechtsextremen!</note> Sie sollten dieses Gespräch mit Ihrem Herrn Vorgänger – mit Herrn Präsidenten Khol aus Tirol – führen, aber nicht mit mir. Ich lasse mir von Ihnen auch nicht den Mund verbieten. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic16">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Was hier passiert, ist das, was wir in der ersten Stufe angekündigt haben: nämlich Sozialabbau <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal11">
+                     <desc>Zwischenruf der Abg. Neßler</desc>
+                  </vocal>
+            auf Kosten derjenigen, die in diesem Land den Wohlstand aufgebaut haben, den Sie gerade dabei sind systematisch zu ruinieren. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal12">
+                     <desc>Zwischenruf des Abg. Stögmüller.</desc>
+                  </vocal>
+            Die Hackler sind die Ersten, die unter die Räder kommen, und es ist eine Schande, wie Sie Ihre Prioritäten setzen – das schreibe ich Ihnen auch einmal in Ihr Stammbuch. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic17">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Das muss man sich einmal einfallen lassen: Diejenigen, die mit Fleiß und Disziplin 45 Jahre in diesem Land gearbeitet haben <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal13">
+                     <desc>Zwischenruf der Abg. Neßler</desc>
+                  </vocal>
+            , die Steuern gezahlt und in das Sozialsystem eingezahlt haben, die all das ermöglicht haben, wofür Sie sich jetzt auf die Brust klopfen, sind diejenigen, denen Sie jetzt im Alter zwei Alternativen aufreißen – entweder Abschläge oder Altersarbeitslosigkeit. Das ist Ihre Form der Dankbarkeit für diejenigen, die dieses Land stark und groß gemacht und es zu Wohlstand geführt haben. Meine sehr geehrten Damen und Herren, es ist vonseiten der Regierungsparteien erbärmlich! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic18">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Wenn das Ihr Dank und Ihre Gerechtigkeit für die ältere Generation ist, dann gute Nacht, Österreich! Es wird umso absurder, wenn man die Vergleiche zieht: Mit keinem Wort haben Sie in Ihrem ganzen Budget einen Kürzungsbeitrag bei denjenigen, die man zu Recht als Luxuspensionisten bezeichnen kann, vorgesehen. Nicht einen Cent weniger gibt es für diese Klientel, die vollständig in den Reihen von ÖVP und SPÖ zu verorten ist – nicht einen Cent weniger! <note type="comment" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note47">Abgeordnete der ÖVP wenden dem Redner demonstrativ den Rücken zu.</note> – Ja, drehen Sie sich um, weil man Ihnen ansonsten von vorne die Schamesröte im Gesicht ansieht, Herr Kollege Wöginger! Tun Sie das nur! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic19">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Es gibt noch einen zweiten Teil, an dem man sieht, wie pervers dieses ganze System in der Zwischenzeit geworden ist: Während Sie es den Hacklern wegnehmen <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal14">
+                     <desc>Zwischenruf der Abg. Steger</desc>
+                  </vocal>
+            ,stopfen Sie es gleichzeitig anderen, die noch keine Sekunde einen Beitrag für dieses Land geleistet haben, im sprichwörtlichen Sinne auch noch hinein. Ich rede vom Megabudgetposten des gesamten Asylbereichs, mit dem Sie Leute alimentieren und mit einer Vollkaskoausstattung versorgen, die noch keinen Tag irgendetwas für dieses Land geleistet haben. Das ist die Verteilungsgerechtigkeit Marke ÖVP und Grüne. Herr Kollege Wöginger, Sie hören es auch, wenn Sie sich umdrehen. Die Ohren müssten Sie sich zuhalten, wenn Sie konsequent wären, aber so weit denken Sie nicht. Herr Kollege Wöginger, ich sage Ihnen nur eines <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal15">
+                     <desc>Zwischenruf des Abg. Amesbauer</desc>
+                  </vocal>
+            Der Begriff Wahlkampfzuckerl im Zusammenhang mit der Hacklerregelung und einer gerechten Pension für Langzeitversicherte soll Ihnen und allen anderen Bonzen des ÖAAB in Zukunft im Halse stecken bleiben!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic20">
+               <desc>Lang anhaltender, teilweise stehend dargebrachter Beifall und Bravorufe bei der FPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note48">
+               <time when="2020-11-19T18:08:00+01:00">18:08</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note49">
+               <time when="2020-11-19T18:08:37+01:00">18:08:37</time>
+            </note>
+            <pb n="16"/>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note50">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2339" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e543">Erstens halte ich fest, dass ich Ihnen nicht das Wort verbiete, sondern Sie nur auffordere, die Würde des Hauses zu wahren.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e545">Für das Wort „Bonzen“ erteile ich Ihnen einen weiteren Ordnungsruf.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic21">
+                  <desc>Beifall bei den Grünen und bei Abgeordneten der ÖVP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e550">Zur Geschäftsbehandlung hat sich Abgeordneter Schnedlitz zu Wort gemeldet. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note51">
+               <time when="2020-11-19T18:09:02+01:00">18:09:02</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note52">Abgeordneter Michael Schnedlitz (FPÖ)</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note53">zur Geschäftsbehandlung</note>
+            <u who="#PAD_64022" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2385" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e560">Herr Präsident! Sehr geehrte Damen und Herren! In aller Kürze: Ich bitte Sie, wenn Sie einen Ordnungsruf erteilen, das für das gesamte Haus gleich zu handhaben. Wenn Herr Kollege Hörl während der Rede von Herrn Kollegen Leichtfried den Zwischenruf: Pharisäer!, tätigt, sollte zumindest dafür auch ein Ordnungsruf erteilt werden. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal16">
+                     <desc>Zwischenruf des Abg. Amesbauer.</desc>
+                  </vocal>
+            Wenn von den Grünen während der Rede von Herrn Kickl der Zwischenruf: Die Rechtsextremen von der FPÖ!, kommt, sollte man sich das auch ansehen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2400">Abg. Stögmüller: „Raus mit dem Rechtsextremen!“, so hat der Zwischenruf gelautet!</note> Wenn Sie, Herr Präsident, ein Problem mit dem Wort „Rollkommando“ haben <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal17">
+                     <desc>Zwischenruf bei der FPÖ</desc>
+                  </vocal>
+            ,darf ich nur darauf hinweisen, dass auch die ÖVP dieses Wort verwendet: unter anderem in einem Antrag der ÖVP Wien vom 25.6.2013 im Zusammenhang mit den Wiener Kinderheimen, sogar schriftlich im Antrag.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic22">
+               <desc>Beifall bei der FPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note55">
+               <time when="2020-11-19T18:10:00+01:00">18:10</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note56">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2433" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e582">Zu Wort gemeldet ist Abgeordnete Klubobfrau Maurer. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note57">
+               <time when="2020-11-19T18:10:05+01:00">18:10:05</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note58">Abgeordnete Sigrid Maurer, BA (Grüne)</note>
+            <u who="#PAD_83101" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2454" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e591">Sehr geehrter Herr Präsident! Werte Kolleginnen und Kollegen! Werte Ministerin! Ich habe es vorgestern gesagt, es ist auch heute wieder klar: Herr Kickl, Ihre Wortwahl ist erbärmlich! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic23">
+                     <desc>Anhaltender, teilweise stehend dargebrachter Beifall bei Grünen und ÖVP.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2469">Abg. Martin Graf: Weitersprechen bitte!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2482">Abg. Stögmüller: Anders kann man’s nicht bezeichnen!</note> Wir haben jetzt hier eine Einwendungsdebatte zu der Debatte, die wir schon vorgestern hatten, die wir auch morgen wieder haben werden. Worum geht es? – Es geht darum, unser Pensionssystem gerechter zu machen <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal18">
+                     <desc>Zwischenrufe der Abgeordneten Belakowitsch und Amesbauer</desc>
+                  </vocal>
+            , eine extreme Bevorzugung einer sehr, sehr kleinen Gruppe auszugleichen und Frauen den Zugang zu einer höheren Pension zu ermöglichen. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic24">
+                     <desc>Beifall bei Grünen und ÖVP.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal19">
+                     <desc>Zwischenrufe der Abgeordneten Belakowitsch und Wurm.</desc>
+                  </vocal>
+            Bisher ist Steuergeld dafür verwendet worden, bereits sehr hohe Pensionen von fast ausschließlich Männern zu erhöhen. In Zukunft soll dieses Steuergeld dafür verwendet <pb n="17"/>
+            werden, Menschen, die besonders früh zu arbeiten begonnen haben, eine bessere Pension zu ermöglichen. Es sind 60 Euro pro Monat möglich. Das ist für die Frauen mit den niedrigen Pensionen sehr viel Geld, und es ermöglicht ein faireres Pensionssystem, einen Ausgleich, der jedenfalls angebracht ist. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic25">
+                     <desc>Beifall bei Grünen und ÖVP.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2521">Abg. Belakowitsch: 1 Euro im Monat?</note>Von der bisherigen Regelung haben 10 000 Männer profitiert. Von der künftigen Regelung werden 60 000, also sechsmal so viele Menschen, profitieren, und zwar gleichermaßen Männer wie Frauen. Es ist ein wichtiger Beitrag zur Bekämpfung der Altersarmut, eines Problems, dem wir Grüne uns schon lange verschrieben haben und das wir in dieser Regierungsbeteiligung gemeinsam mit der ÖVP angehen, beispielsweise durch die Erhöhung der Ausgleichszulage, die wir auch schon beschlossen haben <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal20">
+                     <desc>Zwischenruf des Abg. Wurm</desc>
+                  </vocal>
+            , die die Mindestpension auf 1 000 Euro hebt <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic26">
+                     <desc>Beifall bei Grünen und ÖVP</desc>
+                  </kinesic>
+            , und jetzt mit dem Frühstarterbonus, der eben dazu beiträgt, dass die BezieherInnen niedriger Pensionen aufgrund des Fixbetrags überproportional stark profitieren. Ich bin überzeugt davon, dass das ein richtiger Schritt zu mehr Gerechtigkeit ist, zu mehr Geschlechtergerechtigkeit und zu einer gerechteren Verteilung und Verwendung der Steuermittel im Pensionssystem. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2546">Abg. Leichtfried: Und wieso keinen Sozialausschuss?</note> Dementsprechend werden wir diesen Antrag morgen auch beschließen. – Vielen Dank.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic27">
+               <desc>Beifall bei den Grünen und bei Abgeordneten der ÖVP.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note63">
+               <time when="2020-11-19T18:13:00+01:00">18:13</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note64">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2573" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e641">Zu Wort gemeldet ist Abgeordnete Heinisch-Hosek. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note65">
+               <time when="2020-11-19T18:13:47+01:00">18:13:47</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note66">Abgeordnete Gabriele Heinisch-Hosek (SPÖ)</note>
+            <u who="#PAD_08177" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2594" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e649">Herr Präsident! Ich bin zutiefst überzeugt, dass es gerecht wäre, wenn wir diesen Abänderungsantrag erstens früher bekommen hätten und wenn wir zweitens die Möglichkeit gehabt hätten, ihn ganz normal im Sozialausschuss zu behandeln. Nächstes Jahr gibt es überhaupt keinen Frühstarter- oder Frühstarterinnenbonus, sehr geehrte Frau Kollegin Maurer, erst 2022, wenn überhaupt. Nächstes Jahr fließt also überhaupt noch nichts, und die 60 Euro pro Monat, bedeuten die jetzt 1 Euro pro Monat, 60 Euro pro Monat? Es sind nämlich bis zu 60 Euro pro Monat. Wir wissen alle, dass FerialpraktikantInnen nicht darunterfallen, dass Menschen, die eine fünfjährige Fachausbildung in einer höheren Schule gemacht haben, nicht darunterfallen können, weil man das eine Jahr, das man zwischen dem 15. und dem 20. Lebensjahr gearbeitet haben muss, nicht erreichen kann. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2605">Abg. Haubner: Ferialpraxis!</note> Ich verstehe überhaupt nicht: Warum das Ganze jetzt im Windschatten dieses Budgets, warum morgen? Warum nicht so wie früher? Es wird dauernd von Usancen geredet, von der Wortwahl – die ist teilweise wirklich widerwärtig und gehört nicht hier herein; das ist keine Frage –: Warum, bitte, können wir nicht ganz normale Abläufe haben, wie wir sie früher auch gehabt haben? August Wöginger! Je mehr du dich aufregst, desto mehr habe ich den Eindruck, dass du ein schlechtes Gewissen hast, weil ihr Dinge durchpeitscht – wirklich, das ist meine tiefste Überzeugung. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic28">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+            Speed kills!, das habt ihr so was von drauf, und dann kommen die zynischen Antworten: Ihr habt doch wohl Zeit, zehn Seiten zu lesen, über Nacht, ihr könnt das ja bis morgen entscheiden. – Wir sind Volksvertreterinnen und Volksvertreter, und wir wollen die Dinge in den Ausschüssen diskutieren, wir wollen die Chance einer Begutachtung haben. <pb n="18"/>
+            Das sind zwei voneinander getrennte Maßnahmen, und wir wollen nicht, dass man einer Gruppe etwas wegnimmt und der anderen gibt. Ihr streicht einer Gruppe etwas und erfindet etwas. Das ist eine wirklich nicht langfristig gedachte Geschichte, die absolut nicht allen Frauen zugutekommt – hört mir bitte zu, meine Herren <note type="side_talk" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note68">in Richtung Abg. Fürlinger und weiterer mit ihm sprechender ÖVP-Abgeordneter</note> , das wäre sehr höflich, würde ich sagen! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic29">
+                     <desc>Beifall bei der SPÖ</desc>
+                  </kinesic>
+            –, sie kommen zu zwei Dritteln nicht in den Genuss, weil sie da nicht erfasst werden, weil die Pflichtschulabgänger und -abgängerinnen zu zwei Dritteln Burschen sind und nur zu einem Drittel Mädchen. Diese besuchen eher eine höhere Schule, als eine Lehre zu machen. Also kommt dieser FrühstarterInnenbonus eigentlich nicht sehr vielen Frauen zugute. Wenn ich uns alle an die Pensionsreform erinnern darf, bei der ihr 500 000 Personen nicht beachtet habt, die nicht einmal die Inflationsabgeltung bekommen haben, die 35 Euro pauschal bekommen haben: Davon waren 370 000 Versicherungsnehmerinnen und -nehmer betroffen, es waren 100 000 pensionierte Lehrerinnen und Lehrer, Polizistinnen und Polizisten. Die habt ihr mit 35 Euro pauschal unter der Inflationsabgeltung abgespeist. Es ist schön, dass wir die kleinen Pensionen angehoben haben, aber es gibt 40 000 Menschen in Österreich, die mehr als 5 000 Euro Pension haben. Rudi Hundstorfer – weil er so oft erwähnt wurde – hat 2014 eine Begrenzung dieser Luxuspensionen erreicht, die ihr genau jetzt wieder aufgehoben habt. Das heißt, wenn jemand 10 000 Euro Sonderpension hat, bei der Nationalbank beispielsweise, und ihm die Inflationsrate abgegolten wird, kriegt er noch 150 Euro im Monat dazu! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2639">Abg. Fürlinger: ...! Das sind keine Bonzen!</note> – Na wo sind wir denn?! Was ist denn da gerecht, meine Herren?! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic30">
+                     <desc>Beifall bei der SPÖ und bei Abgeordneten der FPÖ.</desc>
+                  </kinesic>
+            Kommen wir noch kurz zu den Frauenpensionen, kommen wir zu diesem zynischen Antrag bezüglich FrühstarterInnen! Ich habe schon erwähnt, wie viele Frauen nicht in den Genuss kommen werden. Jeden Antrag, der heute wirklich wohlmeinend zu fairen Frauenpensionen, zu einer Vereinbarkeitsmilliarde eingebracht wurde, alles, was Frauen ihr Berufsleben lang bräuchten, habt ihr abgelehnt. Das ist euch völlig egal! Mit dem FrühstarterInnenbonus eine kleine Gruppe – nächstes Jahr fließt überhaupt kein Geld, ich habe es schon gesagt, sondern erst übernächstes Jahr – abzuspeisen, einer kleinen Gruppe von wirklich schwer arbeitenden Menschen, die 540 Beitragsmonate zusammengebracht haben, das wegzunehmen und ihnen nur die 35 Euro Pauschale zu geben – da fallen nämlich die auch noch darunter, dadurch haben sie nicht einmal die Inflationsabgeltung bekommen – und dann noch zu sagen, wenn jemand langzeitversichert ist: Das sind ja Luxuspensionen!, wie es Frau Maurer gestern getan hat – also Luxus ist etwas anderes, Luxuspensionisten sind die mit 10 000 Euro Sonderpension –, das alles zeigt, dass ihr mit den Frauen gar nichts am Hut habt.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic31">
+               <desc>Beifall bei der SPÖ und bei Abgeordneten der FPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note70">
+               <time when="2020-11-19T18:18:00+01:00">18:18</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note71">
+               <time when="2020-11-19T18:18:51+01:00">18:18:51</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note72">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2674" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e688">Herr Abgeordneter Fürlinger, für das Wort „Bonzen“ erteile ich Ihnen ebenfalls einen Ordnungsruf.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e690">Zu Wort gemeldet ist Herr Abgeordneter Loacker. – Bitte.</seg>
+            </u>
+            <pb n="19"/>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note73">
+               <time when="2020-11-19T18:19:00+01:00">18:19:00</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note74">Abgeordneter Mag. Gerald Loacker (NEOS)</note>
+            <u who="#PAD_83121" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2708" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e699">Herr Präsident! Sehr geehrte Frau Bundesministerin! Ja, Kollegin Heinisch-Hosek, mit Luxuspensionen kennt man sich in der SPÖ aus, gell?</seg>
+               <vocal type="laughter" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal21">
+                  <desc>Heiterkeit und Beifall bei Abgeordneten von NEOS und ÖVP.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e704">Jetzt möchte ich einmal auf das verweisen, was geschah. Das Ende der Abschlagsfreiheit wäre ja eigentlich 2009 schon gekommen. Dann war die legendäre Nationalratssitzung kurz vor der Wahl 2008, und dann hat man es noch einmal verlängert, dass Männer bis Jahrgang 1953 und Frauen bis Jahrgang 1958 abschlagsfrei in Pension gehen können. Das heißt, die Männer des Jahrgangs 1954 konnten im Jahr 2016 nicht mehr abschlagsfrei gehen und sind auch nicht abschlagsfrei gegangen und die 1955er im Jahr 2017.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e706">Wer war denn damals Sozialminister? – Es war der Abgang Hundstorfers und es war dann die Ära Stöger. Die SPÖ war in der Bundesregierung. Damals sind die Abschläge gekommen, haben gegriffen, und es war der SPÖ schnurzpiepegal, weil man in der SPÖ auch weiß, also diejenigen, die sich fachlich auskennen, dass es richtig ist, da bei einem späteren Pensionsantritt jeder Monat einen Unterschied machen muss, da jeder Monat zusätzlicher Beitragszahlungen einen Unterschied machen muss. Deswegen hat auch Sozialminister Stöger nichts gemacht, als diese Abschläge gegriffen haben, weil er es verstanden hat.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e708">Dann kam die Sitzung vom 19.9.2019 und wurde das ohne Diskussion, ohne Begutachtung in einer derartigen Hauruckaktion gemacht, die Jahrgänge vergessend, die mit Abschlägen gegangen sind. Wenn man so etwas sauber machen würde, dann würde man es für den öffentlichen Dienst gleich machen, dann würde man die Bundesheer- und die Zivildienstzeiten miteinrechnen <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal22">
+                     <desc>Zwischenruf der Abg. Belakowitsch</desc>
+                  </vocal>
+            ,dann hätte man sich überlegt, wie man das auf die Frauen abbildet. Das hat man sich alles nicht überlegt, weil, glaube ich, die Kollegen Muchitsch und Wimmer das schnell mit ihren parlamentarischen Mitarbeitern hingefetzt haben. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal23">
+                     <desc>Zwischenruf des Abg. Koza.</desc>
+                  </vocal>
+            Legistisch war es also wirklich unterste Kategorie – nicht begutachtet, nicht diskutiert, gar nichts.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic32">
+                  <desc>Beifall bei NEOS, ÖVP und Grünen.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e721">Und jetzt stellt sich Herr Kollege Leichtfried hier heraus und sagt, er möchte das im Sozialausschuss diskutiert haben. Das Thema abschlagsfreie Frühpension nach 540 Monaten haben wir x-fach im Sozialausschuss gehabt, nämlich aufgrund von Anträgen der Sozialdemokraten – x-fach im Ausschuss gehabt. Und dann gab es noch Anträge der Freiheitlichen zum selben Thema – x-fach im Ausschuss gehabt. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal24">
+                     <desc>Zwischenruf des Abg. Koza.</desc>
+                  </vocal>
+            Diskutiert haben wir es lang und breit. Sie wissen ja, dass ich gerne lang und breit über Pensionen diskutiere, und das ist sicher nicht undiskutiert über die Bühne gegangen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e727">Dann hat Kollegin Heinisch-Hosek eine Begutachtung eingefordert, und da kann ich sie nur einladen: Lesen Sie die Zeitung, denn es haben sich mehrere Experten glasklar dazu geäußert, mehrfach darauf hingewiesen, dass diese abschlagsfreie Frühpension eine völlige Fehlkonstruktion und ein Fehlanreiz ist! <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal25">
+                     <desc>Zwischenruf bei der SPÖ.</desc>
+                  </vocal>
+            Ich zähle ein paar davon auf: der Chef der Alterssicherungskommission, Walter Pöltner, dessen Werdegang ohne SPÖ gar nicht denkbar ist und der über viele Jahre Sektionschef in einem roten Sozialministerium war; der Chef des AMS, Johannes Kopf, hat erklärt, dass wir damit Fachkräfte zu früh aus dem Arbeitsmarkt hinauslotsen. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal26">
+                     <desc>Zwischenrufe bei der SPÖ.</desc>
+                  </vocal>
+            Herr Kocher vom IHS, Bernd Marin, Badelt – alle haben gesagt: Das ist Unfug, was an diesem 19.9.2019 gemacht wurde. Und um diesen Fehler zu bereinigen, dazu dient dieser Antrag, und jetzt tun Sie nicht so, als ob man darüber nicht schon x-fach diskutiert hätte!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic33">
+               <desc>Beifall bei NEOS, ÖVP und Grünen.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note75">
+               <time when="2020-11-19T18:22:00+01:00">18:22</time>
+            </note>
+            <pb n="20"/>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note76">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2799" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e748">Zu Wort gemeldet ist Herr Abgeordneter Stöger. – Bitte.</seg>
+            </u>
+            <note type="inquietude" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note77">Unruhe im Saal.</note>
+            <kinesic type="signal" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic34">
+               <desc>Präsident Sobotka gibt das Glockenzeichen.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note78">
+               <time when="2020-11-19T18:22:59+01:00">18:22:59</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note79">Abgeordneter Alois Stöger, diplômé (SPÖ)</note>
+            <u who="#PAD_52687" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2832" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e761">Herr Präsident! Sehr geehrte Frau Bundesministerin! Liebe Kolleginnen und Kollegen! Liebe Österreicherinnen und Österreicher! Was wir hier erleben <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal27">
+                     <desc>Zwischenruf bei der ÖVP</desc>
+                  </vocal>
+            , ist ein Ausdruck von purer Macht und des Versteckens vor harten Auseinandersetzungen, wenn es um die Menschen in Österreich geht. Wir haben einen Bundeskanzler, der heißt Kurz <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2843">Rufe bei der ÖVP:Jawohl!</note>
+                  <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic35">
+                     <desc>Beifall bei der ÖVP</desc>
+                  </kinesic>
+            , der hält den Herrn Sozialminister kurz, der hält den Herrn Arbeits- -, den Herrn Gesundheitsminister kurz <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2860">Ruf bei der ÖVP:Na was jetzt?</note>und der hält den Herrn Bildungsminister kurz. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal28">
+                     <desc>Zwischenruf bei der ÖVP.</desc>
+                  </vocal>
+            Sie alle sagen, was man in der Pandemie tun müsste, wie man damit umgehen müsste, aber nein, die fachlich Zuständigen dürfen nichts tun. Zwei Tage nachdem sie etwas gesagt haben, verändert der Herr Bundes- - und sonstiger Minister <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2876">Ruf bei der ÖVP:Wer ist das?</note>die grundsätzlichen Regeln und bewirkt, dass wir in der Pandemie viele Kosten für die Wirtschaft produzieren. Nun muss irgendjemand diese Kosten bezahlen. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal29">
+                     <desc>Zwischenruf bei den Grünen.</desc>
+                  </vocal>
+            Er sperrt die Schulen, und die Menschen wissen nicht, was sie tun sollen, aber jemand muss es bezahlen. Wer muss es bezahlen? – Es müssen alle Geburtsjahrgänge ab 1954 bei den Männern und alle Geburtsjahrgänge ab 1968 bei den Frauen die Kosten dafür tragen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2892">Ruf bei der ÖVP:So ein Blödsinn!</note>Wie tragen sie die Kosten? <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal30">
+                     <desc>Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            – Sie tragen sie dadurch, weil sie alle bis 65 Jahre arbeiten müssen. Sie wissen aber nicht, ob sie die Pension gesund erreichen, sondern sie wissen nur eines: Wenn sie das nicht schaffen, dann haben sie Abschläge. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal31">
+                     <desc>Neuerliche Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            Meine sehr verehrten Damen und Herren, für all diese Geburtsjahrgänge – liebe Österreicherinnen und Österreicher, hört gut zu! – für all diese Geburtsjahrgänge wird man Abschläge einführen, wenn sie es nicht schaffen, bis 65 Jahre einen Job zu haben und gesundheitlich fit zu sein. Was haben wir gemeinsam im September 2019 gemacht? – Wir haben deutlich gesagt: Diese Abschläge sind ungerecht und sie müssen beseitigt werden. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic36">
+                     <desc>Beifall bei SPÖ und FPÖ.</desc>
+                  </kinesic>
+            Meine sehr verehrten Damen und Herren – ich richte das an Frau Maurer; es tut mir leid, das muss ich sagen –, unterschätzt bitte die österreichischen Frauen nicht! Diese Frauen müssen - - <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2923">Abg. Maurer: Na das lasse ich mir gerne von Ihnen erklären!</note>
+                  <vocal type="laughter" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal32">
+                     <desc>Heiterkeit und Beifall bei ÖVP und Grünen sowie Beifall der Abg. Brandstötter.</desc>
+                  </vocal>
+            Diese Frauen müssen nämlich immer rechnen, und sie können rechnen <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal33">
+                     <desc>Zwischenruf der Abg. Maurer</desc>
+                  </vocal>
+            , und wenn man rechnen kann, Frau Maurer, erklären Sie mir bitte den Unterschied <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal34">
+                     <desc>Zwischenruf bei der ÖVP</desc>
+                  </vocal>
+            , was es bedeutet, wenn man 400 Euro oder 300 Euro jeden Monat mehr Pension bekommt oder bestenfalls 60 Euro! Bestenfalls – die Mehrheit der Frauen wird das gar nicht bekommen. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal35">
+                     <desc>Zwischenruf der Abg. Neßler.</desc>
+                  </vocal>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2961">Ruf bei der ÖVP:Wenn ich gar keinen Anspruch habe?!</note>Das haben Sie den Frauen zugemutet, aber ich sage Ihnen, die österreichischen Frauen können rechnen! Ich sage es in aller Klarheit noch einmal: Alle Frauen ab dem Geburtsjahr 1966 werden von dieser Regelung betroffen sein, und jeder Frau, die nach 1965 geboren ist, wird hier und heute Geld weggenommen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e2971">Ruf bei der ÖVP:Das ist jetzt die dritte Jahreszahl: 68, 65, 66! Was stimmt denn nun</note> Wenn Menschen 450 Monate arbeiten müssen und Beiträge einzahlen, dann haben sie auch das Recht, eine Pension ihren Beiträgen entsprechend zu bekommen, ohne dass man ihnen etwas wegnimmt. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic37">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal36">
+                     <desc>Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+                  <pb n="21"/>
+            Ich muss mich ja zusammenreißen, dass ich keinen Ordnungsruf kriege, aber wer das in der Schnelle gelesen hat, sieht, diese Regierungspartie hat vor, auch die erste Pensionserhöhung nach dem Pensionsantritt zu killen. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal37">
+                     <desc>Zwischenruf der Abg. Belakowitsch.</desc>
+                  </vocal>
+            Das heißt, alle, die hier herinnen sitzen, nehmen für sich in Anspruch, wenn sie die Gelder beziehen, dass sie jährlich eine Erhöhung bekommen, jeder Arbeitnehmer in Österreich will das, nur für diejenigen, die in Pension gehen, ordnet ihr an, dass sie im ersten Jahr keine Erhöhung bekommen. Schämt euch!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic38">
+               <desc>Beifall bei SPÖ und FPÖ.</desc>
+            </kinesic>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3007">Ruf:Bravo</note>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note88">
+               <time when="2020-11-19T18:28:00+01:00">18:28</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note89">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3028" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e852">Zu Wort gemeldet ist Herr Abgeordneter Koza. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note90">
+               <time when="2020-11-19T18:28:28+01:00">18:28:28</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note91">Abgeordneter Mag. Markus Koza (Grüne)</note>
+            <u who="#PAD_05670" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3049" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e860">Meine sehr geehrten Damen und Herren, wovon reden wir? – Wir reden seit Jahren von ungefähr 7 000 bis 8 000 überwiegend Männern pro Jahr, die 45 Beitragsjahre zustande bekommen, dass sie in die sogenannte Hacklerregelung, die mit Hacklern so ziemlich gar nichts zu tun hat <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal38">
+                     <desc>Zwischenrufe bei der SPÖ</desc>
+                  </vocal>
+            – nennen wir sie lieber Langzeitversichertenregelung –, kommen. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic39">
+                     <desc>Beifall bei Grünen und ÖVP.</desc>
+                  </kinesic>
+            7 000 von 100 000 pro Jahr! Und wenn ich da höre, dass das die Leistungsträger, die Fleißigen, die Arbeiter sind, denen man alles nimmt <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal39">
+                     <desc>Zwischenruf des Abg. Wurm</desc>
+                  </vocal>
+            , dann frage ich mich, wer die restlichen 93 000 sind, die Jahr für Jahr in Pension gehen! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic40">
+                     <desc>Beifall bei Grünen und ÖVP.</desc>
+                  </kinesic>
+            Wer sind diese halbe-halbe Frauen und Männer, die nie in der Lage sind, 45 Beitragsjahre zustande zu bekommen, weil sie entweder längere Bildungswege haben, weil sie längere Krankenstände haben <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal40">
+                     <desc>anhaltende Zwischenrufe bei der SPÖ</desc>
+                  </vocal>
+            , weil sie längere Zeit arbeitslos waren, weil sie öfter den Job gewechselt haben, weil sie sich umorientieren mussten, und, und, und? <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic41">
+                     <desc>Beifall bei den Grünen und bei Abgeordneten der ÖVP.</desc>
+                  </kinesic>
+            Diese Menschen sind keine Leistungsträger? Die sind nicht die Fleißigen? Die hätten das nicht verdient? – Überlegt einmal, was ihr da immer redet! Ihr verwendet Begrifflichkeiten, die schlichtweg nicht stimmen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3094">Abg. Deimek: Was wird das? Das kann’s ja nicht sein!</note>Heute war ein hervorragender Beitrag in den „Salzburger Nachrichten“. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3107">Abg. Leichtfried: Was spricht gegen den Sozialausschuss?</note>Ich lese einmal kurz vor: „2014 bis 2019, als es Abschläge bei der Langzeitversicherungspension gegeben hat, waren die Menschen, die die Hacklerregelung in Anspruch genommen haben, in der Regel männliche Angestellte mit einem hohen Pensionsanspruch. Sie haben also nicht dem Bild entsprochen, das man in der politischen Diskussion durch die Wahl des Wortes ‚Hacklerpension‘ gezeichnet hat.“ – Das sagt Christoph Badelt heute. Und Christoph Badelt sagt heute - - <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3121">Abg. Leichtfried: ... schmähstad!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3131">Ruf bei der SPÖ:Schäm dich!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal41">
+                     <desc>Weitere Zwischenrufe bei der SPÖ.</desc>
+                  </vocal>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal42">
+                     <desc>Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+                  <kinesic type="signal" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic42">
+                     <desc>Präsident Sobotka gibt das Glockenzeichen.</desc>
+                  </kinesic>
+            – Ich sage es noch einmal: Ich bin vollkommen dafür - - <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3162">Abg. Leichtfried: Sag was dazu! Begutachtung! Sozialausschuss!</note>Kein Mensch, kein Mensch - - <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3175">Abg. Leichtfried: Was ist? Sag was dazu!</note>
+                  <kinesic type="signal" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic43">
+                     <desc>Präsident Sobotka gibt neuerlich das Glockenzeichen.</desc>
+                  </kinesic>
+            Kein Mensch wird irgendjemandem, der 45 Beitragsjahre erreicht hat, der so lange gearbeitet hat - -</seg>
+            </u>
+            <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal43">
+               <desc>Neuerliche Zwischenrufe bei der SPÖ.</desc>
+            </vocal>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note98">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3206" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e923">Herr Abgeordneter, Moment bitte! – Ich bitte euch, es muss ja nicht am Ende der Sitzung alles durcheinandergehen! Ich würde wirklich darum bitten, dass wir den letzten Teil unserer Sitzungen jetzt einigermaßen zivilisiert über die Bühne bringen <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3214">Abg. Rauch: ... Vorsitzführung!</note> , dass Sie nicht dauernd herausrufen und wirklich auch zuhören!</seg>
+            </u>
+            <pb n="22"/>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note100">Abgeordneter Mag. Markus Koza</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note101">fortsetzend</note>
+            <u who="#PAD_05670" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3237" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e934">Jeder und jede, der oder die 45 Beitragsjahre erreicht hat, der oder die soll das Recht haben, in den vorzeitigen Ruhestand zu gehen. Das will kein Mensch angreifen. Sie haben es verdient, sie haben ein Recht darauf und sie sollen das auch tun. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic44">
+                     <desc>Beifall bei Grünen und ÖVP.</desc>
+                  </kinesic>
+            Diese Personengruppe hat auch relativ hohe Pensionen, um nicht zu sagen, die höchsten Pensionen im Bereich des ASVG, der gewerblichen und der Bauernversicherungen. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal44">
+                     <desc>Zwischenrufe bei der SPÖ.</desc>
+                  </vocal>
+            Das ist so. Das sind die höchsten Pensionen, und das steht ihnen zu, natürlich! Sie haben ja 45 Jahre gearbeitet, haben ihre Beiträge gezahlt, und das passt auch. Das will ihnen kein Mensch absprechen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3260">Abg. Belakowitsch: Und jetzt nehmt ihr es ihnen weg!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal45">
+                     <desc>Weitere Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+            Wir wollen allerdings – und das ist schon eine spannende Sache, wenn man sich das einmal anschaut – mit diesem Frühstarterbonus insbesondere jene Menschen stärken, die sehr früh zu arbeiten angefangen haben, aber eben nie die Chance haben werden, diese 45 Beitragsjahre zu erreichen. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic45">
+                     <desc>Beifall bei Grünen und ÖVP.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3288">Abg. Wurm: Ja, freilich!</note> Das ist die Masse dieser Bevölkerung, das ist die Masse der PensionistInnen, das sind die 93 Prozent, die nicht die 45 Jahre erreichen <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal46">
+                     <desc>Zwischenruf der Abg. Heinisch-Hosek</desc>
+                  </vocal>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3304">Ruf:Arbeitslose</note> , und warum sollen die nicht die Chance auf eine entsprechende Vergütung, auf einen Rechtsanspruch auf eine höhere Pension haben? <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal47">
+                     <desc>Zwischenruf der Abg. Blimlinger.</desc>
+                  </vocal>
+            Ich erlaube mir jetzt noch einmal, Kollegen Badelt zu zitieren. Erstens einmal: Es gibt glücklicherweise im Sozialministerium ganz hervorragende Menschen, die Pensionen durchrechnen können. Diese sind tatsächlich auf eine Zahl von 50 000 bis 60 000 Menschen gekommen, fast halbe-halbe bezüglich Verhältnis Frauen und Männer. Auch Christine Mayrhuber, Pensionsexpertin vom Wifo, bekräftigt, dass es eine Maßnahme insbesondere zugunsten der Frauen – längst aber nicht nur der Frauen, sondern auch der Männer – ist, denn, wie gesagt, auch 93 Prozent der Männer erreichen diese Jahre nicht. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal48">
+                     <desc>Zwischenruf bei der SPÖ.</desc>
+                  </vocal>
+            Jene 7 Prozent, die in Langzeitversichertenpension gehen, sind ja eh nur Männer. Das heißt, die anderen 93 Prozent, die es nicht erreichen, müssen auch Männer sein, und für genau diese Gruppe von Menschen, die früh zu arbeiten begonnen haben, machen wir das, für jene, die nie die Chance hatten, entsprechend etwas zu kriegen. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic46">
+                     <desc>Beifall bei den Grünen.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3336">Abg. Wurm: Die ÖVP hat euch reingelegt, liebe Grüne! Das kann man nicht schönreden!</note>Das ist also eine wirklich breite Gruppe, es sind Zehntausende. Es sind zwischen 50 000 und 60 000 Menschen, die das bekommen werden. Das ist so! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3349">Abg. Wurm: Die ÖVP hat euch von den Grünen reingelegt!</note>Ich zitiere noch einmal Kollegen – na ja, Professor – Badelt; er ist Ökonom wie meine Wenigkeit. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3362">Abg. Belakowitsch: Ist das ein Grüner vielleicht?</note>–Badelt ist sicher ein Grüner, keine Frage, Sie kennen sich wunderbar aus. <vocal type="laughter" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal49">
+                     <desc>Heiterkeit bei den Grünen.</desc>
+                  </vocal>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal50">
+                     <desc>Neuerlicher Zwischenruf der Abg. Belakowitsch.</desc>
+                  </vocal>
+            Er kommt aus der Caritas, hat immer als ÖVPler gegolten, aber das ist auch wurscht. Ich weiß nicht, was er wirklich ist, und es ist mir vollkommen egal. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3387">Abg. Belakowitsch: Das wissen Sie gar nicht!? Waren Sie bei der Gewerkschaft ... Sekretär?</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal51">
+                     <desc>Weitere Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+            Dass die Grünen jetzt nicht einfach die Situation für die Betroffenen verschlechtern wollen und daher mit dem Frühstarterbonus eine neue Dimension hereingebracht haben, die wir glücklicherweise gemeinsam verhandelt haben <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3409">Abg. Wurm: (erheitert) Peinlich! Eine peinliche Vorstellung, Herr Kollege!</note>, ist politisch nachvollziehbar und unter sozialpolitischen Gesichtspunkten vernünftig. Das nämlich, was jetzt neu beschlossen wird <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3425">Abg. Wurm: Ist super!</note> , kommt tatsächlich viel mehr Frauen zugute, die meistens aufgrund ihrer Erwerbsbiografie nie die Chance haben, auf 45 Versicherungsjahre zu kommen. Frauen können also mit der neuen Regelung zu einer höheren Pension <pb n="23"/>
+            kommen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3440">Abg. Wurm: Die ÖVP hat euch reingelegt!</note> Das ist sinnvoll, und ich sage Ihnen ganz ehrlich: Wir sind auch stolz darauf!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic47">
+               <desc>Beifall bei Grünen und ÖVP.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note112">
+               <time when="2020-11-19T18:34:00+01:00">18:34</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note113">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3467" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1019">Frau Abgeordnete Belakowitsch ist zu Wort gemeldet. – Bitte.</seg>
+            </u>
+            <note type="inquietude" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note114">Unruhe im Saal.</note>
+            <kinesic type="signal" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic48">
+               <desc>Präsident Sobotka gibt das Glockenzeichen.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note115">
+               <time when="2020-11-19T18:34:56+01:00">18:34:56</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note116">Abgeordnete Dr. Dagmar Belakowitsch (FPÖ)</note>
+            <u who="#PAD_35468" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3500" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1032">Herr Kollege Koza, Sie sind auch noch stolz darauf! <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal52">
+                     <desc>Zwischenrufe bei den Grünen.</desc>
+                  </vocal>
+            Das ist ja der Irrsinn überhaupt! Merken Sie nicht, liebe Grüne, wie Sie hier über den Tisch gezogen worden sind, wie Sie reingelegt worden sind? <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic49">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Jetzt aber müssen Sie hier herauskommen und müssen etwas verteidigen, was nicht zu verteidigen ist, weil sich die ÖVP ja hinter den Bänken verschanzt. Das ist doch die Wahrheit: Sie schicken euch vor! Kollege Koza, da stelle ich mir die Frage: Haben Sie bei der Gewerkschaft ein Rückkehrrecht? Ist das tatsächlich so? Als Gewerkschafter haben Sie hier wie ein Arbeitgebervertreter gesprochen. Das ist die Wahrheit, Herr Kollege Koza! Sie nehmen den Leuten weg, Sie nehmen jenen weg, die tatsächlich lange gearbeitet haben! Ich habe Ihnen sehr genau zugehört, welche Argumente haben Sie denn gebracht? – Sie haben gesagt: Das sind die höchsten Pensionen, die sollen die Leute auch bekommen. – Ja eh, aber warum kürzen Sie sie dann, wenn sie die Leute eh bekommen sollen? Sie kürzen sie! Das ist einfach unverrückbar, das tun Sie! Sie haben auch gesagt: Es gibt auch Leute, die studiert haben, die kriegen nie 45 Jahre zusammen. – Ja, mag sein, aber diese Leute, die studiert haben, haben danach wahrscheinlich in ihrem Beruf auch gut verdient und werden eine entsprechende Pension bekommen. Jemandem aber, der tatsächlich 45 Jahre geschuftet hat – und das ist nicht immer einfach –, der wirklich durchgehalten hat, der einbezahlt hat, der dieses System erhalten hat, der auch das System erhalten hat, damit Ausgaben im Sozialbereich getätigt werden können <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal53">
+                     <desc>Zwischenrufe bei den Grünen</desc>
+                  </vocal>
+            , diesen Leuten nehmen Sie jetzt einen Teil ihres Anspruchs weg. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic50">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Da, meine lieben Grünen, habt ihr euch über den Tisch ziehen lassen, und das könnt ihr nicht schönreden! Da könnt ihr euch jetzt bemühen und versuchen, was ihr wollt, das ist einfach nicht mehr schönzureden. Und das ist erst der Anfang, ihr werdet noch weiter missbraucht werden, denn was ist denn das Ziel? – Am Ende soll der weitere Sozialabbau kommen. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal54">
+                     <desc>Zwischenruf des Abg. Jakob Schwarz.</desc>
+                  </vocal>
+            Da wird euch wieder irgendein Bonbon hingeworfen. Kollege Wöginger stellt sich hierher und sagt: Das ist eine ganz tolle Sache, pro Monat kann man einen Euro mehr bekommen! – Haben Sie das durchgerechnet? Pro Monat 1 Euro mehr, bis zu 60 Euro. – Na das ist schon großartig für die Pensionisten! Die klopfen sich jetzt wahrscheinlich schon auf die Schenkel! Weil Sie immer mit dem Frauenargument kommen: Wissen Sie, das Frauenargument passt schlicht und einfach in dem Fall nicht, weil sich eben in den nächsten Jahren das Frauenpensionsalter erhöhen wird und Frauen dann ohnehin in den Genuss gekommen wären. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3539">Ruf bei den Grünen:Nein!</note> Man muss jetzt sagen: wären. Sie verwehren es ja den Frauen, die langzeitversichert waren, dass sie ohne Abschläge in Pension gehen können. Da sind Sie auch schuld. Auch für diese Frauen, die langzeitversichert sind und dann bald, in ein paar Jahren ab dem Jahrgang 1968 in Pension gehen werden, haben Sie überhaupt nichts getan. Diesen Frauen haben Sie die abschlagsfreie Pension weggenommen, Herr Kollege Koza! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic51">
+                     <desc>Beifall bei FPÖ und SPÖ.</desc>
+                  </kinesic>
+                  <pb n="24"/>
+            Anstatt dass Sie sich als ehemaliger Gewerkschafter hierherstellen und sich für die Arbeitnehmer und für die Rechte derer, die in diesem Land tatsächlich viel geleistet haben, starkmachen, lassen Sie sich von der ÖVP hier vorführen. Sie lassen sich hier vorführen, von der ÖVP, die schweigt. Die freut sich, denn Sie machen in Wahrheit die Drecksarbeit. Da kommt es zu einem Sozialabbau, und Sie müssen das verteidigen. – Bravo, das haben Sie gut gemacht, meine Damen und Herren von den Grünen! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic52">
+                     <desc>Beifall bei FPÖ und SPÖ.</desc>
+                  </kinesic>
+            Liebe Österreicher und Österreicherinnen, schauen Sie sich diesen Zustand an, schauen Sie sich an, was hier herinnen passiert! Hier werden Maßnahmen getroffen, die falsch sind, hier werden Betriebe geschlossen, hier werden Leute arbeitslos, im Übrigen auch solche, die schon alt sind. Natürlich gibt es heuer einen Anstieg, das hat auch mit der derzeitigen Situation am Arbeitsmarkt zu tun. Na klar: Wenn jemand 45 Beitragsjahre hat und arbeitslos ist, versucht er, so rasch wie möglich in die Pension zu gehen. Das ist schon auch dem Wirtschaftsproblem, das wir derzeit in Österreich haben, geschuldet, dass die Zahl der Pensionsantritte heuer gestiegen ist, dass jeder schaut, irgendwie in die Pension zu kommen. Das habt ihr mitverursacht, das heißt aber nicht, dass das in alle Ewigkeit so bleiben muss. Diese Karrieren, in denen jemand tatsächlich auf 45 Beitragsjahre kommt, werden ohnehin aufgrund einer sich ändernden Arbeitswelt immer weniger. Das ist ja genau das, was ihr überhaupt nie mitberechnet. Ihr bestraft jene, die Leistung erbracht haben! Und wenn die ÖVP noch einmal sagt: Wer arbeitet, darf nicht der Dumme sein!, dann müsst ihr euch in den Spiegel schauen – vielleicht dreht ihr euch dann gleich wieder um, denn all jene, die lang arbeiten, sind jetzt die Dummen! Das sind die, die draufzahlen!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic53">
+               <desc>Beifall bei FPÖ und SPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note118">
+               <time when="2020-11-19T18:39:00+01:00">18:39</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note119">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3584" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1077">Zu Wort gemeldet ist Abgeordneter Fürlinger. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note120">
+               <time when="2020-11-19T18:40:02+01:00">18:40:02</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note121">Abgeordneter Mag. Klaus Fürlinger (ÖVP)</note>
+            <u who="#PAD_72999" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3605" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1085">Sehr geehrter Herr Präsident! Geschätzte Kolleginnen und Kollegen! Zunächst danke ich der sozialdemokratischen Fraktion, dass sie uns die Möglichkeit für ein paar Aufwärmübungen und Fingerübungen für die morgige Debatte gibt <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal55">
+                     <desc>Haha-Rufe bei der SPÖ</desc>
+                  </vocal>
+            – heute ohne Kameras, morgen mit, und da wird es vielleicht noch um eine Spur lauter werden. Frau Kollegin Heinisch-Hosek, wenn Sie sich wirklich so sehr an den Pensionen der Nationalbank stoßen, vielleicht können Sie zu einer SPÖ-Versammlung in Wien gehen, dort finden Sie die Pensionisten, und vielleicht bitten Sie Ihre Parteigenossen um einen Solidarbeitrag. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic54">
+                     <desc>Beifall bei der ÖVP.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3625">Abg. Heinisch-Hosek: Die spenden eh alle!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal56">
+                     <desc>Weitere Zwischenrufe bei der SPÖ.</desc>
+                  </vocal>
+            – Wir sind sehr dem Humor verpflichtet, aber Humor und Logik sollten einander nicht immer ausschließen. Alois Stöger, du stellst dich heute wieder hierher, um uns zu erklären, dass wir irgendwelchen Arbeitnehmern irgendetwas wegnehmen und wir uns schämen sollen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3641">Ruf bei der SPÖ:Ist ja so!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3655">Abg. Lercher: Pensionsräuber!</note> Ich frage mich schon, was du in deiner Zeit als der für diese Dinge Verantwortliche gemacht hast. Ihr seid am 19.9.2019 dagesessen, habt euch auf die Schenkel geklopft und die Bäuche vor Lachen gehalten, weil ihr es über Nacht geschafft habt, das Pensionssystem wieder ein bisschen mehr zu gefährden, damit ihr ein paar Wählerstimmen dazukriegt. Wie erfolgreich das war, hat man ja ohnehin bei der Wahl gesehen, da kann man euch nur dazu gratulieren. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic55">
+                     <desc>Beifall bei der ÖVP.</desc>
+                  </kinesic>
+                  <pb n="25"/>
+            Das, was ihr getan habt, ist: Ihr gefährdet das Gesamtpensionssystem zugunsten einiger weniger Privilegierter, und das ist das, was wir reparieren müssen. Da könnt ihr euch jetzt Stunden und Tage aufregen, ihr könnt heraußen herumschreien: Schämt euch!, ihr könnt Taferl aufstellen, ihr könnt Brandreden halten wie der Herr Klubobmann der Freiheitlichen Partei, mit einer Diktion, über die man sich gesondert unterhalten könnte, aber es ändert nichts daran, dass ihr dieser Regierung die Verantwortung aufgebürdet habt, das Pensionssystem zu sanieren und gerecht zu gestalten. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal57">
+                     <desc>Oh-Rufe bei der SPÖ.</desc>
+                  </vocal>
+            Das ist das, was wir tun. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic56">
+                     <desc>Beifall bei der ÖVP.</desc>
+                  </kinesic>
+            Wir stellen den Status her, den es vorher richtigerweise hatte, den verantwortungsvolle Sozialpolitiker der Sozialdemokratie vorher mit uns beschlossen haben, das und nichts anderes tun wir. Und wenn ihr euch darüber lustig macht, dann weiß ich nicht, ob wir uns schämen sollten oder ob nicht vielleicht ihr ein bisschen Einkehr halten solltet. Aschermittwoch ist noch fern, aber tut Buße und kehrt um! Das ist das, was ich euch mitgebe.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic57">
+               <desc>Beifall und Bravoruf bei der ÖVP.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note125">
+               <time when="2020-11-19T18:42:00+01:00">18:42</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note126">
+               <time when="2020-11-19T18:42:46+01:00">18:42:46</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note127">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3704" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1131">Zu Wort ist dazu niemand mehr gemeldet. Damit ist die Debatte geschlossen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1133">Wir gelangen zur Abstimmung.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1135">Ich ersuche die Abgeordneten, die den Einwendungen Rechnung tragen wollen, das heißt, die für die Absetzung des Tagesordnungspunktes 30 sind, um ein Zeichen der Zustimmung. – Das ist die Minderheit. Somit bleibt es bei der schriftlich mitgeteilten Tagesordnung für die nächste Sitzung.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note128">
+                  <time when="2020-11-19T18:43:26+01:00">18:43:26</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1140">Kurze Debatte über einen Fristsetzungsantrag</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note129">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3737" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1146">Wir kommen nun zur kurzen Debatte.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1148">Ich mache darauf aufmerksam, dass gemäß § 57a Abs. 1 der Geschäftsordnung kein Redner länger als 5 Minuten sprechen darf, wobei der Erstredner zur Begründung über eine Redezeit von 10 Minuten verfügt.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1150">Das Wort erhält als Erster der Antragsteller, Abgeordneter Brückl. Ich darf ihm das Wort erteilen. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note130">
+               <time when="2020-11-19T18:43:50+01:00">18:43:50</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note131">Abgeordneter Hermann Brückl, MA (FPÖ)</note>
+            <u who="#PAD_61639" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3765" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1158">Herr Präsident! Geschätzte Damen und Herren! Hohes Haus! <note type="speaker_action" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note132">Der Redner stellt eine Tafel mit der Aufschrift „Schulen wieder aufsperren!!!“ auf das Rednerpult.</note> Die Kinder von heute sind die Gesellschaft von morgen. Wir befinden uns mitten in der schwersten Krise dieser Zweiten Republik, und besonders schwer trifft es unsere Kinder.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1163">Ich darf in diesem Zusammenhang eine Kollegin von den Grünen, die Abgeordnete Neßler, bemühen, die heute Mittag in einer Rede gemeint hat: Die kleine Welt unserer Kinder ist durch diese Krise noch kleiner geworden. Und Sie haben, Frau Kollegin, wörtlich gesagt: „Kinder sind nicht nur von der Krise betroffen, sondern Kinder befinden sich mitten in der Krise.“</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1165">Danach haben Sie auf ein Gespräch verwiesen, das Sie mit Mitarbeitern von Rat auf Draht geführt haben, in dem Ihnen mitgeteilt wurde, dass der Anteil der Kinder mit Angstzuständen um 220 Prozent gestiegen ist, weil sie Angst haben um ihre eigene Zukunft, Angst haben um die Zukunft ihrer Eltern. Sie haben berichtet, dass der Anteil</seg>
+               <pb n="26"/>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1168">der Kinder mit Schlafstörungen um 240 Prozent gestiegen ist und – ganz dramatisch – dass der Anteil der Kinder mit Suizidgedanken um 54 Prozent gestiegen ist.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1170">So schrecklich diese Zahlen auch sind, liebe Grüne vor allem, muss ich euch schon fragen: Was habt ihr dagegen getan? Das gilt übrigens auch für die Schwarzen. – Ihr stellt euch hier heraus, erklärt uns die Welt und habt es selbst in der Hand, hier zu handeln. Ihr seid Regierungspartei! Ich rufe euch das noch einmal in Erinnerung.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic58">
+                  <desc>Beifall bei der FPÖ.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1175">Ihr habt die Kompetenz, dafür zu sorgen, dass die Schulen offen bleiben und nicht zugesperrt werden. Ihr habt es in der Hand, dass das Leid unserer Kinder gelindert wird. Liebe Grüne, liebe Volkspartei, Herr Bundeskanzler Kurz, ich rufe Sie auf: Sperren Sie die Schulen wieder auf!</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic59">
+                  <desc>Beifall bei der FPÖ.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1180">Frau Abgeordnete Neßler, Sie haben auch angesprochen, dass man den Langzeitfolgen, den möglichen Schäden entgegenwirken muss. Auch da frage ich Sie: Was haben Sie getan? Oder ist es so gewesen, wie sich schon in der vorherigen Debatte gezeigt hat, nämlich dass man Sie auch hier über den Tisch gezogen hat? Da darf ich Ihnen sagen: In der Kategorie Über-den-Tisch-Ziehen spielt die ÖVP in einer völlig anderen Liga, die schweben da in anderen Sphären, die wir alle miteinander in diesem Haus niemals werden erreichen können.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1182">Aber ich frage Sie auch: Wo ist die monetäre, wo ist die budgetäre Vorsorge zur Bekämpfung der genannten Langzeitfolgen? – Diese Vorsorge gibt es nicht, Hohes Haus! – Herr Kurz, sperren Sie die Schulen wieder auf!</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic60">
+                  <desc>Beifall bei der FPÖ.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1188">Bevor jetzt ein übermäßiges Hyperventilieren bei der Österreichischen Volkspartei oder den Grünen eintritt und sich wieder 17 Abgeordnete melden, die mich dann tatsächlich berichtigen: Ja, ja, liebe Freunde, wir wissen schon, dass die Schulen im Sinne des Wortes nicht zugesperrt sind, sondern der Unterricht nur ins Wohnzimmer, ins Kinderzimmer, auf Küche, Zimmer, Kabinett verlagert ist. Ich sage Ihnen aber, nur als Beispiel hier angeführt, das ist genau so, wie wenn in Wien die Bäder im Frühjahr aufgesperrt werden und das Magistrat sagt: Die Bäder sind offen, aber wir haben halt leider kein Wasser in den Becken, ihr müsst halt trockenschwimmen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1190">Und wie schaut jetzt das Trockenschwimmen unserer Kinder, wie schaut das Distancelearning aus? – Ich habe Ihnen hier, geschätzte Damen und Herren, eine zweite Tafel mitgebracht, einen Stundenplan einer 1. Klasse Gymnasium in Wien.</seg>
+               <note type="speaker_action" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note133">Der Redner stellt eine Tafel, auf der eine Tabelle mit der Überschrift „Online-Stundenplan 1. Klasse/Gymnasium“ zu sehen ist, auf das Rednerpult.</note>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1194">Ich bin dieser Mutter, die uns diesen Stundenplan zugeschickt hat, sehr dankbar, sie schreibt: Ich erlaube mir höflichst, Ihnen den aktuellen Homeschoolingstundenplan meines Sohnes, welcher die 1. Klasse eines Wiener Gymnasiums besucht, zur Beurteilung zu übermitteln, ob mit dem daraus ersichtlichen Unterricht Ihrer Meinung nach überhaupt irgendwelche Bildungsziele erreicht werden können. Ich bezweifle das. – Und das bezweifle ich auch, Hohes Haus!</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic61">
+                  <desc>Beifall bei der FPÖ.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1199">Wie Sie hier sehen können, haben die Kinder täglich 1 Stunde Onlineunterricht. – Nur so viel dazu, wie der Distanzunterricht tatsächlich funktioniert.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1201">Herr Kurz, sperren Sie die Schulen wieder auf! Holen Sie unsere Kinder zurück ins Leben, geben Sie ihnen wieder Zuversicht, geben Sie ihnen Fröhlichkeit, geben Sie ihnen ihren Forschergeist wieder zurück und geben Sie ihnen wieder ihren Mut! – Sie haben entgegen allen Expertenmeinungen die Schulen in unserem Land zugesperrt, und ich sage Ihnen ausschnittweise auch, wer diese Experten sind, die für das Offenhalten der Schulen waren:</seg>
+               <pb n="27"/>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1204">Gesundheitsminister: für offene Schulen; Bildungsminister: für offene Schulen; die eigene Regierungsampelkommission: für offene Schulen; Katholischer Familienverband: für offene Schulen; Kinderfreunde: für offene Schulen; Kinder- und Jugendanwaltschaften: für offene Schulen; Bildungsreferenten in den Ländern: für offene Schulen; Arbeiterkammer: für offene Schulen; Wirtschaftskammer: für offene Schulen; Industriellenvereinigung: für offene Schulen; Ärztekammer: für offene Schulen; Wirtschaftsforschungsinstitut: für offene Schulen; Institut für Höhere Studien: für offene Schulen; Caritas: für offene Schulen; Österreichische Gesellschaft für Kinder- und Jugendheilkunde: für offene Schulen. Und ich könnte diese Aufzählung noch stundenlang fortsetzen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1206">Ich darf vielleicht auch noch etwas zitieren: „Werner Rainer vom Landesverband der Elternvereine Kärnten plädierte“ – am 12. November 2020 – „dafür, die Schulen so lange wie möglich offen zu halten. [...] Auch die Lehrer seien aus pädagogischer Sicht für das Offenhalten, sagte Pflichtschullehrer-Gewerkschafter Stefan Sandrieser.“</seg>
+               <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal58">
+                  <desc>Zwischenrufe bei der ÖVP.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1212">Ich berufe mich auf den Generalsekretär im Bildungsministerium, Martin Netzer. Er hat letzte Woche noch gemeint, über 14-Jährige stecken sich beim Distancelearning mehr an. Das war nämlich die Folge dessen, dass man die Oberstufen ins Distancelearning und nicht mehr in die Schule geschickt hat. Die haben sich zu Hause mehr angesteckt, als das in der Schule der Fall gewesen ist.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1214">Warum tun die das? – Ja, sie setzen sich für offene Schulen ein, weil jeder ganz genau weiß – nachgewiesenermaßen! –, dass die Schulen nicht die Treiber des Infektionsgeschehens sind. Herr Bundeskanzler, sperren Sie die Schulen wieder auf!</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic62">
+                  <desc>Beifall bei der FPÖ und bei Abgeordneten der SPÖ.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1219">Herr Bundeskanzler, es ist nachgewiesenermaßen so, dass Kinder weniger erkranken, seltener erkranken <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal59">
+                     <desc>Zwischenrufe bei der ÖVP</desc>
+                  </vocal>
+            , und es ist nachgewiesenermaßen so, dass Kinder seltener andere Menschen anstecken. Daher: Sperren Sie die Schulen wieder auf! Stellen Sie ausreichend Budgetmittel für Schulschließungen und für Lockdownverlierer zur Verfügung, denn wir kennen die Studien aus Belgien, aus Kanada! Ich darf hier nur kurz jene aus Belgien anführen, die ganz klar sagt: Wenn über mehrere Monate hinweg Schulen wiederholt geschlossen werden, dann steigt der Anteil der Schüler, die Klassen wiederholen müssen, dann steigt langfristig der Anteil jener, die niedrigere Bildungsabschlüsse haben, was klarerweise in weiterer Folge auch Auswirkungen auf den Arbeitsmarkt hat und die soziale Ungerechtigkeit natürlich noch massiv verstärkt. – Herr Bundeskanzler, sperren Sie die Schulen auf!</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic63">
+                  <desc>Beifall bei der FPÖ.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1228">Es genügt, wenn die bekannten Maßnahmen eingehalten werden: Abstandsregeln, Hygieneregeln, Einsatz von Plexiglaswänden, gestaffelter Unterricht, Verlagerung in größere Räume, Nutzung von größeren Räumen und so weiter und so weiter.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1230">Herr Bundeskanzler, holen Sie unsere Kinder zurück ins Leben, in ihr Leben, in ihr soziales Umfeld, in ihre Schulen, zu ihren Freunden! Geben Sie ihnen ihr Lachen wieder und machen Sie die Schulen wieder auf! Herr Bundeskanzler, versemmeln Sie nicht mit Ihrer verfehlten Politik auch noch die Zukunft unserer Kinder!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic64">
+               <desc>Beifall und Bravorufe bei der FPÖ sowie Beifall bei Abgeordneten der SPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note134">
+               <time when="2020-11-19T18:52:00+01:00">18:52</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note135">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3913" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1241">Ich darf darauf aufmerksam machen, dass die Redezeit der nunmehr zu Wort gemeldeten Abgeordneten 5 Minuten beträgt.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1243">Der nächste Redner ist Herr Abgeordneter Taschner. – Bitte.</seg>
+            </u>
+            <pb n="28"/>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note136">
+               <time when="2020-11-19T18:52:57+01:00">18:52:57</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note137">Abgeordneter Mag. Dr. Rudolf Taschner (ÖVP)</note>
+            <u who="#PAD_02329" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3942" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1253">Sehr geehrter Herr Präsident! Hohes Haus! Herr Kollege Brückl, erlauben Sie mir, dass ich als Ergänzung zu Ihren Worten versuche zu sagen, warum diese Maßnahme getroffen worden ist. <note type="comment" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note138">Die Abgeordneten der FPÖ halten Tafeln, auf denen „Schulen wieder auf!“ geschrieben steht, in die Höhe.</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3951">Rufe bei der FPÖ:Schulen auf!</note>Es ist tatsächlich so, dass sich das Coronavirus in unserem Staat in einer Weise ausgebreitet hat, die sehr besorgniserregend ist. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3964">Abg. Rauch: Sperren Sie die Schulen auf!</note>Die meisten Menschen haben keine Ahnung, was es bedeutet - - <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3977">Abg. Rauch: Sperren Sie die Schulen auf!</note>– Ich habe das begriffen, wir werden die Schulen auch aufsperren, wenn es geht <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic65">
+                     <desc>Beifall bei der ÖVP</desc>
+                  </kinesic>
+                  <note type="objection" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note142">heftiger Widerspruch bei der FPÖ</note> , aber nicht zum Schaden der Kinder, der Eltern und auch der Lehrer – nicht zu deren Schaden! Wir werden sie dann aufsperren <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e3999">Ruf bei der FPÖ:Jetzt!</note> , wenn wir es verantworten können. Wir können es jetzt nicht verantworten, das ist der Punkt! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic66">
+                     <desc>Beifall bei der ÖVP.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4019">Abg. Kickl: Warum nicht? Warum?</note>– Ich kann es Ihnen jetzt erklären. Wenn Sie die Taferl herunternehmen, dann können Sie es sich vielleicht etwas lockerer anhören. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4032">Abg. Kickl: Nein, nein, Sie sollen sich das anschauen!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4045">Abg. Rauch: Schauen Sie sich das an!</note>Ich kann es Ihnen erklären. Die exponentielle Zunahme, die es schon während des Septembers, Oktobers gegeben hat – Neuwirth hat das schon festgestellt –, ist in einem bedrohlichen Maße angestiegen. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal60">
+                     <desc>Zwischenrufe bei den NEOS.</desc>
+                  </vocal>
+            Meine sehr verehrten Damen und Herren, wir sind an der Kante bei den Intensivstationen. Es ist wirklich kein Spaß, dass wir da Entscheidungen treffen mussten, die schwerwiegender Natur sind. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal61">
+                     <desc>Zwischenrufe bei FPÖ und NEOS.</desc>
+                  </vocal>
+            Wir wissen es besser als Sie, dass diese Entscheidung, die Schulen zu schließen, natürlich keine einfache war und dass wir damit Beschwernisse auf uns nehmen – selbstverständlich!</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4071">Abg. Kickl: Sie ignorieren Ihre eigenen Experten!</note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note148">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4089" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1300">Darf ich Sie ersuchen, die Taferl runterzunehmen? Es sind bereits 30 Sekunden. – Danke. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4094">Ruf bei der SPÖ:Warum?</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal62">
+                     <desc>Zwischenrufe bei SPÖ und FPÖ.</desc>
+                  </vocal>
+            – Bitte fahren Sie fort, Herr Abgeordneter!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note150">Abgeordneter Mag. Dr. Rudolf Taschner</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note151">fortsetzend</note>
+            <u who="#PAD_02329" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4119" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1313">Die Entscheidung, die wir treffen mussten, ist aus Not getroffen worden, weil wir dafür sorgen müssen, dass die Intensivstationen nicht überlastet werden. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal63">
+                     <desc>Zwischenruf des Abg. Amesbauer.</desc>
+                  </vocal>
+            Meine sehr verehrten Damen und Herren, da geht es nicht um irgendwelche politischen Spielereien, da geht es wirklich um Leben und Tod. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4136">Abg. Brandstätter: Genau ...!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4149">Abg. Loacker: Bitte, Herr Taschner!</note>– Tatsächlich! Sie können mir erklären, ich mache Angst, aber ich mache nicht Angst, ich erkläre Ihnen, wie die Sache ist. So ist es wirklich. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal64">
+                     <desc>Zwischenruf des Abg. Amesbauer.</desc>
+                  </vocal>
+            Innerhalb eines Tages sind 100 Personen gestorben. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4168">Abg. Brandstätter: Wieso hat Deutschland weniger Infizierte bei offenen Schulen? Das ist einfach falsch!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal65">
+                     <desc>Zwischenrufe bei der SPÖ sowie des Abg. Loacker.</desc>
+                  </vocal>
+            – Wir haben aber jetzt diese Zahl an Infizierten, Herr Kollege Brandstätter, ich kann nichts dagegen machen. Es sind so viele Infizierte da, und wir müssen wirklich dafür sorgen, das ist nämlich die gute Botschaft - - <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal66">
+                     <desc>Zwischenrufe bei der SPÖ sowie der Abgeordneten Belakowitsch und Brandstätter.</desc>
+                  </vocal>
+            – Meine sehr verehrten Damen und Herren, wenn Sie mir noch zuhören wollen, ich bringe Ihnen auch eine gute Botschaft. – Wir haben nämlich die Chance, dass die Zahl der Infizierten wieder abnimmt, und zwar genauso exponentiell. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal67">
+                     <desc>Zwischenrufe bei NEOS und FPÖ.</desc>
+                  </vocal>
+            Diese Möglichkeit besteht, sie besteht aber nur dann, wenn wir eines machen: wenn wir möglichst physische Kontaktaufnahme in jeder Hinsicht vermeiden – in jeder Hinsicht! <pb n="29"/>
+            Meine sehr verehrten Damen und Herren, es ist nicht nur die Schule. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4202">Abg. Belakowitsch: In den Pflegeheimen haben Sie nichts gemacht!</note>Wir haben allgemein versucht, physische Kontaktaufnahme möglichst zu vermeiden. Damit könnten wir es erreichen, dass diese exponentielle Kurve, die nach oben gegangen ist, wieder exponentiell schnell abfällt <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4215">Abg. Kassegger: Eure Kurven glaubt ihr selber nicht!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal68">
+                     <desc>Zwischenruf des Abg. Brandstätter</desc>
+                  </vocal>
+            ,sodass wir es am 7. Dezember tatsächlich verantworten können, nicht nur die Schulen, sondern auch andere Wirtschaftszweige zu öffnen. Das ist das Ziel des Gesamten. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal69">
+                     <desc>Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+            Meine sehr verehrten Damen und Herren, der FPÖ ist nicht einmal beizubringen, was exponentielles Wachstum ist. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4237">Ruf bei der FPÖ:Warum? Was ist es?</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4250">Abg. Stefan: Erklären Sie es!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal70">
+                     <desc>Weitere Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+            Sie müssen sich vorstellen, Trump hat es verstanden. Stellen Sie sich das vor! Trump hat es von Fauci gehört <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4270">Abg. Stefan: Erklären Sie es uns bitte! Er weiß es ja wirklich nicht!</note>und dann gesagt: I see, first nothing and then: Whoom! <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal71">
+                     <desc>Zwischenruf des Abg. Stefan.</desc>
+                  </vocal>
+            Jetzt haben wir wirklich diese Gefahr, dass die Zahl ganz oben ist. Wir müssen sie runterbekommen. Meine sehr verehrten Damen und Herren von der Sozialdemokratischen Partei und meine sehr verehrten Damen und Herren von den NEOS, bitte beachten Sie, dass Sie damit Verantwortung übernehmen! Wenn Sie diesem Antrag zustimmen, nehmen Sie die Verantwortung auf sich, dass Sie sagen: Mir sind die Ärzte in den Intensivstationen egal <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4289">Abg. Kickl: Das ist unter Ihrer Würde!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal72">
+                     <desc>anhaltende Zwischenrufe bei SPÖ, FPÖ und NEOS</desc>
+                  </vocal>
+                  <kinesic type="signal" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic67">
+                     <desc>Präsident Sobotka gibt das Glockenzeichen</desc>
+                  </kinesic>
+            , mir sind die vielen, die krank sind, egal! Sie nehmen diese Verantwortung auf sich, glauben Sie mir das! Glauben Sie mir! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4314">Abg. Brandstätter: Offene Schulen, weniger Infizierte! Deutschland hat weniger Infizierte! Die Regierung hat alles falsch gemacht, und jetzt sind Sie panisch, das ist doch die Wahrheit!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal73">
+                     <desc>Zwischenruf des Abg. Kickl.</desc>
+                  </vocal>
+            – Wir sind nicht panisch, wir arbeiten klug und versuchen, es zu schaffen, dass wir dieses Virus in seiner Verbreitung eindämmen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4333">Abg. Brandstätter: Warum ist das exponentielles Wachstum ...?</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal74">
+                     <desc>Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+                  <kinesic type="signal" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic68">
+                     <desc>Präsident Sobotka gibt neuerlich das Glockenzeichen.</desc>
+                  </kinesic>
+            Dass natürlich die Schulen auch ein Teil davon sind und dass die Kontakte - - <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4359">Abg. Brandstätter: Warum diese Zahlen in Österreich? Warum sind wir so schlecht? Erklären Sie einmal, warum wir so schlecht sind!</note> – Herr Kollege Brandstätter, es ist uninteressant, warum wir so schlecht sind <note type="objection" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note164">heftiger Widerspruch bei SPÖ, FPÖ und NEOS</note> ,wir sind so schlecht, es ist so, und wir müssen von diesem Schlechtsein wegkommen. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic69">
+                     <desc>Beifall bei der ÖVP.</desc>
+                  </kinesic>
+            Und weil wir von dem Schlechtsein wegkommen müssen, deshalb machen wir das. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal75">
+                     <desc>Weitere Zwischenrufe bei FPÖ und NEOS.</desc>
+                  </vocal>
+            Herr Kollege Brückl, Sie sagen dem Herrn Bundeskanzler: „Sperren Sie die Schulen wieder auf!“ – Herr Kollege Brückl, wir sperren sie wieder auf, ich garantiere es Ihnen, so früh wir können!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic70">
+               <desc>Beifall bei der ÖVP.</desc>
+            </kinesic>
+            <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal76">
+               <desc>Zwischenrufe bei der FPÖ.</desc>
+            </vocal>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note165">
+               <time when="2020-11-19T18:58:00+01:00">18:58</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note166">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4413" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1427">Abgeordnete Hammerschmid ist zu Wort gemeldet. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note167">
+               <time when="2020-11-19T18:58:31+01:00">18:58:31</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note168">Abgeordnete Mag. Dr. Sonja Hammerschmid (SPÖ)</note>
+            <u who="#PAD_88631" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4435" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1435">Sehr geehrter Herr Präsident! <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal77">
+                     <desc>Zwischenruf des Abg. Martin Graf.</desc>
+                  </vocal>
+            Liebe Kolleginnen und Kollegen! Vor allem lieber Herr Taschner! Ich weiß, Sie sind ein exzellenter Mathematiker – hoher Respekt davor –, aber dass Sie jetzt auch Chefvirologe sind, dass Sie auch Epidemiologe sind <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal78">
+                     <desc>Zwischenruf des Abg. Hörl</desc>
+                  </vocal>
+            und jetzt alle, die vom Fach sind, entmündigen <pb n="30"/>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4457">Abg. Taschner: Das ist nicht wahr!</note>und sagen, das ist alles wurscht und das hat alles kein Gewicht, was die sagen, das finde ich wirklich verwegen. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic71">
+                     <desc>Beifall bei SPÖ, FPÖ und NEOS.</desc>
+                  </kinesic>
+            Sie, Herr Taschner, reden von Verantwortung! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4476">Abg. Taschner: Ja!</note>– Dann hören Sie zu! Ich habe vorige Woche gemeinsam mit unserer Parteivorsitzenden beispielsweise mit Herrn Drosten von der Charité in Berlin gesprochen. Er hat uns auch dahin gehend beigepflichtet, indem er sagt: Bitte Schulen offen halten! Wir wissen, dass sie nicht frei von Infektionen sind, aber wenn wir die Pädagoginnen und Pädagogen einmal wöchentlich mit einem Antigentest testen, kann man das Infektionsgeschehen sehr wohl in den Griff kriegen. – Das sagen auch die Kinderärzte. Sind Sie schlauer als unsere Kinderärzte? Sind Sie schlauer als unsere Psychologen? <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic72">
+                     <desc>Beifall bei SPÖ, FPÖ und NEOS.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal79">
+                     <desc>Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            Wow! Das würde ich mir nie herausnehmen! Das würde ich nicht einmal wagen. Ich höre auf die Wissenschaft, ich höre auf die Forschung, ich höre auf die Experten und mache mir dann natürlich, abgeleitet davon, ein Bild, aber ich würde mich niemals über die Fachexperten stellen. Das ist wirklich unglaublich. Aber noch etwas anderes: Warum sind wir denn dort, wo wir sind? <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4498">Rufe bei SPÖ und FPÖ:Genau! Genau!</note>Warum sind wir dort? Warum haben wir ein so hohes Infektionsgeschehen? <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4509">Ruf bei der FPÖ:Regierungsversagen!</note> – Aber auch da ein Blick in die Zahlen: Seit wir in diesen sanften Lockdown gegangen sind, zeigen uns die Zahlen sehr klar, dass das Infektionsgeschehen in den Oberstufen nicht abgenommen hat. Was zeigen uns die Daten noch? – Seit die Kinder in die Schule gehen, seit September, hat das Infektionsgeschehen, nämlich der prozentuelle Anteil der Schülerinnen und Schüler am Infektionsgeschehen, abgenommen! Das hat einen Grund: weil sie in strukturierten Klassenverbänden lernen können und sich nicht im Freundeskreis lustig durchmischen und sonst auch noch irgendwo hingehen. Das hat einen Grund! Darum – und wir als Vertreter der Sozialdemokratie waren diesbezüglich in unserer Position immer sehr klar –: Wir wollen geöffnete Schulen!, denn das, was Sie den Kindern antun, ist ganz, ganz schwer wieder aufzuholen. Diese Defizite aufzuholen, das wird einen Kraftakt erfordern, und das Budget, das wir heute hier beschlossen bekommen haben, gibt das nicht her, schafft nicht die notwendigen Voraussetzungen, um diese Defizite wieder aufzuholen, in keinster Weise. Warum also sind wir dort, wo wir jetzt sind? – Weil Sie nicht dafür gesorgt haben, dass die Schulen mit Testsystemen ausgestattet sind, dass es dort den Antigentest gibt, dass jedes Kind die Gurgellösungen zur Verfügung hat, sodass man schnell testen kann, dass man binnen 24 Stunden ein Ergebnis hat. Nichts! Die haben in der Schule keine FFP2-Masken, man hat sich nicht überlegt, wie man die Öffnungszeiten staffeln kann, wie man Räume anmieten kann, wie man mehr Pädagoginnen und Pädagogen als Ersatz in die Klassen bringt. Den diesbezüglichen Antrag haben Sie uns im Unterrichtsausschuss abgelehnt! So schaut’s aus! Deshalb sind wir dort! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic73">
+                     <desc>Beifall bei SPÖ und FPÖ sowie des Abg. Brandstätter.</desc>
+                  </kinesic>
+            Das heißt: Schulen auf! – Ich ganz persönlich hätte es mir anders gewünscht: Jetzt hatten die Lehrer innerhalb von zwei Tagen umzusetzen, was seitens der Regierung in einer Ho-ruck-Aktion übers Wochenende angeordnet wurde; jetzt schaffen wir ihnen wieder innerhalb eines Wochenendes an, alles andersrum zu machen. Ich hätte gerne mehr Zeit, um die Schulen entsprechend auszustatten, um Schule gelingen zu lassen, sie sicher wieder voll anlaufen zu lassen und entsprechende Testsysteme zu implementieren, sodass Schule wieder sicher und relativ coronafrei funktionieren kann. Aber dass wir dort sind, wo wir sind, das können Sie schon auf Ihre Kappe nehmen.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic74">
+               <desc>Beifall bei SPÖ, FPÖ und NEOS.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note173">
+               <time when="2020-11-19T19:02:00+01:00">19:02</time>
+            </note>
+            <pb n="31"/>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note174">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4558" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1484">Zu Wort gemeldet ist Abgeordneter Hauser. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note175">
+               <time when="2020-11-19T19:02:48+01:00">19:02:48</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note176">Abgeordneter Mag. Gerald Hauser (FPÖ)</note>
+            <u who="#PAD_35515" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4579" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1493">Herr Präsident! Geschätzte Kolleginnen und Kollegen! <note type="speaker_action" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note177">Der Redner stellt eine Tafel mit der Aufschrift „Schulen wieder aufsperren!!!“ auf das Rednerpult.</note> Ja, eigentlich hätten wir uns diese Diskussion sparen können <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4591">Rufe bei der ÖVP:Ja!</note>
+                  <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic75">
+                     <desc>Beifall bei Abgeordneten der ÖVP</desc>
+                  </kinesic>
+            , wenn Bundeskanzler Kurz die Schulen nicht zugesperrt hätte. Und was interessant ist, und das habe ich gestern schon in Richtung Bildungsminister Faßmann erwähnt: Wir hatten letzte Woche einen Budgetausschuss mit allen Fraktionen, und wir waren alle, bitte, alle Fraktionen, inklusive Minister Faßmann, der Meinung, dass die Schulen offen bleiben müssen <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4610">Abg. Taschner: Wenn es geht!</note>– nein, das war nicht: wenn es geht, sondern: dass die Schulen offen bleiben müssen – und dass, wenn überhaupt, gelindere Mittel wie Testungen und so weiter einzusetzen sind, bevor man die Schulen zusperrt. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic76">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Unser Bildungssprecher, Kollege Brückl, hat ja inhaltlich schon einiges gesagt. Ich möchte und darf heute und hier ergänzen: Das allseits bekannte und geschätzte Münchner Ifo-Institut hat Ende Juni eine Studie mit dem Titel „Folgekosten ausbleibenden Lernens“ herausgebracht – und das Münchner Ifo-Institut ist mit seiner Expertise nicht nur in Deutschland, sondern europaweit anerkannt. Was ist die Grundaussage dieser Studie des Münchner Ifo-Instituts? – Ich zitiere: „Für einen nennenswerten Teil der Schüler[...] fällt das Lernen während der Schulschließungen [...] offensichtlich [...] aus.“ Ich wiederhole: „Für einen nennenswerten Teil der Schüler [...] fällt das Lernen während der Schulschließungen [...] aus.“ <note type="comment" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note180">Abg. Belakowitsch stellt zwei – in Richtung ÖVP gewendete – Tafeln mit der Aufschrift „Schulen wieder aufsperren!!!“ auf das Abgeordnetenpult.</note> Nun hat das Münchner Ifo-Institut diese Folgekosten auch zu quantifizieren versucht und hat Folgendes festgestellt: Wenn Schüler ein Drittel eines Schuljahres verlieren – das war bereits im ersten Halbjahr der Fall –, dann beträgt der Einkommensverlust pro Schüler über die Lebenszeit sage und schreibe zwischen 2,7 und 4,6 Prozent. Das bedeutet für Pflichtschulabgänger 13 000 Euro und für Akademiker 30 000 Euro weniger Einkommen – wegen ausbleibenden Lernens! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4635">Abg. Taschner: ... ist ganz anderer Ansicht!</note> – Kollege Taschner, bitte die Studie nachlesen! Was bedeutet das für die Volkswirtschaft? – Auch für die Volkswirtschaft haben das die Münchner Experten ermittelt, und sie haben festgestellt, dass es zu einem Sinken des Bruttosozialproduktes um 2,8 Prozent über die Lebenszeit der Schüler kommt. Das bedeutet – in Österreich, bitte – Jahr für Jahr ein Minus von 12 Milliarden Euro von unserem Bruttonationalprodukt in der Höhe von 400 Milliarden Euro. Das sind doch Zahlen, die wir im internationalen Wettbewerb überhaupt nicht mehr wegschieben dürfen! Wir sind international in Konkurrenz mit großen Wirtschaftsräumen, mit China. Es wurde erst diese Woche die Asean-Kooperation zwischen China und den südpazifischen Staaten gebildet – das ist der größte Wirtschaftsraum, mit denen stehen wir in Konkurrenz! Und wenn man von der Annahme ausgeht: Wenn jeder Schüler weniger lernt und alle quasi um gleich viel weniger lernen, dann ist das egal!, so stimmt das nicht, weil wir im internationalen Wettbewerb mit großen Wirtschaftsräumen stehen. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic77">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Und was in dieser Studie jenseits dieser knallharten Fakten überhaupt noch nicht eingepreist ist, sind die Kosten aufgrund der sozial-emotionalen Entwicklungen. Nicht eingepreist sind die großen psychischen Belastungen für die Familien. Nicht eingepreist ist, dass Kinder aus benachteiligten Verhältnissen und lernschwache Schüler noch weiter <pb n="32"/>
+            zurückfallen, und nicht eingepreist ist, dass die Chancengleichheit auf der Strecke bleibt. Also neben den ökonomischen Fakten sprechen auch soziale Fakten gegen jede Schulschließung! Deswegen, Herr Bundeskanzler Kurz: Wieso haben Sie die Expertise des Unterrichtsausschusses und von Unterrichtsminister Faßmann overrult? Wir waren einhellig der Meinung, dass Schulen offen zu lassen sind. Bitte lassen Sie die Experten arbeiten und bitte sperren Sie die Schulen dringend auf, damit wir diesen Bildungsverlust nicht zur Kenntnis nehmen müssen! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic78">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Ich danke schön und darf bitte noch etwas hinzufügen - -</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note182">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4668" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1531">Den Schlusssatz bitte!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note183">Abgeordneter Mag. Gerald Hauser</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note184">fortsetzend</note>
+            <u who="#PAD_35515" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4683" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1538">- -, was ganz aktuell ist und heute medial bereits verbreitet wurde, nämlich dass die Regierung plant, nach Beendigung des Lockdowns eine Maskenpflicht für Schüler ab dem Alter von zehn Jahren einzuführen. Auch das wird auf unsere Kinder zukommen, und auch das sollten Sie wissen. – Ich danke.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic79">
+               <desc>Beifall bei der FPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note185">
+               <time when="2020-11-19T19:08:00+01:00">19:08</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note186">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4710" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1549">Zu Wort gemeldet ist Abgeordnete Hamann. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note187">
+               <time when="2020-11-19T19:08:48+01:00">19:08:48</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note188">Abgeordnete Mag. Sibylle Hamann (Grüne)</note>
+            <u who="#PAD_05668" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4732" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1558">Liebe Kollegen von der FPÖ! Ich muss Ihnen jetzt ein Geheimnis verraten: Die Schulen haben am Montag aufgesperrt <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal80">
+                     <desc>Ma-Rufe bei der FPÖ – Abg. Angerer hält ein Schild mit der Aufschrift „Schulen wieder aufsperren!!!“ in die Höhe</desc>
+                  </vocal>
+            , sie haben am Dienstag aufgesperrt <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal81">
+                     <desc>Zwischenrufe bei der FPÖ</desc>
+                  </vocal>
+            , sie haben am Mittwoch aufgesperrt, sie haben heute am Donnerstag in der Früh aufgesperrt <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal82">
+                     <desc>weitere anhaltende Zwischenrufe bei der FPÖ</desc>
+                  </vocal>
+                  <kinesic type="signal" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic80">
+                     <desc>Präsident Sobotka gibt das Glockenzeichen</desc>
+                  </kinesic>
+            – danke schön <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4764">Abg. Martin Graf: Warum weiß das der Taschner nicht?</note>–, sie werden morgen am Freitag aufsperren, sie werden am Freitagnachmittag zusperren, denn da ist Wochenende <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4777">Abg. Leichtfried: Kann man das dem Taschner auch sagen?</note>,und sie werden am Montag in der Früh wieder aufsperren <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4790">Abg. Schnedlitz: Das ist ein Qualitätsanspruch: Gebäude aufsperren! Bravo!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal83">
+                     <desc>weitere Zwischenrufe bei der FPÖ</desc>
+                  </vocal>
+            , weil die Schulen, genau so, wie Sie das wollen, offen bleiben und offen sind.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic81">
+               <desc>Beifall bei den Grünen und bei Abgeordneten der ÖVP.</desc>
+            </kinesic>
+            <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal84">
+               <desc>Anhaltende Zwischenrufe bei der FPÖ.</desc>
+            </vocal>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4819">Ruf bei der SPÖ:Bitte noch einmal! Zugabe!</note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note193">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4837" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1599">Ich würde doch darum bitten, dass man die Rednerin auch ausreden lässt. Sie fordern zuerst so viel Respekt ein, dass man auch zuhört. Ich würde darum bitten, dass das aber auch wirklich für alle gilt.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic82">
+               <desc>Beifall bei ÖVP und Grünen.</desc>
+            </kinesic>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note194">Abgeordnete Mag. Sibylle Hamann</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note195">fortsetzend</note>
+            <u who="#PAD_05668" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4858" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1609">Sagen wir einmal so: Nach dem Auftritt der FPÖ-Kollegen hier vorhin würde ich mir wünschen, dass Sie beim Spazierengehen nicht allzu nahe an einer Schule vorbeikommen, denn dort sind nämlich viele Kinder <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4870">Abg. Kassegger: Warum, ohne Lehrer und Unterricht?!</note> , und das mit der Wortwahl war eigentlich nicht so, dass man das Kindern zumuten möchte. Sie wollen ja mehr, als dass die Schulen offen sind. Sie wollen mit Ihrem Antrag einen regulären Unterricht ab Montag. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal85">
+                     <desc>Zwischenrufe der Abgeordneten Martin Graf und Brandstätter.</desc>
+                  </vocal>
+            Jetzt muss ich Ihnen etwas sagen: Wir sind im Moment in keiner normalen, regulären Situation! Ich weiß nicht, ob Sie es schon gemerkt haben, ich weiß nicht, in welcher Welt Sie leben, aber wir haben eine Ausnahmesituation. <pb n="33"/>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4891">Abg. Brandstätter: Warum haben wir so hohe Infektionszahlen? Warum hat Irland niedrigere bei offenen Schulen, Deutschland niedrigere bei offenen Schulen? Was ist hier falsch gelaufen?</note>– Wollen Sie sich zu Wort melden, Herr Kollege? Dann bitte tun Sie das und kommen Sie hierher! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic83">
+                     <desc>Beifall bei Grünen und ÖVP.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal86">
+                     <desc>Zwischenrufe bei FPÖ und NEOS.</desc>
+                  </vocal>
+            – Herr Kollege, da drüben steht der Computer, dort kann man sich für eine Rede einmelden! Tun Sie das bitte, dann kommen Sie nach mir dran!</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4916">Abg. Leichtfried: Nein, das geht nicht, das ist eine Kurzdebatte!</note>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4926">Ruf:Die Antworten müssen Sie geben</note>
+            <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal87">
+               <desc>Weitere Zwischenrufe bei FPÖ und NEOS.</desc>
+            </vocal>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note200">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4951" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1640">Ich habe jetzt auf die Stoppuhr gedrückt. Ich würde Sie bitten, die Rednerin jetzt ausreden zu lassen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4956">Rufe bei FPÖ und NEOS:Das sind Zwischenrufe!</note>– Das ist kein Zwischenruf, sondern das ist eine permanente Störung. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal88">
+                     <desc>Weitere Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4975">Abg.: (in Richtung Abg. Hamann) Red einfach weiter!</note>Kollegin Hamann ist am Wort. – Bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note203">Abgeordnete Mag. Sibylle Hamann</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note204">fortsetzend</note>
+            <u who="#PAD_05668" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e4997" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1656">Das mit dem Benehmen ist so eine Sache, ich weiß auch nicht. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic84">
+                     <desc>Beifall bei Grünen und ÖVP.</desc>
+                  </kinesic>
+                  <note type="inquietude" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note205">Weiterhin Unruhe im Saal.</note> – Sind wir hier in der Schule, oder wo sind wir? <vocal type="laughter" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal89">
+                     <desc>Heiterkeit bei Abgeordneten von SPÖ und NEOS.</desc>
+                  </vocal>
+            Sie <note type="comment" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note206">in Richtung Präsident Sobotka</note> sind hier eigentlich der Lehrer, Sie müssten eingreifen. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal90">
+                     <desc>Zwischenrufe der Abgeordneten Heinisch-Hosek und Vogl.</desc>
+                  </vocal>
+            Okay, wir haben eine Ausnahmesituation – jetzt versuche ich es einmal mit Schreien –, und wir hatten nicht nur im Gesundheitssystem eine Ausnahmesituation, sondern auch in den Schulen. Vielleicht haben Sie das auch gemerkt. Es gab beim Unterricht schon Serienausfälle wegen kranker Lehrkräfte, wegen Lehrkräften, die zur Risikogruppe gehören, und aufgrund von Quarantänen. Es war eine schwierige Situation in den Schulen und man musste ein bisschen Druck rausnehmen. Selbstverständlich sind wir dafür, Unterricht so lange wie möglich aufrechtzuerhalten, aber Schulen können sich halt aus der Gesellschaft und aus den Problemen, die wir haben, nicht ausklinken, sondern sie sind ein Teil davon. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e5033">Ruf bei der FPÖ:Dann sperren Sie sie nicht zu!</note>Da haben wir, wie ich meine, einen wirklich guten Weg gefunden, diese schwierigen Dinge miteinander abzuwägen, das Recht auf Bildung einerseits und das Recht auf Gesundheit andererseits <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e5046">Abg. Belakowitsch: Warum hat man keine Alternativen gesucht?</note>, und dieser Weg ist, dass Schulen und Kindergärten selbstverständlich weiter für alle offen bleiben, die sie brauchen <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic85">
+                     <desc>Beifall bei Grünen und ÖVP</desc>
+                  </kinesic>
+            , und zwar, um das noch einmal klar zu sagen, weil es, glaube ich, immer noch nicht alle ganz verstanden haben, nicht nur für jene, die Betreuung brauchen, für die Kinder von arbeitenden Eltern, die das auch zeitweise und tageweise wahrnehmen können, sondern auch für alle, die Lernunterstützung brauchen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e5065">Abg. Belakowitsch: Also alle!</note>Da haben wir selbstverständlich natürlich an die Kinder gedacht, die zu Hause nicht die notwendige Unterstützung haben, um gut lernen zu können. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e5079">Abg. Kickl: Das ist ein heilloses Chaos!</note> Deswegen haben die Schulen auch gezielt den Auftrag, diese Gruppen in die Schule reinzuholen – die, die daheim nicht lernen können, bei denen es wegen der Sprachkenntnisse schwierig ist, bei denen es wegen Platzproblemen schwierig ist oder aus sonstigen Gründen. Ich höre ganz viel, was jetzt in den letzten Tagen an Berichten kommt, wie sich die Schulen organisieren: An ganz vielen Schulen läuft das ganz großartig. Ganz viele Lehrer leisten da im Moment großartige Arbeit. Die machen viel dafür, damit sie die Kinder, die es brauchen, reinholen <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal91">
+                     <desc>Zwischenruf der Abg. Belakowitsch</desc>
+                  </vocal>
+            , sie gezielt fördern und unterrichten und die Kommunikation mit allen aufrechterhalten. Diese Lehrer und Lehrerinnen sollten wir in dieser Ausnahmesituation unterstützen und fördern, statt hier irgendwie mit komischen Drohungen zu kommen. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic86">
+                     <desc>Beifall bei Grünen und ÖVP.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e5104">Abg. Belakowitsch: Was? Mit komischen Drohungen?</note>
+                  <pb n="34"/>
+            Am Ende wird es nämlich darauf ankommen: Diese Beziehungen in dieser schweren Zeit, die wir hier knüpfen, die werden uns nachher wieder rausholen und raustragen, wenn diese Krise vorbei ist. – Darauf hoffe ich.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic87">
+               <desc>Beifall bei Grünen und ÖVP.</desc>
+            </kinesic>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e5125">Abg. Kickl: ... bei der ÖVP verheizt!</note>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note213">
+               <time when="2020-11-19T19:14:00+01:00">19:14</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note214">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e5146" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1716">Zu Wort gemeldet ist Abgeordnete Künsberg Sarre. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note215">
+               <time when="2020-11-19T19:14:28+01:00">19:14:28</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note216">Abgeordnete Mag. Martina Künsberg Sarre (NEOS)</note>
+            <u who="#PAD_05685" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e5167" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1724">Sehr geehrter Herr Präsident! Hohes Haus! Es ist eine Frage der Haltung, welchen Stellenwert ein Land der Bildung zuschreibt. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic88">
+                     <desc>Beifall bei NEOS und SPÖ sowie bei Abgeordneten der FPÖ.</desc>
+                  </kinesic>
+            Die Schulen zu schließen ist die einfachste Lösung, die möglich ist, aber damit wird nicht nur ein wichtiger Lebensbereich für Kinder und Jugendliche geschlossen, sondern auch für deren Eltern, denn die sind jetzt zum großen Teil zu Hause im Homeoffice. Einfache Lösungen, das wissen wir auch, sind oft nicht die besten. <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal92">
+                     <desc>Zwischenruf des Abg. Taschner.</desc>
+                  </vocal>
+            Das sieht man jetzt auch. Und weil Sie immer wieder sagen, es ist nicht anders gegangen: Wenn Sie die Zahlen, die Infektionszahlen in den Krankenhäusern, in den Pflegeheimen und Altersheimen im Griff hätten und das gut gemacht hätten, dann hätten Sie die Schulen nicht zusperren müssen. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic89">
+                     <desc>Beifall bei NEOS, SPÖ und FPÖ.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal93">
+                     <desc>Zwischenruf des Abg. Zarits.</desc>
+                  </vocal>
+            Ich gebe Ihnen ein Beispiel - - <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e5199">Abg. Taschner: Sie sind die Verharmloser!</note> – Dieses ewige „Diejenigen, die für offene Schulen sind, tragen die Verantwortung für die Toten“ – was Sie vorhin gesagt haben –, das ist unfassbar, denn niemand will Tote. – Schauen wir uns das Beispiel Irland an; Irland war Mitte Oktober von den Zahlen her mit Österreich vergleichbar: Was haben die gemacht? – Die haben das öffentliche Leben fast zugemacht, zugedreht, es gab dort aber einen Grundkonsens, dass die Schulen offen bleiben <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic90">
+                     <desc>Beifall bei NEOS und SPÖ sowie bei Abgeordneten der FPÖ</desc>
+                  </kinesic>
+            ,selbstverständlich mit Schutzmaßnahmen wie Masken für Lehrerinnen und Lehrer, für Schülerinnen und Schüler in den höheren Schulstufen, mit kleineren Gruppen, größeren Räumen, mehr Bussen in den Stoßzeiten. – Das ist Haltung, sehr geehrter Herr Taschner! <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic91">
+                     <desc>Beifall bei NEOS und FPÖ sowie bei Abgeordneten der SPÖ.</desc>
+                  </kinesic>
+            Weil man es nicht oft genug sagen kann, da Sie das offensichtlich nicht glauben: Schulen sind wichtig für Kinder und Jugendliche, auch für die älteren Schülerinnen und Schüler – zum Lernen, zum Freunde-Treffen, und für viele ist es auch ein Ort der Sicherheit. Das müssen Sie doch alles mitbedenken, wenn Sie Ihre Entscheidungen treffen oder wenn einer die Entscheidung fällt, dass die Schule zumacht. Und Aussagen in Reden wie jene, dass das Kindern zuzumuten ist oder dass Kinder stärker sind, als wir glauben, zeigen, dass offensichtlich ganz, ganz viele überhaupt keinen Bezug zur Realität haben. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic92">
+                     <desc>Beifall bei NEOS und FPÖ sowie bei Abgeordneten der SPÖ.</desc>
+                  </kinesic>
+            Warum hat sich Herr Minister Faßmann bis zur letzten Minute dafür eingesetzt – im Gegensatz zu den Grünen zum Beispiel –, dass die Schulen offen bleiben? – Weil er weiß, dass die Bildungsschere noch weiter auseinandergeht <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic93">
+                     <desc>Beifall bei den NEOS</desc>
+                  </kinesic>
+            , weil er weiß, dass Schulschließungen psychische und physische Folgewirkungen haben werden <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic94">
+                     <desc>Beifall bei NEOS, SPÖ und FPÖ</desc>
+                  </kinesic>
+            , und weil er weiß, dass es auch für das spätere Erwerbsleben der Schülerinnen und Schüler schwieriger wird und sie Einkommenseinbußen haben werden. Das alles kann man nicht vom Tisch wischen! Minister Faßmann hat das erkannt und sich für ein Offenhalten der Schulen eingesetzt – damit ist er aber offensichtlich ziemlich allein gewesen. <pb n="35"/>
+            Ja, Schulen sollen offen sein, Unterricht soll stattfinden, natürlich mit FFP2-Masken für Lehrerinnen und Lehrer, das ist ja wohl ganz logisch. Wo sind die Masken? – Die sind nach wie vor nicht da. Nach wie vor gibt es Schreiben, E-Mails von Direktoren, die das für ihre Lehrerinnen und Lehrer privat kaufen. Wenn Sie in den letzten sechs Monaten eine gute Teststrategie aufgesetzt hätten, mit schnellen Ergebnissen und einem guten Contacttracing, das auch wirklich seinen Namen verdient, dann hätten wir jetzt diese Situation in den Schulen nicht. <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic95">
+                     <desc>Beifall bei den NEOS sowie bei Abgeordneten von SPÖ und FPÖ.</desc>
+                  </kinesic>
+            Wenn Sie es geschafft hätten, einen gestaffelten Unterrichtsbeginn zu machen, und – hier sind ja auch viele Bürgermeister – wenn Sie es geschafft hätten, mehr Busse in den Stoßzeiten einzusetzen <vocal type="interruption" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.vocal94">
+                     <desc>Zwischenruf des Abg. Zarits</desc>
+                  </vocal>
+            ,und wenn Sie es geschafft hätten, größere Räume, Hotels, Festsäle, Gemeindesäle et cetera anzubieten, dann hätten wir diese Situation auch nicht. Ich verstehe es nicht, weil es offensichtlich andere Länder schaffen, nur wir hier in Österreich nicht, und das finde ich sehr, sehr traurig.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.kinesic96">
+               <desc>Beifall bei den NEOS sowie bei Abgeordneten von SPÖ und FPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note218">
+               <time when="2020-11-19T19:19:00+01:00">19:19</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note219">
+               <time when="2020-11-19T19:19:35+01:00">19:19:35</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note220">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d7e5277" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1788">Zu Wort ist niemand mehr gemeldet. Die Debatte ist damit geschlossen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1790">Wir kommen zur Abstimmung über den Antrag der Abgeordneten Brückl, Kolleginnen und Kollegen, dem Unterrichtsausschuss zur Berichterstattung über den Antrag 1060/A(E) der Abgeordneten Hermann Brückl, MA, Kolleginnen und Kollegen eine Frist bis zum 21. November 2020 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1792">Wer für diesen Fristsetzungsantrag ist, den bitte ich um ein Zeichen der Zustimmung. – Das ist die Minderheit, daher abgelehnt.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1794">Die nächste Sitzung des Nationalrates darf ich für Freitag, das heißt morgen, den 20. November, um 9 Uhr einberufen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1796">Die Tagesordnung ist bekannt.</seg>
+               <seg xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063_d2e1798">Diese Sitzung ist geschlossen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note221">
+               <time when="2020-11-19T19:20:15+01:00">19:20:15</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-11-19-027-XXVII-NRSITZ-00063.note222">Schluss der Sitzung:<time when="2020-11-19T19:20:00+01:00">19:20</time>Uhr</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

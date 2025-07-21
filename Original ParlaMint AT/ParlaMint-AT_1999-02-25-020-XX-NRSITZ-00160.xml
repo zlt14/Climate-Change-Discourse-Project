@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #reference" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XX. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="sub" xml:lang="de">160. Sitzung des Nationalrates der Republik Österreich, XX. Gesetzgebungsperiode, Donnerstag, 25. Februar 1999</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XX [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Sitting Number 160, Legislative period XX, Thursday, 25. February 1999</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="160">160. Sitzung</meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XX" n="20">XX. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="160">Sitting 160</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XX" n="20">Legislative period XX</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung, Korpuskodierung in TEI und automatische linguistische Annotation</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding and automatic linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="202" xml:lang="de">202 Äußerungen</measure>
+            <measure unit="speeches" quantity="202" xml:lang="en">202 speeches</measure>
+            <measure unit="words" quantity="10777" xml:lang="de">10,777 Wörter</measure>
+            <measure unit="words" quantity="10777" xml:lang="en">10,777 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Stenographisches Protokoll, 160. Sitzung des Nationalrates der Republik Österreich, XX. Gesetzgebungsperiode, Donnerstag, 25. Februar 1999</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <title type="sub" xml:lang="en">Shorthand record, Sitting Number 160, Legislative period XX, Thursday, 25. February 1999</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XX/NRSITZ/NRSITZ_00160/fnameorig_114309.html</idno>
+               <date when="1999-02-25">1999-02-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="55"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="34"/>
+               <tagUsage gi="note" occurs="268"/>
+               <tagUsage gi="seg" occurs="288"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="18"/>
+               <tagUsage gi="u" occurs="202"/>
+               <tagUsage gi="vocal" occurs="17"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="1999-02-25">1999-02-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-13">
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e178" type="debateSection">
+            <gap reason="editorial" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.gap1">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note1">Beginn der Sitzung:<time when="1999-02-25T09:01:00+01:00">9:01</time>Uhr</note>
+            <note type="chairpersons" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note2">Präsident Dr. Heinz Fischer Zweiter Präsident Dr. Heinrich Neisser Dritter Präsident MMag. Dr. Willi Brauneder</note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note3">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e505" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e194">Meine Damen und Herren! Ich darf Sie herzlich zur 160. Sitzung des Nationalrates begrüßen, die für heute, 9 Uhr, einberufen wurde und die ich hiermit für eröffnet erkläre.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e196">Als verhindert gemeldet sind folgende Abgeordneten: Aumayr, Böhacker, Mag. Haupt, Dr. Haider, Motter, Wenitsch, Kröll, Tichy-Schreder, Gatterer, Mag. Frieser, Platter, Gradwohl, Heinzl und Dr. Keppelmüller.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e198">Vertretung von Mitgliedern der Bundesregierung</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note4">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e536" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e203">Für den heutigen Sitzungstag hat das Bundeskanzleramt über Entschließungen des Bundespräsidenten betreffend die Vertretung von Mitgliedern der Bundesregierung folgende Mitteilung gemacht: Herr Bundesminister für Wissenschaft und Verkehr Dr. Caspar Einem wird von Herrn Bundesminister Rudolf Edlinger vertreten. Herr Bundesminister für auswärtige Angelegenheiten Dr. Wolfgang Schüssel wird durch Bundesminister Mag. Wilhelm Molterer vertreten.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e205">Fragestunde</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note5">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e557" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e210">Wir gelangen nunmehr zur Fragestunde. Ich beginne jetzt – um 9.02 Uhr – mit dem Aufruf der einzelnen Anfragen. ´</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e212">Bundesministerium für Arbeit, Gesundheit und Soziales</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note6">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e578" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e217">Die 1. Anfrage, Nr. 244/M, kommt von Frau Abgeordneter Sophie Bauer. Ich bitte Sie, Frau Abgeordnete Bauer, Ihre Frage zu formulieren. – Bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note7">Abgeordnete Sophie Bauer(SPÖ)</note>
+            <u who="#PAD_00081" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e594" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e223">Sehr geehrte Frau Bundesministerin! Meine Frage lautet:</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e225">244/M</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e227">Welche Auswirkungen werden die geplanten Maßnahmen im Bereich der Schwarzarbeitsbekämpfung Ihrer Meinung nach haben?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note8">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e621" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e232">Bitte um Beantwortung, Frau Ministerin.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note9">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e636" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e237">Herr Präsident! Sehr geschätzte Damen und Herren! Ich darf Ihnen zunächst einen schönen guten Morgen wünschen.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e239">Sehr geschätzte Frau Abgeordnete! Die Verletzung von Meldevorschriften im Bereich der Sozialversicherung, von gewerberechtlichen Vorschriften und von Beschäftigungseinschränkungen auch für ausländische Arbeitnehmer kostet korrekten Unternehmern und Arbeitnehmern jährlich Milliardenbeträge. Vor allem entsteht dadurch ein erheblicher Ausfall an Sozialversicherungsbeiträgen und Steuern, die für die Finanzierung der öffentlichen Aufgaben unverzichtbar sind.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e241">Durch die Regierungsvorlage des Schwarzarbeitsbekämpfungsgesetzes, die am 11. März im Sozialausschuß des Nationalrates beraten werden wird, sollen die Beschäftigungsmöglichkeiten zu ordnungsgemäßen Entgelt- und Arbeitsbedingungen sichergestellt und Schwarzarbeit weitgehend ausgeschlossen werden. Dies wird durch Einführung besserer Kontrollen, Beseitigung von Umgehungsmöglichkeiten, Schaffung wirksamerer Sanktionen und Ausschaltung von Anreizen im Bereich der Schattenwirtschaft erreicht. Zur Verbesserung gegenüber der derzeitigen Situation wird es insbesondere durch die Konzentration der Kontrollkompetenzen bei den Hauptzollämtern und durch die Verpflichtung aller in die Bekämpfung von Schwarzarbeit involvierten Behörden und Rechtsträger zur Zusammenarbeit und zu einem koordinierten Vorgehen bei der Aufdeckung und Verfolgung von Schwarzarbeit kommen.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e243">Ich möchte ausdrücklich darauf hinweisen, daß nicht zu Erwerbszwecken erfolgende Hilfeleistungen wie die gegenseitige Unterstützung im Familien-, im Freundes- und im Nachbarschaftskreis keine Schwarzarbeit darstellen und durch die vorgesehenen Regelungen nicht beeinträchtigt werden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note10">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e661" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e248">Zusatzfrage, wie ich annehme. – Bitte, Frau Abgeordnete.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note11">Abgeordnete Sophie Bauer(SPÖ)</note>
+            <u who="#PAD_00081" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e676" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e253">Sehr geehrte Frau Bundesministerin! Wieviel Personal werden Sie dafür einsetzen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note12">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e691" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e259">Bitte, Frau Minister.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note13">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e707" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e264">Sehr geschätzte Frau Abgeordnete! Zur effektiven Bekämpfung der Schwarzarbeit – das ist auch in der Regierungsvorlage so vermerkt – ist bei den Hauptzollämtern ein Personalstand von mindestens 184 Bediensteten erforderlich. 79 Bedienstete aus den Bereichen des Bundesministeriums für Finanzen und des Bundesministeriums für Arbeit, Gesundheit und Soziales stehen bei Inkrafttreten des Gesetzes mit 1.7.1999 wie vorgesehen sofort zur Verfügung. Weitere 60 Planstellen und auch die budgetäre Bedeckung sind für 1999 gesichert. Die restlichen 45 Planstellen sollen im Jahr 2000 eingerichtet werden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note14">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e722" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e269">Nächste Zusatzfrage: Herr Abgeordneter Dr. Feurstein.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note15">Abgeordneter Dr. Gottfried Feurstein(ÖVP)</note>
+            <u who="#PAD_00319" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e737" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e274">Frau Ministerin! Ich gebe offen zu, daß ich mir lieber aktive Maßnahmen wünschen würde, um das Problem Schwarzarbeitsbekämpfung zu lösen.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e276">Darf ich Sie jetzt aber ganz konkret fragen: Wird es mit diesem Gesetz neue Straftatbestände geben, die bestraft werden sollen, oder wird es so sein, daß die bisherigen Straftatbestände einfach in einem Gesetz zusammengefaßt werden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note16">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e756" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e281">Bitte um Beantwortung.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note17">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e771" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e286">Sehr geschätzter Herr Abgeordneter! Ich unterstütze alle Maßnahmen, die uns helfen, Illegalität zur Legalität werden zu lassen. Es besteht nicht die Absicht, neue Straftaten zu sanktionieren oder zu verfolgen. Insbesondere in jenen Bereichen, die ich in meiner ersten Antwort angeführt habe, soll es zu keiner Veränderung der jetzigen Situation kommen. Ich bin aber überzeugt davon, daß wir mit diesem Gesetz doch die korrekten Unternehmer, die korrekten Arbeitnehmerinnen und Arbeitnehmer schützen können, und ich glaube, das ist ein gemeinsames Ziel.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note18">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e786" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e292">Danke. – Zusatzfrage: Herr Abgeordneter Öllinger.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note19">Abgeordneter Karl Öllinger(Grüne)</note>
+            <u who="#PAD_02854" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e802" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e297">Frau Bundesministerin! Warum ist es Ihnen nicht gelungen, im Gesetz eine entsprechende Abgrenzung zwischen der Nachbarschaftshilfe und dem Tatbestand der Schwarzarbeit durchzusetzen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note20">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e817" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e302">Bitte, Frau Ministerin.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note21">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e832" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e307">Sehr geschätzter Herr Abgeordneter! Ich sehe es nicht so, wie Sie es jetzt formuliert haben. Es ist klargestellt, was unter Schwarzarbeit zu verstehen ist, und damit ist diese abgegrenzt gegenüber allen anderen Tätigkeiten, die eben nicht als illegale Beschäftigung zu sehen sind.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note22">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e848" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e312">Danke. – Frau Abgeordnete Madl, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note23">Abgeordnete Elfriede Madl(Freiheitliche)</note>
+            <u who="#PAD_02840" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e863" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e318">Frau Bundesminister! Glauben Sie nicht, daß es besser wäre, die Ursachen der Schwarzarbeit zu bekämpfen anstatt sie zu kontrollieren? Tatsache ist nämlich einerseits, daß es vielen Österreicherinnen und Österreichern aufgrund ihrer Einkommenssituation nicht mehr möglich ist, sich professionelle Arbeit zu leisten, und andererseits, daß es sehr viele Österreicherinnen und Österreicher gibt, die aufgrund ihrer schlechten Einkommenssituation nebenbei sozusagen schwarzarbeiten müssen, um ihr Lebenseinkommen zu finanzieren. Glauben Sie nicht, daß es besser wäre, die Lohnnebenkosten oder eventuell auch die hohen Sozialversicherungsbeiträge zu senken, sodaß das Nettoeinkommen des Österreichers wieder angehoben wird, weil er für seine Arbeit wieder ordentlich bezahlt wird und sich dann auch professionelle Arbeit leisten kann?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note24">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e878" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e323">Frau Bundesminister, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note25">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e894" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e328">Sehr geschätzte Frau Abgeordnete! Ich gehe davon aus, daß wir in unserem Entlohnungssystem Bedingungen vorfinden, die ordentliche Einkommen sicherstellen. Darüber hinaus möchte ich festhalten, daß Sozialversicherungsbeiträge auch Leistungen bewirken und es existentiell notwendig ist, Absicherungen bei Krankheit, im Falle der Pension, bei Arbeitslosigkeit zustande zu bringen.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e330">Ich betrachte daher beide Ansätze als erforderlich: einerseits die Bekämpfung von Schwarzarbeit und andererseits dort, wo wir eine Chance der Senkung von Lohnnebenkosten erkennen, diese auch zu nützen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note26">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e912" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e335">Danke schön. – Herr Abgeordneter Dr. Kier, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note27">Abgeordneter Dr. Volker Kier(Liberales Forum)</note>
+            <u who="#PAD_02860" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e927" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e340">Frau Bundesminister! Könnte das erwartete Mehraufkommen an Sozialversicherungsbeiträgen, das zweifellos durch die verschärften Sanktionsmaßnahmen auch mitgedacht ist, nicht deutlich geringer ausfallen, als wenn Sie statt der jetzigen Maßnahmen eine Attraktivierung des legalen Arbeitsmarktes forciert hätten und beschäftigungsinduzierte Maßnahmen, zum Beispiel steuerliche Begünstigungen, vorgesehen hätten, die mehr legale Arbeit anstoßen würden als bloße Sanktionen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note28">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e943" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e345">Bitte, Frau Bundesministerin.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note29">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e958" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e351">Herr Abgeordneter! Ich möchte wiederholen, was ich vorhin bereits sagte. Ich glaube, daß beide Maßnahmen erforderlich sind: einerseits illegale Beschäftigung, Schwarzarbeit sowohl im gewerberechtlichen Sinne als auch im arbeitsrechtlichen Sinne zu verhindern und damit der korrekten Unternehmerschaft und der korrekten Arbeitnehmerschaft die Chance zu geben, wettbewerbsfähig zu bleiben, andererseits aber dort Maßnahmen zu setzen, wo es zu Entlastungen des sogenannten Humankapitals kommt. Ich glaube, beide Maßnahmen bewirken, daß wir unsere hohen Niveaus nicht nur bei den Sozialstandards, sondern insgesamt in der Qualität des Arbeitens und Lebens erweitern können.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note30">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e973" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e356">Danke vielmals. – Der erste Fragenkomplex ist damit behandelt.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e358">Die 2. Anfrage, 231/M, formuliert Herr Abgeordneter Öllinger. – Bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note31">Abgeordneter Karl Öllinger(Grüne)</note>
+            <u who="#PAD_02854" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e992" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e363">Frau Bundesministerin! Meine Frage an Sie lautet:</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e365">231/M</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e367">Wie stehen Sie angesichts der Tatsache, daß rund 100 000 Bezieher und Bezieherinnen von Arbeitslosengeld und Notstandshilfe mit weniger als 7 000 S monatlich leben müssen, zu einer bedarfsorientierten Sockelung von Arbeitslosengeld und Notstandshilfe?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note32">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1019" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e372">Bitte um Beantwortung.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note33">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1034" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e377">Sehr geschätzter Herr Abgeordneter! Grundsätzlich muß aus meiner Sicht das System der Arbeitslosenversicherung im Gesamtzusammenhang des gesamten Systems der sozialen Sicherung gesehen werden. Die Leistungen der Arbeitslosenversicherung werden entsprechend der Versicherungskonstruktion bei Entfall des Erwerbseinkommens einen adäquaten Einkommensersatz, ausgerichtet am vorangegangenen Lohn und Gehalt, sichern.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e379">Das führt bei Niedrigeinkommen systematisch zu entsprechend niedrigen Lohnersatzleistungen, wie Sie es auch erwähnt haben, allerdings – und ich glaube, es ist wichtig, das zu betonen – ist vorgesehen, daß bei Unterschreitung des jeweils relevanten Sozialhilferichtsatzes die Sozialhilfe zusätzlich zur Arbeitslosenversicherungsleistung gewährt wird.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e381">Hinsichtlich der Dauer der Notstandshilferegelung sind wir in Österreich international vorbildlich. Langzeitarbeitslose fallen nämlich bei uns nicht aus dem System, weil unbegrenzte Verlängerung möglich ist. Weiters ist mit dem Notstandshilfebezug – ich denke, dessen Bedeutung und Wirkung wird oft unterschätzt – eine umfassende sozialversicherungsrechtliche Absicherung sowohl in der Kranken- als auch in der Pensionsversicherung gegeben. Ich glaube daher, daß unsere Notstandshilferegelung eine durchaus herzeigbare ist.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note34">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1056" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e387">Danke vielmals. – Zusatzfrage? – Bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note35">Abgeordneter Karl Öllinger(Grüne)</note>
+            <u who="#PAD_02854" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1071" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e392">Herr Präsident! Frau Bundesministerin, auch Ihnen ist bekannt, daß sich in der Arbeitslosenversicherung 100 000 Personen mit einem Einkommen unterhalb von 7 000 S befinden, die nicht in der Sozialhilfe ankommen, weil es bundesweit insgesamt nur zirka 20 000 Personen gibt, die entsprechende Leistungen aus der Sozialhilfe erhalten. Das System ist also ungerecht.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e394">Welche Änderungen können Sie sich vorstellen, um für Personen mit niedrigem Arbeitslosengeld beziehungsweise Notstandshilfe Abhilfe zu schaffen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note36">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1089" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e399">Bitte, Frau Ministerin.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note37">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1105" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e404">Sehr geschätzter Herr Abgeordneter! Ich habe in meinem Ressort eine Arbeitsgruppe eingerichtet, die seit einigen Monaten an der Zielsetzung einer bedarfsorientierten Mindestsicherung arbeitet. Ich habe auch alle relevanten Interessengruppen eingeladen, mich bei der Erarbeitung dieser Zielsetzungen und deren Umsetzung zu unterstützen. Ich erwarte das Ergebnis in den nächsten Monaten und werde mich entsprechend bemühen, auch im Sinne derer, die sich für diese Sache eingesetzt haben, eine Umsetzung zustande zu bringen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note38">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1120" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e409">Danke. – Frau Abgeordnete Hagenhofer, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note39">Abgeordnete Marianne Hagenhofer(SPÖ)</note>
+            <u who="#PAD_02009" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1135" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e414">Danke. – Frau Bundesministerin! Können Sie uns sagen, wie Österreich bei der Treffsicherheit der Sozialleistungen liegt? Das heißt, ist es so, daß jene Personen Sozialleistungen bekommen, die sie auch zu bekommen hätten?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note40">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1151" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e420">Bitte um Beantwortung.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note41">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1166" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e425">Sehr geschätzte Frau Abgeordnete! Nach einer Untersuchung, die mein Ressort nach einer EU-harmonisierten Methode durchgeführt hat, entfallen drei Viertel der Sozialtransfers in Österreich auf die untere Einkommenshälfte und ein Viertel auf die obere Hälfte. Das unterste Einkommensfünftel erhält 40 Prozent der Sozialtransfers, das oberste Einkommensfünftel 5 Prozent.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e427">Damit ist, glaube ich, bewiesen, daß wir eine hohe Treffsicherheit in unserem österreichischen Sozialstaat haben. Ohne Sozialleistungen würde die Armutsgefährdungsquote bei der erwerbstätigen und der erwerbsfähigen Bevölkerung fast auf den dreifachen Wert ansteigen. Vor allem für das unterste Einkommenszehntel ist das Sozialversicherungs- und Sozialleistungssystem von essentieller Bedeutung. Rund zwei Drittel des Einkommens dieser Gruppe sind Sozialleistungen, und auch das Einkommen des untersten Einkommensviertels basiert noch überwiegend auf den Sozialleistungen.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e429">In diesem Zusammenhang vielleicht auch noch eine Information: Nach den mir zuletzt zur Verfügung stehenden Daten sind 29,4 Prozent der Wirtschaftsausgaben, also unseres gesamten Produktes, Sozialausgaben. Wir liegen damit im Mittelfeld vergleichbarer Staaten.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e431">Es hat aber nicht nur diese EU-harmonisierte Methode die hohe Treffsicherheit bewiesen, sondern es gibt auch Studien der Arbeiterkammer, es gibt Studien des Wirtschaftsforschungsinstitutes, und nicht zuletzt auch in den Ausführungen des Sozialberichtes konnte bestätigt werden, was ich jetzt in wenigen Worten zu skizzieren versucht habe.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note42">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1190" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e436">Danke schön. Zusatzfrage: Kollege Meisinger. – Bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note43">Abgeordneter Josef Meisinger(Freiheitliche)</note>
+            <u who="#PAD_01128" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1206" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e441">Frau Bundesministerin! Die Zahl der Notstandshilfebezieher ist gerade in Wien enorm angestiegen, und zwar von 1997 auf 1998 um etwa 15 Prozent. Das heißt, daß der Notstandshilfeanteil am gesamtösterreichischen Aufkommen in Wien bei 42 Prozent liegt, das heißt aber auch, daß aufgrund der Anteile, die derzeit von Ausländern im Notstandshilfebereich in Anspruch genommen werden, nächstes Jahr 50 Prozent zu erwarten sind.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e443">Frau Bundesministerin! Was ist Ihrer Meinung nach die Ursache dafür, daß gerade in Wien, wo österreichweit die höchsten Einkommen erzielt werden, mit Abstand die höchsten prozentuellen Anteile an Arbeitslosen und Notstandshilfebeziehern zu finden sind?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note44">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1224" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e448">Bitte, Frau Ministerin.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note45">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1239" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e454">Sehr geschätzter Herr Abgeordneter! Es ist ein Kriterium aller Großstädte und Metropolen, daß die Arbeitsmarktsituation nicht jene Dynamik hat, die oft in anderen Regionen vorhanden ist. Das heißt, daß in diesen Regionen zwar längere durchgängige Beschäftigungen zu finden sind, aber wenn eine Arbeitslosigkeit auftritt, dann eine noch schwierigere Integration in den Arbeitsmarkt gegeben ist, weil eben die Mobilität im Sinne einer sehr großen Umschlagsmöglichkeit auf dem Arbeitsmarkt nicht in dem Ausmaß gegeben ist wie in anderen Regionen.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e456">Hinsichtlich der Anzahl der Notstandshilfeempfänger in Wien ist das ein Ergebnis, aber es ist eindeutig klargestellt, daß die Handhabung der Notstandshilferegelung in allen Bundesländern nach den gleichen Kriterien erfolgt. Daher ist in Wien auch keine besondere Vorgangsweise festzustellen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note46">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1258" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e461">Danke schön. Zusatzfrage: Dr. Kier. – Bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note47">Abgeordneter Dr. Volker Kier(Liberales Forum)</note>
+            <u who="#PAD_02860" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1273" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e466">Frau Bundesministerin! Trotz der von Ihnen genannten Treffsicherheit ist doch zweifellos richtig, was Kollege Öllinger gesagt hat, nämlich daß für 100 000 Betroffene das Einkommen unter 7 000 S liegt. Daher würde mich jetzt interessieren, wie weit Ihre Gespräche mit den Ländern gediehen sind im Hinblick auf ein Bundessozialhilfegrundsatzgesetz, weil auch davon auszugehen ist, daß die bisherigen Beiträge, die im Rahmen der Arbeitslosenversicherung fließen, allein nicht ausreichen würden, eine mindestsichernde Zahlung in der Höhe von 7 000 S zu gewährleisten.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note48">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1288" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e471">Bitte um Beantwortung.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note49">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1304" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e476">Sehr geschätzter Herr Abgeordneter! Ich habe bei den verschiedensten Gelegenheiten wiederholt Gespräche mit den zuständigen Vertretern in den verschiedenen Bundesländern geführt, habe aber noch nicht die entsprechende Unterstützung für die Zielsetzung und Umsetzung eines einheitlichen Bundessozialhilfegesetzes, wie Sie und ich es wiederholt auch schon formuliert haben, bekommen. Ich bin aber neuerlich bemüht – wie ich es vorhin in der Anfragebeantwortung schon gesagt habe –, durch die Initiative "bedarfsorientierte Mindestsicherung" gerade diese Zielsetzung weiterhin zu verfolgen und dementsprechend auch die Länder – verzeihen Sie mir diesen Ausdruck – "mit ins Boot zu kriegen".</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note50">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1319" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e481">Danke schön. Letzte Zusatzfrage dazu: Kollege Dr. Trinkl.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note51">Abgeordneter Mag. Dr. Josef Trinkl(ÖVP)</note>
+            <u who="#PAD_03602" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1334" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e487">Frau Bundesministerin! Leider ist es eine Tatsache, daß die Zahl der Langzeitarbeitslosen in Österreich zunimmt, und es ist gerade diese Gruppe, die dann zu Notstandshilfebeziehern wird und damit zu niedrigen Unterstützungen kommt. Vielfach wird in diesem Zusammenhang aber auch das mangelnde Engagement der Betroffenen kritisiert – auch von den vermittelnden Stellen –, wieder selbst Arbeit zu finden.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e489">Wie stehen Sie persönlich zum Vorschlag des steirischen Landeshauptmannstellvertreters Dr. Peter Schachner, der gemeint hat, wer länger als 18 Monate arbeitslos ist, dem sei verpflichtende Arbeit anzubieten?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note52">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1353" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e494">Bitte, Frau Ministerin.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note53">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1368" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e499">Sehr geschätzter Herr Abgeordneter! Wir haben bereits jetzt im Arbeitslosenversicherungsgesetz – und demgemäß erfolgt auch die praktische Handhabe – die Vorschrift, daß Arbeitsuchenden, vorgemerkten Arbeitslosen Angebote zu geben sind, sowohl was Berufsorientierung, Qualifizierung beziehungsweise Vermittlung von Arbeitsplätzen betrifft. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1376">Abg. Dr. Partik-Pablé: Das ist etwas anderes! Das ist doch nicht die Beantwortung der Frage!</note>Gemäß dem Gesetz sind Arbeitslose verpflichtet, diese Angebote auch anzunehmen, wenn sie in zumutbarer Form, so wie im Gesetz formuliert, gegeben sind. Ich erachte es daher als richtig, solche Angebote noch verstärkt zu machen, um zu erreichen, daß Langzeitarbeitslosigkeit überhaupt nicht entsteht, um auch die negativen persönlichen Betroffenheiten zu vermeiden. Wir wissen, daß Langzeitarbeitslosigkeit auch sehr große psychische Auswirkungen hat und es für die Betroffenen oft sehr schwer ist, sich in den Arbeitsmarkt neu zu integrieren. Daher möchten wir grundsätzlich versuchen, Langzeitarbeitslosigkeit stärker zu verhindern, als dies bisher der Fall war.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note55">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1395" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e507">Danke schön.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e509">Das dritte Thema der Fragestunde formuliert Frau Abgeordnete Dr. Brigitte Povysil. – Bitte sehr.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note56">Abgeordnete Dr. Brigitte Povysil(Freiheitliche)</note>
+            <u who="#PAD_03614" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1413" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e514">Danke, Herr Präsident. – Meine Frage lautet:</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e516">233/M</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e518">Inwieweit werden die neuen Arbeitszeitregelungen laut Arbeitszeitgesetz für Krankenanstalten derzeit eingehalten?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note57">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1440" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e524">Ich bitte um Beantwortung der Frage.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note58">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1456" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e529">Sehr geschätzte Frau Abgeordnete! Nach den mir vorliegenden Informationen wird das Krankenanstalten-Arbeitszeitgesetz im Bereich der nicht ärztlichen Berufsgruppen umgesetzt und eingehalten.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e531">Im Bereich der Ärzte kann jedoch noch nicht von einer wirklich lückenlosen Umsetzung gesprochen werden. Die Übertretungen in diesem Bereich betrafen überwiegend die Mißachtung der Verpflichtung zur Führung von Arbeitszeitaufzeichnungen und in Einzelfällen auch die Überschreitung von zulässigen Wochenarbeitszeiten.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e533">Ich halte das Krankenanstalten-Arbeitszeitgesetz für eine wichtige und notwendige Grundlage zur Schaffung zeitgemäßer Arbeitsbedingungen für Spitalsbedienstete, aber auch als Voraussetzung für das gemeinsame Anliegen, Qualitätssicherung im Krankenhaus und im Gesundheitsbereich zu gewährleisten. Ich versuche daher, überall auf die uneingeschränkte Einhaltung des Gesetzes durch die Träger vor Ort zu drängen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note59">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1477" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e538">Weitere Zusatzfrage? – Bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note60">Abgeordnete Dr. Brigitte Povysil(Freiheitliche)</note>
+            <u who="#PAD_03614" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1492" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e543">In welcher Form, Frau Minister, und in welchen Zeitabständen wird die Einhaltung dieses Krankenanstalten-Arbeitszeitgesetzes überprüft?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note61">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1508" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e548">Bitte, Frau Ministerin.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note62">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1523" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e553">Sehr geschätzte Frau Abgeordnete! Ich habe einen sehr aktuellen Bericht des Arbeitsinspektorates vor mir liegen, weil ich die Kolleginnen und Kollegen gebeten habe, eine Schwerpunktaktion hinsichtlich Einhaltung der Bestimmungen des Krankenanstalten-Arbeitszeitgesetzes vorzunehmen. Ich kann Ihnen, wenn Sie wollen, diesen sehr aktuellen Bericht in Form weniger Highlights kurz darstellen.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e555">Es wurden insgesamt 183 Krankenanstalten überprüft, davon 142 Krankenanstalten von Gebietskörperschaften und Sozialversicherungsträgern und 51 von privaten Trägerorganisationen. In 83 öffentlichen und in 23 privaten Krankenanstalten wurden Betriebsvereinbarungen gemäß dem Gesetz abgeschlossen, und in 30 öffentlichen und 2 privaten Anstalten wurden auch die adäquaten Formen der Betriebsvereinbarung eingehalten.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e557">Es sind von seiten der Arbeitsinspektoren 87 Aufforderungen gemäß dem Arbeitsinspektionsgesetz erfolgt. Von diesen Aufforderungen zur Herstellung des richtigen gesetzlichen Zustandes waren 62 öffentliche und 25 private Krankenanstalten betroffen. Ich bin sehr dahinter, daß auch diese Aufforderungen konkret befolgt werden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note63">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1544" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e563">Danke schön. Zusatzfrage von Herrn Dr. Leiner. – Bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note64">Abgeordneter Dr. Günther Leiner(ÖVP)</note>
+            <u who="#PAD_00840" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1560" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e568">Sehr geehrte Frau Ministerin! Sie wissen, daß gerade im Bereich der Pflegeberufe sehr viele aus diesem Personenkreis aus dem Arbeitsprozeß herausfallen, weil sie aus familiären Gründen diese ihre Tätigkeit nicht mehr durchführen können.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e570">Können Sie sich vorstellen, daß durch vermehrte Teilzeitbeschäftigung, insbesondere der Pflegehelfer und des Pflegedienstes, aber auch der Ärztinnen, dieses Problem in den Krankenanstalten gemildert, ja sogar gebessert werden könnte?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note65">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1578" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e575">Bitte, Frau Ministerin.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note66">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1593" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e580">Sehr geschätzter Herr Abgeordneter! Ich glaube, grundsätzlich sagen zu können, daß aufgrund der demographischen Entwicklung der Bedarf an Dienstleistungen im Pflegebereich steigen wird und dementsprechend jene Personen, die die entsprechende Ausbildung haben, sehr große Berufschancen auch in Zukunft haben werden, da, wie gesagt, die Nachfrage nach solchen Leistungen zunehmen wird.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e582">Ich glaube daher, daß Modelle wie Teilzeitbeschäftigung und Modelle, wonach die einzelnen Organisationen verstärkt Angebote entwickeln, und zwar nicht nur für die Pflegebedürftigen, sondern auch für diejenigen Personen, die die Dienstleistungen erbringen, insgesamt zu mehr Beschäftigung beitragen werden. Ich versuche, dies auch durch verschiedene Projekte im Rahmen der Arbeitsmarktpolitik zu unterstützen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note67">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1612" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e587">Danke schön. Nächste Zusatzfrage: Kollege Öllinger.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note68">Abgeordneter Karl Öllinger(Grüne)</note>
+            <u who="#PAD_02854" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1627" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e593">Frau Bundesministerin! Ich halte fest: Die faktische Arbeitszeitregelung im stationären Bereich, im Krankenhaus, ist unbefriedigend. Nun wird auf der anderen Seite im "Nationalen Aktionsplan für Beschäftigung" davon gesprochen, daß es zur Schaffung von vielen neuen Arbeitsplätzen im Gesundheitsbereich kommen sollte.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e595">Ich frage Sie daher, Frau Bundesminister: Welche Punkte aus diesem Forderungsprogramm des "NAP" sind bisher schon im Gesundheitsbereich umgesetzt worden, und ist es dadurch möglich, zu einer Entspannung auch im stationären Bereich beizutragen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note69">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1645" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e600">Bitte, Frau Ministerin.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note70">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1661" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e605">Sehr geehrter Herr Abgeordneter! Es wurde einerseits eine Studie in Auftrag gegeben, um zu fokussieren und daraus auch konkrete Schritte ableiten zu können, wie dieses politische Ziel tatsächlich erreicht werden kann.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e607">Andererseits wird auch das von mir ins Leben gerufene Projekt "NEW START" auch in diesen Bereichen sehr starke innovative Akzente setzen, zum Teil auch experimenteller Natur, und ich erwarte mir durch "NEW START" auch neue Ideen dahin gehend, wie wir eine Weiterentwicklung zustande bringen können.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note71">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1679" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e612">Danke schön. Frau Dr. Gredler, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note72">Abgeordnete Dr. Martina Gredler(Liberales Forum)</note>
+            <u who="#PAD_02858" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1694" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e617">Vielen Dank, Herr Präsident. – Frau Bundesministerin! Gibt es einschlägige Kenntnisse Ihres Ressorts darüber, daß Spitalsbetreiber die Rufbereitschaft als Drohgebärde einsetzen und als Druckmittel benutzen, um eine von Ärztinnen und vom Pflegedienst vor Ort eingeforderte Realisierung des Krankenanstalten-Arbeitszeitgesetzes möglichst zu verhindern, und was tun Sie dagegen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note73">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1710" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e622">Bitte, Frau Ministerin.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note74">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1725" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e628">Sehr geschätzte Frau Abgeordnete! Auf Ihre konkrete Frage muß ich sagen: Nein! Ich habe davon keine Kenntnis. Was ich aber getan habe, ist, daß ich bei der Bundesstrukturkommissionssitzung dieses Thema wiederholt auf die Tagesordnung gesetzt und auch die Länder in dieser Angelegenheit direkt angeschrieben und sie aufgefordert habe, dafür Sorge zu tragen, daß die Bestimmungen des Krankenanstalten-Arbeitszeitgesetzes eingehalten werden und mir darüber auch berichtet wird.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note75">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1740" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e633">Danke. Nächste Zusatzfrage: Frau Dr. Pittermann.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note76">Abgeordnete Dr. Elisabeth Pittermann(SPÖ)</note>
+            <u who="#PAD_02888" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1756" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e638">Frau Bundesministerin! Wieweit haben die Krankenanstalten von der Übergangsregelung nach § 15 Krankenanstalten-Arbeitszeitgesetz – das ist die besondere Arbeitszeitverlängerung nach erfolgloser Stellenausschreibung – Gebrauch gemacht?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note77">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1771" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e643">Bitte, Frau Ministerin.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note78">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1786" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e648">Sehr geschätzte Frau Abgeordnete! Bisher haben nach meinen Informationen in einzelnen Bundesländern, zum Beispiel in der Steiermark, in Vorarlberg, in Salzburg, in Oberösterreich und in Tirol, einige wenige Krankenanstalten – allerdings nur im ärztlichen Bereich – von dieser Möglichkeit Gebrauch gemacht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note79">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1802" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e654">Danke schön. Damit haben wir diesen Fragenkomplex beendet.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e656">Jetzt ist Herr Abgeordneter Dr. Leiner am Wort, um seine Frage zu formulieren. – Bitte sehr.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note80">Abgeordneter Dr. Günther Leiner(ÖVP)</note>
+            <u who="#PAD_00840" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1820" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e661">Sehr geehrte Frau Ministerin! Meine Frage lautet:</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e663">243/M</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e665">Treten Sie für die Einstellung der Notstandshilfe ein, wenn ein Bezieher gemeinnützige Tätigkeit nicht akzeptiert?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note81">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1847" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e670">Frau Bundesministerin, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note82">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1863" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e675">Sehr geschätzter Herr Abgeordneter! Ich darf noch einmal das, was ich vorhin mit nur zwei Sätzen gesagt habe, wiederholen und es durch zusätzliche Informationen ergänzen. Es ist grundsätzlich festzuhalten, daß bei Verweigerung der Aufnahme einer zumutbaren Beschäftigung der Bezug von Arbeitslosengeld oder Notstandshilfe eingestellt wird. Das ist die gängige Praxis der Geschäftsstellen des Arbeitsmarktservices, weil ja eine klare Bestimmung der §§ 9 und 10 des Arbeitslosenversicherungsgesetzes dieses so definiert beziehungsweise vorschreibt. Dort heißt es: Wenn sich ein Leistungsbezieher oder eine Leistungsbezieherin weigert, eine zumutbare Beschäftigung anzunehmen, die Teilnahme an einer arbeitsmarktpolitischen Maßnahme verweigert, die geeignet ist, die Aufnahme einer Beschäftigung zu fördern oder zu beschleunigen, oder aber – und das ist, glaube ich, wichtig, noch ergänzend dazuzusagen – der Arbeitsuchende selbst entsprechend der Vereinbarung mit dem Arbeitsmarktservice im Rahmen dieses verpflichtenden Betreuungsplanes keine Aktivitäten setzt, um die Arbeitslosigkeit zu beenden, tritt ein Ruhen der Arbeitslosenunterstützung ein beziehungsweise wird eine solche nicht gewährt.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e677">Es ist allerdings auch klar, daß die Verweigerung der Aufnahme einer Arbeit bei einer karitativen oder gemeinnützigen Einrichtung nur dann sanktioniert werden kann, wenn es sich um eine zumutbare Beschäftigung handelt, wie sie – und ich möchte noch einmal auf diese Initiative verweisen – beispielsweise im Beschäftigungsprogramm "NEW START" enthalten ist.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e679">Ich gehe bei meiner arbeitsmarktpolitischen Zielorientierung davon aus, alle Maßnahmen darauf abzustimmen, daß Arbeitslose eine existenzsichernde Beschäftigung aufnehmen können und damit auch ihre dauerhafte Integration in den Arbeitsmarkt gegeben ist.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note83">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1884" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e684">Danke.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e686">Wird eine Zusatzfrage gewünscht? – Bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note84">Abgeordneter Dr. Günther Leiner(ÖVP)</note>
+            <u who="#PAD_00840" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1902" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e691">Frau Ministerin! Habe ich Sie jetzt richtig verstanden, daß demjenigen, der eben diese gemeinnützige Tätigkeit ablehnt, die Notstandshilfe nicht mehr zukommt?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note85">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1918" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e697">Bitte, Frau Ministerin, um Klarstellung.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note86">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1933" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e702">Ja.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note87">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1948" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e707">Gut. Zusatzfrage: Kollege Öllinger. – Bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note88">Abgeordneter Karl Öllinger(Grüne)</note>
+            <u who="#PAD_02854" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1964" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e712">Frau Bundesministerin! Herr Klubobmann Khol hat in diesem Zusammenhang vorgeschlagen, daß arbeitsunwilligen Personen die Notstandshilfe oder das Arbeitslosenversicherungsgeld gestrichen werden soll. Nun handelt es sich bei der derzeitigen Gesetzeslage dabei zweifellos um einen gesetzwidrigen Vorschlag, denn vorgesehen ist das Ruhen des Arbeitslosengeldes beziehungsweise der Notstandshilfe für einen befristeten Zeitraum.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e714">Frau Ministerin, ich frage Sie daher: Planen Sie eine gesetzliche Änderung in der Richtung, wie es Klubobmann Khol vorgeschlagen hat, und wovon sollen, sollten Sie diese Änderung tatsächlich durchführen, diese Notstandshilfebezieher und Arbeitslosengeldbezieher, denen die ihnen bis dahin gewährten Geldmittel gestrichen wurden, leben?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note89">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1982" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e719">Frau Bundesministerin, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note90">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e1997" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e725">Sehr geschätzter Herr Abgeordneter! Ich plane keine Änderung bei den Zumutbarkeitsbestimmungen und bei den jetzigen Regelungen. Im Vergleich zu anderen Ländern haben wir sehr strenge Bestimmungen für Arbeitsuchende und arbeitslos Vorgemerkte, und es wird auch sehr konsequent und streng darauf geachtet, daß diese Bestimmungen eingehalten werden.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note91">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2013" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e730">Danke schön. Kollege Lackner, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note92">Abgeordneter Manfred Lackner(SPÖ)</note>
+            <u who="#PAD_03611" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2028" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e735">Sehr geehrte Frau Bundesministerin! Wie beurteilen Sie die arbeitsmarktpolitischen Effekte von gemeinnützigen Tätigkeiten von Arbeitslosen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note93">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2043" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e740">Frau Ministerin, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note94">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2059" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e745">Sehr geschätzter Herr Abgeordneter! Ihre Frage schließt sich an meine vorangegangenen Bemerkungen an, aber ich führe noch einmal aus: Sofern gemeinnützige Trägereinrichtungen angemessen entlohnte Beschäftigung anbieten, ist das positiv zu beurteilen. Dies soll auch in Verbindung mit Qualifizierung geschehen. Ich meine, daß man gemeinnützige Tätigkeiten nicht nur als unmittelbare Tätigkeit sehen sollte, sondern auch als eine Chance des Job-Trainings, wodurch auch eine Stabilisierung der Erwerbsorientierung für Arbeitslose erfolgt. Da ist absolut mit einem positiven arbeitsmarktpolitischen Effekt zu rechnen, nämlich mit einer Beendigung der Arbeitslosigkeit und dem Ende der passiven Transferleistung.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e747">Mein Ziel ist es, die aktiven arbeitsmarktpolitischen Maßnahmen zu verstärken und nicht die passive Versorgung vorrangig zu sehen. Damit müssen aber auch existenzsichernde Einkommen und entsprechende Steuer- und Abgabenleistungen, die insgesamt auch die Einbindung ins soziale Netz mit sich bringen, verbunden sein.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note95">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2077" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e752">Danke vielmals. Dr. Kier wünscht eine Zusatzfrage. – Bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note96">Abgeordneter Dr. Volker Kier(Liberales Forum)</note>
+            <u who="#PAD_02860" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2092" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e758">Frau Bundesminister! Anschließend an die Zusatzfrage, die soeben gestellt wurde, und vor dem Hintergrund der Tatsache, daß die Notstandshilfe, die praktisch unbegrenzt gewährt wird, ausschließlich aus den Versicherungsbeiträgen, sei es aus Lohnnebenkosten der unselbständig Erwerbstätigen und derer Arbeitgeber, finanziert wird, und vor dem Hintergrund der ständig steigenden Zahl der Notstandshilfebezieher möchte ich Sie fragen: Befürchten Sie nicht einen Verdrängungswettbewerb im Bereich der gemeinnützigen Tätigkeiten, oder werden damit nicht andere öffentliche Kassen entlastet, und wäre es daher nicht gerechtfertigt, eben auch andere Quellen zur Finanzierung der Notstandshilfe als ausschließlich die Lohnnebenkosten heranzuziehen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note97">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2108" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e763">Frau Ministerin, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note98">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2123" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e768">Sehr geschätzter Herr Abgeordneter! Ich bin froh über jede Unterstützung von zusätzlichen Finanzierungsmöglichkeiten und nütze diese auch, wo ich nur kann. Es ist mir im vergangenen Jahr und auch heuer gelungen, die Zurverfügungstellung zusätzlicher Budgetmittel, das heißt, nicht Mittel aus der Arbeitslosenversicherung, für aktive Maßnahmen zur Beschäftigung durchzusetzen. Ich bin daran interessiert, auch andere in die Verpflichtung der Stabilisierung und der Optimierung der Beschäftigung einzubinden. Für mich bleibt trotzdem vorrangig, daß für den Betroffenen und für die Betroffene die entsprechende Absicherung gegeben ist, und da ist für mich Priorität, immer sicherzustellen, daß die Existenzsicherung gegeben ist.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note99">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2138" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e773">Danke schön. Frau Abgeordnete Madl, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note100">Abgeordnete Elfriede Madl(Freiheitliche)</note>
+            <u who="#PAD_02840" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2154" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e778">Frau Bundesminister! Das Arbeitsmarktservice beurteilt die Zumutbarkeit einer Beschäftigung. Nach welchem Reglement beurteilt das Arbeitsmarktservice jenen Fall, in welchem beispielsweise Frauen, die in Karenz gewesen sind und nachher Sondernotstandshilfe bezogen haben und vor ihrer Karenzzeit eine ganztägige Beschäftigung hatten, eine Ganztagsbeschäftigung, die sie angeboten bekommen, aus familiären Gründen ablehnen müssen, aber Teilzeitbeschäftigung nicht bekommen? Nach welchem Reglement kürzt nun das Arbeitsmarktservice diese Bezüge der Notstandshilfe?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note101">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2169" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e784">Bitte, Frau Ministerin.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note102">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2184" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e789">Sehr geschätzte Frau Abgeordnete! Es gibt da klare Vorgaben, daß die besonderen Situationen von Frauen, insbesondere solchen mit Kleinkindern, zu berücksichtigen sind, daß auch darauf Rücksicht zu nehmen ist, ob es entsprechende Betreuungseinrichtungen gibt. Diesbezüglich gibt es über das Gesetz hinaus, in welchem sehr klare Bestimmungen enthalten sind, noch Erlässe, die die konkrete Umsetzung dieser Betroffenheiten sicherstellen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note103">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2200" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e794">Danke schön.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e796">Damit kommen wir zum nächsten Fragenkomplex, zu Fragen betreffend das Impfkonzept.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e798">Bitte, Frau Abgeordnete Buder, formulieren Sie Ihre Frage.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note104">Abgeordnete Hannelore Buder(SPÖ)</note>
+            <u who="#PAD_00139" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2221" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e803">Sehr geehrte Frau Bundesministerin! Meine Frage lautet:</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e805">230/M</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e807">Welche Ergebnisse konnten bei der Umsetzung seit der Präsentation des neuen Impfkonzeptes im Vorjahr erzielt werden?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note105">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2248" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e812">Ich bitte um Beantwortung der Frage.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note106">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2264" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e817">Sehr geschätzte Frau Abgeordnete! Ich bin sehr froh darüber, daß ich mit meinem Ressort dazu beitragen kann, daß wir uns der Zielsetzung einer höheren Durchimpfungsrate deutlich annähern werden, und daß wir 80 Millionen Schilling – das ist eine beträchtliche Aufstockung des Budgets – aufbringen konnten, um eine flächendeckende Versorgung mit Impfstoffen für Impfungen gegen Diphtherie, Tetanus, Pertussis, also Keuchhusten, Hämophilus, Influenza, Polio, Hepatitis B, Masern, Mumps und Röteln zustande zu bringen.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e819">Die Umsetzung ist aufgrund auch der Kompetenzlage den Ländern übertragen. Es wird gemäß dem Impfkalender sowohl in Schulen als auch in Gesundheitsämtern und Mütterberatungsstellen der Impfstoff kostenlos zur Verfügung gestellt. Darüber hinaus haben die Bundesländer mit den niedergelassenen Kinderfachärzten und praktischen Ärzten Vereinbarungen abgeschlossen, die diese Impfungen in ihrem Bereich sicherstellen. Ich glaube, daß wir damit eine hohe Durchimpfungsrate erzielen werden, und ich bin sehr froh darüber, durchgesetzt zu haben, daß diese Leistung gewährt wird.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note107">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2282" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e825">Danke. – Zusatzfrage, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note108">Abgeordnete Hannelore Buder(SPÖ)</note>
+            <u who="#PAD_00139" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2297" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e830">Frau Bundesministerin! Haben Sie neue Informationen darüber, wann der von der pharmazeutischen Industrie im Vorjahr angekündigte fünffache Impfstoff zur Verfügung stehen wird?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note109">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2313" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e835">Frau Ministerin, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note110">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2328" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e840">Sehr geschätzte Frau Abgeordnete! Ich muß Ihnen sagen: Nein.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note111">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2343" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e845">Danke. Frau Abgeordnete Haller, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note112">Abgeordnete Edith Haller(Freiheitliche)</note>
+            <u who="#PAD_00495" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2359" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e851">Sehr geehrte Frau Bundesministerin! Nach achteinhalbjährigem Kampf hat ein Innsbrucker Rechtsanwalt endlich den Feststellungsbescheid für die Opfer aus dem seinerzeitigen TBC-Impfskandal in Tirol erhalten und auch Schadenersatzzahlungen erreicht. Eine weitere Anzahl von Verfahren steht bei den Höchstgerichten an, angestrengt vor allem vom Verein für Impfgeschädigte.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e853">Frau Bundesministerin! Ich möchte Sie in diesem Zusammenhang fragen: Gibt es nicht endlich Überlegungen Ihrerseits, den Zugang zu diesem komplizierten Impfschadengesetz für die Opfer zu erleichtern?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note113">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2377" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e858">Frau Bundesministerin, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note114">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2392" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e863">Sehr geschätzte Frau Abgeordnete! Derzeit laufen in meinem Ressort keine Vorbereitungen zu einer Änderung des Impfschadengesetzes.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2401">Abg. Meisinger: Das ist eine Frechheit: Das ist eine Antwort!</note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note116">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2419" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e870">Nächste Zusatzfrage: Herr Dr. Rasinger. – Bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note117">Abgeordneter Dr. Erwin Rasinger(ÖVP)</note>
+            <u who="#PAD_02862" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2434" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e875">Frau Ministerin! Können Sie sich vorstellen, Grippe, Pneumokokken und FSME auch in Ihr Impfkonzept aufzunehmen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note118">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2450" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e881">Frau Bundesministerin, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note119">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2465" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e886">Sehr geschätzter Herr Abgeordneter! Die Zielsetzung dieses Bundesimpfkonzeptes ist es, die Gruppe der Kleinstkinder und der Kinder zu erfassen, weil die Erfahrungen zeigen, daß, je früher die Impfprophylaxe gemacht wird, umso besser die lebenslange Abwehr von Folgeschäden durch schwere Krankheiten ist. Ich betrachte es daher als wichtig, auf die Zielgruppe der Kinder den Schwerpunkt zu legen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note120">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2480" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e891">Frau Abgeordnete Haidlmayr, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note121">Abgeordnete Theresia Haidlmayr(Grüne)</note>
+            <u who="#PAD_02852" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2496" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e896">Frau Bundesministerin! Nach anfänglichen großen Schwierigkeiten der französischen Lieferfirma, weil sie nicht liefern konnte oder nicht liefern durfte, wurde vereinbart, daß es mehr oder weniger zu einer Pönalstrafe für die französische Firma kommt, weil sie ihre Lieferbedingungen nicht eingehalten hat. Meine Frage dazu: Wie hoch ist die Rückerstattung in Schilling, die aufgrund dieser Pönale oder Konventionalstrafe dem Gesundheitsministerium zurückgezahlt werden mußte?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note122">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2511" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e901">Bitte, Frau Bundesministerin.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note123">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2526" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e906">Sehr geschätzte Frau Abgeordnete! Es konnte letztlich erreicht werden, daß die Lieferungen doch so erfolgt sind, daß es zu keiner Pönalevereinbarung gekommen ist. Ich gehe davon aus, daß wir im heurigen Jahr keine Lieferschwierigkeiten haben werden. Diese Lieferschwierigkeiten der Herstellerfirma haben nicht nur Österreich, sondern auch andere europäische Länder betroffen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note124">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2542" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e912">Danke schön. – Frau Dr. Gredler, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note125">Abgeordnete Dr. Martina Gredler(Liberales Forum)</note>
+            <u who="#PAD_02858" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2557" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e917">Vielen Dank, Herr Präsident. Frau Bundesministerin! Guten Tag, Herr Staatssekretär! Was sind die Schwerpunktsetzungen des Fonds "Gesundes Österreich" neben dem Impfkonzept, und in welcher Höhe werden diese finanziert?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note126">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2572" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e922">Bitte um Beantwortung.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note127">Bundesministerin für Arbeit, Gesundheit und Soziales Eleonora Hostasch</note>
+            <u who="#PAD_00657" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2588" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e927">Sehr geschätzte Frau Abgeordnete! Die Schwerpunktsetzungen sind in groben Zügen durch das Gesetz definiert. Ich bin sehr froh, daß dieses Gesundheitsförderungsgesetz im Hohen Haus beschlossen werden konnte. Dotiert ist der Fonds "Gesundes Österreich" mit 100 Millionen Schilling. Wir werden in den nächsten Tagen im Kuratorium des Fonds die konkreten Programme, sowohl was die einjährigen Programme als auch was die mittelfristigen, dreijährigen Programme betrifft, beschließen, sodaß unter anderem auch ein zentrales Thema im Bereich der Gesundheitsförderung sein wird, für Frauen neue Schwerpunkte zu setzen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note128">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2603" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e932">Danke vielmals. – Damit haben wir die Anfragen an die Frau Bundesministerin für Arbeit, Gesundheit und Soziales erledigt. Ich danke herzlich.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e934">Bundesministerium für Finanzen</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note129">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2624" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e940">Wir kommen zu den Anfragen an den Herrn Finanzminister, die vom Herrn Staatssekretär beantwortet werden. Die erste Anfrage formuliert Herr Professor Van der Bellen. – Bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note130">Abgeordneter Dr. Alexander Van der Bellen(Grüne)</note>
+            <u who="#PAD_02856" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2640" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e945">Herr Staatssekretär! Meine Frage lautet:</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e947">242/M</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e949">In welchem Ausmaß soll Ihres Erachtens die Ökologisierung des österreichischen Steuersystems im Rahmen der Steuerreform 2000 dazu beitragen, die österreichischen Verpflichtungen im Rahmen des Kyoto-Protokolls zu erfüllen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note131">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2667" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e954">Bitte um Beantwortung, Herr Staatssekretär.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note132">Staatssekretär im Bundesministerium für Finanzen Dr. Wolfgang Ruttenstorfer</note>
+            <u who="#PAD_04478" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2682" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e959">Danke schön. Sehr geehrter Herr Abgeordneter! Ich bekenne mich selbstverständlich zu einer sozialen Marktwirtschaft, die umweltpolitische Ziele voll berücksichtigt. In diesem Sinne begrüße ich auch die weltweiten Bemühungen, die Umweltbelastungen zurückzuführen. Und in dem Sinne bekenne ich mich natürlich auch zu den Kyoto-Zielen und zu dem Beitrag, den die Europäische Union zur Umsetzung übernommen hat, insbesondere auch zu dem Beitrag, den die Republik Österreich hier auf sich genommen hat, nämlich diese Treibstoffgase um 13 Prozent gegenüber 1990 bis 2012 zu senken. Dazu wird eine Vielzahl von Maßnahmen nötig sein – Maßnahmen nicht nur auf der Ebene des Bundes, sondern auch insbesondere auf der Ebene der Länder, der Gemeinden; Maßnahmen, die nicht nur bei der Industrie liegen, sondern im Verkehrssektor bei den Kleinabnehmern. Mir ist auch bewußt, daß das Steuersystem diesbezüglich eine wesentliche Rolle spielen kann. Und ich glaube, daß Österreich durchaus innerhalb Europas hier auch vorangegangen ist auf diesem Weg. Wir haben ja vor einigen Jahren bereits in Österreich einen Schritt in Richtung Ökologisierung des Steuersystems in der Form umgesetzt, daß wir Steuern auf Energie – nicht nur die Mineralölsteuer, sondern weit darüber hinaus – eingeführt haben. <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal1">
+                     <desc>Zwischenruf des Abg. Jung.</desc>
+                  </vocal>
+            Wir haben uns weiters auch dafür eingesetzt, daß dieser Weg nicht nur in Österreich, sondern in ganz Europa gegangen wird. Ein Schwerpunkt der österreichischen Präsidentschaft war es, innerhalb Europas das Bewußtsein zu fördern, daß die Ökologisierung des Steuersystems auf breiter Basis in Europa vorangetrieben gehört. Die deutsche Präsidentschaft hat dieses Ziel übernommen, auch die finnische bekennt sich dazu – also die nächste, folgende Präsidentschaft –, und es ist das Ziel, im heurigen Jahr hier europaweit einen weiteren Schritt vorwärts zu tun. Die Deutschen haben ja gerade jetzt auch solche Schritte national beschlossen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2697">Abg. Mag. Schweitzer: Wie lange er redet! Das ist unglaublich!</note>Ich sehe allerdings zwei Schwierigkeiten, die es besonders erforderlich machen, eine solche Abstimmung innerhalb Europas vorzunehmen. Die erste ist die Frage der Beschäftigung, das heißt, daß wir auf die Beschäftigung in Österreich besonders zu achten haben. Das bedeutet, daß wir die Startposition, die Standortvorteile der österreichischen Wirtschaft nicht verschlechtern dürfen. Das heißt, wir müssen entweder mit einer Deckelung, wie wir sie derzeit haben, darauf achten, daß diese Position nicht verschlechtert wird, oder wir müssen auf einen Gleichklang innerhalb Europas – oder, wenn möglich, noch darüber hinaus – achten. Denn – und das führt zum zweiten Problem – wenn wir die Wirtschaft deckeln, dann heißt dies, daß wir bei zunehmender Besteuerung der Energieträger immer mehr Lasten auf die Privaten legen. Dabei müssen wir auf eine soziale Ausgewogenheit achten, denn es darf nicht passieren, daß die Ökologisierung des Steuersystems letzten Endes zu einer besonderen Benachteiligung der sozial Schwachen führt. Wir wissen, daß eine Erhöhung der Steuern auf Heizstoffe natürlich zu einer besonderen Belastung der Schwachen führt, und wir müssen daher darauf achten, daß diese durch entsprechende Transferzahlungen gleichzeitig entlastet werden, sonst führt die Ökologisierung des Steuersystems dazu, daß die sozial Schwachen überproportional belastet werden, die Industrie und die Wirtschaft aber nicht belastet werden können. <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal2">
+                     <desc>Zwischenruf des Abgeordneten Mag. Schweitzer.</desc>
+                  </vocal>
+            All diese Überlegungen haben dazu geführt, daß wir im Zuge dieser nun vor uns liegenden Steuerreform zu keiner wesentlichen weiteren Ausweitung der Ökologiesteuern kommen werden, daß wir aber bemüht sind, innerhalb Europas diesen Weg voranzugehen und in dieser Richtung vorzugehen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note134">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2721" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e975">Danke, Herr Staatssekretär, für die sehr ausführliche Beantwortung. Ich bin sicher, bei den weiteren Zusatzfragen wird das ein bißchen kürzer möglich sein.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e977">Zusatzfrage? – Bitte, Herr Professor.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note135">Abgeordneter Dr. Alexander Van der Bellen(Grüne)</note>
+            <u who="#PAD_02856" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2739" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e982">Ich bin sehr dankbar, daß der Herr Staatssekretär gerade einige wesentliche Grundzüge unseres Vorschlages zur Ökologisierung des Steuersystems skizziert hat. Abgesehen davon: Meine Frage stammt ja vom November 1998, und heute ist einfach die Fortsetzung der Fragestunde. Die Frage wurde also zu einem Zeitpunkt gestellt, als noch eine Chance bestand, daß das Finanzministerium sich an seine eigenen Vorgaben an die Steuerreformkommission erinnert.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e984">Gehe ich also recht in der Annahme, daß diese Erinnerung inzwischen leer ist und daß im Rahmen dieser Steuerreform von einer Ökologisierung, bei gleichzeitiger Kompensation für die Wirtschaft selbstverständlich, Herr Staatssekretär – die VOEST-Alpine Stahl würde zum Beispiel von unserem Steuerreformmodell profitieren –, und bei gleichzeitiger Kompensation für die Privathaushalte selbstverständlich, nicht mehr die Rede ist? Sind all diese Ideen – ich wiederhole die Frage – im Rahmen der Steuerreform, die jetzt diskutiert wird, tot und vergessen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note136">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2764" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e990">Bitte, Herr Staatssekretär.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note137">Staatssekretär im Bundesministerium für Finanzen Dr. Wolfgang Ruttenstorfer</note>
+            <u who="#PAD_04478" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2779" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e995">Es ist nicht vergessen, daß wir diesen Weg in Richtung Ökologisierung gehen wollen und werden. Wir intensivieren unsere Bemühungen innerhalb der Europäischen Union, diesbezüglich weitere Schritte nach vorne zu tun. Wir haben auf dem Gipfel von Wien ja erreicht, daß bis zum Ende der deutschen Präsidentschaft eine Einigung über die weitere Vorgangsweise erzielt werden soll. Wir sind aber der Meinung, daß wir besondere Rücksicht auf Beschäftigung, Standort und auf soziale Bedürfnisse zu nehmen haben und daß daher im Zuge dieses Schrittes der Steuerreform ein größerer Schritt in diese Richtung nicht zu vertreten wäre.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note138">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2794" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1000">Danke. Zusatzfrage? – Kollege Mag. Barmüller, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note139">Abgeordneter Mag. Thomas Barmüller(Liberales Forum)</note>
+            <u who="#PAD_00059" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2810" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1005">Herr Staatssekretär! Da das ökologische Steuersystem – nicht nur die Ökologisierung des Steuersystems, sondern ein wirklich ökologisches Steuersystem – das missing link zwischen Raubbau und Nachhaltigkeit ist, frage ich Sie: Inwieweit wird denn der Handlungsspielraum, der national besteht und etwa durch die Wifo-Studie des Jahres 1995 schon nachgewiesen worden ist, in der nächsten Steuerreform etwa dergestalt ausgenutzt werden, daß zum Beispiel die erneuerbaren Energieträger und der Strom, der aus erneuerbaren Energieträgern erzeugt wird, aus der Elektrizitätsabgabe ausgenommen sind, was auch dem EU-Recht nicht widersprechen würde?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note140">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2825" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1010">Bitte, Herr Staatssekretär.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note141">Staatssekretär im Bundesministerium für Finanzen Dr. Wolfgang Ruttenstorfer</note>
+            <u who="#PAD_04478" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2840" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1016">Wir haben gerade im neuen Energiewirtschaftsgesetz durchaus Freiräume für erneuerbare Energieträger gelassen. Es sind derzeit auch Überlegungen besonders des Landwirtschaftsministeriums im Gange, um den Einsatz erneuerbarer Treibstoffe in Österreich zu forcieren. Das wird derzeit zwischen dem Landwirtschaftsministerium, dem Wirtschaftsministerium, aber auch dem Finanzministerium diskutiert. Endgültige Erkenntnisse dazu liegen nicht vor. Eine steuerliche Ausnahme von der Energiebesteuerung betreffend den Strom aus Wasserkraft ist im Zuge dieser Steuerreform jedoch nicht angedacht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note142">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2856" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1021">Danke schön. Zusatzfrage? – Herr Abgeordneter Dr. Gusenbauer, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note143">Abgeordneter Dr. Alfred Gusenbauer(SPÖ)</note>
+            <u who="#PAD_00663" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2871" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1026">Herr Staatssekretär! Sie deuten mit Ihren Ausführungen an, daß man offensichtlich, wenn man eine Ökologisierung anstrebt, ein relativ großes Budgetvolumen benötigen wird, um die vielfältigen Ausgleichswirkungen im sozialen Bereich, die Sie genannt haben, zu entfalten. Entscheidend in diesem Zusammenhang ist natürlich ein gemeinsames europäisches Vorgehen, da wir einen Großteil unserer Wirtschaftsleistungen mit den anderen EU-Staaten austauschen.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1028">Sie haben den Weg in der Europäischen Union angesprochen, diesbezüglich zu einer gemeinsamen Vorgangsweise zu kommen. Nach meinem Verständnis hat die Steuerharmonisierungsdiskussion, die Österreich angesprochen hat, im vorigen Jahr gut begonnen. Konkret auf die Frage von Energiesteuern ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note144">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2889" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1033">Bitte um die Anfrage.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note145">Abgeordneter Dr. Alfred Gusenbauer</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note146">fortsetzend</note>
+            <u who="#PAD_00663" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2905" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1040">Konkret zur Frage der Energiesteuern: Wo sehen Sie in den nächsten Monaten konkrete Möglichkeiten für Fortschritte im europäischen Maßstab?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note147">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2923" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1046">Herr Staatssekretär.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note148">Staatssekretär im Bundesministerium für Finanzen Dr. Wolfgang Ruttenstorfer</note>
+            <u who="#PAD_04478" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2938" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1051">Herr Abgeordneter! Die deutsche Präsidentschaft hat sich dazu verpflichtet, noch unter ihrer Führung ein Konzept dafür vorzulegen. Die Vorschläge der Kommission liegen auf dem Tisch. Sie sind bisher am Einspruch einiger Länder, vor allem südlicher Länder, und einiger Proponenten der Kernenergie gescheitert.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1053">Ich meine, daß es gerade mit der Diskussion, zu der es in der Bundesrepublik über diesen Energieträger gekommen ist, durchaus Bewegung geben sollte und daß es durchaus möglich sein sollte, noch unter deutscher Präsidentschaft zu einer Übereinstimmung darüber zu kommen, daß man in diese Richtung jedenfalls gehen will und daß die Vorschläge der Kommission nach doch sehr langer Diskussion angenommen werden. Ich meine, daß unter deutscher Präsidentschaft jedenfalls das Ziel besteht, zu einer Einigung über diesen Vorschlag der Kommission zu kommen, und habe keine Zweifel daran, daß die deutsche Präsidentschaft ihre Ziele erreichen wird.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note149">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2957" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1058">Danke vielmals. Zusatzfrage? – Kollege Auer, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note150">Abgeordneter Jakob Auer(ÖVP)</note>
+            <u who="#PAD_00039" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2972" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1063">Herr Staatssekretär! Sie haben darauf hingewiesen, daß es Überlegungen seitens Ihres Ministeriums, seitens des Landwirtschaftsministeriums und seitens des Wirtschaftsministeriums im Hinblick auf nachwachsende Energie – sprich Bio-Diesel, Bio-Treibstoff – gibt. Meine Frage lautet: Gibt es konkrete Überlegungen in die Richtung, daß dieser nachwachsende Treibstoff, der sehr wesentlich zur Umweltentlastung beitragen könnte, von der Mineralölsteuer gänzlich befreit werden kann?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note151">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e2987" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1068">Bitte, Herr Staatssekretär.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note152">Staatssekretär im Bundesministerium für Finanzen Dr. Wolfgang Ruttenstorfer</note>
+            <u who="#PAD_04478" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3003" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1073">Herr Abgeordneter! Das fertige Konzept liegt, wie ich schon sagte, noch nicht vor. Sie wissen aber, daß schon seit einigen Jahren die Mineralölsteuer für nachwachsende Treibstoffe deutlichst, und zwar auf einen Bruchteil der früheren Höhe, reduziert wurde und damit bereits eine spürbare Entlastung gegeben ist. Offenbar reicht dies noch nicht, weil zumindest mengenmäßig die von der Landwirtschaft gewünschten Ziele noch nicht erreicht wurden.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1075">Wir erwarten nun Vorschläge seitens des Wirtschaftsministeriums und des Landwirtschaftsministeriums, was notwendig wäre, um diese Treibstoffe weiter zu forcieren und ihren verstärkten Einsatz möglich zu machen. Solche Berechnungen liegen noch nicht vor. Offenbar reichen die heutigen Mineralölsteuer-Ausnahmen noch nicht, um die Kostennachteile dieser Energieträger voll auszugleichen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note153">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3021" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1081">Danke. Eine weitere Zusatzfrage? – Bitte, Kollege Schweitzer.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note154">Abgeordneter Mag. Karl Schweitzer(Freiheitliche)</note>
+            <u who="#PAD_01803" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3036" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1086">Herr Staatssekretär! Viele Experten sind der Ansicht, daß ein nationaler Alleingang bei der Ökologisierung des Steuersystems auch dazu führen würde, daß die Rahmenbedingungen für die Produktion dergestalt umgeändert würden, daß sich in Hinkunft sogenannte "first mover advantages" erwarten ließen. – Teilen Sie diese Ansicht?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note155">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3052" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1091">Bitte, Herr Staatssekretär.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note156">Staatssekretär im Bundesministerium für Finanzen Dr. Wolfgang Ruttenstorfer</note>
+            <u who="#PAD_04478" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3067" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1096">Es besteht gar kein Zweifel darüber, daß bei einer Forcierung von Ökologiesteuern strukturelle Änderungen in der Wirtschaft stattfinden. Das ist ja das Ziel dieser Steuern. Ich bin auch überzeugt davon, daß es dabei den einen oder anderen Anstoß für neue Produktionen und neue Produkte gibt. Dem steht natürlich gegenüber, daß traditionelle Industrien unter Druck kämen. Wir müssen darauf achten, daß es unter dem Strich zu einer positiven Bilanz führt, daß dieser "Vorteil des ersten", der etwas einführt, nicht durch Nachteile überkompensiert wird.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1098">Die bisherigen Studien lassen erkennen, daß es klüger wäre, dabei auf breiterer Front – nämlich auf europäischer Front – vorzugehen. Österreich ist einen Schritt in diese Richtung durchaus als erster gegangen. Die Deutschen haben nun nachgezogen – übrigens durchaus nicht so weit wie die Österreicher –, und wir meinen, daß nun doch ein weiterer Schritt auf europäischer Ebene zu gehen wäre.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note157">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3085" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1103">Danke vielmals.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1105">Die nächste Anfrage, 240/M, des Herrn Abgeordneten Böhacker kann ich nicht aufrufen, weil er erkrankt und entschuldigt ist.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1107">Wir kommen daher zur 8. Anfrage, die Herr Abgeordneter Dr. Lukesch formuliert. – Bitte, Herr Abgeordneter.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note158">Abgeordneter Dipl.-Vw. Dr. Dieter Lukesch(ÖVP)</note>
+            <u who="#PAD_00943" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3107" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1113">Herr Staatssekretär! Meine Frage lautet:</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1115">236/M</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1117">Welche positiven Beschäftigungseffekte erwarten Sie sich von einer Wertschöpfungsabgabe auch im Hinblick auf fragwürdige internationale Erfahrungen?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note159">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3134" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1122">Das Wort "fragwürdig" war nicht im Text, aber es ist Ihr Recht, es hinzuzufügen. – Bitte, Herr Staatssekretär.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note160">Staatssekretär im Bundesministerium für Finanzen Dr. Wolfgang Ruttenstorfer</note>
+            <u who="#PAD_04478" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3149" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1127">Herr Abgeordneter! Es ist gar keine Frage, daß unser wesentliches Ziel die Förderung der Beschäftigung und die Zurückdrängung der Arbeitslosigkeit ist. Dazu gibt es viele Ansätze – vor allem Ansätze auf der Nachfrageseite –, und ein Teil der Steuerreform, die Bestrebung, kleine und mittlere Einkommen zu entlasten, ist ein solcher Ansatz auf der Nachfrageseite. Auf europäischer Ebene gibt es den Wunsch, die Nachfrage über eine günstige Geldpolitik zu forcieren. Es gibt aber auch auf der Angebotsseite verschiedene Maßnahmen, sei es mehr Ausbildung oder sei es die Unterstützung von Unternehmensgründungen. Aber auch die Frage der Lohnnebenkosten ist natürlich ein ganz wesentlicher Faktor, denn wir wissen, daß die Lohnnebenkosten in Österreich – und nicht nur in Österreich – relativ hoch sind. Es ist so, daß innerhalb der Europäischen Union in den letzten 15 Jahren die Belastung der Löhne um etwa 10 Prozentpunkte zugenommen hat, während die Belastung des Faktors Kapital, aber auch der anderen Produktionsfaktoren um mehr als 10 Prozent nachgelassen hat. Daher meine ich, daß eine Entlastung bei den Lohnnebenkosten durchaus ein Ziel sein muß. Nun gibt es zur Entlastung der Lohnnebenkosten aus der Sicht des Finanzministeriums zwei Ansätze. Der eine schlägt vor, daß man, wenn die Abgaben sich so entwickeln, daß Überschüsse entstehen, diese nutzt, um die Abgabenbelastung zu reduzieren. Ich nenne in diesem Zusammenhang etwa den Familienlastenausgleichsfonds, der solche Überschüsse in den nächsten Jahren produzieren wird. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3158">Abg. Mag. Peter: Die verteilen wir ja gerade!</note>Ich möchte mich selbstverständlich nicht in die Familienpolitik einmischen, aber aus der Sicht der Finanz wäre es möglich, eine Entlastung der Lohnnebenkosten dadurch durchzuführen, daß man diese Freiräume – selbstverständlich bei aller Wertsicherung der heutigen Leistungen – nutzt, um die Lohnnebenkosten zu reduzieren. Ein anderer Ansatz wäre, die Lohnnebenkosten dadurch zu reduzieren, daß man die Bemessungsbasis von Abgaben erweitert. Ein solcher Ansatz ist die Wertschöpfungsabgabe, das heißt, daß man Abgabenteile – wie zum Beispiel einen Beitrag zum Familienlastenausgleichsfonds – eben nicht nur auf die Lohnkosten umlegt, sondern die Basis dadurch erweitert, daß man auch Abschreibungen und Gewinne mit einbezieht. Es gibt bereits Studien dazu. So hat etwa die Arbeiterkammer beim Wirtschaftsforschungsinstitut eine Studie in Auftrag gegeben, in der danach gefragt wurde, welche Beschäftigungswirkung sich dadurch ergeben würde, daß man die Basis für den Familienlastenausgleichsfonds um eine Wertschöpfung erweitert. Die Ergebnisse zeigen, daß es im Zuge einer stufenweisen Umstellung durchaus zu einer positiven Beschäftigungswirkung kommen könnte. Die Ergebnisse schwanken zwischen 13 000 bis 21 000 Arbeitsplätzen. Herr Abgeordneter, ich betrachte das als durchaus bemerkenswert und sehr positiv. Es sind sich die Experten darüber einig, daß es bei einer klugen schrittweisen Einführung durchaus möglich ist, positive Beschäftigungswirkungen zu erzielen. Ich darf in diesem Zusammenhang, weil Sie danach gefragt haben, auch auf internationale Erfahrungen verweisen. Wir haben erst vor kurzem mit den Italienern diskutiert, die einen solchen Schritt gegangen sind. In Italien wird nicht immer die gesamte Wertschöpfung als Grundlage genommen, sondern werden die Abschreibungen weggelassen, aber sehr wohl wurden andere Wertschöpfungselemente dazugenommen, zum Beispiel die Gewinne. Das hat in diesem Land zu einer positiven Beschäftigungswirkung geführt. Daher meine ich, daß man durchaus nachdenken sollte, ob nicht durch eine Ausweitung der Bemessungsbasis bei der einen oder anderen Abgabe, von den Lohnkosten weg zu einer breiteren Basis, eine positive Beschäftigungswirkung erzielbar wäre.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note162">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3176" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1135">Danke. Zusatzfrage: Herr Dr. Lukesch.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note163">Abgeordneter Dipl.-Vw. Dr. Dieter Lukesch(ÖVP)</note>
+            <u who="#PAD_00943" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3191" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1140">Sehr geehrter Herr Staatssekretär! Welcher Unterschied besteht im volkswirtschaftlichen Sinne zwischen einer Mehrwertsteuererhöhung und einer Wertschöpfungsabgabe, wenn man einmal von der Belastung der Auslandsumsätze absieht?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note164">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3207" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1145">Bitte, Herr Staatssekretär.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note165">Staatssekretär im Bundesministerium für Finanzen Dr. Wolfgang Ruttenstorfer</note>
+            <u who="#PAD_04478" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3222" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1151">Es ist eine ähnliche Situation, und man könnte bei einer solchen Wertschöpfungsabgabe durchaus auch auf Definitionen des Mehrwertsteuersystems zurückgreifen. Nur, die eine Steuer, die Mehrwertsteuer, wird letzten Endes von den Verbrauchern bezahlt, die andere Steuer, die Wertschöpfungsabgabe, von den Unternehmern. Insofern ist hier natürlich bezüglich des Aufkommens ein wesentlicher Unterschied gegeben.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note166">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3237" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1156">Danke schön. Herr Mag. Peter, bitte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note167">Abgeordneter Mag. Helmut Peter(Liberales Forum)</note>
+            <u who="#PAD_01185" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3253" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1161">Herr Staatssekretär! Sie haben sich zur Senkung der Arbeitskosten positiv geäußert. Dazu gibt es zwei Wege, die ich als Alternativen sehe: entweder eine Wertschöpfungsabgabe, die nicht mehr und nicht weniger als eine Verbreiterung der Bemessungsgrundlage ist, oder eine nachhaltige Ökologisierung des Steuersystems. Welchem der beiden Wege, die ich als Alternativen sehe, wollen Sie den Vorzug geben?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note168">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3268" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1166">Herr Staatssekretär.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note169">Staatssekretär im Bundesministerium für Finanzen Dr. Wolfgang Ruttenstorfer</note>
+            <u who="#PAD_04478" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3283" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1171">Herr Abgeordneter! Ich sehe das nicht als Alternativen. Ich meine, daß wir generell versuchen müssen, die Lohnnebenkosten, die Belastung des Faktors Arbeit, zurückzunehmen, um Beschäftigung in unserem Land zu forcieren. Dazu gibt es zwei Wege: zum einen die Verbreiterung mancher Basis für die Abgaben und zum anderen die Ökologisierung. Ich sehe das nicht als Alternativen, sondern als zwei Wege, die wir mit Augenmaß und teilweise in internationaler Abstimmung gehen sollten.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1173">Es sind keine Alternativen, sondern es sind mögliche Optionen, um in beiden Fällen die Belastung des Faktors Arbeit zurückzunehmen und zu einer höheren Beschäftigung zu kommen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note170">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3302" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1179">Danke schön. Ing. Nußbaumer stellt die nächste Zusatzfrage.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note171">Abgeordneter Ing. Wolfgang Nußbaumer(Freiheitliche)</note>
+            <u who="#PAD_02866" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3317" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1184">Herr Staatssekretär! Herr Präsident! Sie haben an sich sehr deutlich im Rahmen einer früheren Beantwortung einer Frage festgestellt, daß wir die Standortfaktoren für den Wirtschaftsstandort Österreich nicht verschlechtern dürfen.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1186">Nun ist die Diskussion um eine Wertschöpfungsabgabe natürlich immer auch eine Frage der Verschlechterung eines Wirtschaftsstandortes. Sie haben jetzt auch die Effekte dargestellt. Ich kann diesen Effekten aber nicht sehr viel abgewinnen und möchte daher an Sie die Frage richten: Welche Vorteile können ansiedlungswillige Betriebe mit hochtechnologischen Produkten durch die Einführung einer Wertschöpfungsabgabe am Standort Österreich erwarten?</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note172">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3335" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1191">Bitte, Herr Staatssekretär.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note173">Staatssekretär im Bundesministerium für Finanzen Dr. Wolfgang Ruttenstorfer</note>
+            <u who="#PAD_04478" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3351" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1196">Herr Abgeordneter! Selbstverständlich darf durch solch eine Maßnahme keine Verschlechterung des Wirtschaftsstandortes eintreten, denn sie müßte aufkommensneutral erfolgen. Das heißt, das Ziel ist nicht, zusätzliche Einnahmen zu erzielen, sondern die Basis dieser Abgabe zu verbreitern.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1198">Gerade wenn Sie neue Wirtschaftssparten ansprechen, die vor allem dienstleistungsorientiert sind, forschungsintensive High-Tech-Sparten, serviceorientierte Sparten, dann muß ich Ihnen sagen, diese werden eigentlich, wenn man die Bemessungsbasis erweitert, entlastet, weil eben nicht nur mehr die Löhne belastet werden, die gerade in diesen Sparten der entscheidende Faktor sind, sondern auch andere Elemente der Wertschöpfung, seien dies nun die Gewinne oder eventuell auch Abschreibungen.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1200">Daher kann dies durchaus dazu führen, daß moderne, zukunftsorientierte Sparten sich verstärkt in einem solchen Land ansiedeln, da, wie gesagt, das Abgabenaufkommen in Summe nicht erhöht werden soll, sondern lediglich die Basis für die Erhebung erweitert und insbesondere der Faktor Arbeit entlastet werden soll. Das ist die Zielsetzung, aber nicht, zusätzliche Einkommen zu erzielen oder möglicherweise den Standort zu verschlechtern. Das kann nicht das Ziel sein.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic1">
+               <desc>Beifall bei der SPÖ.</desc>
+            </kinesic>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note174">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3378" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1208">Weitere Wünsche auf Zusatzfragen dazu liegen nicht vor. Damit ist diese Anfrage beantwortet, und es ist auch die Fragestunde beendet.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1210">Die nicht mehr zum Aufruf gelangte Anfrage wird in der nächsten Fragestunde aufgerufen werden, die im Anschluß an diese Sitzung in wenigen Minuten stattfinden wird. Es ist nur mehr eine Anfrage übriggeblieben.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1212">Einlauf und Zuweisungen</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note175">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3402" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1218">Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte schriftliche Mitteilung.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1220">Die schriftliche Mitteilung hat folgenden Wortlaut:</seg>
+               <gap reason="editorial" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.gap2">
+                  <desc xml:lang="en">Quoted printed matter omited</desc>
+                  <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+               </gap>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note176">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3545" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1230">Die nächste Sitzung des Nationalrates berufe ich für heute, und zwar in unmittelbarem Anschluß an diese Sitzung ein.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1232">Einwendungen gegen die Tagesordnung</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note177">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3566" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1237">Zur Geschäftsbehandlung hat sich Herr Abgeordneter Stadler gemeldet. – Bitte sehr.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note178">
+               <time when="1999-02-25T10:06:00+01:00">10:06</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note179">Abgeordneter Mag. Johann Ewald Stadler(Freiheitliche)</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note180">zur Geschäftsbehandlung</note>
+            <u who="#PAD_02849" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3587" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1247">Hohes Haus! Ich möchte gegen die ausgegebene Tagesordnung namens meiner Fraktion Einwendungen erheben und ersuche um Umreihung der Tagesordnung.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1249">Der Tagesordnungspunkt 18 – Bericht des Justizausschusses über den Antrag 698/A der Abgeordneten Ofner und Genossen betreffend ein Bundesgesetz, mit dem die Strafprozeßordnung 1975 und die Exekutionsordnung zur Verbesserung der Rechtsstellung von Opfern geändert werden – und der Tagesordnungspunkt 19 – Bericht des Justizausschusses über den Antrag 860/A (E) der Abgeordneten Schweitzer und Genossen betreffend wirksame Maßnahmen gegen Kindesmißbrauch und Kinderpornographie – sollen umgereiht werden und mögen als Tagesordnungspunkte 5 und 6 behandelt werden.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1251">Für den Fall, daß der Vorsitzende diesen Einwendungen nicht beitritt, ersuchen wir um Durchführung einer Debatte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note181">
+               <time when="1999-02-25T10:07:00+01:00">10:07</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note182">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3618" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1260">Meine Damen und Herren! Sie haben die Einwendungen gehört. Die ausgegebene Tagesordnung stützt sich auf das, was Resultat der Präsidialsitzung war. Dabei bleibe ich.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1262">Die Debatte, die Kollege Stadler beantragt hat, wird durchgeführt. Sie kennen die Spielregeln: Die Redezeit beträgt 5 Minuten, die Zahl der Redner ist mit maximal drei Rednern pro Fraktion begrenzt.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1264">Ich nehme an, daß Herr Abgeordneter Stadler als erster Redner das Wort wünscht. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note183">
+               <time when="1999-02-25T10:08:00+01:00">10:08</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note184">Abgeordneter Mag. Johann Ewald Stadler(Freiheitliche)</note>
+            <u who="#PAD_02849" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3645" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1272">Hohes Haus! Meine Fraktion ist deswegen für die Umreihung der Tagesordnung, weil wir glauben, daß neben der aktuellen Problematik der Kurdenproteste in Wien die Frage der Behandlung der Opfer in der österreichischen Rechtspraxis und insbesondere der Behandlung von Kindern, die Kinderschändern zum Opfer gefallen sind, heute an prominentester Stelle diskutiert werden sollte, vor allem vor dem Hintergrund der heute ebenfalls auf der Tagesordnung stehenden Problematik des außergerichtlichen Tatausgleiches. In Zukunft wird sich praktisch jeder Täter, der eine Straftat begeht, die mit einer Strafe bis zu fünf Jahren bedroht ist, aus der Bestrafung schleichen können, auch gegen den Widerstand und gegen den Willen des Opfers. <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal3">
+                     <desc>Zwischenruf der Abg. Horngacher.</desc>
+                  </vocal>
+            Damit, Frau Kollegin Horngacher, können sogar Kinderschänder ohne Strafe davonkommen. Sie werden das in der Zwischenzeit hoffentlich geprüft haben, wir werden Ihnen das heute noch im Zuge der Debatte zu diesen Tagesordnungspunkten eingehend darlegen.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1278">Meine Damen und Herren! Die Art und Weise, wie Gegenstände zusammengefaßt werden, willkürlich zusammengefaßt werden, zeigt, daß man das Parlament eigentlich nur noch wie eine Abstimmungsmaschine, einen Paravent, um den Schein der Demokratie zu wahren, behandelt.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1280">Das setzt sich fort in der Redezeitbeschränkung – Kollege Graf hat gestern ein Beispiel dafür geliefert. Die Redezeit der Parlamentarier wird dermaßen beschnitten, daß das freie Rederecht eines frei gewählten Abgeordneten praktisch nichts mehr gilt. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic2">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Das setzt sich fort in der Kontrollverweigerung, die seit Jahren im Hause herrscht. Selbst massivste Vorwürfe gegen Regierungsmitglieder oder gegen die Verwaltung führen nicht zur Aufklärung im Parlament. Das Parlament hat sich gefälligst an die Aufklärung, die im Rahmen der veröffentlichten Meinung zugelassen wird, zu halten. Und letztlich setzt sich die Art und Weise, wie man mit dem Parlament umgeht, auch im Abstimmungsverhalten fort, meine Damen und Herren.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1286">Es war gestern ein einmaliger Akt ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note185">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3681" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1291">Herr Abgeordneter! Ich ersuche, wieder zum Thema der Einwendung zurückzukehren.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note186">Abgeordneter Mag. Johann Ewald Stadler</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note187">fortsetzend</note>
+            <u who="#PAD_02849" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3697" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1298">Herr Abgeordneter Fischer! Ich referiere soeben, warum ich glaube, daß dieses Haus schlecht behandelt wird. Dieses Haus wird nicht nur bei der Festlegung der Tagesordnung schlecht behandelt, immer mit Ihrer Unterstützung, Herr Abgeordneter Fischer <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3708">Abg. Dr. Kostelka: Das ist eine Ungeheuerlichkeit!</note> , wird nicht nur bei der Festlegung der Redezeit schlecht behandelt, mit Ihrer Unterstützung, Herr Abgeordneter Fischer, wird nicht nur bei den Kontrollrechten schlecht behandelt, Herr Abgeordneter Fischer, jeweils mit Ihrer Unterstützung ... <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal4">
+                     <desc>Zwischenrufe bei der SPÖ, darunter ein weiterer Zwischenruf des Abg. Dr. Kostelka.</desc>
+                  </vocal>
+            Ja, natürlich, Herr Kostelka, ich würde an Ihrer Stelle sehr leise sein, nach dem, was Ihre Fraktion gestern abend geliefert hat mit einem Abstimmungsschwindel, mit einem ...</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic3">
+               <desc>Beifall bei den Freiheitlichen.</desc>
+            </kinesic>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note189">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3738" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1314">Herr Abgeordneter Stadler! Ich rufe Sie zum ersten Mal zur Sache, weil die Geschäftsordnung einfach einzuhalten ist, ob das jetzt opportun ist oder nicht.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note190">Abgeordneter Mag. Johann Ewald Stadler</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note191">fortsetzend</note>
+            <u who="#PAD_02849" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3760" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1321">Herr Abgeordneter Fischer! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3771">Abg. Dr. Nowotny: Herr Präsident!</note>Ich bin bei der Sache, falls Ihnen das noch nicht aufgefallen ist, ich möchte nur auf den Zwischenruf Ihres Klubobmannes Kostelka erläutern, warum ich Sie mit "Abgeordneter Fischer" anspreche, was zweifelsohne korrekt ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note193">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3789" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1329">Herr Abgeordneter! Ich rufe Sie zum zweiten Mal zur Sache, und ich werde nach dem dritten Ruf zur Sache das tun, was meine Pflicht ist.</seg>
+            </u>
+            <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal5">
+               <desc>Heftige Zwischenrufe bei den Freiheitlichen.</desc>
+            </vocal>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note194">Abgeordneter Mag. Johann Ewald Stadler</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note195">fortsetzend</note>
+            <u who="#PAD_02849" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3817" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1339">Herr Fischer! Sie haben gestern abend einen Abstimmungsschwindel Ihrer Fraktion gedeckt. Und auf den Zwischenruf Ihres Klubobmannes Kostelka werde ich eingehen, ob Ihnen das jetzt gefällt oder nicht. Ich sage es deshalb ...</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note196">
+               <time when="1999-02-25T10:12:00+01:00">10:12</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note197">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3841" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1348">Der dritte Ruf zur Sache, und damit ist die Redezeit beendet, Herr Abgeordneter Stadler! <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic4">
+                     <desc>Beifall bei Abgeordneten der SPÖ.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3855">Heftige Zwischenrufe bei den Freiheitlichen, darunter Abg. Mag. Stadler:Sie sind gestern für uns als Präsident abgetreten</note>
+                  <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic5">
+                     <desc>Beifall bei den Freiheitlichen für den das Rednerpult verlassenden Abg. Mag. Stadler.</desc>
+                  </kinesic>
+            Zu Wort gelangt nun Frau Abgeordnete Partik-Pablé. Die Redezeit der Frau Abgeordneten Partik-Pablé ist gleichfalls 5 Minuten.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3875">Abg. Mag. Stadler: Sie sind gestern bereits als Präsident für uns abgetreten, Herr Abgeordneter Fischer!</note>
+            <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal6">
+               <desc>Weitere Zwischenrufe bei den Freiheitlichen sowie bei SPÖ und ÖVP.</desc>
+            </vocal>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note200">
+               <time when="1999-02-25T10:12:00+01:00">10:12</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note201">Abgeordnete Dr. Helene Partik-Pablé(Freiheitliche)</note>
+            <u who="#PAD_01158" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3902" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1370">Hohes Haus! Herr Präsident Fischer! Ich finde, es ist wirklich unerhört, daß Sie meinem Kollegen Stadler das Wort entziehen. Er ist auf einen Zwischenruf des Herrn Kostelka eingegangen, und es muß doch wohl noch erlaubt sein, daß man auf einen Zwischenruf eingeht. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic6">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            In anderen Parlamenten wird sogar eine Diskussion über Zwischenfragen abgeführt, und hier dürfte nicht einmal darauf eingegangen werden. Herr Präsident Fischer, das ist wirklich unerhört! <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic7">
+                     <desc>Neuerlicher Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Herr Abgeordneter Kostelka, ich sehe schon ein, daß es Ihnen unangenehm ist, was gestern passiert ist. Sie sitzen hier, sind kreidebleich und sind schon bereit aufzuspringen und wahrscheinlich aufs Pult zu schlagen, wie Sie es auch schon gemacht haben, aber Sie müssen die Schuld in Ihrer eigenen Fraktion suchen, Herr Abgeordneter – nicht bei uns! <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic8">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3928">Abg. Dr. Mertel: Die Frau Praxmarer hat wirklich zugeschlagen, nicht nur aufs Rednerpult!</note> Geh’n S’, Frau Mertel, Sie waren ja gestern überhaupt nicht da, Sie wissen überhaupt nicht, daß Abgeordneter Seidinger bei der Abstimmung nicht anwesend war und einer Ihrer Kollegen für ihn die "Nein"-Stimme abgegeben hat. Sie könnten mitreden, wenn Sie da gewesen wären. Ich war gestern da. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic9">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3947">Abg. Dr. Jarolim: Sehr einfältig, was Sie da von sich geben!</note> Meine sehr geehrten Damen und Herren! Nun aber zur Tagesordnung. Man merkt die Absicht und ist verstimmt, wenn man sich diese Tagesordnung anschaut. Sie ist nämlich wirklich ein strategisches Meisterstück von Leuten, die offensichtlich nicht ernsthaft diskutieren wollen im Parlament oder die etwas zu verbergen haben, und beides, glaube ich, trifft auf Sie zu. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic10">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3967">Abg. Dr. Jarolim: Sie mißbrauchen Ihre Rede!</note>Auf der einen Seite "wurschten" Sie wichtige Themen unter einem Tagesordnungspunkt zusammen, wie zum Beispiel die Erklärung des Bundesministers für Inneres über die Kurdenproblematik, den Sicherheitsbericht, einen wichtigen Antrag betreffend die Fremdenpolitik, und auf der anderen Seite haben Sie wichtige Tagesordnungspunkte ganz an den Schluß gereiht, wie beispielsweise den außergerichtlichen Tatausgleich, der erst um Mitternacht diskutiert werden soll. Und dann gestatten Sie auch nur 9 Stunden Redezeit. Da frage ich mich schon, was Sie eigentlich dazu sagen, Frau Mertel. Sie machen immer den Mund groß auf, wenn es um Angriffe auf die Freiheitlichen geht. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic11">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal7">
+                     <desc>Heftige Zwischenrufe bei der SPÖ.</desc>
+                  </vocal>
+            Ja, Sie auch <note type="comment" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note205">an Abg. Dietachmayr gewendet</note> , Sie gehören auch zu denen. Aber dann, wenn es um Ihre Rechte im Parlament geht, wenn es, Frau Mertel, ...</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e3995">Abg. Dr. Mertel: Das ist einer Richterin unwürdig! Eine unwürdige Richterin!</note>
+            <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal8">
+               <desc>Weitere Zwischenrufe bei der SPÖ.</desc>
+            </vocal>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note207">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4019" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1417">Am Wort ist Frau Abgeordnete Dr. Partik-Pablé. Ich bitte um Ruhe!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note208">Abgeordnete Dr. Helene Partik-Pablé</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note209">fortsetzend</note>
+            <u who="#PAD_01158" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4035" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1425">Aber wenn es um Ihre Rechte geht, darum, daß jeder Abgeordnete hier auch zu einer ordentlichen Zeit zu wichtigen Themen reden kann, dann sind Sie ruhig, dann lassen Sie sich offensichtlich von Ihren Klubobmännern und von Ihrem Präsidenten überfahren. So schaut es nämlich aus! <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic12">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4052">Abg. Dr. Mertel: Eine Schande für Ihren Berufsstand!</note>Sie als Abgeordnete beugen sich offensichtlich total dem Diktat Ihrer Klubobmänner. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4065">Abg. Dr. Mertel: Im Gegensatz zu Ihnen!</note> Sie haben nichts zu reden, deshalb sind Sie mit all dem, was hier passiert, einverstanden. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic13">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal9">
+                     <desc>Zwischenrufe bei SPÖ und ÖVP.</desc>
+                  </vocal>
+            Frau Fekter! Ich kann mir schon vorstellen, daß Sie wollen, daß der außergerichtliche Tatausgleich um Mitternacht diskutiert wird, denn das ist ja ein Armutszeugnis für die ÖVP, was da passiert. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic14">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Sie haben Angst davor, daß die Freiheitlichen all jene Themen ernsthaft diskutieren, bei denen Sie vor der Bevölkerung sehr schlecht dastehen <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic15">
+                     <desc>Beifall bei den Freiheitlichen</desc>
+                  </kinesic>
+            , denn die Bevölkerung hat überhaupt kein Verständnis dafür, daß die Täter wieder einmal bessergestellt werden, daß die Opfer wieder einmal durch die Finger schauen. Frau Fekter, dazu haben Sie wesentlich beigetragen, indem Sie für den außergerichtlichen Tatausgleich waren. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic16">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Sie haben Angst vor den Freiheitlichen, und deshalb drehen Sie hier ... <vocal type="laughter" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal10">
+                     <desc>Ironische Heiterkeit bei SPÖ und ÖVP.</desc>
+                  </vocal>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4115">Abg. Koppler: Geh! Geh!</note>Na Ihnen wird das Lachen schon vergehen, spätestens am 7. März, dann werden Sie mit langen Gesichtern dasitzen. Sie drehen die Demokratie und den Parlamentarismus auf Sparflamme, wenn Sie damit nur die Freiheitlichen treffen können, und dagegen sind wir. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4129">Abg. Dr. Jarolim: Denken Sie an Salzburg!</note> Und wir beantragen die Umreihung der Tagesordnung in dem Sinne, wie es Abgeordneter Stadler schon gefordert hat.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic17">
+               <desc>Beifall bei den Freiheitlichen.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note214">
+               <time when="1999-02-25T10:17:00+01:00">10:17</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note215">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4156" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1474">Als nächster zu Wort gelangt Herr Abgeordneter Dr. Ofner. Gleiche Redezeit. – Bitte, Herr Abgeordneter.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note216">
+               <time when="1999-02-25T10:18:00+01:00">10:18</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note217">Abgeordneter Dr. Harald Ofner(Freiheitliche)</note>
+            <u who="#PAD_01101" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4178" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1482">Herr Präsident! Hohes Haus! Ich weise ungern darauf hin, weil es mißverstanden werden könnte: Ich bin seit 20 Jahren Mitglied des Nationalrates. Das heißt, ich bin 1979 erstmals in dieses Haus gewählt worden. Ich habe bisher kein einziges Mal einen Ordnungsruf erhalten. Ich nehme mir daher heraus zu sagen, daß die Vorgangsweise, die in jüngster Vergangenheit und auch in den vergangenen Minuten hier im Hause gegenüber der Opposition, gegenüber Rednern der Opposition an den Tag gelegt wurde, mich traurig macht und gleichzeitig empört. So geht das nicht weiter! <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic18">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Das ist ein lockerer Umgang mit dem Parlamentarismus und mit dem Parlament, der auf die Dauer unserer Demokratie und dem Parlamentarismus nicht guttun kann. Das geht bis zu den Details. Die Pro- und Kontra-Regeln bei den Wortmeldungen werden nicht mehr beachtet. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4192">Abg. Dr. Jarolim: Sagen Sie das Ihrer Fraktion! Dem Stadler sagen Sie das!</note>Da meldet sich Herr Abgeordneter Kostelka zu Wort, dann zieht er seine Wortmeldung wieder zurück, nur damit ich, der ich für die Opposition noch reden kann, vor ihm bin und er dann das letzte Wort hat. Wo bleibt da die alte Regel des Pro und Kontra? Hätten Sie vor mir geredet, dann hätte ich das letzte Wort gehabt, aber Sie wollten es um jeden Preis haben. Die alten Regeln gelten nicht mehr. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic19">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal11">
+                     <desc>Zwischenrufe bei der SPÖ.</desc>
+                  </vocal>
+            Dann gibt es die Spielchen mit der Tagesordnung: Anträge der Opposition – im konkreten Fall ein Antrag der Frau Abgeordneten Schmidt, ein Antrag der Frau Abgeordneten Stoisits, ein Antrag des Abgeordneten Ofner und einer des Abgeordneten Schweitzer – werden hineingepackt in ein Paket mit zwei Regierungsvorlagen, damit man ja nicht länger und ausführlich und vielleicht sogar öffentlichkeitswirksam über die Vorlagen von allen drei Oppositionsparteien reden kann. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic20">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Dann kommt die Problematik mit der Redezeit. Ich kann mich an viele Jahre erinnern, in denen es keine Redezeitbeschränkung gegeben hat, und wir leben alle noch, die wir das damals erlebt haben. Da hat es, Frau Horngacher, einen Abgeordneten Scrinzi gegeben, der hat 5 Stunden geredet – ich habe es mir nicht gewünscht. Dann hat es eine Nacht und einen Tag der Grünen gegeben, die damals filibustert haben, aus welchen Überlegungen auch immer. Die Welt steht immer noch. Aber jetzt ist es so, daß man vernünftige Gedanken zu Fach- und Sachthemen überhaupt nicht mehr ausbreiten kann, denn in den paar Minuten, die man zur Verfügung hat, kann man bestenfalls begründen, ob man dafür oder dagegen ist. Sie wollen uns einfach nicht reden lassen! <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic21">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Die Regierung hat Möglichkeiten genug, sich Gehör zu verschaffen, aber das Parlament ist das Feld der Opposition. Und dann ist da noch die Sache mit dem Abstimmungsschwindel von gestern, das empört mich zutiefst. Denn wenn ich mich als Abgeordneter nicht mehr darauf verlassen kann, daß andere Abgeordnete wirklich der Wahrheit entsprechend abstimmen, dann hört sich der Vorgang in diesem Zusammenhang auf. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic22">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Kollege Seidinger – das steht außer Streit, er kann nichts dafür – ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note219">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4240" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1515">Herr Abgeordneter Ofner! Ich muß auch Ihnen sagen, daß wir eine Einwendungsdebatte führen.</seg>
+            </u>
+            <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal12">
+               <desc>Heftige Zwischenrufe bei den Freiheitlichen.</desc>
+            </vocal>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note220">Abgeordneter Dr. Harald Ofner</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note221">fortsetzend</note>
+            <u who="#PAD_01101" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4262" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1525">Auf das warte ich, daß ich mir jetzt, wenn ich den Finger auf diese Wunde Ihrer Fraktion lege, nach 20 Jahren Tätigkeit da herinnen das Wort entzogen wird. Auf das warte ich nur!</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1527">Seidinger war nicht da, das steht außer Streit. Der Präsident ruft seinen Namen auf, und ein anderer aus seiner Fraktion sagt an seiner Stelle "nein". Es ist geschwindelt worden. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic23">
+                     <desc>Beifall bei den Freiheitlichen.</desc>
+                  </kinesic>
+            Anstatt daß man nach diesem Wahlschwindel entsprechend reagiert hätte, nach diesem Abstimmungsschwindel, der außer Streit steht ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note222">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4289" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1536">Herr Abgeordneter! Ich rufe Sie zur Sache. Wir führen eine Einwendungsdebatte, und bei der Handhabung der Geschäftsordnung ist nicht nach Opportunität vorzugehen, auch wenn Sie sich wünschen, daß man Ihnen das Wort entzieht, sondern es ist die Geschäftsordnung anzuwenden. <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal13">
+                     <desc>Heftige Zwischenrufe von seiten der Freiheitlichen.</desc>
+                  </vocal>
+            Und solange ich im Präsidium bin, wird diese Geschäftsordnung angewendet, und zwar auf alle fünf Fraktionen. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic24">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+            Ich bitte, auf Beifall zu verzichten, denn es handelt sich um eine Selbstverständlichkeit, meine Damen und Herren. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4315">Abg. Haigermoser: Vielleicht verbieten wir die Opposition!</note>Am Wort ist Herr Kollege Dr. Ofner. Er wird in der Lage sein, alles, was er sagen will, in einen Bezug zur Tagesordnung und zur Einwendungsdebatte zu bringen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note224">Abgeordneter Dr. Harald Ofner</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note225">fortsetzend</note>
+            <u who="#PAD_01101" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4334" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1554">Sie haben mir jetzt die Zeit weggenommen, die ich noch dafür gebraucht hätte, Herr Präsident. Ich möchte nicht sagen, daß es absichtlich war, aber es ist jedenfalls gelungen. Aber ich darf jetzt ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note226">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4352" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1560">Sie werden 50 Sekunden Zusatzzeit bekommen.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note227">Abgeordneter Dr. Harald Ofner</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note228">fortsetzend</note>
+            <u who="#PAD_01101" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4367" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1567">Es geht um den lockeren Umgang mit der Arbeit hier im Parlament, und zu diesem lockeren Umgang gehört das Spiel mit der Tagesordnung, gehört das Verkürzen der Redezeit und gehört auch dazu, daß falsch abgestimmt wird. Für einen Abgeordneten, der nicht da ist, sagt ein anderer "nein" und täuscht somit vor, daß der entsprechende Abgeordnete – Seidinger im konkreten Fall, der nichts dafür kann – da gewesen wäre.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1569">Dann gibt es einen Präsidenten Fischer, der sich in diesem Zusammenhang nicht halten kann vor Lachen, der nicht bestürzt ist, der sich nicht bemüht, den Dingen nachzugehen, der sich köstlich über diesen Abstimmungsschwindel unterhält. So geht das nicht weiter!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic25">
+               <desc>Beifall bei den Freiheitlichen.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note229">
+               <time when="1999-02-25T10:23:00+01:00">10:23</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note230">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4401" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1580">Herr Abgeordneter Dr. Ofner! Wir zwei sind vor vielen Jahren gemeinsam in einer Bundesregierung gesessen. Und ich sage Ihnen gerne persönlich – es können alle anderen hören –, warum ich gelacht habe <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal14">
+                     <desc>Zwischenruf des Abg. Mag. Stadler</desc>
+                  </vocal>
+            Weil sich nämlich während der Vorsitzführung des Kollegen Brauneder gestern diese Vorfälle ereignet haben und Klubobmann Stadler gesagt hat, ich sei schuld daran, ich hätte das manipuliert. Da habe ich lachen müssen. Bitte seien Sie mir nicht böse, Herr Abgeordneter Ofner! <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic26">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4421">Abg. Dr. Ofner: Sie haben sich da herausgestellt!</note>Wir sind in einer Debatte. Der nächste Redner ist Herr Abgeordneter Dr. Kostelka. Seine Redezeit ist ebenfalls 5 Minuten. Er wird ebenfalls zur Sache sprechen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note232">
+               <time when="1999-02-25T10:23:00+01:00">10:23</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note233">Abgeordneter Dr. Peter Kostelka(SPÖ)</note>
+            <u who="#PAD_00930" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4442" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1598">Meine sehr geehrten Damen und Herren! Hohes Haus! Herr Präsident! Ich werde diese 5 Minuten nicht benötigen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4450">Abg. Mag. Stadler: Haben Sie wieder zwei Stimmzettel mit?</note>Die soeben abgelaufene Debatte von drei Abgeordneten der Freiheitlichen war ein typischer Mißbrauch der Geschäftsordnung. Es ist ihnen nicht darum gegangen, zu argumentieren, warum weiter hinten auf der Tagesordnung stehende Vorlagen auf einen vorderen Platz zu kommen hätten, sondern es ist ihnen nur um zwei Dinge gegangen: erstens, darauf hinzuweisen, daß eine inhaltliche Debatte jetzt schon am Beginn zu führen ist. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4466">Abg. Haigermoser: (zwei Stimmkarten in die Höhe haltend) Doppelpack!</note>Zweitens ist es Ihnen, meine sehr geehrten Damen und Herren, darum gegangen, über ganz andere Dinge zu reden, die überhaupt nicht Gegenstand der eigentlichen Debatte waren. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4482">Abg. Dr. Graf: Waren das Sie? Haben Sie für Seidinger abgestimmt?</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4495">Abg. Haigermoser: Sie haben Erfahrung auf diesem Gebiet!</note>Meine sehr geehrten Damen und Herren, insbesondere Herr Abgeordneter Ofner! Regeln sind für den Parlamentarismus von entscheidender Bedeutung. Das entscheidende, was uns von Ihnen unterscheidet, ist, daß Sie sie nicht anerkennen. Sie, meine Damen und Herren von der Freiheitlichen Partei, wollen nur eines: Sie wollen nur an die Macht! Demokratie ist Ihnen im Grunde genommen völlig gleichgültig. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic27">
+                     <desc>Beifall bei der SPÖ und bei Abgeordneten der ÖVP.</desc>
+                  </kinesic>
+                  <note type="comment" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note238">Die Freiheitlichen halten je zwei Stimmkarten in die Höhe.</note> Was uns unterscheidet, ist, daß wir den Ausspruch jedes Präsidenten ...</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note239">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4523" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1621">Herr Dr. Kostelka! Jetzt gilt das für alle. Auch Sie bitte ich, zur Sache der Einwendungsdebatte zu sprechen. Die Tatsache, daß freiheitliche Abgeordnete nicht zur Sache gesprochen haben, was ja unzweifelhaft der Fall war, habe ich zu korrigieren versucht.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1623">Sie sind jetzt am Wort zur Einwendungsdebatte.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note240">Abgeordneter Dr. Peter Kostelka</note>
+            <note type="procedural" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note241">fortsetzend</note>
+            <u who="#PAD_00930" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4541" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1630">Selbstverständlich, Herr Präsident! Wir wollen hier über die Tagesordnung diskutieren, die Tagesordnung und nur die Tagesordnung und nicht über andere Dinge.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1632">Alle Einwände von Ihnen, meine Damen und Herren von der Freiheitlichen Partei, haben nur gezeigt: Sie sind weder demokratisch noch sauber.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic28">
+               <desc>Beifall bei der SPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note242">
+               <time when="1999-02-25T10:26:00+01:00">10:26</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note243">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4574" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1643">Nächster Redner ist Herr Abgeordneter Dr. Khol. Seine Redezeit beträgt 5 Minuten. – Bitte, Herr Abgeordneter.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note244">
+               <time when="1999-02-25T10:26:00+01:00">10:26</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note245">Abgeordneter Dr. Andreas Khol(ÖVP)</note>
+            <u who="#PAD_00799" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4596" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1652">Herr Präsident! Meine Damen und Herren! Die Österreichische Volkspartei tritt den Einwendungen gegen die Tagesordnung nicht bei. Für uns ist der Bericht des Innenministers zur Kurdenfrage von überaus großer Wichtigkeit, weil die Sicherheit der Bevölkerung für uns an erster Stelle steht. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic29">
+                     <desc>Beifall bei ÖVP und SPÖ.</desc>
+                  </kinesic>
+                  <vocal type="laughter" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal15">
+                     <desc>Ironische Heiterkeit bei den Freiheitlichen.</desc>
+                  </vocal>
+            Meine Damen und Herren! Wir wollen von Innenminister Schlögl eine Erklärung zu den Kurdenvorfällen haben, denn wir wollen nicht, daß Österreich der Boden für Konflikte zwischen Türken, Kurden, Persern und anderen wird. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4616">Abg. Jung: Dazu haben Sie beigetragen!</note>Wir treten auch den Einwendungen deshalb nicht bei, weil wir glauben, daß der außergerichtliche Tatausgleich an der richtigen Stelle der Tagesordnung steht. Ich möchte den Behauptungen, die hier aufgestellt wurden, daß der außergerichtliche Tatausgleich auch für Kinderschänder gelte, energisch entgegentreten. Den außergerichtlichen Tatausgleich gibt es nach diesem Gesetzesvorschlag nur dann, wenn das Delikt von einem Einzelrichter zu verfolgen und zu bestrafen ist und wenn die Schuld gering ist. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4629">Abg. Dr. Partik-Pablé: Das stimmt ja nicht!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4642">Abg. Mag. Stadler: Schöffensache ist das!</note>Ein Kinderschändervorwurf, Unzucht mit Unmündigen und Beischlaf mit Unmündigen, ist mit fünf Jahren und mit zehn Jahren bedroht und ist nicht vor dem Einzelrichter zu verhandeln. Es ist nicht möglich, daß Kinder mit geringer Schuld geschändet werden. Hier ist eindeutig manipuliert worden. <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic30">
+                     <desc>Beifall bei ÖVP und SPÖ.</desc>
+                  </kinesic>
+            Meine Damen und Herren! Der Ton dieser Einwendungsdebatte und der Ton der Debatte von gestern erinnern mich an ein Buch von Franz Schausberger: "Ins Parlament, um es zu zerstören"! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4662">Abg. Mag. Stadler: Entspricht dem Abstimmungsschwindel der SPÖ! Gilt das für die Schwarzen?</note>
+                  <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic31">
+                     <desc>Beifall bei ÖVP und SPÖ sowie bei Abgeordneten des Liberalen Forums.</desc>
+                  </kinesic>
+            Meine Damen und Herren! Angesichts der dramatischen Lage in weiten Bereichen unseres Landes möchte ich als Klubobmann der Volkspartei sagen: Ich schäme mich für das Schauspiel, das wir hier der Öffentlichkeit bieten.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic32">
+               <desc>Beifall bei ÖVP und SPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note250">
+               <time when="1999-02-25T10:28:00+01:00">10:28</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note251">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4695" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1689">Als nächste zu Wort gelangt Frau Abgeordnete Dr. Heide Schmidt. – Gleiche Redezeit, Frau Abgeordnete Dr. Schmidt. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4703">Abg. Dr. Ofner: 34er Jahr!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4716">Abg. Dkfm. Holger Bauer: Hier kommt Scheinheiligkeit dazu!</note> Herr Abgeordneter Dkfm. Holger Bauer! Für den Vorwurf der Scheinheiligkeit erteile ich Ihnen einen Ordnungsruf. Man kann im Kommentar nachlesen, daß das ständige Praxis war. Bitte, Frau Dr. Schmidt. <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal16">
+                     <desc>Weitere Zwischenrufe bei den Freiheitlichen.</desc>
+                  </vocal>
+            Ich bitte Frau Kollegin Schmidt, mit ihren Ausführungen zu beginnen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note254">
+               <time when="1999-02-25T10:29:00+01:00">10:29</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note255">Abgeordnete Mag. Dr. Heide Schmidt(Liberales Forum)</note>
+            <u who="#PAD_01739" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4747" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1706">Die Tagesordnung, gegen die jetzt Einwendungen von seiten einer Fraktion des Hauses erhoben werden, wurde mit Vertretern dieser Fraktion in der Präsidiale einvernehmlich vereinbart. Ich glaube, daß das für sich spricht. <vocal type="interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.vocal17">
+                     <desc>Weitere Zwischenrufe bei den Freiheitlichen.</desc>
+                  </vocal>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4758">Ruf bei der SPÖ:Das muß die Bevölkerung einmal sehen!</note> Was jetzt an Einwendungen kommt, dient der Anheizung der Stimmung. Alleine die Wortwahl, die Gestik und die Aggression zeigen, daß man nichts anderes will, als andere zu provozieren. Ich schließe mich daher den Worten des Abgeordneten Khol an: Es geht um nichts anderes, als dieses Parlament zu zerstören.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic33">
+               <desc>Beifall beim Liberalen Forum, bei SPÖ und ÖVP sowie bei Abgeordneten der Grünen.</desc>
+            </kinesic>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4777">Abg. Mag. Stadler: Deckt einen Abstimmungsschwindel! Das ist in Ordnung! Das sind die Demokraten!</note>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note258">
+               <time when="1999-02-25T10:30:00+01:00">10:30</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note259">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4799" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1726">Zum Wort gelangt Herr Abgeordneter Öllinger. Die Redezeit beträgt 5 Minuten.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4807">Abg. Dr. Graf: Pro und kontra! Für was machen wir überhaupt noch Rednerlisten?</note>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4820">Abg. Dr. Krüger: Was war das für ein Beitrag zur Sache? Herr Präsident! Können Sie mir das erklären? Kein Wort zur Tagesordnung!</note>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note262">
+               <time when="1999-02-25T10:30:00+01:00">10:30</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note263">Abgeordneter Karl Öllinger(Grüne)</note>
+            <u who="#PAD_02854" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4842" ana="#regular">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1738">Sehr geehrter Herr Präsident! Meine sehr geehrten Damen und Herren! Ich möchte zu Beginn festhalten, daß es offensichtlich der freiheitlichen Fraktion noch nicht klar ist, wogegen sie ihre Einwendung gerichtet hat. Denn Frau Abgeordnete Partik-Pablé hat gefordert, daß Tagesordnungspunkt 14 vorgereiht wird, während die anderen Abgeordneten der freiheitlichen Fraktion die Vorreihung von TOP 18 und 19 gefordert haben. Es gibt hier offensichtlich ein unterschiedliches Interesse. Ich möchte dazu festhalten: Wir treten dieser Einwendung nicht bei. Wir haben in der Präsidiale ebenfalls Einwendungen gegen die Tagesordnung eingebracht, zusammen mit der Frau Dr. Schmidt, indem wir verlangt haben, daß der Bericht des Gleichbehandlungsausschusses vorgereiht wird. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4850">Abg. Mag. Stadler: Das hat die gestrige Tagesordnung betroffen!</note>Das war unser Interesse. Wir sind nicht zufrieden damit, daß der Bericht des Gleichbehandlungsausschusses wieder einmal spät auf der Tagesordnung steht. Wir halten aber das Interesse oder die unterschiedlichen Interessen, die die freiheitliche Fraktion heute vorgebracht hat, für vordergründig. Ich sage Ihnen, meine Damen und Herren von der freiheitlichen Fraktion: Das, was gestern passiert ist, sollte in der Präsidiale behandelt werden. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4860">Rufe bei den Freiheitlichen:Aha!</note> Darüber muß gesprochen werden, aber es ist kein Grund, eine vordergründige, abstoßende und abschreckende Debatte zu führen, die mit dem eigentlichen Motiv, dessentwegen Sie diskutieren, nichts zu tun hat. Und auch Ihr vordergründiges Interesse, eine Debatte über Kinderpornographie zu mißbrauchen, ist abstoßend und abschreckend, und darum treten wir diesem Antrag nicht bei.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.kinesic34">
+               <desc>Beifall bei den Grünen, beim Liberalen Forum, bei der SPÖ sowie bei Abgeordneten der ÖVP.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note266">
+               <time when="1999-02-25T10:32:00+01:00">10:32</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note267">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d7e4887" ana="#chair">
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1755">Weitere Wortmeldungen liegen nicht vor.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1757">Damit ist die Einwendungsdebatte geschlossen.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1759">Wir gelangen zur Abstimmung.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1761">Ich ersuche jene Abgeordneten, die den Einwendungen Rechnung tragen wollen – und zwar verlangen die Einwendungen die Umreihung der Tagesordnung in der Weise, daß die Verhandlungsgegenstände Nummer 18 und 19 der heutigen Tagesordnung als TOP 5 und 6 der heutigen Tagesordnung behandelt werden –, um ein Zeichen der Zustimmung. – Das ist die Minderheit.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1763">Damit bleibt es bei der für die nächste Sitzung ausgegebenen Tagesordnung.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1765">Die nächste Sitzung berufe ich für 10.34 Uhr, das ist in unmittelbarem Anschluß an diese Sitzung, ein.</seg>
+               <seg xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160_d2e1767">Diese Sitzung ist geschlossen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_1999-02-25-020-XX-NRSITZ-00160.note268">Schluß der Sitzung:<time when="1999-02-25T10:33:00+01:00">10:33</time>Uhr</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

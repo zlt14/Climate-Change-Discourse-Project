@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #reference" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XXVII. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="sub" xml:lang="de">7. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Mittwoch, 11. Dezember 2019</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XXVII [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Sitting Number 7, Legislative period XXVII, Wednesday, 11. December 2019</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="7">7. Sitzung</meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">XXVII. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="7">Sitting 7</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">Legislative period XXVII</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung, Korpuskodierung in TEI und automatische linguistische Annotation</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding and automatic linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="23" xml:lang="de">23 Äußerungen</measure>
+            <measure unit="speeches" quantity="23" xml:lang="en">23 speeches</measure>
+            <measure unit="words" quantity="3099" xml:lang="de">3,099 Wörter</measure>
+            <measure unit="words" quantity="3099" xml:lang="en">3,099 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Plenarsitzung des Nationalrates, Stenographisches Protokoll, 7. Sitzung des Nationalrates der Republik Österreich, Mittwoch, 11. Dezember 2019</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <title type="sub" xml:lang="en">Shorthand record, Sitting Number 7, Legislative period XXVII, Wednesday, 11. December 2019</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XXVII/NRSITZ/NRSITZ_00007/fnameorig_795938.html</idno>
+               <date when="2019-12-11">2019-12-11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="58"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="20"/>
+               <tagUsage gi="note" occurs="86"/>
+               <tagUsage gi="pb" occurs="7"/>
+               <tagUsage gi="seg" occurs="38"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="22"/>
+               <tagUsage gi="u" occurs="23"/>
+               <tagUsage gi="vocal" occurs="34"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="2019-12-11">2019-12-11</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-13">
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e178" type="debateSection">
+            <gap reason="editorial" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.gap1">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note1">
+               <time when="2019-12-11T22:07:12+01:00">22:07:12</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note2">Beginn der Sitzung:<time when="2019-12-11T22:07:00+01:00">22:07</time>Uhr</note>
+            <note type="chairpersons" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note3">Präsident Mag. Wolfgang Sobotka</note>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note4">
+               <time when="2019-12-11T22:07:13+01:00">22:07:13</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note5">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e526" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e200">Ich darf hiermit die 7. Sitzung des Nationalrates eröffnen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e202">Als verhindert gemeldet sind die Abgeordneten Ing. Mag. Volker Reifenbergerund MMMag. Dr. Axel Kassegger.</seg>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e204">Einlauf und Zuweisungen</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note6">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e559" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e209">Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen darf ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung verweisen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e211">Die schriftliche Mitteilung hat folgenden Wortlaut:</seg>
+               <gap reason="editorial" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.gap2">
+                  <desc xml:lang="en">Quoted printed matter omited</desc>
+                  <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+               </gap>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e218">Fristsetzungsanträge</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note7">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1598" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e223">Ich darf mitteilen, dass die Abgeordneten Gerstl und Zadić beantragt haben, dem Budgetausschuss zur Berichterstattung über den Antrag 111/A betreffend „ein Bundesgesetz, mit dem das Bundesministeriengesetz 1986 geändert wird“, eine Frist bis zum 13. Dezember zu setzen. Weiters haben die Abgeordneten Haubner und Schwarz beantragt, dem Budgetausschuss zur Berichterstattung über den Antrag 112/A betreffend „ein Bundesgesetz, mit dem eine vorläufige Vorsorge für das Finanzjahr 2020 getroffen wird (Gesetzliches Budgetprovisorium 2020) und das Bundesfinanzrahmengesetz 2019 bis 2022 geändert wird“, eine Frist bis zum 13. Dezember zu setzen. Die beiden Anträge werden im Anschluss an die Kurzdebatte zur Abstimmung gebracht. Ferner liegt das von fünf Abgeordneten gemäß § 43 Abs. 3 der Geschäftsordnung gestellte Verlangen vor, eine kurze Debatte über den Fristsetzungsantrag betreffend den Antrag 111/A durchzuführen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1606">Abg. Krainer: Das ist eine gute Idee!</note>Diese kurze Debatte wird sogleich stattfinden. Da es keine Rednerliste gibt, melden Sie sich bitte so zu Wort. <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note9">
+                     <time when="2019-12-11T22:08:23+01:00">22:08:23</time>
+                  </note>Kurze Debatte über einen Fristsetzungsantrag</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note10">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1628" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e236">Wir gehen in die kurze Debatte über den Fristsetzungsantrag betreffend den Antrag 111/A ein.</seg>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e238">Ich darf darauf aufmerksam machen, dass gemäß § 57a Abs. 1 der Geschäftsordnung kein Redner länger als 5 Minuten sprechen darf. Dem Erstredner – Ihnen, Herr Abgeordneter Scherak – kommt eine Redezeit von 10 Minuten zu. Stellungnahmen von Mitgliedern der Bundesregierung werden nicht erfolgen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e240">Das Wort erhält Herr Abgeordneter Scherak. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note11">
+               <time when="2019-12-11T22:09:15+01:00">22:09:15</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note12">Abgeordneter Dr. Nikolaus Scherak, MA (NEOS)</note>
+            <u who="#PAD_83125" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1655" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e248">Ja, Sie werden alle merken: Es war eigentlich nicht geplant, jetzt noch eine Debatte durchzuführen, aber es besteht dafür eine dringende Notwendigkeit. Es wurden von ÖVP und Grünen kurz vor Ende der letzten Sitzung Fristsetzungsanträge eingebracht, die sich insbesondere mit dem Bundesministeriengesetz beschäftigen sollen. Jetzt ist man das von der ÖVP gewohnt – insofern richten sich meine Ausführungen nicht an Sie, denn Sie haben das immer schon so gemacht –, was aber schon sehr faszinierend ist, ist die Vorgangsweise, die die Grünen hier an den Tag <pb n="12"/>
+            legen. Es sind Fristsetzungsanträge bis zum 13. Dezember eingebracht worden, also Anträge, die dem Budgetausschuss eine Frist bis zum 13. Dezember – das ist übermorgen – setzen sollen, innerhalb der über das Bundesministeriengesetz diskutiert werden soll. Jetzt ist das einmal eine sogenannte Trägerrakete, in dem Antrag steht noch nichts drinnen, aber es ist dann wohl geplant, unter Umständen in einem Ausschuss darüber zu diskutieren, wie in Zukunft die Ministerienverteilung sein soll. Nun ist das Problem, wenn der Ausschuss bis spätestens übermorgen tagen soll – das wage ich einmal zu behaupten, außer Kollege Haubner hat vor, den Budgetausschuss morgen einzuberufen, man weiß ja nie –, dass der Ausschuss nicht zustande kommen wird, und das bedeutet, dass wir überhaupt keine Debatte in einem Ausschuss über ein Bundesministeriengesetz haben werden, weil dann irgendwann einmal dieser Antrag hier ins Plenum hineingekommen ist und das Bundesministeriengesetz wahrscheinlich mit einem allumfassenden Abänderungsantrag geändert wird. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1665">Abg. Loacker: Parlamentarismus nennen das die Grünen!</note>Jetzt habe ich schon gesagt, das ist man von der ÖVP gewöhnt, das hat sie immer schon so gemacht, das hat sie auch gemeinsam mit der FPÖ in der letzten Regierung gemacht <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1679">Abg. Martin Graf: So kurzfristig nicht!</note> , aber dass sich die Grünen, die einmal für Parlamentarismus gestanden sind, die einmal für Transparenz gestanden sind, für dieses unwürdige Schauspiel hergeben, sich jetzt hierherstellen und ohne irgendeine Diskussion ein Bundesministeriengesetz durchpeitschen wollen, ist zutiefst peinlich. <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic1">
+                     <desc>Anhaltender Beifall bei NEOS und SPÖ sowie des Abg. Martin Graf.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1695">Die Abgeordneten Ernst-Dziedzic und Maurer:Das ist falsch! Das stimmt nicht!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1708">Abg. Nehammer: Lächerlich!</note>Frau Kollegin Maurer, ich sage Ihnen etwas: Wenn das irgendeine andere Regierung, eine präsumtive Regierung gemacht hätte, dann wären Sie hier heraußen gestanden und hätten groß und breit über Transparenz diskutiert. <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal1">
+                     <desc>Zwischenrufe bei SPÖ und FPÖ.</desc>
+                  </vocal>
+            Das ist genau das, was Sie hier versuchen, und ich halte das nicht nur für eine Zumutung dem Parlamentarismus gegenüber, sondern für den Abgesang der Grünen <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1725">Ruf:Geh bitte</note> betreffend jegliche Fragen der Transparenz und jegliche Fragen des Parlamentarismus.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic2">
+               <desc>Beifall bei NEOS und SPÖ sowie des Abg. Martin Graf.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note18">
+               <time when="2019-12-11T22:11:00+01:00">22:11</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note19">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1751" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e283">Zu Wort gemeldet ist Herr Abgeordneter Klubobmann Wöginger. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note20">
+               <time when="2019-12-11T22:11:44+01:00">22:11:44</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note21">Abgeordneter August Wöginger (ÖVP)</note>
+            <u who="#PAD_14795" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1772" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e292">Herr Präsident! Meine sehr geehrten Damen und Herren! Herr Kollege Scherak, diese Fleißübung ist unnötig. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1781">Abg. Meinl-Reisinger: Für jemanden, der das Parlament nicht achtet!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal2">
+                     <desc>Zwischenruf des Abg. Matznetter.</desc>
+                  </vocal>
+            Sie ist deshalb unnötig, weil es üblich ist, dass diese sogenannten Trägerraketen eingebracht werden. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1800">Abg. Meinl-Reisinger: Das macht es nicht besser!</note> Wenn im Herbst eine Wahl stattfindet und eine Regierungsbildung sozusagen im Anmarsch ist, dann ist es üblich, dass diese sogenannten Trägerraketen, nämlich eine Gesetzesvorlage für das Bundesministeriengesetz und auch für das gesetzliche Budgetprovisorium, eingebracht werden. Da können Sie in die letzten Legislaturperioden zurückschauen, das ist ein total üblicher Vorgang, den wir hier auch gemeinsam mit den Grünen begehen. <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic3">
+                     <desc>Beifall bei der ÖVP.</desc>
+                  </kinesic>
+            Zum Zweiten: Erklären Sie mir einmal, warum wir diesen beiden Gesetzentwürfen keine Frist setzen sollten! Was wollen wir? – Sollte es zu einer Regierungsbildung zwischen uns und den Grünen kommen, dann ist es doch klar, dass auch die Ministerien <pb n="13"/>
+            ihre Arbeit so schnell wie möglich aufnehmen können sollen, und das können sie nur, wenn sie die gesetzliche Grundlage dafür auch im Bundesministeriengesetz haben. Deshalb bringen wir diesen Fristsetzungsantrag ein. <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal3">
+                     <desc>Rufe und Gegenrufe zwischen den Abgeordneten Kogler und Krainer.</desc>
+                  </vocal>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal4">
+                     <desc>Zwischenruf des Abg. Scherak.</desc>
+                  </vocal>
+            – Herr Kollege Scherak, ich sage Ihnen - - <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal5">
+                     <desc>Zwischenrufe bei der SPÖ.</desc>
+                  </vocal>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1839">Abg. Matznetter: Zwei Tage!</note>– Na Sie müssen - -</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note25">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1858" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e326">Es wird durchs Zwischenrufen nicht besser, Sie können sich dann bitte alle melden, dann können wir ordnungsgemäß eine Debatte abführen!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note26">Abgeordneter August Wöginger</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note27">fortsetzend</note>
+            <u who="#PAD_14795" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1873" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e333">Kollege Matznetter, du hast es ja nötig, dass du dich da zu Wort meldest! <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic4">
+                     <desc>Beifall bei der ÖVP.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1890">Abg. Nehammer: Unglaubwürdig!</note>Denk zurück und kehr vor deiner Tür! Also wenn sich jemand an dieser Debatte nicht mit Kritik beteiligen sollte, dann ist es die SPÖ, denn wir haben jahrzehntelang mit euch regiert und da haben wir genau das Gleiche getan, was wir jetzt tun. Also hört damit auf! <vocal type="laughter" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal6">
+                     <desc>Heiterkeit, Beifall und Bravoruf bei der ÖVP sowie Heiterkeit und Beifall bei den Grünen.</desc>
+                  </vocal>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal7">
+                     <desc>Zwischenrufe bei der SPÖ.</desc>
+                  </vocal>
+            Herr Kollege Scherak, ich kann dir, weil du angesprochen hast, das in einem Ausschuss zu behandeln, eine Angst nehmen: Unser Angebot steht, aber wir haben auch die Usance in diesem Haus, dass alle fünf Fraktionen einem Termin die Zustimmung geben müssen. <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal8">
+                     <desc>Zwischenruf des Abg. Scherak.</desc>
+                  </vocal>
+            Das landet jetzt im Budgetausschuss, wir stellen dort den Obmann. Unser Angebot steht, wenn ihr euch hier alle einigen könnt. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1921">Abg. Krainer: Morgen!</note>Das ist ja manchmal ein Obertheater – das muss man auch einmal sagen, dass das manchmal ein Obertheater ist –, bis wir irgendwann einen Ausschusstermin zusammenbringen. <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal9">
+                     <desc>Zwischenrufe der Abgeordneten Kucharowits und Vogl.</desc>
+                  </vocal>
+            Wenn ihr nicht irgendwo in der ganzen Welt herumfliegt, dann können wir einen Ausschuss machen, dann können wir das dort auch beraten. <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic5">
+                     <desc>Beifall bei der ÖVP.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal10">
+                     <desc>Zwischenruf der Abg. Heinisch-Hosek.</desc>
+                  </vocal>
+            Es ist deshalb nicht angebracht, hier eine derartige Diskussion vom Zaun zu brechen, weil es – ich betone es noch einmal – ein üblicher Vorgang ist. Wir sind es auch den Österreicherinnen und den Österreichern schuldig, dass wir, wenn es zu einer Regierungsbildung kommt, rasch handeln und dass die Ministerien auch in die Lage versetzt werden, letzten Endes ihre Arbeit aufnehmen zu können. <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal11">
+                     <desc>Zwischenrufe bei der SPÖ.</desc>
+                  </vocal>
+            Dafür stehen wir, dafür wurden wir gewählt und dafür verhandeln wir auch mit den Grünen, meine Damen und Herren. <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal12">
+                     <desc>Zwischenrufe der Abgeordneten Holzleitner und Scherak.</desc>
+                  </vocal>
+            Den Ausschuss könnt ihr haben, aber ihr müsst euch auf einen Termin mit uns verständigen können, dann ist es kein Problem <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e1965">Abg. Scherak: Ist das jetzt ein Gnadenakt, dass ein Ausschuss ...?!</note> , dass wir dieses neue Bundesministeriengesetz, das es im Falle einer Regierungsbildung geben wird, auch ordentlich abarbeiten können. Zu euch da hinten <note type="comment" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note31">in Richtung SPÖ</note> noch ein letzter Satz <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal13">
+                     <desc>Zwischenrufe bei der SPÖ</desc>
+                  </vocal>
+            Das, was ihr da zum Teil aufführt, bei einer derartigen internen Performance, die ihr abgebt: Kehrt lieber vor der eigenen Tür, anstatt hier die Moralapostel zu spielen und uns ständig Dinge vorzuwerfen, die ihr nicht beweisen könnt! <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal14">
+                     <desc>Zwischenrufe der Abgeordneten Heinisch-Hosek und Rendi-Wagner.</desc>
+                  </vocal>
+            – Das sage ich noch zur vorhergehenden Debatte. Das ist nicht nötig, meine Damen und Herren von der Sozialdemokratie.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic6">
+               <desc>Anhaltender Beifall bei der ÖVP.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note32">
+               <time when="2019-12-11T22:15:00+01:00">22:15</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note33">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2006" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e399">Ich verstehe die Emotionen <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic7">
+                     <desc>in Richtung der Beifall spendenden Abgeordneten der ÖVP</desc>
+                  </kinesic>
+            ; ich danke.</seg>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e405">Zu Wort gemeldet ist Herr Abgeordneter Leichtfried. – Bitte.</seg>
+            </u>
+            <pb n="14"/>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note34">
+               <time when="2019-12-11T22:16:36+01:00">22:16:36</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note35">Abgeordneter Mag. Jörg Leichtfried (SPÖ)</note>
+            <u who="#PAD_22694" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2041" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e415">Herr Präsident! Kolleginnen und Kollegen! Was für eine parlamentarische Farce erleben wir heute! Was für eine parlamentarische Farce! <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic8">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+                  <vocal type="laughter" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal15">
+                     <desc>Heiterkeit und Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            Wir diskutieren heute über ein starkes Parlament, und was tut ihr hier? – Ihr versucht, dieses Parlament zu entmündigen und lächerlich zu machen. Das ist heute, an diesem Tag, die Performance der ÖVP und der Grünen – und nichts anderes. <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic9">
+                     <desc>Neuerlicher Beifall bei der SPÖ.</desc>
+                  </kinesic>
+                  <vocal type="laughter" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal16">
+                     <desc>Heiterkeit und Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2074">Abg. Nehammer: Schlechte Rede! Schlechte Rede!</note> Ein Antrag mit der sensationellsten Begründung aller Zeiten: Wir brauchen ein neues Ministeriengesetz, denn durch „den Entfall einer Ziffer ist im entsprechenden Abschnitt L eine Neureihung nötig“. – Gratuliere herzlichst! <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal17">
+                     <desc>Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            Ihr stellt mit dem, was ihr tut, noch Schwarz-Blau in den Schatten, geschätzte Kolleginnen und Kollegen. Nichts anderes ist es! <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic10">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal18">
+                     <desc>Zwischenrufe des Abg. Sieber.</desc>
+                  </vocal>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2102">Ruf bei der ÖVP:Die Richtung stimmt!</note>Man hat den Braten ja riechen können: Serienvertagungen von Anträgen, nichts mit Ausschüssen, nein, wir brauchen nicht einmal einen Verfassungsausschuss! <kinesic type="signal" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic11">
+                     <desc>Präsident Sobotka gibt das Glockenzeichen.</desc>
+                  </kinesic>
+            Und jetzt kommt ihr mit diesem Gesetz daher. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2121">Abg. Kogler: Das glaubt dir ja jetzt keiner mehr!</note>– Wisst ihr, was ich euch sage? – Von der ÖVP war ja nichts Besseres zu erwarten, aber ich schaue zu den Grünen: Gebt ihr euch für dieses Schauspiel her? <vocal type="laughter" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal19">
+                     <desc>Heiterkeit und Zwischenrufe bei den Grünen.</desc>
+                  </vocal>
+            Gebt ihr euch für dieses Schauspiel her? <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2140">Abg. Stögmüller: Na geh!</note>Was wird eure Basis dazu sagen, dass Parlamentarismus ab jetzt von Schwarz und Grün mit Füßen getreten wird? Was werden die dazu sagen? Das frage ich euch schon. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2154">Abg. Stögmüller: Jahrelang ...!</note> Ich frage euch: Was ist mit euch? Was ist mit euren Vorstellungen, euren Ideen? – Vorbei ist es. Der Geruch der Macht, die Sucht nach der Macht, das war jetzt wahrscheinlich zu viel für euch. <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic12">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2173">Abg. Stögmüller: Da sitzt die Macht!</note>Ich kann euch eines sagen: Vor zwei Jahren hat an diesem Pult jemand gesagt: Nehmt euch in Acht! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2186">Abg. Wöginger: Fürchtet euch nicht!</note> – Genau, Gust, fürchtet euch nicht! <vocal type="laughter" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal20">
+                     <desc>Heiterkeit bei der ÖVP.</desc>
+                  </vocal>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2206">Abg. Kirchbaumer: Der Weg ist der richtige!</note> Nehmt euch in Acht, ihr werdet mit dem türkisen Bräutigam oder mit der türkisen Braut wahrscheinlich zusammenkommen, aber ihr werdet mit der schwarzen Witwe aufwachen. Genau das wird geschehen!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic13">
+               <desc>Beifall bei der SPÖ.</desc>
+            </kinesic>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2225">Abg. Kogler: Könntets ... beim Villacher Fasching auftreten!</note>
+            <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal21">
+               <desc>Weitere Zwischenrufe bei Grünen und FPÖ.</desc>
+            </vocal>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note45">
+               <time when="2019-12-11T22:19:00+01:00">22:19</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note46">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2251" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e494">Zu Wort gemeldet ist Herr Abgeordneter Graf. – Bitte.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2256">Ruf:Jetzt wird’s weniger lustig</note>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note48">
+               <time when="2019-12-11T22:19:28+01:00">22:19:28</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note49">Abgeordneter Mag. Dr. Martin Graf (FPÖ)</note>
+            <u who="#PAD_02834" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2280" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e505">Sehr geehrter Herr Präsident! Sehr geehrte Damen und Herren des Hohen Hauses! Weil wir ja davon ausgehen, dass wir nur Neues berichten: Es ist schon einiges neu bei dieser Vorgehensweise. Herr Kogler, vielleicht ist das, was Sie eingebracht haben, neu. Es ist schon klar, dass man Geschäftsordnungen ausreizt, mein Gott, das ist so, in der Regel macht das eine Regierung. Das wirklich Neue ist, dass es große Debatten in Zuweisungssitzungen gibt. Das gibt es eigentlich ganz, ganz selten. Ich bin seit 1994 mit Unterbrechungen da, und das ist mir eigentlich relativ neu. Das ist vielleicht ein Verdienst der neuen Einigung. Kollege Wöginger, das war eine tolle Rede, gefällt mir, dazu kann man klatschen <vocal type="laughter" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal22">
+                     <desc>Heiterkeit und Beifall bei FPÖ und ÖVP</desc>
+                  </vocal>
+            – und auch zu den Grünen gesprochen –: Etwas <pb n="15"/>
+            ist absolut neu. Sie haben es ja gesagt, in Richtung der Sozialisten: Wir haben das mit den Sozialisten in der Regierung über Jahrzehnte so gemacht. <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic14">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Wissen Sie, was der Unterschied ist? – Sie regieren ja noch nicht einmal und machen es bereits. Das ist der große Unterschied. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2299">Die Abgeordneten Wöginger und Kurz:Nein!</note>– Nein, nein, mit uns haben Sie das nicht gemacht. Als wir gemeinsam regiert haben, da haben wir es gemacht, Sie aber regieren noch nicht einmal mit den Grünen und machen das bereits, Sie reizen die Geschäftsordnung aus. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2312">Abg. Kogler: Das steht sogar in „Unzensuriert“!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal23">
+                     <desc>Zwischenrufe bei der SPÖ.</desc>
+                  </vocal>
+            Sie haben den Leuten versprochen, dass Sie das nicht machen werden, und das ist das wahrlich Neue. Also erstmalig mit den Grünen, und ganz neu: Man braucht nicht einmal in einer Regierung zu sitzen, schon sind die Grünen eingekauft. Der nächste Untersuchungsausschuss steht schon ante portas, das kann ich Ihnen sagen.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic15">
+               <desc>Beifall bei der FPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note52">
+               <time when="2019-12-11T22:21:00+01:00">22:21</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note53">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2345" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e535">Zu Wort gelangt Herr Abgeordneter Kogler. – Bitte.</seg>
+            </u>
+            <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2350">Ruf bei der FPÖ:Jetzt kommt die Erklärung!</note>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note55">
+               <time when="2019-12-11T22:21:34+01:00">22:21:34</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note56">Abgeordneter Mag. Werner Kogler (Grüne)</note>
+            <u who="#PAD_08242" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2373" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e545">Herr Präsident! Meine Damen und Herren! Mir hat man ja immer nachgesagt, dass ich manchmal irgendwie sehr seltsame Reden halte, bemüht witzig, aber ich glaube, an Kollegen Leichtfried werde ich jetzt nicht herankommen. <vocal type="laughter" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal24">
+                     <desc>Heiterkeit und Beifall bei Grünen und ÖVP.</desc>
+                  </vocal>
+            Deshalb muss ich schon zum Glas greifen <note type="comment" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note57">sich ein Glas Wasser einschenkend</note> , weil das ein bisschen zur Inszenierung dazugehört, denn wir haben Gewichtiges zu sagen. <vocal type="laughter" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal25">
+                     <desc>Heiterkeit bei der ÖVP.</desc>
+                  </vocal>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2397">Ruf bei der SPÖ:Bitte darum!</note>Erstens – jetzt ist es wirklich wichtig, gewichtig vielleicht auch –: Also ich weiß ja nicht, worüber – auch beim Kollegen Scherak nicht – sich hier so aufgeregt wird. Ich verstehe es nicht, wir vertragen uns ja sonst immer alle so gut. Es waren genau die zwei Kollegen, mit denen wir uns beim U-Ausschuss nicht mehr gefunden haben, weil ihr auf einmal eine Pressekonferenz gemacht habt – aber wir sind da ja nicht so nachtragend. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2407">Ruf:Anscheinend schon</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2420">Abg. Rendi-Wagner: Ah wirklich?!</note>Wir werden da einen schönen Untersuchungsgegenstand finden, das ist ja vorher ausgeführt worden. Ich komme jetzt wieder zum eigentlichen Thema zurück und bemühe die Geschäftsordnung dieses Hauses – immerhin ein Gesetz. Da geht es in § 44 um die Verhandlung der Ausschussberichte im Nationalrat, und in Absatz 3 geht es um die Fristsetzung. Darauf bezieht sich offenbar die Erregung, denn vor lauter Erregung habe ich gar nicht mehr gewusst, worum es geht, jedenfalls beim Zuhören, aber vielleicht bin ich ja von den Regierungsverhandlungen schon so verwirrt, wie Sie insinuieren. Man weiß es nicht. Man muss sich ja um die Grünen Sorgen machen, wie wir gehört haben; auch die FPÖ macht sich schon Sorgen um die Grünen. <vocal type="laughter" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal26">
+                     <desc>Heiterkeit und Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal27">
+                     <desc>Zwischenruf des Abg. Martin Graf.</desc>
+                  </vocal>
+            Also, ich weiß nicht, vielleicht schreibt ihr noch auf unzensuriert.at, dass man sich jetzt Sorgen um die Grünen machen muss. Was ist aber die wirkliche Sorge? – Wenn ich das richtig interpretiere, was hier dargeboten wurde, verkleidet in einer Art Selbsterregungsfaschingsrede <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal28">
+                     <desc>Zwischenrufe der Abgeordneten Meinl-Reisinger und Scherak</desc>
+                  </vocal>
+            , dann ist es doch so, dass es darum geht, dass der Ausschuss - - <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal29">
+                     <desc>Zwischenruf des Abg. Scherak.</desc>
+                  </vocal>
+            – Ich meine Kollegen Leichtfried. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2457">Abg. Scherak: Ja eh!</note>Es ist immer interessant, wer sich angesprochen fühlt. <vocal type="laughter" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal30">
+                     <desc>Heiterkeit und Beifall bei Grünen und ÖVP.</desc>
+                  </vocal>
+            Es kann der Frömmste nicht zum Ernst zurückkommen, wenn ihr dauernd zwischenruft – also wir sollten die Geschäftsordnung ernst nehmen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2477">Abg. Meinl-Reisinger: Man sollte auch das Parlament ernst nehmen!</note> Wenn jetzt die wirkliche Sorge war, dass es keinen Ausschuss geben kann, weil jetzt diese Fristsetzung mit dem 13. De- <pb n="16"/>
+            zember kommt, wenn ich jetzt richtig informiert bin, dann kann eigentlich Abhilfe geschaffen werden. Wir können alle wieder ganz beruhigt nach Hause gehen, falls diese Erregung ernst war, denn es ist nicht gesund, wenn man so heimgeht. Wir können dann nämlich Anleihe nehmen und die Fußnote 4 der Kommentierung heranziehen, wo steht – das ist da auf Seite 239, wer mitblättern will –: „Der Ablauf der Frist schließt eine Fortsetzung der Ausschußverhandlungen bis zum Zeitpunkt des Beginns der Sitzung des NR“ – Nationalrates – „nicht aus.“ – Das werden wir ja wohl noch zusammenbringen. Ich habe jetzt Kollegen Wöginger nicht so verstanden und andere auch nicht; auf uns könnt ihr euch verlassen – falls die Sorge ist, dass man sich auf uns nicht verlassen kann –, dass wir diesen Ausschuss halt haben, wenn wir ihn wollen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2495">Abg. Meinl-Reisinger: Nett!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2508">Abg. Scherak: Du musst einmal fortsetzen! Du musst einmal anfangen im Ausschuss!</note>Diese Fristsetzung hat den Sinn, dass die Sache einmal aufgegleist ist, damit man beim Arbeiten nicht in Verzug kommt. Es sind ja die gleichen Leute, die uns zurufen, dass diese Regierungsverhandlungen – ich hatte das so vernommen, manchmal lese ich das schon in der APA oder auch im „Standard“ – dazu führen, dass Verbrechen stattfinden oder sonst irgendetwas. Also irgendetwas muss euch recht sein! <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic16">
+                     <desc>Beifall bei Grünen und ÖVP.</desc>
+                  </kinesic>
+            Es hat alles seine Richtigkeit und seine Logik. Wir halten vielleicht mehr aus, als geglaubt wird, wenn uns jetzt dies alles zugeschrieben wird. Wir werden ja dann in der Praxis erkennen, wie viel Parlamentarismus, wie viel Transparenz und sonst etwas da ist – vielleicht in den Materiengesetzen, wenn dann ein Transparenzpaket vorgelegt wird, welches wir ja gern mit den Fraktionen weiterverhandeln würden. Wir bemühen uns halt jetzt. Wenn wir zwei uns einig sind, ist zumindest schon einmal eine Mehrheit gegeben, was ja in dem von Ihnen apostrophierten Parlamentarismus nicht so schlecht ist, denn da käme ja ein Beschluss heraus. <vocal type="laughter" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal31">
+                     <desc>Beifall bei den Grünen sowie Heiterkeit und Beifall bei der ÖVP.</desc>
+                  </vocal>
+            Wir waren ja bis jetzt in der Verlegenheit, das so nicht zu haben. Ja, es stimmt schon, es fühlt sich anders an, okay. Wir werden nicht davonlaufen, das haben wir ja im Wahlkampf gesagt. Wir machen einen Schritt – jetzt machen wir ihn halt. Wir versuchen, Schritte aufeinander zu zu machen. Wenn wir etwas Gescheites zusammenbringen, wird es allen recht sein müssen. Wenn es schlecht ist, werdet ihr es kritisieren. So ist die Aufteilung. Es ist ja noch nicht einmal sicher, ob nicht ihr <note type="comment" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note65">in Richtung SPÖ</note> euch in der Regierung wiederfindet – oder wir. Nicht einmal das ist sicher.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note66">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2542" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e615">Den Schlusssatz bitte!</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note67">Abgeordneter Mag. Werner Kogler</note>
+            <note type="procedural" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note68">fortsetzend</note>
+            <u who="#PAD_08242" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2557" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e622">Ich sage nur den Schlusssatz: Es wurde hier die persönliche Einladung zum Villacher Fasching verteilt. Ich glaube, die haben alle Abgeordneten aufs Bankerl bekommen. Möglicherweise hat Kollege Leichtfried geglaubt, er muss hier schon eine Trainingsübung machen, weil er dort eine aktive Rolle einnehmen soll.</seg>
+            </u>
+            <vocal type="laughter" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal32">
+               <desc>Heiterkeit und anhaltender Beifall bei Grünen und ÖVP.</desc>
+            </vocal>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note69">
+               <time when="2019-12-11T22:27:00+01:00">22:27</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note70">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2584" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e633">Zu Wort gelangt Abgeordnete Klubobfrau Meinl-Reisinger. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note71">
+               <time when="2019-12-11T22:27:25+01:00">22:27:25</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note72">Abgeordnete Mag. Beate Meinl-Reisinger, MES (NEOS)</note>
+            <u who="#PAD_83122" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2606" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e641">Da wird eine Wuchtel nach der anderen geschoben, da klatschen die Claqueure, die Fangruppen, möchte ich gerade sagen, der jeweiligen Rednerinnen und Redner, und ich frage mich: Wo sind die Fangruppen des Parlamentarismus? – Bei den Grünen jedenfalls nicht mehr! <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic17">
+                     <desc>Beifall bei den NEOS und bei Abgeordneten der SPÖ.</desc>
+                  </kinesic>
+                  <pb n="17"/>
+            Jetzt werde ich Ihnen etwas sagen, Herr Kogler, weil Sie hier so launig zum Besten gegeben haben, wie sehr Sie hier in puncto Transparenz mit allen Fraktionen arbeiten wollen: Wir haben ganz konkrete Vorschläge zum Thema Parteienfinanzierung gemacht – mehr Transparenz und Kontrolle. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2622">Abg. Nehammer: Keine Fans!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2635">Abg. Kogler: Ja eh!</note> Erst als wir uns darüber aufgeregt haben, dass niemand, kein Klubobmann und keine Klubobfrau, kein Fachabgeordneter irgendeiner anderen Fraktion auf unser Gesprächsangebot – reden wir als selbstbewusstes Parlament darüber, was wir weiterbringen! – reagiert hat, haben die Grünen halt gnadenweise angerufen. Ebenso gnadenweise dürfte dann hier in dieser Frage ein Ausschuss stattfinden. Herr Wöginger, ein Ausschuss ist kein Gnadenakt! <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal33">
+                     <desc>Zwischenruf der Abg. Ernst-Dziedzic.</desc>
+                  </vocal>
+            Das Parlament hat genau die Rolle, die die Verfassung vorsieht. Die einzige Begründung, die ich heute gehört habe – und das stimmt schon, das macht die Rede des Herrn Leichtfried ein bisschen zur Show –, ist: Weil es immer schon so war! Wir sind schon immer über das Parlament drübergefahren! – Danke, jetzt auch die Grünen. – Vielen Dank.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic18">
+               <desc>Beifall bei den NEOS.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note75">
+               <time when="2019-12-11T22:28:00+01:00">22:28</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note76">
+               <time when="2019-12-11T22:28:48+01:00">22:28:48</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note77">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2669" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e670">Zu Wort ist dazu niemand mehr gemeldet. Die Debatte ist geschlossen. Wir kommen nun zur Abstimmung über den Antrag des Budgetausschusses, zur Berichterstattung - - <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2678">Abg. Becher: Das ist falsch!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.vocal34">
+                     <desc>Weitere Zwischenrufe bei der SPÖ.</desc>
+                  </vocal>
+            Wir kommen nun zur Abstimmung über den Antrag, dem Budgetausschuss zur Berichterstattung über den Antrag 111/A eine Frist bis zum 13. Dezember 2019 zu setzen. Ich bitte jene Damen und Herren, die für den Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. Das ist die Mehrheit, angenommen. <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note79">
+                     <time when="2019-12-11T22:29:38+01:00">22:29:38</time>
+                  </note> Abstimmung über einen Fristsetzungsantrag</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note80">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2711" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e685">Wir kommen nun zur Abstimmung über den Antrag der Abgeordneten Haubner, Schwarz, Kolleginnen und Kollegen, dem Budgetausschuss zur Berichterstattung über den Antrag 112/A eine Frist bis zum 13. Dezember 2019 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e687">Wer dafür ist, den bitte ich wieder um ein Zeichen der Zustimmung. – Das ist ebenfalls die Mehrheit.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note81">
+               <time when="2019-12-11T22:29:55+01:00">22:29:55</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note82">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2737" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e695">Die nächste Sitzung des Nationalrates, die für Mittwoch, den 22. Jänner 2020, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen.</seg>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e697">Bevor ich diese Sitzung schließe, gebe ich noch bekannt, dass im Anschluss an diese Sitzung hier im Sitzungssaal des Nationalrates die angekündigten Konstituierungen und Wahlen von Ausschüssen stattfinden werden.</seg>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e699">Da es sich hierbei um nicht-öffentliche Sitzungen handelt, darf ich die Besucherinnen und Besucher und die Medienvertreter um das Verlassen des Saals ersuchen.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note83">
+                  <time when="2019-12-11T22:30:24+01:00">22:30:24</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e704">Schlussansprache des Präsidenten</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note84">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d7e2768" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e710">Das ist die letzte Sitzung heuer, ich darf mich daher ganz herzlich bei Ihnen für die Arbeit in diesem Jahr bedanken. Es war ein Jahr</seg>
+               <pb n="18"/>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e713">voller Turbulenzen, aber es hat gezeigt, dass wir, egal in welcher Phase, auf der Basis der Verfassung und des Rechtsstaates eine Kontinuität wahren konnten, die auch dem österreichischen Rechtsstaat und der Demokratie ein gutes Zeugnis ausgestellt hat.</seg>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e715">Ich darf mich noch einmal bei allen Fraktionsobleuten bedanken, bei meinen PräsidentenkollegInnen, Präsidentin Bures und Präsident Hofer, für die kollegiale Arbeit in der Präsidiale, bei allen unseren Mitarbeitern, die in den Ausschüssen wahrlich oftmals keine leichte Arbeit zu erledigen hatten – ein herzliches Dankeschön.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic19">
+                  <desc>Allgemeiner Beifall.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e720">Ihnen allen wünsche ich etwas Ruhe und Besinnung, Kraft und Stärkung für das neue Jahr.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.kinesic20">
+                  <desc>Allgemeiner Beifall.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007_d2e725">Die Sitzung ist geschlossen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note85">
+               <time when="2019-12-11T22:31:48+01:00">22:31:48</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2019-12-11-027-XXVII-NRSITZ-00007.note86">Schluss der Sitzung:<time when="2019-12-11T22:31:00+01:00">22:31</time>Uhr</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

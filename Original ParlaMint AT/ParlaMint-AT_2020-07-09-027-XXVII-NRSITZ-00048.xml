@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #covid" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XXVII. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="sub" xml:lang="de">48. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Donnerstag, 9. Juli 2020</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XXVII [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Sitting Number 48, Legislative period XXVII, Thursday, 9. July 2020</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="48">48. Sitzung</meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">XXVII. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="48">Sitting 48</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">Legislative period XXVII</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung, Korpuskodierung in TEI und automatische linguistische Annotation</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding and automatic linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="9" xml:lang="de">9 Äußerungen</measure>
+            <measure unit="speeches" quantity="9" xml:lang="en">9 speeches</measure>
+            <measure unit="words" quantity="1317" xml:lang="de">1,317 Wörter</measure>
+            <measure unit="words" quantity="1317" xml:lang="en">1,317 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Plenarsitzung des Nationalrates, Stenographisches Protokoll, 48. Sitzung des Nationalrates der Republik Österreich, Donnerstag, 9. Juli 2020</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <title type="sub" xml:lang="en">Shorthand record, Sitting Number 48, Legislative period XXVII, Thursday, 9. July 2020</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XXVII/NRSITZ/NRSITZ_00048/fnameorig_850197.html</idno>
+               <date when="2020-07-09">2020-07-09</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="12"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="8"/>
+               <tagUsage gi="note" occurs="20"/>
+               <tagUsage gi="pb" occurs="3"/>
+               <tagUsage gi="seg" occurs="39"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="10"/>
+               <tagUsage gi="u" occurs="9"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="2020-07-09">2020-07-09</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-13">
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e178" type="debateSection">
+            <gap reason="editorial" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.gap1">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <note type="time" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note1">
+               <time when="2020-07-09T20:29:05+02:00">20:29:05</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note2">Beginn der Sitzung:<time when="2020-07-09T20:29:00+02:00">20:29</time>Uhr</note>
+            <note type="chairpersons" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note3">Präsident Mag. Wolfgang Sobotka</note>
+            <note type="time" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note4">
+               <time when="2020-07-09T20:29:07+02:00">20:29:07</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note5">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d7e455" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e200">Ich darf die 48. Sitzung des Nationalrates eröffnen .</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e202">Als verhindert gemeldet sind die Abgeordneten Angela Baumgartner, Mag. Michael Hammer, Mag. Elisabeth Scheucher-Pichler, Mag. Michaela Steinacker, Dietmar Keck, Andreas Kollross, Mag. Verena Nussbaum, Mag. Dr. Petra Oberrauner, MMag. DDr. Hubert Fuchs, Bedrana Ribo, MAund Josef Schellhorn.</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e204">Einlauf und Zuweisungen</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note6">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d7e517" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e209">Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e211">Die schriftliche Mitteilung hat folgenden Wortlaut:</seg>
+               <gap reason="editorial" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.gap2">
+                  <desc xml:lang="en">Quoted printed matter omited</desc>
+                  <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+               </gap>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note7">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d7e846" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e221">Weiters weise ich den Antrag 808/A(E) dem Umweltausschuss zu.</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e223">Fristsetzungsantrag</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note8">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d7e871" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e229">Vor Eingang in die Tagesordnung teile ich mit, dass die Abgeordneten Gabriela Schwarz, Ralph Schallmeiner, Kolleginnen und Kollegen beantragt haben, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 795/A der Abgeordneten Gabriela Schwarz, Ralph Schallmeiner, Kolleginnen und Kollegen eine Frist bis zum 13. Juli 2020 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e231">Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlung in dieser Sitzung zur Abstimmung gebracht werden.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note9">
+                  <time when="2020-07-09T20:29:58+02:00">20:29:58</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e236">Beschluss auf Beendigung der ordentlichen Tagung 2019/2020</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note10">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d7e907" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e241">Es liegt mir folgender Antrag der Abgeordneten Wöginger, Mag. Leichtfried, Dr. Belakowitsch, Maurer, BA, Dr. Scherak, MA vor:</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e243">„Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2019/2020 der XXVII. Gesetzgebungsperiode des Nationalrates mit Ablauf des 13. Juli 2020 für beendet zu erklären.“</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e245">Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. – Das ist einstimmig angenommen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e247">Antrag auf Permanenterklärung von Ausschüssen</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note11">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d7e934" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e252">Weiters liegt mir ein Antrag der Abgeordneten Wöginger, Mag. Leichtfried, Mag. Kaniak, Maurer, BA und Dr. Scherak, MA gemäß § 46 Abs. 4 GOG vor, folgende Ausschüsse zu beauftragen, ihre Arbeiten während der tagungsfreien Zeit fortzusetzen:</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e254">Gesundheitsausschuss</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e256">Ausschuss für innere Angelegenheiten.</seg>
+               <pb n="6"/>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e259">Wir kommen jetzt zur Abstimmung über den Antrag der Abgeordneten Wöginger, Leichtfried, Kaniak, Maurer und Scherak, die genannten Ausschüsse zu beauftragen, ihre Arbeit auch während der tagungsfreien Zeit fortzusetzen, und ich lasse darüber, wenn Sie keinen Einwand erheben, abstimmen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e261">Ich ersuche die Damen und Herren, die für den gegenständlichen Antrag sind, um ein Zeichen der Zustimmung. – Auch das ist einstimmig angenommen.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note12">
+                  <time when="2020-07-09T20:31:05+02:00">20:31:05</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e266">Abstimmung über einen Fristsetzungsantrag</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note13">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d7e977" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e271">Schließlich kommen wir zur Abstimmung über den Antrag der Abgeordneten Gabriela Schwarz, Ralph Schallmeiner, Kolleginnen und Kollegen, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 795/A der Abgeordneten Gabriela Schwarz, Ralph Schallmeiner, Kolleginnen und Kollegen eine Frist bis zum 13. Juli 2020 zu setzen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e273">Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. – Das ist mit Mehrheit angenommen.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note14">
+                  <time when="2020-07-09T20:31:29+02:00">20:31:29</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e278">Schlussansprache des Präsidenten</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note15">
+               <time when="2020-07-09T20:31:00+02:00">20:31</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note16">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d7e1024" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e286">Bevor ich die Sitzung schließe, meine sehr geehrten Damen und Herren, darf ich gerade in dieser Zeit noch ein paar Worte an Sie richten. Es war sicherlich ein ungewöhnliches, ein außergewöhnliches und auch ein ungeheuer herausforderndes erstes halbes Jahr. Ich denke, Sie alle können gerade in dieser schwierigen Zeit stolz auf Ihre Arbeit sein, auf die Arbeit in Ihren Wahlkreisen, im Kontakt mit Ihren Funktionärinnen und Funktionären, mit den Wählerinnen und Wählern, mit der Bevölkerung im Allgemeinen, aber auch mit der Arbeit in den Ausschüssen, mit der Arbeit im Plenum und darüber hinaus, die von Ihnen in vielfältiger Form als parlamentarische Arbeit verlangt wird.</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e288">Wir haben eine neue Regierung angelobt. Das scheint schon weit zurückzuliegen. Es gab gleich zu Beginn sehr intensive parlamentarische Diskussionen, die unser parlamentarisches Leben in der Zwischenzeit wieder sehr befruchtet haben. Niemand hielt es für möglich, dass eine zunächst nur peripher wahrgenommene Epidemie, die dann zur Pandemie erklärt wurde, uns alle so sehr in Mitleidenschaft ziehen würde, dass wir vor ganz großen Fragen und vor großen Herausforderungen stehen, auch was den Parlamentarismus anbelangt.</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e290">Ich darf mich ganz, ganz herzlich dafür bedanken, dass alle in so herausfordernden Zeiten einer Pandemie, einer Krise einen ungeheuren Beitrag geleistet haben, da gerade der Parlamentarismus unverzichtbar für die Führung eines Staates ist und schlussendlich auch für das Vertrauen, das die Bevölkerung braucht, dahin gehend, dass die Rechtsstaatlichkeit zu keiner Zeit aufgegeben wird. Dafür möchte ich Ihnen und all Ihren Mitarbeitern ein ganz herzliches Dankeschön sagen.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.kinesic1">
+                  <desc>Allgemeiner Beifall.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e295">Wir konnten ab Mai unsere Arbeit wieder sukzessive in halbwegs gewohnter Form aufnehmen. Wir sitzen aber noch immer in gelockerter Sitzordnung, und ich hoffe doch sehr, dass wir im September, wenn wir in der Präsidiale einigermaßen davon überzeugt sind, wieder zur normalen Sitzordnung und auch Arbeitsweise des Parlaments zurückkehren können.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.kinesic2">
+                  <desc>Allgemeiner Beifall.</desc>
+               </kinesic>
+               <pb n="7"/>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e301">Ich denke da an die Veranstaltungen, die Arbeit im Untersuchungsausschuss, aber auch unsere internationalen Verpflichtungen, insbesondere auch was die Vorbereitung von internationalen Konferenzen anbelangt. Wir hätten im heurigen Jahr die IPU-Konferenz das erste Mal in Österreich, in Wien, abhalten sollen. Wir haben es jedoch zustande gebracht, das war nicht mein Verdienst, sondern das unserer Mandatare, dass der Termin verschoben wurde und diese Konferenz nächstes Jahr – das ist außergewöhnlich – stattfinden wird, während heuer eine auf der Internetplattform stattfindende Konferenz abgehalten wird.</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e303">Ich wünsche Ihnen für die kommende Zeit alles erdenklich Gute. Ich habe schon einleitend gesagt, wir gehen nicht in eine 75-tägige oder noch längere Sommerpause, sondern da und dort in einen wohlverdienten Urlaub. Was hier geleistet wurde, wollen wir wirklich mit einem großen Dank würdigen. Ich bedanke mich ganz außerordentlich bei Ihnen und vor allem den Mitarbeiterinnen und Mitarbeitern in den Klubs, da sie viele Vorbereitungen zu treffen hatten und die Dinge mitunter sehr schnell zu bewerkstelligen waren. Ihnen allen gehört unser herzliches Dankeschön.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.kinesic3">
+                  <desc>Allgemeiner Beifall.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e308">Ich darf mich bei den Mitgliedern der Präsidiale ganz herzlich bedanken, bei meinen Präsidentenkollegen, Frau Präsidentin Bures und Präsident Hofer, und allen Klubobleuten. Wir haben sehr intensiv diskutiert, kontrovers diskutiert und doch immer wieder auch zu einem gemeinsamen Ganzen gefunden. – Auch Ihnen, den Klubobleuten und den Präsidenten ein herzliches Dankeschön für Ihre Arbeit.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.kinesic4">
+                  <desc>Allgemeiner Beifall.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e314">Ich bedanke mich auch bei der österreichischen Bundesregierung. Aufgabe des Parlaments ist mit Sicherheit, die Bundesregierung zu kontrollieren, aber auch – dort, wo es notwendig ist – Gesetze auf den Weg zu bringen. Da gab es Zusammenarbeit, die natürlich von den unterschiedlichen Standpunkten her auch verschieden beurteilt wurde. Ich darf mich bei der Bundesregierung mit Bundeskanzler Kurz an der Spitze, bei allen MinisterInnen und Vizekanzler Kogler herzlich bedanken.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.kinesic5">
+                  <desc>Beifall bei ÖVP und Grünen.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e319">Ich bedanke mich bei den Mitarbeitern der Parlamentsdirektion. Nur der, der wirklich sieht, was quasi hinter der Bühne passiert, egal ob das jetzt der Nationalratsdienst ist, der Bundesratsdienst, der Rechtsdienst, ob das die Kommunikation ist, die Infrastruktur und letzten Endes all die fleißigen Mitarbeiterinnen und Mitarbeiter des Supports, bekommt eine Ahnung davon, dass da wirklich Außerordentliches geleistet wird. Sie sind nicht müde geworden, all unseren Anforderungen – in welchen Lokalen auch immer – nachzukommen, sodass eine Tagung möglich wurde. Diesen Mitarbeitern, an der Spitze Parlamentsdirektor Dossi und die Vizedirektoren Janistyn-Novák und Wintoniak, der heute Geburtstag hat, ein ganz großes und herzliches Dankeschön.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.kinesic6">
+                  <desc>Allgemeiner Beifall.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e324">Ich darf mich ganz herzlich bei den Mitarbeitern des Rechnungshofes, bei der Rechnungshofpräsidentin – sie ist nicht mehr da – und bei den Mitgliedern der Volksanwaltschaft bedanken, die hier im Parlament waren und in dieser Zeit auch sehr viel zu einem funktionierenden Ablauf unserer Sitzungen beigetragen haben.</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e326">Ich darf mich – nicht nur in Bezug auf den gestrigen Alarm – bei der Polizei und bei allen Sicherheitskräften bedanken, die uns umgeben. Sie können sich noch an den bedauerlichen Zwischenfall vor dem Büro des Bundespräsidenten erinnern, auch da hat die Polizei außerordentlich sorgsam und überlegt reagiert. – Ein herzliches Dankeschön!</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.kinesic7">
+                  <desc>Allgemeiner Beifall.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e331">Ich bedanke mich nicht zuletzt bei allen Medienvertretern und – das ist hier auch schon zum Ausdruck gekommen – insbesondere beim ORF, der uns ja zusammen mit unserem eigenen Kommunikationssystem wirklich hervorragende Dienste leistet, die jeder Abgeordnete auch für sich verwenden kann, und schlussendlich bei unseren Zuseherinnen und Zusehern, die diesen Debatten mit entsprechender Aufmerksamkeit gefolgt sind und</seg>
+               <pb n="8"/>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e334">uns auch mit Kritik und vielleicht auch mit dem einen oder anderen Ratschlag an uns unterstützt haben. Wir werden diese im nächsten Halbjahr so gut es geht beherzigen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e337">Ich wünsche Ihnen und Ihren Familienangehörigen, Ihren Freunden, mit denen Sie die nächste Zeit verbringen werden, alles Gute. Bleiben Sie gesund und passen Sie auf, dass Sie nicht Covid-19 oder sonst etwas erwischt. In diesem Sinne alles Gute!</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.kinesic8">
+               <desc>Allgemeiner Beifall.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note17">
+               <time when="2020-07-09T20:39:00+02:00">20:39</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note18">Präsident Mag. Wolfgang Sobotka</note>
+            <u who="#PAD_88386" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d7e1138" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e349">Die nächste Sitzung des Nationalrates ist für Mittwoch, den 23. September 2020, um 9 Uhr, in Aussicht genommen.</seg>
+               <seg xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048_d2e351">Die Sitzung ist geschlossen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note19">
+               <time when="2020-07-09T20:39:18+02:00">20:39:18</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2020-07-09-027-XXVII-NRSITZ-00048.note20">Schluss der Sitzung:<time when="2020-07-09T20:39:00+02:00">20:39</time>Uhr</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+

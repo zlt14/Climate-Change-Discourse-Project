@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #covid" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XXVII. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="sub" xml:lang="de">130. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Donnerstag, 18. November 2021</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XXVII [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Sitting Number 130, Legislative period XXVII, Thursday, 18. November 2021</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="130">130. Sitzung</meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">XXVII. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="130">Sitting 130</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">Legislative period XXVII</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung, Korpuskodierung in TEI und automatische linguistische Annotation</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding and automatic linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="27" xml:lang="de">27 Äußerungen</measure>
+            <measure unit="speeches" quantity="27" xml:lang="en">27 speeches</measure>
+            <measure unit="words" quantity="6401" xml:lang="de">6,401 Wörter</measure>
+            <measure unit="words" quantity="6401" xml:lang="en">6,401 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1912</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2024-05-14">2024-05-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Plenarsitzung des Nationalrates, Stenographisches Protokoll, 130. Sitzung des Nationalrates der Republik Österreich, Donnerstag, 18. November 2021</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <title type="sub" xml:lang="en">Shorthand record, Sitting Number 130, Legislative period XXVII, Thursday, 18. November 2021</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XXVII/NRSITZ/NRSITZ_00130/fnameorig_1438298.html</idno>
+               <date when="2021-11-18">2021-11-18</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="de"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="57"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="22"/>
+               <tagUsage gi="note" occurs="88"/>
+               <tagUsage gi="pb" occurs="14"/>
+               <tagUsage gi="seg" occurs="78"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="27"/>
+               <tagUsage gi="u" occurs="27"/>
+               <tagUsage gi="vocal" occurs="31"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="2021-11-18">2021-11-18</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-13">
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e178" type="debateSection">
+            <gap reason="editorial" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.gap1">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note1">
+               <time when="2021-11-18T17:32:43+01:00">17:32:43</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note2">Beginn der Sitzung:<time when="2021-11-18T17:32:00+01:00">17:32</time>Uhr</note>
+            <note type="chairpersons" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note3">Zweite Präsidentin Doris Bures</note>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note4">
+               <time when="2021-11-18T17:32:58+01:00">17:32:58</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note5">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e958" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e200">Ich eröffne die 130. Sitzung des Nationalrates.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e202">Als verhindert gemeldet sind die Abgeordneten Kira Grünberg, Dipl.-Ing. Georg Strasser, Elisabeth Feichtinger, BEd BEd, Dr. Christoph Matznetter, Rudolf Silvan, Herbert Kickl, Walter Rauch, Ing. Mag. Volker Reifenberger, Wolfgang Zanger, Michel Reimon, MBAund Douglas Hoyos-Trauttmansdorff.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e204">Einlauf und Zuweisungen</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note6">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1020" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e209">Hinsichtlich der eingelangten Verhandlungsgegenstände und der Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e211">Die schriftliche Mitteilung hat folgenden Wortlaut:</seg>
+               <gap reason="editorial" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.gap2">
+                  <desc xml:lang="en">Quoted printed matter omited</desc>
+                  <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+               </gap>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note7">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1572" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e221">Weiters weise ich den Antrag 2060/A(E) dem Kulturausschuss zu.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e223">Redezeitbeschränkung</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note8">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1597" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e229">Zwischen den Mitgliedern der Präsidialkonferenz wurde Konsens über die Dauer der Debatten erzielt. Die Gesamtredezeit beträgt für jeden Klub 15 Minuten.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e231">Gemäß § 57 Abs. 7 der Geschäftsordnung beträgt die Redezeit für die gesamte Tagesordnung von jenen Abgeordneten, die keinem Klub angehören, je 8 Minuten, darüber hinaus wird deren Redezeit auf 5 Minuten je Debatte beschränkt.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e233">Wir kommen sogleich zur Abstimmung über die gerade dargestellten Redezeiten.</seg>
+               <pb n="11"/>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e236">Ich bitte jene Damen und Herren, die dem zustimmen, um ein entsprechendes Zeichen. – Das ist einstimmig angenommen.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e238">Wir gehen in die Tagesordnung ein.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note9">
+                  <time when="2021-11-18T17:34:10+01:00">17:34:10</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e243">1. Punkt</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e245">Bericht des Immunitätsausschusses über das Ersuchen der Zentralen Staatsanwaltschaft zur Verfolgung von Wirtschaftsstrafsachen und Korruption (Zl. 17 St 5/19d) um Zustimmung zur behördlichen Verfolgung des Abgeordneten zum Nationalrat Sebastian Kurz(1159 d.B.)</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note10">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1648" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e250">Wir gelangen zum 1. Punkt der Tagesordnung.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e252">Auf eine mündliche Berichterstattung wurde verzichtet.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e254">Herr Abgeordneter Klaus Fürlinger ist als erster Redner zu Wort gemeldet. – Bitte, Herr Abgeordneter.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note11">
+               <time when="2021-11-18T17:34:55+01:00">17:34:55</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note12">Abgeordneter Mag. Klaus Fürlinger (ÖVP)</note>
+            <u who="#PAD_72999" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1675" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e262">Hohes Präsidium! Sehr geehrte Damen und Herren! Der Immunitätsausschuss hat am 16.11. auf Ersuchen der Staatsanwaltschaft die Immunität des Klubobmanns Abgeordneten Sebastian Kurzaufgehoben – ein normaler Vorgang, der sich für einen Abgeordneten, der knapp davor am 14.10 des Jahres angelobt worden ist, fristgemäß so darstellt. Warum müssen wir das heute debattieren? Warum muss ich es sagen? – Weil in den letzten Tagen und Wochen wieder eine Art von Desinformation von gewissen politischen Seiten betrieben worden ist, von Tricksereien und Verzögerungen gesprochen wurde, die diesem Faktencheck nicht standhalten.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic1">
+                  <desc>Beifall bei der ÖVP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e267">Zum einen, meine Damen und Herren, hat Sebastian Kurzselbst schon zu Antritt seines Mandates klar gesagt, dass er selbstverständlich auf die Immunität verzichten wird, um Vorwürfe zu klären. Zum anderen gab es einen gewöhnlichen Fristenlauf, und die Manipulation, die hier von manchen behauptet worden ist, die von Verzögerungen gesprochen haben – es wäre rein technisch gar nicht anders möglich gewesen –, ist ins Reich der parteipolitischen Legende zu verweisen.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e269">Sebastian Kurzhat recht, wenn er sagt, er möchte umgehend zur Aufklärung dieser Vorwürfe kommen. Warum? – Weil wir – und das sage ich Ihnen hier als Anwalt – mit Bedenken sehen, dass es heute genügt, wenn man in elektronischen Nachrichten von Menschen, die sich möglicherweise zu einer Straftat verabreden, vorkommt, um gleich selbst in die Verdachtssituation hineinzukommen. Ich kann Ihnen mit einiger Betroffenheit von den Kolleginnen und Kollegen des Standes der Rechtsanwälte in diesem Land mitteilen, dass wir das mit Besorgnis sehen. Wir sehen mit Besorgnis, in welcher Geschwindigkeit heute ein Verdächtigtenstatus konstruiert wird, und ich sehe es – und hier sollten wir alle gemeinsam in der Politik einen Blick darauf werfen – mit Besorgnis, wie schnell es in der Politik geht, dass man Verdächtiger wird.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e271">Ich möchte Ihnen das deshalb sagen, weil wir uns dann nicht wundern dürfen, wenn diejenigen, die eins und eins zusammenzählen können, hinkünftig einen großen Bogen um die Politik machen werden, denn wenn sie die Bühne betreten, sind sie vielleicht schon mit einem Fuß in einer Verdachtslage, weil sie irgendwann mit irgendwem Kontakt gehabt haben, der vielleicht eine Straftat begangen hat. Das, meine Damen und Herren, ist ein Punkt, über den wir uns Gedanken machen müssen, weil wir alle als Politik, ganz egal welcher Glaubensrichtung, darunter leiden werden, wenn wir keine Bürgermeisterkandidaten mehr finden, weil einer als Bürgermeister schon mit dem Strafrecht in</seg>
+               <pb n="12"/>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e274">Berührung kommt, wenn er eine Kanalgebühr nicht rechtzeitig vorschreibt oder wenn er sonst etwas nicht in der richtigen Geschwindigkeit macht.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e276">Das gilt auch auf dieser Ebene hier heroben, wo wir in Verdachtslagen kommen, die wir – das möchte ich ganz klar sagen, und ich bin, wie ich in den letzten Tagen gelesen habe, mit diesem Urteil nicht alleine – als nicht ausreichend bezeichnen können, wenn wir uns anschauen, was jetzt passiert ist und was jetzt passiert.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic2">
+                  <desc>Beifall bei der ÖVP.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e281">Meine Damen und Herren, meine geschätzten Kolleginnen und Kollegen, sei es wie es sei. Die Staatsanwälte sind am Zug und sie sind am Wort. Die Anwälte des Staates, also jene, die unser Monopol des Strafrechts, das wir hier herinnen beschließen, vertreten und überwachen sollen, diese Anwälte des Staates, deren Mandanten wir eigentlich auch sind, sind jetzt am Zug. Sie schulden uns eine rasche und saubere Ermittlung und sie schulden den Österreicherinnen und Österreichern eine Antwort auf die Frage, ob Politiker eine Straftat begangen haben oder nicht.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e283">Wenn – das möchte ich auch sagen – nicht mehr als das, was wir da gelesen haben, an der Sache dran ist, dann schulden sie uns auch relativ schnell eine abschlägige Antwort. Das ist, was sie tun müssen. Dafür sind sie beauftragt, auch von uns hier in der Politik, und die Österreicherinnen und Österreicher haben ein Recht auf eine rasche Antwort, die wir auch einfordern werden. – Danke.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic3">
+               <desc>Beifall bei der ÖVP sowie des Abg. Bürstmayr.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note13">
+               <time when="2021-11-18T17:39:00+01:00">17:39</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note14">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1745" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e294">Nun gelangt Frau Abgeordnete Selma Yildirim zu Wort. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note15">
+               <time when="2021-11-18T17:39:42+01:00">17:39:42</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note16">Abgeordnete Mag. Selma Yildirim (SPÖ)</note>
+            <u who="#PAD_02339" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1766" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e303">Frau Präsidentin! Hohes Haus! Sehr geehrte Damen und Herren! Werter Herr Kollege Fürlinger, also jetzt haben Sie mich echt geärgert. Jetzt haben Sie mich echt geärgert! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1774">Abg. Fürlinger: Das wollte ich tunlichst vermeiden!</note>Sie stellen sich hierher, stellen hier alternative Fakten auf! Wissen Sie, was das war? – Der Immunitätsausschuss, Herr Abgeordneter Fürlinger, ist der Ausschuss mit den routiniertesten, unkompliziertesten Sitzungen, die ich in den vier Jahren, seit ich im Nationalrat sitze, kenne. <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic4">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+            Was ist passiert, als die Wirtschafts- und Korruptionsstaatsanwaltschaft das Ersuchen um Zustimmung zur behördlichen Verfolgung des Abgeordneten Sebastian Kurzan den Nationalrat gestellt hat? – Herr Abgeordneter Fürlinger, Sie sind Rechtsanwalt und Abgeordneter, hören Sie jetzt bitte zu, gehen Sie nicht aus dem Saal! <vocal type="laughter" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal1">
+                     <desc>Heiterkeit bei Abgeordneten der ÖVP.</desc>
+                  </vocal>
+            Da die ÖVP eine rasche Aufklärung wollte, weil Sie ja alle zu Recht und hoffentlich auch aufrichtig an einer Aufklärung interessiert sind, habe ich in meiner Verantwortung als Vorsitzende dieses Immunitätsausschusses den ersten Termin, nämlich den 16. November, 8 Uhr, vorgeschlagen, eine Stunde vor Beginn der Plenarsitzung. Das wäre eine volle Stunde für eine Sitzung, die im Grunde genommen – das wissen die Zuseherinnen und Zuseher nicht – eine Formalie ist, weil ja im Vorfeld schon alles diskutiert wird, und es eine Abstimmung ist, die in der Regel 10 bis 15 Minuten dauert. Ich gestehe aber zu, das öffentliche Interesse an Ihnen Herr Abgeordneter Kurz, ist sehr groß, deshalb habe ich eine Stunde zugestanden. Medial war die erste Reaktion der ÖVP: Na selbstverständlich, der 16.11., das ist ja das, was wir eigentlich kennen, dem stimmen wir zu. Hinter den Kulissen, meine sehr geehrten Damen und Herren, hat sich ein derartiges Tauziehen ergeben, dass ich mir gedacht habe: Wo bin ich denn?!, zwei Wochen lang. <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal2">
+                     <desc>Zwischenruf des Abg. Wöginger.</desc>
+                  </vocal>
+            – Sie fragen, welches Tauziehen, Herr Abgeordneter Wöginger? <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1811">Abg. Wöginger: ..., was?</note>
+                  <pb n="13"/>
+            Lesen Sie denn die Korrespondenz nicht? Sind Sie nicht im Gespräch mit Ihren Angestellten? Das Erste war: Nein, wir wollen das am 16. nach der Sitzung! <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal3">
+                     <desc>Zwischenruf der Abg. Pfurtscheller.</desc>
+                  </vocal>
+            – Bitte, nach 16 Stunden Sitzung hätten wir am Dienstag um 23 Uhr über diese Causa debattieren sollen, weil Sie gesagt haben, die Zeit von 8 bis 9 Uhr ist Ihnen zu kurz, die Stunde ist Ihnen zu kurz. <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal4">
+                     <desc>Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            Ich habe es schriftlich, Sie bekommen das alles gerne schriftlich. – So. Das Zweite ist – weil Sie mich geärgert haben, da ist das Problem, Herr Wöginger <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1839">Abg. Wöginger: Genau, ...!</note>, und das sage ich Ihnen jetzt <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal5">
+                     <desc>weitere Zwischenrufe bei der ÖVP</desc>
+                  </vocal>
+            , und jetzt hören Sie mir auch zu; Sie können sich ja dann zu Wort melden, hören Sie einmal mit den Zwischenrufen auf! –, der zweite Termin wäre am 17. November nach Sitzungsende gewesen. Der dritte Termin, den die ÖVP vorgeschlagen hat, wäre heute, gerade jetzt wollten Sie darüber reden. Na bitte, wann war denn das klar, dass morgen der Reservetag in Anspruch genommen wird, Herr Wöginger? <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1858">Abg. Wöginger: ...vorletzten Präsidiale!</note>Wann wurde das denn klar? – Erst am 11., in der letzten Präsidiale. So, und jetzt soll ich mir als Vorsitzende den Vorwurf machen lassen, ich würde Ihnen nicht genug Zeit geben?! Sie hatten die Möglichkeit, so viel Zeit zu haben, Sie hatten die Möglichkeit, sich einen Wunschtermin auszusuchen, das haben Sie aber nicht gemacht. Damit verkürze ich es, weil ich gerne kurz auf den Inhalt eingehen möchte. Letztendlich hatten wir vorgestern diese Sitzung, sehr geehrte Damen und Herren, und es ist Einstimmigkeit da, ja, aber dafür hat es diesen Zirkus gebraucht! <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic5">
+                     <desc>Beifall bei der SPÖ und bei Abgeordneten der NEOS.</desc>
+                  </kinesic>
+            Es liegen in der ÖVP-Inseratenaffäre schwerwiegende Vorwürfe gegen den Abgeordneten Sebastian Kurzund sein Umfeld vor. <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal6">
+                     <desc>Zwischenruf des Abg. Gerstl.</desc>
+                  </vocal>
+            Da werden wirklich schwerwiegende Vorwürfe erhoben. Es geht um nicht weniger als um den Verdacht der Bestechung, Verdacht der Bestechlichkeit, Verdacht der Untreue, und es sollen geschönte Meinungsumfragen und entsprechende Berichterstattung in Boulevardmedien gekauft worden sein – und das alles von unser aller Steuergeld. Das ist zum Aufklären, das muss aufgeklärt werden! Wir brauchen eine möglichst rasche Aufklärung <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal7">
+                     <desc>Zwischenrufe der Abgeordneten Haubner und Gerstl</desc>
+                  </vocal>
+            , aber dafür ist die Justiz zuständig, und auf parlamentarischer Ebene der Untersuchungsausschuss, den Sie hoffentlich nicht weiterhin verzögern, sondern mit forcieren werden. Wie Sie alle wissen, darf die Wirtschafts- und Korruptionsstaatsanwaltschaft seit dem 14. Oktober nicht ermitteln, weil ja Sie, Herr Abgeordneter Kurz, angelobt worden sind und parlamentarische Immunität genießen. Das ist ja auch wichtig, es hat ja seinen Sinn und Zweck, dass es diese Immunität gibt. Allerdings ist inzwischen wertvolle Zeit verstrichen. Es durfte ja weder gegen Sie noch gegen all die anderen, die in diesem Komplex geführt wurden, ermittelt werden <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal8">
+                     <desc>Zwischenrufe bei der ÖVP</desc>
+                  </vocal>
+            – durfte nicht, so. Wenn heute die Einstimmigkeit weiterhin gegeben ist, wird das so sein, weil wir keinen Zusammenhang zwischen Ihrer Tätigkeit als Abgeordneter und diesen Korruptionsvorwürfen sehen, dem, was da von der Wirtschafts- und Korruptionsstaatsanwaltschaft vorgeworfen wird. Niemand, sehr geehrte Damen und Herren, kann sich in diesem Parlament hinter der parlamentarischen Immunität verstecken, darüber sind wir uns alle einig. <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal9">
+                     <desc>Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            Es ist nicht Teil der politischen Arbeit, Grenzen zu überschreiten. Noch einmal: Das soll die Justiz untersuchen und die politische Geschichte soll der Untersuchungsausschuss des Parlaments erörtern. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1902">Ruf bei der ÖVP:Muss!</note>
+                  <pb n="14"/>
+            Ich möchte Ihnen nur eines sagen: Abgesehen von der strafrechtlichen Dimension, mit der sich die Justiz beschäftigen muss, und das hoffentlich ungestört – mit den rechtlichen Vorwürfen beschäftigt sich die Strafjustiz –, hat mich eines an dem ganzen Vorfall erschüttert: Was durch die Chats an die Öffentlichkeit gekommen ist, diese innere Einstellung zu anderen Menschen, diese unglaubliche Gier zur Macht und die dafür verwendeten Mittel, das, was an die Öffentlichkeit gekommen ist, das ist wirklich beschämend, und das schadet unser aller Ansehen! <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic6">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal10">
+                     <desc>Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            Andere haben dafür die Verantwortung bereits übernommen. Herr Kurz, ich erinnere daran, was Sie nach der Ibizavideoaffäre zu H.-C. Strache gesagt haben. Sie haben es gesagt, und unter anderem ist H.-C. Strache auch sofort zurückgetreten, ich glaube sogar, von allen seinen politischen Funktionen. Diese politische Dimension ist es, die mich beziehungsweise uns hier interessiert. Dass Sie sich eine Selbstverteidigung aufbauen, Herr Kurz, sei Ihnen auch unbenommen. Dass Sie aber ein Privatgutachten erstellen lassen, in dem missbräuchlich ein Universitätslogo verwendet wird <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal11">
+                     <desc>Zwischenrufe bei der ÖVP</desc>
+                  </vocal>
+            und von dem sich die Universität Wien distanziert, finde ich befremdlich. <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic7">
+                     <desc>Beifall bei der SPÖ.</desc>
+                  </kinesic>
+            Ganz abgesehen davon, dass so manche Juristen auch inhaltlich den dortigen Aussagen nichts abgewinnen können: Wenn man dann noch weiß, in welchem Umfeld der Verfasser des Gutachtens als Rechtsanwalt tätig ist, könnten wohlberechtigte Zweifel an der Objektivität entstehen. Befremdlich ist aber auch, dass zum ich weiß wirklich nicht mehr wievielten Male von der ÖVP auf die Justiz eingeschlagen wird und der Anschein erweckt werden soll, dass die WKStA politisch motiviert und überschießend agiert. Herr Kurz, Sie machen der Justiz Vorwürfe, greifen sie an und schaden damit unserem Rechtsstaat. Jede Verteidigungsstrategie ist legitim, aber greifen Sie doch nicht den Rechtsstaat an! Greifen Sie doch nicht diese Institutionen der Demokratie an! <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal12">
+                     <desc>Zwischenruf des Abg. Gerstl.</desc>
+                  </vocal>
+            Sie legen der Aufklärung in Wahrheit damit Steine in den Weg, Sie verunsichern, die Leute fühlen sich eingeschüchtert. Das sind doch weisungsgebundene Staatsanwältinnen und Staatsanwälte! <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal13">
+                     <desc>Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            Gehen Sie doch endlich aus dieser Opferrolle heraus! Sie sind kein Opfer einer politischen Kampagne durch die Justiz, eher ist es umgekehrt. Also lassen Sie die Justiz endlich in Ruhe und ohne politische Zurufe arbeiten! Das ist angesichts der knappen Ressourcen ohnehin schon sehr schwer. Österreich hat, meine sehr geehrten Damen und Herren – und damit werde ich meine Rede schließen –, ganz offensichtlich ein Problem mit Korruption <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1957">Abg. Michael Hammer: Frau Präsidentin, die Zeit ist ja schon um!</note>, und das verstärkt in den vergangenen Jahren. Gerade die ÖVP hat sich wiederholt Maßnahmen zur Verbesserung der Korruptionsbekämpfung in den Weg gestellt. Wir müssen aber Maßnahmen gegen Korruption auf den Weg bringen, das haben all diese Vorfälle wieder einmal sehr deutlich gemacht. Ich darf an das von einer breiten Zivilgesellschaft getragene Antikorruptionsvolksbegehren erinnern <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1971">Abg. Michael Hammer: Frau Präsidentin, wie lang ...?</note> und alle einladen, dieses zu unterschreiben, sollten Sie das noch nicht getan haben. Wir können Korruption bekämpfen, sehr geehrte Damen und Herren! Bitte glauben Sie daran, dass wir sie bekämpfen können und unterstützen Sie dieses Volksbegehren! – Danke.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic8">
+               <desc>Beifall bei der SPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note24">
+               <time when="2021-11-18T17:49:00+01:00">17:49</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note25">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e1997" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e408">Nächster Redner: Herr Abgeordneter Christian Hafenecker. – Bitte.</seg>
+            </u>
+            <pb n="15"/>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note26">
+               <time when="2021-11-18T17:49:20+01:00">17:49:20</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note27">Abgeordneter Christian Hafenecker, MA (FPÖ)</note>
+            <u who="#PAD_78586" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2024" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e417">Frau Präsidentin! Hohes Haus! Ich bin der Kollegin Yildirim sehr dankbar dafür, dass sie gerade erzählt hat, wie dieser Ausschusstermin zustande gekommen ist und wie wieder mit den Fristen gearbeitet wurde: dass die ÖVP auf der einen Seite sagt, sie sei daran interessiert, dass das möglichst rasch gelöst werden kann, und es dann wieder den Fristenschmäh gibt. Es werden dauernd – wir haben das auch im Geschäftsordnungsausschuss im Zusammenhang mit dem Untersuchungsausschuss gesehen – Usancen des Hauses gebrochen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2029">Ruf bei der ÖVP:Das stimmt ja nicht!</note>Das machen Sie ganz bewusst. Sie verschleppen dauernd Termine und ringen um jeden Tag an Zeit, die Sie bekommen können. Ich glaube, darüber sollten wir schon einmal reden: ob man die Sitten und Gebräuche, die im Haus bis jetzt üblich waren, jetzt von der ÖVP einfach wegwischen lässt. Ein Punkt, der heute aber grundsätzlich, glaube ich, zur Debatte steht, ist der, warum es überhaupt notwendig ist, dass die Immunität von Altbundeskanzler Kurz aufgehoben wird. Warum muss man überhaupt das Hohe Haus damit befassen? Warum ist der Herr Altbundeskanzler überhaupt ins Hohe Haus zurückgekehrt, warum ist er in eine Immunität gegangen, um sie dann wieder aufheben zu lassen? Ich denke also, wenn man die moralische Messlatte, die Sie, Herr Altbundeskanzler Kurz, selbst gelegt haben, bei Ihnen angelegt hätte, hätten Sie zurücktreten müssen, aber in der Sekunde. <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic9">
+                     <desc>Beifall bei der FPÖ und bei Abgeordneten der SPÖ.</desc>
+                  </kinesic>
+            Ich möchte Sie an einen Ausspruch erinnern, den Sie selber getätigt haben, Herr Altbundeskanzler Kurz: „Genug ist genug“! – Können Sie sich erinnern? Diesen Ausspruch haben Sie im vollen Wissen, was Sie mit Umfragen gemacht haben, im vollen Wissen, dass Sie mit Ihrem Projekt Ballhausplatz Steuergelder abgezweigt haben, getätigt. Das haben Sie alles gewusst und trotzdem haben Sie gesagt: „Genug ist genug“. <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal14">
+                     <desc>Zwischenruf der Abg. Steinacker.</desc>
+                  </vocal>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal15">
+                     <desc>Weitere Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            – Ich stelle mir schon die Frage, Frau Kollegin Steinacker - - <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal16">
+                     <desc>Abhaltende Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            – Also ich weiß nicht, was die ÖVP jetzt hat, ich verstehe es von hier aus schlecht, Frau Präsidentin. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2066">Abg. Haubner: Wir verstehen Sie gar nicht!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal17">
+                     <desc>Weitere Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            Zur Erinnerung: „Genug ist genug“, das war die Latte, die der Herr Altbundeskanzler Kurz selber gelegt hat. Ich denke, diese Latte muss man auch an sich selbst anlegen. Herr Altbundeskanzler Kurz, können Sie sich erinnern, warum Herbert Kicklaus Ihrer Sicht zurücktreten musste? – Weil Sie gesagt haben, dass kein ehemaliger Generalsekretär einer Regierungspartei gegen Parteimitglieder ermitteln darf. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2088">Abg. Hörl: Das war ... Innenminister aller Zeiten!</note> – Wo ist jetzt die Latte, die Sie selber gelegt haben, wo ist Herr Nehammer? – Er sitzt noch immer im Amt. Wenn Sie die Latte, die Sie selbst gelegt haben, also an sich selber anlegen würden, müssten Sie allesamt schon längst zurückgetreten sein. <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic10">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+            Darum stelle ich mir auch die Frage, wie lange dieser ÖVP-Latten-Limbo-Dance noch weitergeht. Wie tief kann man noch hinuntergehen? Wie oft müssen Sie Ihre eigene Latte noch korrigieren, wie oft müssen Sie Ihren eigenen Standard überholen? Mir tut die Chefin Ihrer Ethikkommission schon leid, denn, ich glaube, die kann ihre Arbeit gar nicht aufnehmen, weil sie gar nicht weiß, was momentan der moralische Standard innerhalb der ÖVP ist. Deswegen in aller Kürze: Herr Altbundeskanzler Kurz, ersparen Sie uns bitte dieses Theater im Parlament! Sie brauchen sich nicht ausliefern zu lassen, Sie können einfach gehen und zurücktreten, und der Fall ist erledigt. Dann brauchen Sie uns nicht in Geiselhaft zu nehmen, dann brauchen wir diese Debatte nicht zu führen und der Fall ist erledigt. Noch einmal: Legen Sie die Maßstäbe, die Sie selbst aufgestellt haben, auch an sich selbst an! <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic11">
+                     <desc>Beifall bei der FPÖ.</desc>
+                  </kinesic>
+                  <pb n="16"/>
+            Meine sehr geehrten Damen und Herren, ich möchte die Debatte jetzt nicht unnötig in die Länge ziehen! Eines fällt mir aber schon noch auf. <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal18">
+                     <desc>Zwischenrufe bei der ÖVP.</desc>
+                  </vocal>
+            – Na ja, wenn die ÖVP dazwischenruft, dann bleibe ich schon gerne noch ein bisserl hier am Rednerpult, also so ist es nicht. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2122">Abg. Haubner: Das wird nicht besser!</note> Das macht grundsätzlich auch Spaß, einmal in Ihre verzweifelten Gesichter zu schauen, wenn Sie nicht wissen, wie Sie das argumentieren sollen, was Sie da argumentieren wollen. Eine Stimme fehlt mir aber trotzdem noch, denn es geht ja um Moral und es geht um Ethik in diesem Land. Einer fehlt mir dann doch noch, und zwar der Herr Bundespräsident, den Sie bei der nächsten Wahl auch unterstützen wollen. Er hat zu all dem bis heute nichts gesagt. Das finde ich interessant, denn der Bundespräsident war ja der, der gesagt hat: „So sind wir nicht“. Jetzt sind wir dann doch so oder so ähnlich, wie auch immer, aber auch den Herrn Bundespräsidenten würde ich aus dieser Verantwortung nicht entlassen. Herr Altbundeskanzler Kurz, wenn Sie wissen möchten, warum es zu dieser Auslieferung gekommen ist oder warum es heute zu dieser Auslieferung kommen wird: Ich habe mir über den Sommer ein bisschen Arbeit für Sie gemacht. Ich habe ein Buch geschrieben, das heißt: „So sind wir“. Sie können gerne nachschlagen, warum Sie schlussendlich ausgeliefert werden.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic12">
+               <desc>Beifall bei der FPÖ.</desc>
+            </kinesic>
+            <note type="comment" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note32">Abg. Hafenecker übergibt Abg. Kurz das eben erwähnte Buch.</note>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note33">
+               <time when="2021-11-18T17:53:00+01:00">17:53</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note34">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2154" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e476">Nächster Redner: Herr Abgeordneter Georg Bürstmayr. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note35">
+               <time when="2021-11-18T17:53:47+01:00">17:53:47</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note36">Abgeordneter Mag. Georg Bürstmayr (Grüne)</note>
+            <u who="#PAD_06501" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2175" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e484">Sehr geehrte Frau Präsidentin! Hohes Haus! Sehr geehrte Damen und Herren vor den Bildschirmen! Da es zu Beginn dieser kurzen Debatte eine Auseinandersetzung gegeben hat, ob und wer da was verzögert hätte, möchte ich entgegen meiner sonstigen Usancen einmal Werbung für eine österreichische Wochenzeitschrift, nämlich das „Profil“ machen.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e486">„Profil“ betreibt unter dem Titel faktiv einen Faktencheck, und dieser Faktencheck kommt mit heutigem Datum zur Frage, „Hat die ÖVP die Auslieferung von Kurz verzögert?“, zu einer recht spannenden, sehr detaillierten, aber trotzdem gut verständlich beschriebenen Darstellung des Prozesses, des parlamentarischen Prozederes, wie es denn zu einer sogenannten Auslieferung zunächst im entsprechenden Ausschuss und dann im Plenum kommt. Faktiv kommt zum Fazit, dass der Vorwurf, die ÖVP hätte das verzögert, als falsch einzustufen wäre. Das Fazit ist gar nicht so wichtig, ich empfehle Ihnen jedenfalls aber die Lektüre dieses Beitrags <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal19">
+                     <desc>Zwischenruf des Abg. Martin Graf</desc>
+                  </vocal>
+            , weil die Abläufe recht spannend und gut verständlich geschildert werden.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e492">Was man vielleicht noch dazusagen sollte, ist, dass das Wort Auslieferung ein bisschen einen komischen Beigeschmack hat. Das klingt immer so, als würde ein Parlament beschließen, dass einer seiner Abgeordneten jetzt direkt in die Hände eines Kerkermeisters ausgeliefert würde oder so, als würde ein Parlament beschließen, dass eine Strafverfolgung stattzufinden hätte.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e494">Nichts dergleichen ist der Fall. Dieses Haus entscheidet auch nicht über Schuld und Unschuld und auch nicht darüber, ob jemand strafverfolgt wird, angeklagt wird oder nicht. Die einzige Entscheidung, die wir hier zu treffen haben, ist, wann ein etwaiges Strafverfahren zu führen ist: während jemand von uns Abgeordneter oder Abgeordnete ist oder nachdem diese Abgeordneteneigenschaft geendet hat. Wenn das in Rede stehende Delikt in einem Zusammenhang zur politischen Tätigkeit, zur Abgeordnetentätigkeit von</seg>
+               <pb n="17"/>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e497">einem von uns steht, dann wird dieser eine oder diese eine von uns in aller Regel nicht ausgeliefert.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e499">Diesen Zusammenhang hat der Immunitätsausschuss im Fall des Kollegen Kurz und im Fall des Kollegen Schnedlitz verneint und damit der unabhängigen Justiz ermöglicht, beide schon eingeleiteten Strafverfahren zügig fortzusetzen. Ich gehe davon aus, dass beiden Kollegen letztlich daran gelegen ist, die gegen sie erhobenen Vorwürfe raschestmöglich aufzuklären.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e501">Ich wünsche Ihnen dabei viel Erfolg, genauso wie ich mir wünsche, dass die Justiz in diesem und in allen anderen Strafverfahren ohne Zurufe von außen und möglichst unabhängig arbeiten und aufklären kann. – Danke fürs Zuhören.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic13">
+               <desc>Beifall bei den Grünen und bei Abgeordneten der ÖVP.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note37">
+               <time when="2021-11-18T17:57:00+01:00">17:57</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note38">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2230" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e513">Zu Wort ist dazu niemand mehr gemeldet. Die Debatte ist geschlossen.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e515">Wünscht der Berichterstatter ein Schlusswort? – Das ist nicht der Fall.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e517">Wie vereinbart verlege ich die Abstimmung an das Ende der Verhandlungen über die Vorlagen des Immunitätsausschusses.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note39">
+                  <time when="2021-11-18T17:58:06+01:00">17:58:06</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e522">2. Punkt</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e524">Bericht des Immunitätsausschusses über das Ersuchen der Staatsanwaltschaft Wien (Zl. 501 St 85/21f) um Zustimmung zur behördlichen Verfolgung des Abgeordneten zum Nationalrat Michael Schnedlitz(1160 d.B.)</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note40">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2266" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e529">Wir gelangen zum 2. Punkt der Tagesordnung.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e531">Auf eine mündliche Berichterstattung wurde verzichtet.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e533">Als Erster zu Wort gemeldet ist Herr Abgeordneter Philipp Schrangl. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note41">
+               <time when="2021-11-18T17:58:35+01:00">17:58:35</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note42">Abgeordneter Mag. Philipp Schrangl (FPÖ)</note>
+            <u who="#PAD_83134" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2293" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e541">Sehr geehrte Frau Präsidentin! Sehr geehrte Damen und Herren im Haus und zu Hause vor den Fernsehgeräten! Ich glaube, ich muss am Anfang meiner Rede einmal mit ein paar Vorurteilen aufräumen, die man immer wieder in den Medien und leider auch aus Abgeordnetemmund gehört hat. Erstens einmal: Die Immunität schützt den Abgeordneten. – Nein, meine Damen und Herren, die Immunität schützt nicht den Abgeordneten, sie heißt auch nicht Abgeordnetenimmunität, sondern sie heißt parlamentarische Immunität und schützt daher dieses Haus als Gesetzgebungskörper. Das heißt, es wird das ganze Haus, also nicht das Haus, sondern es werden die Nationalräte geschützt <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal20">
+                     <desc>Zwischenruf bei der ÖVP</desc>
+                  </vocal>
+            – zuhören, dann können Sie es vielleicht beim nächsten Mal besser anwenden! –, damit wir unserem gesetzmäßigen Auftrag nachkommen können. Zweitens: Die strafrechtliche Verfolgung des Abgeordneten wird nur gehemmt. Das heißt: Scheidet der Abgeordnete aus diesem Hohen Haus aus, wird die Staatsanwaltschaft sofort wieder die Verfolgung aufnehmen. Sollte ein Abgeordneter wirklich eine strafgerichtlich bedrohte Handlung getan haben, wird er früher oder später zur Rechenschaft gezogen. Der ehemalige Abgeordnete Peter Pilz hat das ja oft zu verhindern versucht – es ist auch ihm nicht gelungen. Meine sehr verehrten Damen und Herren, ich habe in der Zeitung gelesen: Sebastian Kurz sagt, er ist für seine Auslieferung. – Ja, das ist vielleicht nett, aber ein Abgeordneter <pb n="18"/>
+            kann eben nicht entscheiden. Es entscheidet dieses Plenum des Nationalrates, ob wir den Abgeordneten ausliefern, nicht an den Kerkermeister, sondern an die Staatsanwaltschaft. Und: Dieses scharfe Instrument der Immunität darf nicht als politisches Machtinstrument missbraucht werden. Wie aber der nächste Fall zeigt, ist das bei den Abgeordneten leider nicht in allen Köpfen angekommen. Unter dem Eindruck des schrecklichen Mordes an der 13-jährigen Leonie hat Abgeordneter Schnedlitz, der Generalsekretär der Freiheitlichen Partei, in einem Facebook-Posting festgestellt, dass Zuwanderung tötet. Dazu möchte ich ein bisschen beleuchten, wie andere Parteien auf diesen schrecklichen Mord reagiert haben: die Grünen leider gar nicht; Gott sei Dank haben sie aber schon zuvor, nachdem ein Österreicher eine Österreicherin ermordet hat, reagiert – zumindest etwas. Am 2. Mai haben sie eine Pressekonferenz abgehalten, bei der sie bekannt gaben, dass im Jahr 2021 am 2. Mai bereits neun Frauen Opfer eines Mannes wurden. Der damalige Gesundheitsminister Mückstein gibt zu Protokoll: Wir müssen gegen Männergewalt auftreten. Die Klubobfrau der Grünen gibt zu Protokoll: „Wir müssen bei den Männern ansetzen, die potenziell zum Täter werden“. Hätte also Abgeordneter Schnedlitz stattdessen schreiben sollen: Wir müssen bei den Zuwanderern ansetzen, die potenziell zu Tätern werden? Wenig später und unter dem Eindruck des Mordes schreibt Sebastian Kurz auf seiner Twitter-Seite: „Die grausame Tat, die in Wien begangen worden ist, macht mich zutiefst betroffen &amp; wütend. Es ist untragbar, dass Menschen in unser Land kommen, angeben, dass sie Schutz suchen &amp; dann grausame Verbrechen begehen. Mein tiefes Mitgefühl gilt der Familie des Mädchens!“ – Hätte Michael Schnedlitz das schreiben sollen? – Nein, Michael Schnedlitz hat es – frei nach einer österreichischen Tageszeitung – auf den Punkt gebracht. Er hat es auf den Punkt gebracht und geschrieben: „Zuwanderung tötet“. Meine Damen und Herren, entscheiden Sie selbst, ob das – wie meine Nachredner hier am Rednerpult sagen werden – Verhetzung ist und ob das von der politischen, von der parlamentarischen Immunität umfasst sein soll oder - - <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2323">Abg. Stögmüller: Es ist Verhetzung!</note> – Danke, ich bedanke mich bei den Grünen, denn Sie haben noch etwas aufgezeigt: Dieser Immunitätsausschuss ist nicht dazu da, eine Vorverurteilung abzugeben. Ob jemand verhetzt, beurteilt nicht das Parlament, sondern ein Gericht. <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal21">
+                     <desc>Zwischenrufe bei ÖVP, SPÖ und Grünen.</desc>
+                  </vocal>
+            Das, was Sie machen, ist politische Vorverurteilung. Es ist ein politisches Machtinstrument, wie Sie das verwenden. Meine Damen und Herren zu Hause: Entscheiden Sie beim nächsten Mal selbst, ob Sie das noch wollen! – Danke.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic14">
+               <desc>Beifall bei der FPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note44">
+               <time when="2021-11-18T18:03:00+01:00">18:03</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note45">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2355" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e565">Nächster Redner: Herr Abgeordneter Friedrich Ofenauer. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note46">
+               <time when="2021-11-18T18:03:53+01:00">18:03:53</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note47">Abgeordneter Mag. Friedrich Ofenauer (ÖVP)</note>
+            <u who="#PAD_83300" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2376" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e574">Frau Präsidentin! Geschätzte Kolleginnen und Kollegen im Hohen Haus! Meine sehr verehrten Zuseherinnen und Zuseher! Der Immunitätsausschuss, dessen Bericht wir jetzt behandeln, hat am vergangenen Dienstag, den 16. November, um 8 Uhr in der Früh stattgefunden. Heute, Donnerstagabend, in der Sitzung nach der Budgetsitzung, findet die Beschlussfassung des Nationalrates über diesen Bericht des Immunitätsausschusses statt. Das ist ein Vorgang, der vollkommen den Usancen und den Gepflogenheiten des Hohen Hauses entspricht. Das bereits erwähnte Online-„Profil“ erklärt im heutigen Bericht auch <pb n="19"/>
+            ganz genau und schildert im Detail, wie die Ausschüsse terminisiert werden, wie diese Beschlüsse zustande kommen. Das war vollkommen in Ordnung und den Gepflogenheiten entsprechend. Es zeigt aber eines, Kollegin Yildirim, nämlich wie die SPÖ aus dem Nichts erfundene Geschichten macht, einfach so, aus dem Nichts. Tatsache ist, dass diese Sitzung und diese heutige Beschlussfassung vollkommen genauso, wie es bei jedem Immunitätsausschuss der Fall ist, zustande gekommen sind. <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic15">
+                     <desc>Beifall bei der ÖVP.</desc>
+                  </kinesic>
+            Auch auf die Ausführungen des Kollegen Schrangl möchte ich Bezug nehmen, der davon spricht, dass es um keine Vorverurteilung geht, selbst aber eine inhaltliche Bewertung vornimmt. Da möchte ich doch ein bisschen auf die Grundsätze zurückgehen. Worum geht es denn beim Immunitätsausschuss und bei der Immunität? – Ja, Kollegin Yildirim, ich gebe Ihnen recht, dass der Immunitätsausschuss im Allgemeinen ein sehr sachlicher Ausschuss ist, in dem man auch versucht, möglichst Einstimmigkeit herbeizuführen, sich aber die Standpunkte und Blickwinkel naturgemäß immer unterscheiden, und so kann es schon vorkommen, dass es unterschiedliche Bewertungen und Beurteilungen gibt, so wie wir das in der jetzigen Sitzung haben. Aber – und da gebe ich Kollegen Schrangl recht –: Ja, die Immunität ist ein Recht des Vertretungskörpers und schützt die Handlungsfähigkeit dieses Parlaments. Man unterteilt diese Immunität in die berufliche – dass man eben nicht dafür belangt werden kann, was man hier am Rednerpult sagt, was man schreibt. Dafür kann man nur vom Nationalrat zur Verantwortung gezogen werden, und das ist gut und das ist wichtig, denn hier sollen ja emotionale und auch leidenschaftliche Reden gehalten werden. Hier herinnen! Auf der Straße soll sich das aber nicht auswirken. Es gibt aber auch die außerberufliche Immunität, für alles, was von Abgeordneten in ihrer Funktion als Abgeordnete gemacht wird. Da ist die Unterscheidung: Wann ist man privat und wann ist man beruflich? – Ich glaube, dass es zwischen privater und nicht privater Tätigkeit eines Abgeordneten keinen Unterschied geben kann, denn auch, wenn ich im privaten Freundeskreis spreche, spreche ich als Abgeordneter. Wo ist da also die Grenze? Wo ist die Trennung? Ich will damit sagen, dass die Unterscheidung, die Differenzierung im Einzelfall oft sehr schwierig und nicht einfach ist. Es ist auch keine Rechtsentscheidung, weil wir ja keine inhaltliche Entscheidung treffen, sondern – unter Anführungszeichen – „nur“ feststellen, ob ein Zusammenhang mit der politischen Tätigkeit des Abgeordneten besteht. Wir von der ÖVP sind schon der Meinung, dass es für die politische Tätigkeit eines Abgeordneten auch Grenzen gibt und dass Aussagen wie „Zuwanderung tötet“ diese Grenze überschreiten und nicht unter dem Schutz der Abgeordnetenimmunität stehen dürfen. Man muss sich als Abgeordneter stets bewusst sein, was man sagt, wo man es sagt und wie man es sagt und vor allem, wie sich solche Aussagen auswirken können. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2393">Abg. Lausch: Da geht es jetzt um den Inhalt!</note>Da hat jeder von uns eine entsprechende Verantwortung, auch Sie, Kollege Lausch, und vor allem die Kollegen Schnedlitz, Hafenecker und wie sie alle heißen! <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic16">
+                     <desc>Beifall bei der ÖVP.</desc>
+                  </kinesic>
+            Kollege Hafenecker hat am Dienstag in der Debatte gemeint, der parlamentarische Diskurs sei nicht mehr ausreichend, man müsse zu Demonstrationen aufrufen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2412">Abg. Lausch: Ihr richtet es euch, wie ihr’s braucht!</note>Ich spreche niemandem sein Demonstrationsrecht ab, im Gegenteil, aber aufzurufen und zu versuchen, die Straße zu mobilisieren, um Minderheiten im Parlament durch Mehrheiten auf der Straße zu überdecken, meine Damen und Herren, das ist nicht der richtige Weg! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2425">Abg. Lausch: Das ist undemokratisch, Herr Ofenauer!</note>
+                  <pb n="20"/>
+            Ich denke, mit dieser Aussage des Kollegen Schnedlitz wurden die Grenzen der politischen Tätigkeit überschritten, und das kann von der Immunität nicht geschützt sein.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic17">
+               <desc>Beifall bei der ÖVP.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note51">
+               <time when="2021-11-18T18:08:00+01:00">18:08</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note52">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2454" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e606">Nächster Redner: Herr Abgeordneter Martin Graf. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note53">
+               <time when="2021-11-18T18:08:47+01:00">18:08:47</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note54">Abgeordneter Mag. Dr. Martin Graf (FPÖ)</note>
+            <u who="#PAD_02834" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2475" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e614">Sehr geehrte Frau Präsidentin! Sehr geehrte Damen und Herren des Hohen Hauses! Ich beobachte ja schon seit Jahren das Wirken des Immunitätsausschusses, konkret seit 1994, und habe auch mehrfach miterleben müssen, wie Spruchpraxen im Immunitätsausschuss in den letzten drei Jahrzehnten geändert wurden.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e616">Meine sehr geehrten Damen und Herren des Hohen Hauses! Ich möchte mich einmal nicht verschweigen – ohne Partei zu ergreifen –, aber das, was wir schlussendlich im Hohen Haus aus dem Immunitätsausschuss und seiner Spruchpraxis gemacht haben, halte ich schlichtweg für eine Farce; und diese setzen wir täglich fort.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e618">Ich erinnere daran, dass bis circa 2006, 2007 im Zweifel ein politischer Zusammenhang festgestellt wurde und man sich dann aber nicht drübergetraut hat, trotz der Feststellung eines politischen Zusammenhangs auszuliefern, was ja grundsätzlich möglich ist – das wäre ja nur eine Frage der Spruchpraxis. Stattdessen versuchen wir hier, mit juristischen Argumenten herbeizuführen, ob etwas einen politischen Zusammenhang darstellt oder nicht.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e620">Meine sehr geehrten Damen und Herren, alles, was hier im Hohen Haus gemacht wird, ob jetzt von einem Abgeordneten oder von einem Regierungsmitglied, das dann Abgeordneter wird, ist Politik! Wir sind kein politikfreier Raum, wir machen hier Politik. Der wirkliche Fehler, der sich eingeschlichen hat, weil man das Kind wieder einmal mit dem Bade ausgeschüttet hat, ist, dass der Immunitätsausschuss leider keine Handhabe bietet, dass man einen Rechtsanspruch daraus entwickeln kann, einen Rechtsanspruch, der sich von selbst ergibt. Nein, es entscheidet ein politisch besetztes Gremium nach Parteifarben, das schon in der Vergangenheit unglaubliche Kapriolen geschlagen hat, weshalb man immer wieder versucht, herumzuprobieren und es anders zu machen.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e622">Meine sehr geehrten Damen und Herren, es ist der Umgang mit dem Parlamentarismus und mit uns selbst als Mitgliedern, den wir hier in Wirklichkeit zur Farce machen, weil in Wirklichkeit niemand draußen in der Bevölkerung versteht, warum wir hier feststellen, dass das, was Herr Kollege Kurz oder auch irgendein anderer in der Vergangenheit gemacht hat, keinen politischen Zusammenhang hat! Na, selbstverständlich hat das einen politischen Zusammenhang! Man will ihn aber ausliefern, oder er selbst will es auch – das kann er gar nicht, das wurde eh festgestellt. Man will ihn ausliefern, man folgt dem Zeitgeist, dem Boulevard und vieles andere mehr und schüttet das Kind mit dem Bade aus.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e624">Solange es keinen Rechtsanspruch auf Auslieferung gibt, wird man immer eine Spruchpraxis finden, die den Mächtigen dient. Und die, die den Mächtigen dient, ist in diesem Fall seit mehr als 30 Jahren die der ÖVP, die ja diese Spruchpraxis entwickelt hat und sich jetzt selbst als Gefangene dieser Spruchpraxis wiederfindet. Das schlägt am Ende so eine Kapriole, dass, wenn wir feststellen, dass es keinen politischen Zusammenhang gibt, Herr Abgeordneter Kurz die Rechtsanwaltskosten, die er aufwendet, um sich dann vor der Staatsanwaltschaft zu verteidigen, nicht einmal von der Steuer absetzen kann, weil es ja keinen politischen Zusammenhang mit seinem Einkommen gibt und er das nicht einmal als Sonderausgaben geltend machen kann. Das ist nämlich dann die Spruchpraxis, weil sich die Finanz im Wege der Amtshilfe das Protokoll kommen lässt</seg>
+               <pb n="21"/>
+               <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal22">
+                  <desc>Zwischenruf des Abg. Loacker</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e630">, und wenn kein politischer Zusammenhang festgestellt worden ist, kann man auch die Kosten der Verteidigung, die bis in die Hunderttausende gehen und die wirtschaftliche Existenz von Abgeordneten gefährden, von der Steuer nicht absetzen – auch wenn man obsiegt hat und man darauf in der Regel sitzen bleibt.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e632">Meine sehr geehrten Damen und Herren, so weit haben wir es gebracht! Ich fordere den Immunitätsausschuss dringend auf, sich einmal zu treffen – nicht um 8 Uhr in der Früh für eine Viertelstunde und Ähnliches mehr oder um Mitternacht nach einer Sitzung, so wie es die Frau Kollegin gesagt hat, das sei ja alles Routine und das gehe in 2, 3 Minuten –, sich zusammenzusetzen und grundsätzlich darüber nachzudenken, wie wir es denn mit der parlamentarischen Immunität in Zukunft halten wollen <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal23">
+                     <desc>Zwischenruf der Abg. Yildirim.</desc>
+                  </vocal>
+            So, wie es derzeit gelebt wird, kann man die Immunität nämlich auf dem Scheiterhaufen der Geschichte entsorgen. Dann brauchen wir sie in Wirklichkeit in der Form nicht, was eigentlich schade ist, weil sie letztlich auch zum Schutz der freien Meinungsäußerung gedacht ist. – Danke.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic18">
+               <desc>Beifall bei der FPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note55">
+               <time when="2021-11-18T18:14:00+01:00">18:14</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note56">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2538" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e648">Nächster Redner: Herr Abgeordneter Georg Bürstmayr. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note57">
+               <time when="2021-11-18T18:14:26+01:00">18:14:26</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note58">Abgeordneter Mag. Georg Bürstmayr (Grüne)</note>
+            <u who="#PAD_06501" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2560" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e656">Sehr geehrte Frau Präsidentin! Hohes Haus! Meine Damen und Herren! Sehr geehrter Herr Kollege Graf, ich bin ja kurz davor, hier eine tatsächliche Berichtigung zu versuchen, so deutlich weicht das, was Sie hier vorgetragen haben, von der einschlägigen Rechtslage ab. Die Frage bei der parlamentarischen Immunität stellt sich ja nicht dahin gehend, ob zu einer bestimmten Äußerung, zu einer bestimmten vorgeworfenen Handlung irgendein politischer Zusammenhang hergestellt werden kann, sondern ob es einen möglichen Zusammenhang mit der politischen Tätigkeit als Abgeordneter dieses Hauses gibt. Das ist ein Riesenunterschied, Herr Kollege Graf! <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic19">
+                     <desc>Beifall bei Grünen und ÖVP.</desc>
+                  </kinesic>
+            Jetzt ist es so <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2571">Ruf bei der FPÖ:Ist eh wurscht!</note>, dass sich der Immunitätsausschuss im Fall des Kollegen Kurz die, wie man im Juristendeutsch sagt, inkriminierten Handlungen, also die Handlungen, die Herrn Abgeordneten Kurz vorgeworfen sind, und die Zeiträume, in denen diese gesetzt worden sein sollen, angeschaut hat. Ob sie gesetzt worden sind, muss die Justiz beurteilen, ob das strafbar ist, muss die Justiz beurteilen, aber der Schluss, zu dem wir gekommen sind, ist: Zu jenem Zeitpunkt war er auf jeden Fall nicht Abgeordneter, also kann es keinen Zusammenhang zur politischen Tätigkeit als Abgeordneter geben. Das war jedenfalls die überwiegende Begründung im Immunitätsausschuss, und deshalb sind wir zu diesem Ergebnis gelangt. Im Fall des Kollegen Schnedlitz war das ein bisschen anders. Herr Kollege Schnedlitz hat viele Funktionen. Er ist FPÖ-Generalsekretär, er ist Bürgermeisterstellvertreter, Wohn- und Sozialstadtrat und Klubobmann der FPÖ-Fraktion in Wiener Neustadt; und dann ist er Abgeordneter zum Nationalrat. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2584">Abg. Deimek: Und wenn man nur Abgeordneter ...!</note>Er wendet also sehr, sehr viel Zeit für politische Tätigkeit in verschiedenen Funktionen auf <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2594">Ruf bei der FPÖ:Das hast ja nicht du zu beurteilen!</note>und als solcher – und das haben wir uns - - <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal24">
+                     <desc>Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+            – Lassen Sie mich ausreden, lassen Sie mich ausreden! <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2614">Abg. Martin Graf: Das ist ja nicht deine Kompetenz, das zu prüfen!</note>Herr Kollege, bitte! <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal25">
+                     <desc>Zwischenruf der Abg. Steger.</desc>
+                  </vocal>
+            Wissen Sie, Immunitätsdebatten sind juristische oder stark juristisch geprägte Debatten <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2633">Abg. Martin Graf: Politische Entscheidungen sind das!</note> , und Sie als Volljurist sollten gewohnt sein, sich die Argumente der Gegenseite erst einmal anzuhören. <pb n="22"/>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2648">Abg. Kassegger: Und Sie sollten sich als Volljurist einmal mit dem Thema Schutzzweck der Norm auseinandersetzen, bevor Sie da Haarspaltereien betreiben!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal26">
+                     <desc>Weitere Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+            Wir haben uns also den fraglichen Facebook-Auftritt des Herrn Kollegen Schnedlitz angesehen, und es gibt viele verschiedene Postings, in denen er beispielsweise <note type="comment" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note65">Ausdrucke mit den entsprechenden Abbildungen in die Höhe haltend</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2670">Abg. Brückl: Um das geht es ja gar nicht, Oida!</note>mit einem FPÖ-Logo zu sehen ist <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal27">
+                     <desc>Zwischenrufe bei der FPÖ</desc>
+                  </vocal>
+            , auf denen er beispielsweise seine Büroarbeit im Rathaus oder seine politische Tätigkeit in Wiener Neustadt beschreibt. Es ist völlig klar, dass alle diese Postings <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2690">Abg. Deimek: Also, Frau Präsident ...!</note>,die im Übrigen in keiner Weise inkriminiert sind, in einem Zusammenhang zur politischen Tätigkeit des Kollegen Schnedlitz stehen, aber nicht zur Tätigkeit als Abgeordneter. <vocal type="laughter" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal28">
+                     <desc>Zwischenrufe und Heiterkeit bei der FPÖ.</desc>
+                  </vocal>
+            Es gibt andere Postings, aus denen ganz deutlich wird, dass hier der Abgeordnete Schnedlitz spricht <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2706">Ruf bei der FPÖ:Also die Kurve kriegst du nimmer, Herr Kollege!</note>, und dann gibt es das fragliche Posting - - <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal29">
+                     <desc>Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+            – Kinder, lasst mich doch bitte ausreden! Es ist euch offensichtlich unangenehm, was ich da sage. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2722">Ruf bei der FPÖ:Faule Ausreden!</note>
+                  <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal30">
+                     <desc>Weitere Zwischenrufe bei der FPÖ.</desc>
+                  </vocal>
+            Also die Zahl der Zwischenrufe aus der FPÖ-Fraktion zeigt ziemlich deutlich zu fortgeschrittener Stunde, dass das, was ich Ihnen hier sage, unangenehm sein muss. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2741">Abg. Lausch: Nein, falsch!</note>Ich komme zum Schluss <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2755">Abg. Lausch: Nicht unangenehm, falsch!</note>Das inkriminierte Posting <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2765">Ruf bei der FPÖ:Da müssen Sie ja selber lachen!</note>hat überhaupt keinen Hinweis auf irgendeinen Zusammenhang mit irgendeiner der vielen von mir aufgezählten Funktionen, und deshalb ist der Immunitätsausschuss zur Schlussfolgerung gelangt <vocal type="interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.vocal31">
+                     <desc>Zwischenruf des Abg. Deimek</desc>
+                  </vocal>
+            , dass ein Zusammenhang mit der politischen Tätigkeit als Abgeordneter nicht besteht. Das, meine Damen und Herren, ist das, was Juristinnen und Juristen eine Abwägungsfrage nennen, und ich sage dazu – und auch das wissen Juristinnen und Juristen –: Es gibt auch bei Abwägungsfragen immer valide, also gültige Gegenargumente <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2784">Abg. Deimek: Jetzt kommt wenigstens ein gescheiter ...!</note> , nur bestehen diese Gegenargumente nicht darin, dass man versucht, einen Redner durch Zwischenrufe zu übertönen. – Ich danke fürs Zuhören.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic20">
+               <desc>Beifall bei den Grünen und bei Abgeordneten der ÖVP.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note74">
+               <time when="2021-11-18T18:19:00+01:00">18:19</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note75">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2811" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e750">Zu Wort gemeldet ist Herr Abgeordneter Christian Ragger. – Bitte.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note76">
+               <time when="2021-11-18T18:20:10+01:00">18:20:10</time>
+            </note>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note77">Abgeordneter Mag. Christian Ragger (FPÖ)</note>
+            <u who="#PAD_01937" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2832" ana="#regular">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e759">Sehr geehrte Frau Präsidentin! Geschätzte Herren und Damen des Hohen Hauses! Normalerweise mische ich mich grundsätzlich nicht in eine Immunitätsdebatte ein, aber wenn man in einer solch überzogenen, wirklich politnahen justiziellen Entscheidung vorgeht wie der Herr Kollege, muss ich etwas sagen: Das ist Richtjustiz der Grünen! Das passiert jetzt nicht zum ersten Mal, sondern das passiert jetzt nach Kickl als Anlassfall zum zweiten Mal, und Verursacher sind ausschließlich Sie als Grüne!</seg>
+               <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic21">
+                  <desc>Beifall bei der FPÖ.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e764">Niemand anderer in diesem Haus stellt infrage, was Immunität heißt. Und wenn Sie Art. 57 Abs. 3 B-VG inhaltlich richtig lesen würden, wüssten Sie: Wir haben in diesem Haus nur zu beurteilen, ob das politisch in Zusammenhang zu setzen ist oder nicht. Wo wollen Sie in diesem Fall von Herrn Schnedlitz hin? Er ist Vollblutpolitiker, er ist zu 100 Prozent in diesem Haus tätig, und daher besteht da ein politischer Zusammenhang. Und Sie liefern jetzt durch eine Politjustiz diesen Herrn aus. Das ist nicht vereinbar! – Danke.</seg>
+            </u>
+            <kinesic type="applause" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.kinesic22">
+               <desc>Anhaltender Beifall bei der FPÖ.</desc>
+            </kinesic>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note78">
+               <time when="2021-11-18T18:21:00+01:00">18:21</time>
+            </note>
+            <pb n="23"/>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note79">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2870" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e776">Zu Wort ist niemand mehr gemeldet. Damit schließe ich die Debatte.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e778">Ich frage den Berichterstatter, ob er ein Schlusswort möchte? – Das ist nicht der Fall.</seg>
+               <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note80">
+                  <time when="2021-11-18T18:21:35+01:00">18:21:35</time>
+               </note>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e783">Abstimmung über die Tagesordnungspunkte 1 bis 2</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note81">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2895" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e788">Dann kommen wir jetzt zu den Abstimmungen über die Vorlagen des Immunitätsausschusses. Ich frage die Fraktionen, ob wir gleich fortfahren können? – Ich sehe überall Zustimmung und werde daher auch so vorgehen. Wir gelangen zur Abstimmung über Tagesordnungspunkt 1: Antrag des Immunitätsausschusses in 1159 der Beilagen, Folgendes zu beschließen: „In Behandlung des Ersuchens der Zentralen Staatsanwaltschaft zur Verfolgung von Wirtschaftsstrafsachen und Korruption, GZ. 17 St 5/19d, um Zustimmung zur behördlichen Verfolgung des Abgeordneten zum Nationalrat Sebastian Kurzwird im Sinne des Art. 57 Abs. 3 B-VG festgestellt, dass kein Zusammenhang der inkriminierten Handlung mit der politischen Tätigkeit des Abgeordneten zum Nationalrat Sebastian Kurzbesteht.“ Ich bitte jene Damen und Herren, die diesem Antrag ihre Zustimmung geben, um ein entsprechendes Zeichen. – Das ist einstimmig angenommen. Abstimmung über Tagesordnungspunkt 2: Antrag des Immunitätsausschusses in 1160 der Beilagen, Folgendes zu beschließen: „In Behandlung des Ersuchens der Staatsanwaltschaft Wien, GZ. 501 St 85/21f, um Zustimmung zur behördlichen Verfolgung des Abgeordneten zum Nationalrat Michael Schnedlitzwird im Sinne des Art. 57 Abs. 3 B-VG festgestellt, dass kein Zusammenhang zwischen der inkriminierten Handlung und der politischen Tätigkeit des Abgeordneten zum Nationalrat Michael Schnedlitzbesteht.“ Jene, die dem zustimmen, ersuche ich um ein Zeichen. – Das ist mehrheitlich angenommen. <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2928">Abg. Deimek: Unfassbar!</note>
+                  <note type="unauthorized_interruption" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2938">Weiterer Ruf bei der FPÖ:Eine Schande für das Parlament!</note>Die Tagesordnung ist erschöpft. <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note84">
+                     <time when="2021-11-18T18:23:37+01:00">18:23:37</time>
+                  </note>Verlesung eines Teiles des Amtlichen Protokolls</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note85">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e2960" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e802">Es liegt mir das schriftliche Verlangen von 20 Abgeordneten vor, die vorgesehene Fassung des Amtlichen Protokolls hinsichtlich des Tagesordnungspunktes 1 zu verlesen, damit dieser Teil des Amtlichen Protokolls mit Schluss der Sitzung als genehmigt gilt.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e804">Ich verlese:</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e806">„TO-Punkt 1:</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e808">In Behandlung des Ersuchens der Zentralen Staatsanwaltschaft zur Verfolgung von Wirtschaftsstrafsachen und Korruption, um Zustimmung zur behördlichen Verfolgung des Abgeordneten zum Nationalrat Sebastian Kurzwird gemäß dem Ausschussantrag</seg>
+               <pb n="24"/>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e811">in 1159 der Beilagen im Sinne des Art. 57 Abs. 3 B-VG festgestellt, dass kein Zusammenhang der inkriminierten Handlung mit der politischen Tätigkeit des Abgeordneten zum Nationalrat Sebastian Kurzbesteht.“</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e813">Erheben sich Einwendungen gegen die Fassung oder den Inhalt dieses verlesenen Teils des Amtlichen Protokolls? – Das ist nicht der Fall.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e815">Dieser Teil des Amtlichen Protokolls gilt daher gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss dieser Sitzung als genehmigt.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e817">Einlauf</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note86">Präsidentin Doris Bures</note>
+            <u who="#PAD_00145" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d7e3010" ana="#chair">
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e823">Ich gebe bekannt, dass in der heutigen Sitzung die Selbständigen Anträge 2061/A bis 2074/A eingebracht worden sind.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e825">Die nächste Sitzung des Nationalrates berufe ich für morgen, Freitag, 9 Uhr, ein. Die Tagesordnung ist auf schriftlichem Wege ergangen.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e827">Ich wünsche Ihnen einen schönen Abend.</seg>
+               <seg xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130_d2e829">Diese Sitzung ist geschlossen.</seg>
+            </u>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note87">
+               <time when="2021-11-18T18:25:17+01:00">18:25:17</time>
+            </note>
+            <note type="time" xml:id="ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.note88">Schluss der Sitzung:<time when="2021-11-18T18:25:00+01:00">18:25</time>Uhr</note>
+         </div>
+      </body>
+   </text>
+</TEI>
+
