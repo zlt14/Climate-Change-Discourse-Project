@@ -1,0 +1,35 @@
+<terms>
+    <term id="1" match=".*ausstoß.*">Ausstoß</term>
+    <term id="2" match="(?i)\b(bio|biologisch|bioabfall|biodiversität|bioenergie|biokraftstoff|biomasse|biogas|bioethanol|bioplastik|bioabfälle)\b">Bio</term>
+    <term id="3" match=".*brennstoff.*">Brennstoff</term>
+    <term id="4" match=".*climate.*">Climate</term>
+    <term id="5" match=".*co(2|₂|²).*">CO2</term>
+    <term id="6" match=".*dürre.*" exclude=".*dürrenmatt.*|.*dürrenstein.*">Dürre</term>
+    <term id="7" match=".*emission.*">Emission</term>
+    <term id="8" match=".*energieeffizienz.*|.*energieeffizient.*">Energieeffizienz</term>
+    <term id="9" match=".*energieträger.*">Energieträger</term>
+    <term id="10" match=".*energiewende.*">Energiewende</term>
+    <term id="11" match=".*erneuerbar.*">Erneuerbar</term>
+    <term id="12" match=".*erwärmung.*|.*erwärmen.*|.*erwärmt.*">Erderwärmung</term>
+    <term id="13" match=".*green.*" exclude=".*greenwich.*|.*greenham.*|.*green-Potato-Jugend-Projekt.*|.*evergreen.*|.*walgreens.*">Green</term>
+    <term id="14" match=".*hitzewelle.*">Hitzewelle</term>
+    <term id="15" match=".*karbon.*">Karbon</term>
+    <term id="16" match=".*kipppunkt.*">Kipppunkt</term>
+    <term id="17" match="(?i).*klima.*" 
+        exclude="(?i).*viktor.*|.*konjunkturklima.*|.*arbeitsklima.*|.*wirtschaftsklima.*|.*konsensklima.*|.*investitionsklima.*|.*stimmungsklima.*|.*gesprächsklima.*|.*meinungsklima.*|.*gründungsklima.*|.*kulturklima.*|.*kunstklima.*|.*klimaanlage.*|.*schulklima.*|.*vollzugsklima.*|.*betriebsklima.*|.*vertrauensklima.*|.*vranitzky-klima.*|.*klimatisiert.*|.*schulpartnerschaftsklima.*|.*klimazone.*|.*beratungsklima.*|.*raumklima.*|.*zusammenarbeitsklima.*|.*koalitionsklima.*|.*wahlkampfklima.*|.*medienklima.*|.*forschungsklima.*">Klima</term>
+    <term id="18" match=".*kohl(enstoff(dioxid)?|endioxid).*">Kohlendioxid</term>
+    <term id="19" match=".*kreislaufwirtschaft.*">Kreislaufwirtschaft</term>
+    <term id="20" match=".*lebensraum.*|.*lebensräum.*">Lebensraum</term>
+    <term id="21" match=".*methan.*">Methan</term>
+    <term id="22" exclude=".*naturgemäß.*|.*naturgegeben.*|.*naturwissenschaft.*">Natur</term>
+    <term id="23" match=".*öko.*" exclude=".*ökosystem.*|.*öko-system.*|.*ökonom.*">Ökologisch</term>
+    <term id="24" match=".*ökosystem.*">Ökosystem</term>
+    <term id="25" match="(?i)(pariser.*(abkommen|übereinkommen))|((klima|klimaschutz)?(abkommen|übereinkommen) von paris)">Pariser Abkommen</term>
+    <term id="26" match=".*recycling.*">Recycling</term>
+    <term id="27" exclude=".*humanressource.*|.*bildungsressource.*|.*wissensressource.*|.*geräteressource.*|.*zeitressource.*|.*sachressource.*|.*arbeitskräfteressource.*|.*hintergrundressource.*|.*geldressource.*|.*personalressource.*|.*kammerressource.*|.*finanzressource.*|.*antwortressource.*|.*natoressource.*|.*verwaltungsressource.*|.*sonderpädagogikressource.*|.*aktivitätsressource.*">Ressource</term>
+    <term id="28" match=".*rohstoff.*">Rohstoff</term>
+    <term id="29" exclude=".*außentemperatur.*|.*körpertemperatur.*|.*kühlschranktemperatur.*">Temperatur</term>
+    <term id="30" match=".*treibhaus.*">Treibhaus</term>
+    <term id="31" match=".*umwelt.*">Umwelt</term>
+    <term id="32" match=".*überschwemmung.*">Überschwemmung</term>
+</terms>
