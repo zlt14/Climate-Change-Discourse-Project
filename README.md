@@ -7,11 +7,10 @@ The project analyzes how climate change was discussed in the Austrian Parliament
 
 # Repository Contents
 
-- `Original ParlaMint AT/`: Contains the the source corpus, which was the base of the project analysis.
-- `Output/`: Relational database, visualizations, extracted data files.
-- `Documentation/`: Documentation including the Project Report, Data Management Plan, and Replication Guide.
+- `Input Files/`: Contains the the source corpus, which was the base of the project analysis.
+- `Output Files/`: Relational database, visualizations, extracted data files.
+- `Documentation/`: Documentation including the Project Report, Data Management Plan, and Database Setup and Analysis file.
 - `LICENSE`: License under Creative Commons Attribution 4.0.
-- `CITATION.cff`: Metadata for citation.
 - `README.md`: Project overview (this file).
 
 # Replication & Reuse
